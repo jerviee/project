@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_81",
+    word: "balance",
+    meaning: "n. 平衡；余额 v. 保持平衡",
+    level: "IELTS5",
+    root: "bal",
+    rootMeaning: "两个；双",
+    rootMeaningEn: "two; double",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 bilanx，由 bi-（两）+ lanx（秤盘）组成",
+    relatedWords: [],
+    phonetic: "/ˈbæləns/",
+    frequency: "高频"
+  },
+  {
+    id: "word_82",
+    word: "barrier",
+    meaning: "n. 障碍；屏障",
+    level: "IELTS6",
+    root: "bar",
+    rootMeaning: "棒；栏杆",
+    rootMeaningEn: "bar; rod",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 barriere，由 barre（棒）派生",
+    relatedWords: [],
+    phonetic: "/ˈbæriə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_83",
+    word: "basic",
+    meaning: "adj. 基本的；基础的",
+    level: "IELTS5",
+    root: "bas",
+    rootMeaning: "基础；底部",
+    rootMeaningEn: "base; foundation",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 basis（基础）",
+    relatedWords: [],
+    phonetic: "/ˈbeɪsɪk/",
+    frequency: "高频"
+  },
+  {
+    id: "word_84",
+    word: "basis",
+    meaning: "n. 基础；根据",
+    level: "IELTS6",
+    root: "bas",
+    rootMeaning: "基础",
+    rootMeaningEn: "base",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 basis，意为底部或支撑",
+    relatedWords: [],
+    phonetic: "/ˈbeɪsɪs/",
+    frequency: "高频"
+  },
+  {
+    id: "word_85",
+    word: "beach",
+    meaning: "n. 海滩；湖滨",
+    level: "IELTS5",
+    root: "beach",
+    rootMeaning: "海岸",
+    rootMeaningEn: "shore",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 bæce，意为河岸",
+    relatedWords: [],
+    phonetic: "/biːtʃ/",
+    frequency: "中频"
+  },
+  {
+    id: "word_86",
+    word: "bear",
+    meaning: "v. 承受；容忍 n. 熊",
+    level: "IELTS5",
+    root: "ber",
+    rootMeaning: "携带；支撑",
+    rootMeaningEn: "carry; sustain",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 beran，意为携带或支撑",
+    relatedWords: [],
+    phonetic: "/beə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_87",
+    word: "behave",
+    meaning: "v. 表现；行为端正",
+    level: "IELTS6",
+    root: "hav",
+    rootMeaning: "拥有；控制",
+    rootMeaningEn: "have; hold",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 be-（完全）+ have（拥有）组成，引申为控制行为",
+    relatedWords: [],
+    phonetic: "/bɪˈheɪv/",
+    frequency: "中频"
+  },
+  {
+    id: "word_88",
+    word: "behavior",
+    meaning: "n. 行为；举止",
+    level: "IELTS6",
+    root: "hav",
+    rootMeaning: "拥有；控制",
+    rootMeaningEn: "have; hold",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 behave 派生而来",
+    relatedWords: [],
+    phonetic: "/bɪˈheɪvjə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_89",
+    word: "belief",
+    meaning: "n. 信念；信仰",
+    level: "IELTS6",
+    root: "liev",
+    rootMeaning: "亲爱；相信",
+    rootMeaningEn: "dear; trust",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自 belefan，意为相信或信任",
+    relatedWords: [],
+    phonetic: "/bɪˈliːf/",
+    frequency: "高频"
+  },
+  {
+    id: "word_90",
+    word: "benefit",
+    meaning: "n./v. 利益；好处；有益于",
+    level: "IELTS5",
+    root: "bene",
+    rootMeaning: "好",
+    rootMeaningEn: "good",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 beneficium，由 bene（好）+ facere（做）组成",
+    relatedWords: [],
+    phonetic: "/ˈbenɪfɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_91",
+    word: "bias",
+    meaning: "n./v. 偏见；偏向",
+    level: "IELTS7",
+    root: "bias",
+    rootMeaning: "倾斜",
+    rootMeaningEn: "slant; incline",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 epikarsia，意为斜的或歪的",
+    relatedWords: [],
+    phonetic: "/ˈbaɪəs/",
+    frequency: "中频"
+  },
+  {
+    id: "word_92",
+    word: "billion",
+    meaning: "n. 十亿",
+    level: "IELTS5",
+    root: "bil",
+    rootMeaning: "二",
+    rootMeaningEn: "two",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自法语 billion，由 bi-（二）+ million（百万）组成",
+    relatedWords: [],
+    phonetic: "/ˈbɪljən/",
+    frequency: "高频"
+  },
+  {
+    id: "word_93",
+    word: "biological",
+    meaning: "adj. 生物的；生物学的",
+    level: "IELTS7",
+    root: "bio",
+    rootMeaning: "生命",
+    rootMeaningEn: "life",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 bios（生命）+ logos（学科）",
+    relatedWords: [],
+    phonetic: "/ˌbaɪəˈlɒdʒɪkl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_94",
+    word: "birth",
+    meaning: "n. 出生；起源",
+    level: "IELTS5",
+    root: "ber",
+    rootMeaning: "携带；产生",
+    rootMeaningEn: "carry; produce",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自 beran（携带）的过去分词，意为被带来",
+    relatedWords: [],
+    phonetic: "/bɜːθ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_95",
+    word: "blame",
+    meaning: "v./n. 责备；归咎于",
+    level: "IELTS6",
+    root: "blas",
+    rootMeaning: "毁坏",
+    rootMeaningEn: "to harm",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 blasmer，意为谴责",
+    relatedWords: [],
+    phonetic: "/bleɪm/",
+    frequency: "中频"
+  },
+  {
+    id: "word_96",
+    word: "board",
+    meaning: "n. 木板；董事会 v. 上船；登机",
+    level: "IELTS5",
+    root: "board",
+    rootMeaning: "木板",
+    rootMeaningEn: "plank",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 bord，意为木板或甲板",
+    relatedWords: [],
+    phonetic: "/bɔːd/",
+    frequency: "高频"
+  },
+  {
+    id: "word_97",
+    word: "boundary",
+    meaning: "n. 边界；分界线",
+    level: "IELTS7",
+    root: "bound",
+    rootMeaning: "限制；范围",
+    rootMeaningEn: "limit; range",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 bodne，意为标记或边界",
+    relatedWords: [],
+    phonetic: "/ˈbaʊndri/",
+    frequency: "高频"
+  },
+  {
+    id: "word_98",
+    word: "brief",
+    meaning: "adj. 简短的；短暂的 n. 摘要",
+    level: "IELTS6",
+    root: "brev",
+    rootMeaning: "短",
+    rootMeaningEn: "short",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 brevis，意为短的或简短的",
+    relatedWords: [],
+    phonetic: "/briːf/",
+    frequency: "中频"
+  },
+  {
+    id: "word_99",
+    word: "bring",
+    meaning: "v. 带来；拿来",
+    level: "IELTS5",
+    root: "bring",
+    rootMeaning: "带来",
+    rootMeaningEn: "bring",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 bringan",
+    relatedWords: [],
+    phonetic: "/brɪŋ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_100",
+    word: "broad",
+    meaning: "adj. 宽广的；广阔的",
+    level: "IELTS5",
+    root: "broad",
+    rootMeaning: "宽广",
+    rootMeaningEn: "wide",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 brad",
+    relatedWords: [],
+    phonetic: "/brɔːd/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个B开头新单词`);

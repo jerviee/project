@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_121",
+    word: "damage",
+    meaning: "n./v. 损害；破坏",
+    level: "IELTS5",
+    root: "dam",
+    rootMeaning: "控制；损失",
+    rootMeaningEn: "control; loss",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 damage，意为损失或破坏",
+    relatedWords: [],
+    phonetic: "/ˈdæmɪdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_122",
+    word: "danger",
+    meaning: "n. 危险；威胁",
+    level: "IELTS5",
+    root: "dang",
+    rootMeaning: "危险",
+    rootMeaningEn: "danger",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 danger，意为控制或危险",
+    relatedWords: [],
+    phonetic: "/ˈdeɪndʒə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_123",
+    word: "data",
+    meaning: "n. 数据；资料",
+    level: "IELTS5",
+    root: "dat",
+    rootMeaning: "给予",
+    rootMeaningEn: "give",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 datum，意为给予的东西",
+    relatedWords: [],
+    phonetic: "/ˈdeɪtə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_124",
+    word: "deal",
+    meaning: "v. 处理；分配 n. 交易；协议",
+    level: "IELTS5",
+    root: "del",
+    rootMeaning: "分配；分割",
+    rootMeaningEn: "divide; share",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 dæl，意为分配",
+    relatedWords: [],
+    phonetic: "/diːl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_125",
+    word: "debate",
+    meaning: "n./v. 辩论；讨论",
+    level: "IELTS6",
+    root: "bat",
+    rootMeaning: "打；战斗",
+    rootMeaningEn: "beat; fight",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 debatre，意为争论或辩论",
+    relatedWords: [],
+    phonetic: "/dɪˈbeɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_126",
+    word: "decade",
+    meaning: "n. 十年；十年期",
+    level: "IELTS5",
+    root: "dec",
+    rootMeaning: "十",
+    rootMeaningEn: "ten",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 dekas，意为十个",
+    relatedWords: [],
+    phonetic: "/ˈdekeɪd/",
+    frequency: "高频"
+  },
+  {
+    id: "word_127",
+    word: "decide",
+    meaning: "v. 决定；下决心",
+    level: "IELTS5",
+    root: "cis",
+    rootMeaning: "切；决定",
+    rootMeaningEn: "cut; decide",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 decidere，由 de-（离开）+ caedere（切）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈsaɪd/",
+    frequency: "高频"
+  },
+  {
+    id: "word_128",
+    word: "decision",
+    meaning: "n. 决定；决策",
+    level: "IELTS5",
+    root: "cis",
+    rootMeaning: "切；决定",
+    rootMeaningEn: "cut; decide",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 decisio，由 decidere（决定）派生",
+    relatedWords: [],
+    phonetic: "/dɪˈsɪʒn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_129",
+    word: "declare",
+    meaning: "v. 宣布；声明",
+    level: "IELTS6",
+    root: "clar",
+    rootMeaning: "清楚；明确",
+    rootMeaningEn: "clear; plain",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 declarare，由 de-（完全）+ clarare（澄清）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈkleə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_130",
+    word: "decline",
+    meaning: "v. 下降；衰落；拒绝",
+    level: "IELTS6",
+    root: "clin",
+    rootMeaning: "倾斜；弯曲",
+    rootMeaningEn: "lean; bend",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 declinare，由 de-（向下）+ clinare（倾斜）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈklaɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_131",
+    word: "decrease",
+    meaning: "v./n. 减少；降低",
+    level: "IELTS6",
+    root: "cre",
+    rootMeaning: "生长；增加",
+    rootMeaningEn: "grow; increase",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 decrescere，由 de-（减少）+ crescere（生长）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈkriːs/",
+    frequency: "高频"
+  },
+  {
+    id: "word_132",
+    word: "dedicate",
+    meaning: "v. 奉献；致力于",
+    level: "IELTS7",
+    root: "dic",
+    rootMeaning: "说；宣称",
+    rootMeaningEn: "say; speak",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 dedicare，由 de-（完全）+ dicare（宣布）组成",
+    relatedWords: [],
+    phonetic: "/ˈdedɪkeɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_133",
+    word: "define",
+    meaning: "v. 定义；规定",
+    level: "IELTS6",
+    root: "fin",
+    rootMeaning: "界限；结束",
+    rootMeaningEn: "boundary; end",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 definire，由 de-（完全）+ finire（限制）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈfaɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_134",
+    word: "degree",
+    meaning: "n. 程度；学位；度",
+    level: "IELTS5",
+    root: "grad",
+    rootMeaning: "步；等级",
+    rootMeaningEn: "step; grade",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自古法语 degree，由 de-（向下）+ gre（步）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈɡriː/",
+    frequency: "高频"
+  },
+  {
+    id: "word_135",
+    word: "delay",
+    meaning: "v./n. 延迟；耽搁",
+    level: "IELTS6",
+    root: "lay",
+    rootMeaning: "放置",
+    rootMeaningEn: "lay; place",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 delaier，由 de-（离开）+ laier（放置）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈleɪ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_136",
+    word: "deliberate",
+    meaning: "adj. 故意的；深思熟虑的",
+    level: "IELTS7",
+    root: "libr",
+    rootMeaning: "称量；权衡",
+    rootMeaningEn: "weigh; balance",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 deliberatus，由 de-（完全）+ libra（天平）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈlɪbərət/",
+    frequency: "中频"
+  },
+  {
+    id: "word_137",
+    word: "deliver",
+    meaning: "v. 递送；发表；分娩",
+    level: "IELTS6",
+    root: "liver",
+    rootMeaning: "自由；释放",
+    rootMeaningEn: "free; release",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 deliberare，由 de-（离开）+ liberare（释放）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈlɪvə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_138",
+    word: "demand",
+    meaning: "n./v. 要求；需求",
+    level: "IELTS5",
+    root: "mand",
+    rootMeaning: "委托；命令",
+    rootMeaningEn: "委托; command",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 demandare，由 de-（完全）+ mandare（委托）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈmɑːnd/",
+    frequency: "高频"
+  },
+  {
+    id: "word_139",
+    word: "demonstrate",
+    meaning: "v. 证明；展示；示威",
+    level: "IELTS6",
+    root: "monstr",
+    rootMeaning: "展示；显示",
+    rootMeaningEn: "show; display",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 demonstrare，由 de-（完全）+ monstrare（展示）组成",
+    relatedWords: [],
+    phonetic: "/ˈdemənstreɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_140",
+    word: "denote",
+    meaning: "v. 表示；意味着",
+    level: "IELTS7",
+    root: "not",
+    rootMeaning: "标记；知道",
+    rootMeaningEn: "mark; know",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 denotare，由 de-（完全）+ notare（标记）组成",
+    relatedWords: [],
+    phonetic: "/dɪˈnəʊt/",
+    frequency: "中频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个D开头新单词`);

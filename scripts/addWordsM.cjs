@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_251",
+    word: "main",
+    meaning: "adj. 主要的；最重要的",
+    level: "IELTS5",
+    root: "main",
+    rootMeaning: "主要",
+    rootMeaningEn: "principal; chief",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 mægen，意为力量或主要",
+    relatedWords: [],
+    phonetic: "/meɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_252",
+    word: "maintain",
+    meaning: "v. 维持；维修",
+    level: "IELTS6",
+    root: "tain",
+    rootMeaning: "握住；保持",
+    rootMeaningEn: "hold; keep",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 maintenere，由 manu（手）+ tenere（握）组成",
+    relatedWords: [],
+    phonetic: "/meɪnˈteɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_253",
+    word: "major",
+    meaning: "adj. 主要的；较大的 n. 主修",
+    level: "IELTS5",
+    root: "maj",
+    rootMeaning: "大；多",
+    rootMeaningEn: "greater; more",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 maior，意为更大或更重要",
+    relatedWords: [],
+    phonetic: "/ˈmeɪdʒə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_254",
+    word: "majority",
+    meaning: "n. 多数；大多数",
+    level: "IELTS6",
+    root: "maj",
+    rootMeaning: "大",
+    rootMeaningEn: "greater",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 majoritas，由 major（大）派生",
+    relatedWords: [],
+    phonetic: "/məˈdʒɒrəti/",
+    frequency: "高频"
+  },
+  {
+    id: "word_255",
+    word: "manage",
+    meaning: "v. 管理；处理",
+    level: "IELTS5",
+    root: "man",
+    rootMeaning: "手",
+    rootMeaningEn: "hand",
+    rootOrigin: "Italian",
+    rootOriginNote: "源自意大利语 managgiare，意为处理或管理",
+    relatedWords: [],
+    phonetic: "/ˈmænɪdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_256",
+    word: "management",
+    meaning: "n. 管理；处理",
+    level: "IELTS6",
+    root: "man",
+    rootMeaning: "手；管理",
+    rootMeaningEn: "hand; control",
+    rootOrigin: "Italian",
+    rootOriginNote: "由 manage 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈmænɪdʒmənt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_257",
+    word: "manager",
+    meaning: "n. 经理；管理者",
+    level: "IELTS5",
+    root: "man",
+    rootMeaning: "手；管理",
+    rootMeaningEn: "hand; manage",
+    rootOrigin: "Italian",
+    rootOriginNote: "由 manage 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈmænɪdʒə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_258",
+    word: "manifest",
+    meaning: "v. 表明；显示 adj. 明显的",
+    level: "IELTS7",
+    root: "fest",
+    rootMeaning: "抓住；触碰",
+    rootMeaningEn: "seize; strike",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 manifestus，意为清晰的或明显的",
+    relatedWords: [],
+    phonetic: "/ˈmænɪfest/",
+    frequency: "中频"
+  },
+  {
+    id: "word_259",
+    word: "manipulate",
+    meaning: "v. 操作；操纵",
+    level: "IELTS7",
+    root: "man",
+    rootMeaning: "手",
+    rootMeaningEn: "hand",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 manipulare，由 manu（手）+ plere（充满）组成",
+    relatedWords: [],
+    phonetic: "/məˈnɪpjʊleɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_260",
+    word: "margin",
+    meaning: "n. 边缘；利润；差额",
+    level: "IELTS7",
+    root: "mark",
+    rootMeaning: "标记；边界",
+    rootMeaningEn: "mark; boundary",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 margo，意为边缘或边界",
+    relatedWords: [],
+    phonetic: "/ˈmɑːdʒɪn/",
+    frequency: "中频"
+  },
+  {
+    id: "word_261",
+    word: "marine",
+    meaning: "adj. 海的；海洋的",
+    level: "IELTS7",
+    root: "mar",
+    rootMeaning: "海",
+    rootMeaningEn: "sea",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 marinus，由 mare（海）派生",
+    relatedWords: [],
+    phonetic: "/məˈriːn/",
+    frequency: "中频"
+  },
+  {
+    id: "word_262",
+    word: "mark",
+    meaning: "n. 标记；痕迹 v. 标记；打分",
+    level: "IELTS5",
+    root: "mark",
+    rootMeaning: "标记；边界",
+    rootMeaningEn: "sign; token",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 mearc，意为边界或标记",
+    relatedWords: [],
+    phonetic: "/mɑːk/",
+    frequency: "高频"
+  },
+  {
+    id: "word_263",
+    word: "market",
+    meaning: "n. 市场；集市",
+    level: "IELTS5",
+    root: "mark",
+    rootMeaning: "边界；市场",
+    rootMeaningEn: "boundary; market",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 mercatus，由 merx（商品）派生",
+    relatedWords: [],
+    phonetic: "/ˈmɑːkɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_264",
+    word: "marriage",
+    meaning: "n. 婚姻；结婚",
+    level: "IELTS5",
+    root: "marry",
+    rootMeaning: "结婚",
+    rootMeaningEn: "wed",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 mariage，由 marier（结婚）派生",
+    relatedWords: [],
+    phonetic: "/ˈmærɪdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_265",
+    word: "massive",
+    meaning: "adj. 大量的；巨大的",
+    level: "IELTS6",
+    root: "mass",
+    rootMeaning: "块；团",
+    rootMeaningEn: "mass; bulk",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 massa，意为块或团",
+    relatedWords: [],
+    phonetic: "/ˈmæsɪv/",
+    frequency: "高频"
+  },
+  {
+    id: "word_266",
+    word: "match",
+    meaning: "n. 比赛；匹配 v. 相配；匹配",
+    level: "IELTS5",
+    root: "match",
+    rootMeaning: "匹配；比赛",
+    rootMeaningEn: "equal; compete",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 gemæcca，意为配偶或匹配",
+    relatedWords: [],
+    phonetic: "/mætʃ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_267",
+    word: "material",
+    meaning: "n. 材料；原料 adj. 物质的",
+    level: "IELTS6",
+    root: "mater",
+    rootMeaning: "母亲；物质",
+    rootMeaningEn: "mother; matter",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 material，由 mater（物质）派生",
+    relatedWords: [],
+    phonetic: "/məˈtɪəriəl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_268",
+    word: "mathematical",
+    meaning: "adj. 数学的",
+    level: "IELTS7",
+    root: "math",
+    rootMeaning: "数学",
+    rootMeaningEn: "mathematics",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 mathema（学习）",
+    relatedWords: [],
+    phonetic: "/ˌmæθəˈmætɪkl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_269",
+    word: "matter",
+    meaning: "n. 物质；事情 v. 有关系",
+    level: "IELTS5",
+    root: "mater",
+    rootMeaning: "物质；材料",
+    rootMeaningEn: "substance; affair",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 materia，意为物质或材料",
+    relatedWords: [],
+    phonetic: "/ˈmætə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_270",
+    word: "mature",
+    meaning: "adj. 成熟的；到期的 v. 成熟",
+    level: "IELTS6",
+    root: "matur",
+    rootMeaning: "成熟",
+    rootMeaningEn: "ripe; ready",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 maturus，意为成熟或适时",
+    relatedWords: [],
+    phonetic: "/məˈtjʊə/",
+    frequency: "中频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个M开头新单词`);

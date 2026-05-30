@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_231",
+    word: "keen",
+    meaning: "adj. 敏锐的；热心的",
+    level: "IELTS6",
+    root: "keen",
+    rootMeaning: "尖锐；聪明",
+    rootMeaningEn: "sharp; intelligent",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 cene，意为聪明或敏锐",
+    relatedWords: [],
+    phonetic: "/kiːn/",
+    frequency: "中频"
+  },
+  {
+    id: "word_232",
+    word: "keep",
+    meaning: "v. 保持；保存",
+    level: "IELTS5",
+    root: "keep",
+    rootMeaning: "保持；握住",
+    rootMeaningEn: "hold; retain",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 cepan，意为抓住或保持",
+    relatedWords: [],
+    phonetic: "/kiːp/",
+    frequency: "高频"
+  },
+  {
+    id: "word_233",
+    word: "key",
+    meaning: "n. 钥匙；关键 adj. 关键的",
+    level: "IELTS5",
+    root: "key",
+    rootMeaning: "钥匙；关键",
+    rootMeaningEn: "key",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 cæg，意为钥匙",
+    relatedWords: [],
+    phonetic: "/kiː/",
+    frequency: "高频"
+  },
+  {
+    id: "word_234",
+    word: "knowledge",
+    meaning: "n. 知识；学识",
+    level: "IELTS5",
+    root: "know",
+    rootMeaning: "知道",
+    rootMeaningEn: "know",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自英语 knowleche，由 know（知道）派生",
+    relatedWords: [],
+    phonetic: "/ˈnɒlɪdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_235",
+    word: "label",
+    meaning: "n. 标签；标记 v. 贴标签",
+    level: "IELTS6",
+    root: "lab",
+    rootMeaning: "带子",
+    rootMeaningEn: "band; strip",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 label，意为丝带或标签",
+    relatedWords: [],
+    phonetic: "/ˈleɪbl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_236",
+    word: "labor",
+    meaning: "n./v. 劳动；努力",
+    level: "IELTS6",
+    root: "labor",
+    rootMeaning: "工作",
+    rootMeaningEn: "work; toil",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 labor，意为工作或努力",
+    relatedWords: [],
+    phonetic: "/ˈleɪbə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_237",
+    word: "lack",
+    meaning: "n./v. 缺乏；短缺",
+    level: "IELTS6",
+    root: "lack",
+    rootMeaning: "缺少",
+    rootMeaningEn: "be wanting",
+    rootOrigin: "Middle English",
+    rootOriginNote: "源自中古英语 lakken，意为缺少或不足",
+    relatedWords: [],
+    phonetic: "/læk/",
+    frequency: "高频"
+  },
+  {
+    id: "word_238",
+    word: "land",
+    meaning: "n. 土地；陆地 v. 登陆",
+    level: "IELTS5",
+    root: "land",
+    rootMeaning: "土地",
+    rootMeaningEn: "ground; soil",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 land",
+    relatedWords: [],
+    phonetic: "/lænd/",
+    frequency: "高频"
+  },
+  {
+    id: "word_239",
+    word: "large",
+    meaning: "adj. 大的；大量的",
+    level: "IELTS5",
+    root: "large",
+    rootMeaning: "大",
+    rootMeaningEn: "big; great",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 large，意为宽广或大方",
+    relatedWords: [],
+    phonetic: "/lɑːdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_240",
+    word: "largely",
+    meaning: "adv. 主要地；大量地",
+    level: "IELTS7",
+    root: "large",
+    rootMeaning: "大",
+    rootMeaningEn: "big",
+    rootOrigin: "Old French",
+    rootOriginNote: "由 large 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈlɑːdʒli/",
+    frequency: "高频"
+  },
+  {
+    id: "word_241",
+    word: "launch",
+    meaning: "v. 发射；启动 n. 发射",
+    level: "IELTS6",
+    root: "launch",
+    rootMeaning: "投掷；发射",
+    rootMeaningEn: "throw; set off",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古 French lancement，意为投掷或发射",
+    relatedWords: [],
+    phonetic: "/lɔːntʃ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_242",
+    word: "law",
+    meaning: "n. 法律；规律",
+    level: "IELTS5",
+    root: "law",
+    rootMeaning: "法律",
+    rootMeaningEn: "rule; regulation",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 lagu，意为法律或法规",
+    relatedWords: [],
+    phonetic: "/lɔː/",
+    frequency: "高频"
+  },
+  {
+    id: "word_243",
+    word: "lead",
+    meaning: "v. 领导；引导 n. 领导",
+    level: "IELTS5",
+    root: "lead",
+    rootMeaning: "引导；带领",
+    rootMeaningEn: "guide; direct",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 lædan",
+    relatedWords: [],
+    phonetic: "/liːd/",
+    frequency: "高频"
+  },
+  {
+    id: "word_244",
+    word: "leader",
+    meaning: "n. 领导者；领袖",
+    level: "IELTS5",
+    root: "lead",
+    rootMeaning: "领导",
+    rootMeaningEn: "lead",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 lead 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈliːdə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_245",
+    word: "leadership",
+    meaning: "n. 领导；领导力",
+    level: "IELTS6",
+    root: "lead",
+    rootMeaning: "领导",
+    rootMeaningEn: "lead",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 leader + ship 组成",
+    relatedWords: [],
+    phonetic: "/ˈliːdəʃɪp/",
+    frequency: "高频"
+  },
+  {
+    id: "word_246",
+    word: "leading",
+    meaning: "adj. 领导的；主要的",
+    level: "IELTS6",
+    root: "lead",
+    rootMeaning: "领导",
+    rootMeaningEn: "guide",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 lead 的现在分词派生",
+    relatedWords: [],
+    phonetic: "/ˈliːdɪŋ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_247",
+    word: "learn",
+    meaning: "v. 学习；得知",
+    level: "IELTS5",
+    root: "learn",
+    rootMeaning: "学习",
+    rootMeaningEn: "gain knowledge",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 leornian",
+    relatedWords: [],
+    phonetic: "/lɜːn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_248",
+    word: "learning",
+    meaning: "n. 学习；学问",
+    level: "IELTS5",
+    root: "learn",
+    rootMeaning: "学习",
+    rootMeaningEn: "learn",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 learn 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈlɜːnɪŋ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_249",
+    word: "legal",
+    meaning: "adj. 法律的；合法的",
+    level: "IELTS6",
+    root: "leg",
+    rootMeaning: "法律",
+    rootMeaningEn: "law",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 legalis，由 lex（法律）派生",
+    relatedWords: [],
+    phonetic: "/ˈliːɡl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_250",
+    word: "legislation",
+    meaning: "n. 立法；法律",
+    level: "IELTS7",
+    root: "leg",
+    rootMeaning: "法律",
+    rootMeaningEn: "law",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 legis（法律）+ latio（提出）",
+    relatedWords: [],
+    phonetic: "/ˌledʒɪsˈleɪʃn/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个K/L开头新单词`);

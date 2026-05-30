@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_187",
+    word: "habitat",
+    meaning: "n. 栖息地；产地",
+    level: "IELTS7",
+    root: "habit",
+    rootMeaning: "居住；习惯",
+    rootMeaningEn: "dwell; inhabit",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 habitare，意为居住",
+    relatedWords: [],
+    phonetic: "/ˈhæbɪtæt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_188",
+    word: "handle",
+    meaning: "v. 处理；操作 n. 手柄",
+    level: "IELTS6",
+    root: "hand",
+    rootMeaning: "手",
+    rootMeaningEn: "hand",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 handle，意为手或管理",
+    relatedWords: [],
+    phonetic: "/ˈhændl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_189",
+    word: "happen",
+    meaning: "v. 发生；碰巧",
+    level: "IELTS5",
+    root: "hap",
+    rootMeaning: "运气；发生",
+    rootMeaningEn: "chance; occur",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 hap，意为运气或偶然发生",
+    relatedWords: [],
+    phonetic: "/ˈhæpən/",
+    frequency: "高频"
+  },
+  {
+    id: "word_190",
+    word: "harmony",
+    meaning: "n. 和谐；协调",
+    level: "IELTS7",
+    root: "harm",
+    rootMeaning: "适合；连接",
+    rootMeaningEn: "fit; join",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 harmos，意为连接或和谐",
+    relatedWords: [],
+    phonetic: "/ˈhɑːməni/",
+    frequency: "中频"
+  },
+  {
+    id: "word_191",
+    word: "harvest",
+    meaning: "n./v. 收获；收割",
+    level: "IELTS6",
+    root: "harvest",
+    rootMeaning: "收获",
+    rootMeaningEn: "reap; gather",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 hærfest，意为秋季或收获",
+    relatedWords: [],
+    phonetic: "/ˈhɑːvɪst/",
+    frequency: "中频"
+  },
+  {
+    id: "word_192",
+    word: "hazard",
+    meaning: "n. 危险；危害",
+    level: "IELTS7",
+    root: "hazard",
+    rootMeaning: "机会；危险",
+    rootMeaningEn: "chance; danger",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 hasard，意为骰子游戏或危险",
+    relatedWords: [],
+    phonetic: "/ˈhæzəd/",
+    frequency: "中频"
+  },
+  {
+    id: "word_193",
+    word: "head",
+    meaning: "n. 头部；领导 v. 率领",
+    level: "IELTS5",
+    root: "head",
+    rootMeaning: "头",
+    rootMeaningEn: "head",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 heafod",
+    relatedWords: [],
+    phonetic: "/hed/",
+    frequency: "高频"
+  },
+  {
+    id: "word_194",
+    word: "health",
+    meaning: "n. 健康；卫生",
+    level: "IELTS5",
+    root: "health",
+    rootMeaning: "健康",
+    rootMeaningEn: "wholeness; health",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 hælp，意为完整或健康",
+    relatedWords: [],
+    phonetic: "/helθ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_195",
+    word: "healthy",
+    meaning: "adj. 健康的",
+    level: "IELTS5",
+    root: "health",
+    rootMeaning: "健康",
+    rootMeaningEn: "health",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 health 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈhelθi/",
+    frequency: "高频"
+  },
+  {
+    id: "word_196",
+    word: "hesitate",
+    meaning: "v. 犹豫；踌躇",
+    level: "IELTS6",
+    root: "hes",
+    rootMeaning: "粘附；坚持",
+    rootMeaningEn: "stick; cling",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 haesitare，由 haerere（粘附）派生",
+    relatedWords: [],
+    phonetic: "/ˈhezɪteɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_197",
+    word: "hierarchy",
+    meaning: "n. 层级；等级制度",
+    level: "IELTS7",
+    root: "hier",
+    rootMeaning: "神圣；权威",
+    rootMeaningEn: "sacred; priest",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 hierarches，由 hieros（神圣）+ archos（统治）组成",
+    relatedWords: [],
+    phonetic: "/ˈhaɪərɑːki/",
+    frequency: "中频"
+  },
+  {
+    id: "word_198",
+    word: "highlight",
+    meaning: "v. 强调；突出 n. 亮点",
+    level: "IELTS7",
+    root: "high",
+    rootMeaning: "高",
+    rootMeaningEn: "high; tall",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 high（高）+ light（光）组合而成",
+    relatedWords: [],
+    phonetic: "/ˈhaɪlaɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_199",
+    word: "highly",
+    meaning: "adv. 高度地；非常",
+    level: "IELTS6",
+    root: "high",
+    rootMeaning: "高",
+    rootMeaningEn: "high",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 high 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈhaɪli/",
+    frequency: "高频"
+  },
+  {
+    id: "word_200",
+    word: "hinder",
+    meaning: "v. 阻碍；妨碍",
+    level: "IELTS7",
+    root: "hind",
+    rootMeaning: "后面",
+    rootMeaningEn: "behind; back",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 hindrian，意为阻止或阻碍",
+    relatedWords: [],
+    phonetic: "/ˈhɪndə/",
+    frequency: "中频"
+  },
+  {
+    id: "word_201",
+    word: "historic",
+    meaning: "adj. 历史的；具有历史意义的",
+    level: "IELTS7",
+    root: "hist",
+    rootMeaning: "知道；历史",
+    rootMeaningEn: "know; history",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 historia，意为调查或历史",
+    relatedWords: [],
+    phonetic: "/hɪˈstɒrɪk/",
+    frequency: "高频"
+  },
+  {
+    id: "word_202",
+    word: "historical",
+    meaning: "adj. 历史的；史学的",
+    level: "IELTS7",
+    root: "hist",
+    rootMeaning: "历史",
+    rootMeaningEn: "history",
+    rootOrigin: "Greek",
+    rootOriginNote: "由 historic 派生而来",
+    relatedWords: [],
+    phonetic: "/hɪˈstɒrɪkl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_203",
+    word: "honor",
+    meaning: "n./v. 尊敬；荣誉",
+    level: "IELTS6",
+    root: "hon",
+    rootMeaning: "荣誉；尊敬",
+    rootMeaningEn: "respect; reputation",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 honor，意为名誉或尊敬",
+    relatedWords: [],
+    phonetic: "/ˈɒnə/",
+    frequency: "中频"
+  },
+  {
+    id: "word_204",
+    word: "hope",
+    meaning: "n./v. 希望",
+    level: "IELTS5",
+    root: "hope",
+    rootMeaning: "希望",
+    rootMeaningEn: "hope; expect",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 hopian",
+    relatedWords: [],
+    phonetic: "/həʊp/",
+    frequency: "高频"
+  },
+  {
+    id: "word_205",
+    word: "horizon",
+    meaning: "n. 地平线；范围",
+    level: "IELTS6",
+    root: "horiz",
+    rootMeaning: "边界；限制",
+    rootMeaningEn: "boundary; limit",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 horizōn，由 horos（边界）派生",
+    relatedWords: [],
+    phonetic: "/həˈraɪzn/",
+    frequency: "中频"
+  },
+  {
+    id: "word_206",
+    word: "hostile",
+    meaning: "adj. 敌对的；怀敌意的",
+    level: "IELTS7",
+    root: "host",
+    rootMeaning: "敌人",
+    rootMeaningEn: "enemy",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 hostilis，由 hostis（敌人）派生",
+    relatedWords: [],
+    phonetic: "/ˈhɒstaɪl/",
+    frequency: "中频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个H开头新单词`);

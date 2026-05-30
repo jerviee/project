@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_171",
+    word: "gain",
+    meaning: "v. 获得；增加 n. 收益",
+    level: "IELTS6",
+    root: "gain",
+    rootMeaning: "获得",
+    rootMeaningEn: "obtain; acquire",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 gainer，意为获得或盈利",
+    relatedWords: [],
+    phonetic: "/ɡeɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_172",
+    word: "generate",
+    meaning: "v. 生成；产生",
+    level: "IELTS7",
+    root: "gen",
+    rootMeaning: "出生；种类",
+    rootMeaningEn: "birth; kind",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 generare，由 genus（种类）派生",
+    relatedWords: [],
+    phonetic: "/ˈdʒenəreɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_173",
+    word: "generation",
+    meaning: "n. 一代；产生",
+    level: "IELTS6",
+    root: "gen",
+    rootMeaning: "出生；种类",
+    rootMeaningEn: "birth; kind",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 generatio，由 generare（产生）派生",
+    relatedWords: [],
+    phonetic: "/ˌdʒenəˈreɪʃn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_174",
+    word: "generous",
+    meaning: "adj. 慷慨的；丰富的",
+    level: "IELTS7",
+    root: "gen",
+    rootMeaning: "出生；品质",
+    rootMeaningEn: "birth; quality",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 generous，由 genus（种类）派生，意为高尚的",
+    relatedWords: [],
+    phonetic: "/ˈdʒenərəs/",
+    frequency: "中频"
+  },
+  {
+    id: "word_175",
+    word: "genetic",
+    meaning: "adj. 遗传的；基因的",
+    level: "IELTS7",
+    root: "gen",
+    rootMeaning: "出生；起源",
+    rootMeaningEn: "origin; birth",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 genesis（起源），由 genesis（发生）派生",
+    relatedWords: [],
+    phonetic: "/dʒəˈnetɪk/",
+    frequency: "中频"
+  },
+  {
+    id: "word_176",
+    word: "genuine",
+    meaning: "adj. 真实的；真诚的",
+    level: "IELTS7",
+    root: "gen",
+    rootMeaning: "出生；来源",
+    rootMeaningEn: "birth; source",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 genuinus，意为天然的或真实的",
+    relatedWords: [],
+    phonetic: "/ˈdʒenjuɪn/",
+    frequency: "中频"
+  },
+  {
+    id: "word_177",
+    word: "global",
+    meaning: "adj. 全球的；整体的",
+    level: "IELTS6",
+    root: "glob",
+    rootMeaning: "球体",
+    rootMeaningEn: "sphere",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 globus，意为球体或地球",
+    relatedWords: [],
+    phonetic: "/ˈɡləʊbl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_178",
+    word: "goal",
+    meaning: "n. 目标；球门",
+    level: "IELTS5",
+    root: "goal",
+    rootMeaning: "边界；终点",
+    rootMeaningEn: "boundary; limit",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 gæl，意为阻止或界限",
+    relatedWords: [],
+    phonetic: "/ɡəʊl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_179",
+    word: "govern",
+    meaning: "v. 统治；管理",
+    level: "IELTS7",
+    root: "gov",
+    rootMeaning: "控制；引导",
+    rootMeaningEn: "control; steer",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 kybernan，意为掌舵或管理",
+    relatedWords: [],
+    phonetic: "/ˈɡʌvn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_180",
+    word: "government",
+    meaning: "n. 政府",
+    level: "IELTS5",
+    root: "gov",
+    rootMeaning: "控制；管理",
+    rootMeaningEn: "control; direct",
+    rootOrigin: "Greek",
+    rootOriginNote: "由 govern 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈɡʌvənmənt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_181",
+    word: "gradual",
+    meaning: "adj. 逐渐的；渐进的",
+    level: "IELTS7",
+    root: "grad",
+    rootMeaning: "步；等级",
+    rootMeaningEn: "step; degree",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 gradus，由 gradus（步）派生",
+    relatedWords: [],
+    phonetic: "/ˈɡrædʒuəl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_182",
+    word: "graduate",
+    meaning: "v. 毕业 n. 毕业生",
+    level: "IELTS6",
+    root: "grad",
+    rootMeaning: "步；进",
+    rootMeaningEn: "step; go",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 gradus，由 gradus（步）派生",
+    relatedWords: [],
+    phonetic: "/ˈɡrædʒuət/",
+    frequency: "高频"
+  },
+  {
+    id: "word_183",
+    word: "grand",
+    meaning: "adj. 宏伟的；重大的",
+    level: "IELTS6",
+    root: "grand",
+    rootMeaning: "大；伟大",
+    rootMeaningEn: "great; large",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 grant，意为伟大或崇高",
+    relatedWords: [],
+    phonetic: "/ɡrænd/",
+    frequency: "中频"
+  },
+  {
+    id: "word_184",
+    word: "grant",
+    meaning: "v. 授予；同意 n. 补助金",
+    level: "IELTS7",
+    root: "grant",
+    rootMeaning: "授予；同意",
+    rootMeaningEn: "give; allow",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 granter，意为同意或允许",
+    relatedWords: [],
+    phonetic: "/ɡrɑːnt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_185",
+    word: "grasp",
+    meaning: "v./n. 抓住；理解",
+    level: "IELTS6",
+    root: "grasp",
+    rootMeaning: "抓住",
+    rootMeaningEn: "seize; grip",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 græpan，意为抓住或握紧",
+    relatedWords: [],
+    phonetic: "/ɡrɑːsp/",
+    frequency: "中频"
+  },
+  {
+    id: "word_186",
+    word: "grateful",
+    meaning: "adj. 感激的",
+    level: "IELTS6",
+    root: "grat",
+    rootMeaning: "愉快；感谢",
+    rootMeaningEn: "pleasing; thankful",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 gratias，由 gratus（愉快的）派生",
+    relatedWords: [],
+    phonetic: "/ˈɡreɪtfl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_187",
+    word: "great",
+    meaning: "adj. 伟大的；大的",
+    level: "IELTS5",
+    root: "great",
+    rootMeaning: "大",
+    rootMeaningEn: "large; big",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 great，意为大或重要",
+    relatedWords: [],
+    phonetic: "/ɡreɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_188",
+    word: "growth",
+    meaning: "n. 增长；发展",
+    level: "IELTS6",
+    root: "grow",
+    rootMeaning: "生长",
+    rootMeaningEn: "grow",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 grow（生长）派生",
+    relatedWords: [],
+    phonetic: "/ɡrəʊθ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_189",
+    word: "guarantee",
+    meaning: "v./n. 保证；担保",
+    level: "IELTS6",
+    root: "guard",
+    rootMeaning: "保护；守卫",
+    rootMeaningEn: "protect; watch",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 guarant，意为保护或保证",
+    relatedWords: [],
+    phonetic: "/ˌɡærənˈtiː/",
+    frequency: "高频"
+  },
+  {
+    id: "word_190",
+    word: "guidance",
+    meaning: "n. 指导；引导",
+    level: "IELTS7",
+    root: "guide",
+    rootMeaning: "引导",
+    rootMeaningEn: "lead; direct",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 guiden，意为引导或带领",
+    relatedWords: [],
+    phonetic: "/ˈɡaɪdns/",
+    frequency: "中频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个G开头新单词`);

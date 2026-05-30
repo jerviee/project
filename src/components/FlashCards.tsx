@@ -1,21 +1,23 @@
 import { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, RefreshCw, Check, X } from 'lucide-react';
-import { ieltsWords, Word } from '@/data/words';
+import { ChevronLeft, ChevronRight, RefreshCw, Check, X, Volume2 } from 'lucide-react';
+import { mockWords, IELTSWord } from '@/data/mockWords';
 
 export default function FlashCards() {
-  const [words, setWords] = useState<Word[]>([]);
+  const [words, setWords] = useState<IELTSWord[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [mastered, setMastered] = useState<Set<number>>(new Set());
-  const [toReview, setToReview] = useState<Set<number>>(new Set());
+  const [mastered, setMastered] = useState<Set<string>>(new Set());
+  const [toReview, setToReview] = useState<Set<string>>(new Set());
   const [showResult, setShowResult] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    resetCards();
+    setWords(mockWords);
+    setLoading(false);
   }, []);
 
   const resetCards = () => {
-    const shuffled = [...ieltsWords].sort(() => Math.random() - 0.5);
+    const shuffled = [...words].sort(() => Math.random() - 0.5);
     setWords(shuffled);
     setCurrentIndex(0);
     setMastered(new Set());
@@ -23,6 +25,23 @@ export default function FlashCards() {
     setShowResult(false);
     setIsFlipped(false);
   };
+
+  const handleSpeak = (word: string) => {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      speechSynthesis.speak(utterance);
+    }
+  };
+
+  if (loading) {
+    return (
+      <div className="w-full max-w-md mx-auto text-center py-20">
+        <div className="w-12 h-12 border-4 border-primary-200 border-t-primary-500 rounded-full animate-spin mx-auto mb-4"></div>
+        <p className="text-gray-500">加载词汇中...</p>
+      </div>
+    );
+  }
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -123,23 +142,53 @@ export default function FlashCards() {
           className={`card-inner relative w-full h-80 cursor-pointer ${isFlipped ? 'flipped' : ''}`}
           onClick={handleFlip}
         >
-          <div className="card-front absolute inset-0 bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center border-2 border-primary-100">
+          <div className="card-front absolute inset-0 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center border border-gray-100">
             <span className={`px-3 py-1 rounded-full text-sm font-medium mb-4 ${getLevelColor(currentWord?.level || '')}`}>
               {currentWord?.level}
             </span>
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">{currentWord?.word}</h2>
+            <div className="flex items-center gap-3 mb-4">
+              <h2 className="text-4xl font-bold text-gray-800">{currentWord?.word}</h2>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleSpeak(currentWord?.word || '');
+                }}
+                className="p-2 hover:bg-gray-100 rounded-full transition-colors text-primary-500"
+              >
+                <Volume2 size={24} />
+              </button>
+            </div>
             <p className="text-gray-500 text-lg">{currentWord?.phonetic}</p>
-            <p className="mt-6 text-gray-400 text-sm">点击卡片查看释义</p>
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <span className="px-2 py-1 bg-blue-50 text-blue-600 text-xs rounded-lg">
+                {currentWord?.level}
+              </span>
+            </div>
+            <p className="mt-4 text-gray-400 text-sm">点击卡片查看释义</p>
           </div>
 
-          <div className="card-back absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center text-white">
-            <span className={`px-3 py-1 rounded-full text-sm font-medium mb-4 bg-white/20`}>
-              {currentWord?.category}
-            </span>
-            <h3 className="text-2xl font-semibold mb-6">{currentWord?.meaning}</h3>
-            <div className="bg-white/10 rounded-xl p-4 w-full">
-              <p className="text-sm opacity-80 mb-1">例句:</p>
-              <p className="text-base">{currentWord?.example}</p>
+          <div className="card-back absolute inset-0 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl shadow-lg p-6 flex flex-col overflow-y-auto text-white">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="px-3 py-1 rounded-full text-sm font-medium bg-white/20">
+                {currentWord?.level}
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold mb-3">{currentWord?.meaning}</h3>
+            
+            <div className="flex items-center gap-2 bg-green-500/30 px-4 py-2 rounded-lg mb-3">
+              <span className="text-green-200 text-sm">词根</span>
+              <span className="text-white font-bold text-lg">{currentWord?.root}</span>
+              <span className="text-green-200 text-sm">= {currentWord?.rootMeaning}</span>
+            </div>
+            
+            <div className="bg-white/10 rounded-xl p-3 w-full mb-3">
+              <p className="text-sm opacity-80 mb-1">词源:</p>
+              <p className="text-xs opacity-90">{currentWord?.rootOriginNote}</p>
+            </div>
+            
+            <div className="bg-white/10 rounded-xl p-4 w-full mb-3">
+              <p className="text-sm opacity-80 mb-1">词根:</p>
+              <p className="text-base">{currentWord?.root} - {currentWord?.rootMeaning} ({currentWord?.rootMeaningEn})</p>
             </div>
           </div>
         </div>

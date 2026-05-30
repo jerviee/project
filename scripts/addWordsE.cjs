@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_131",
+    word: "eager",
+    meaning: "adj. 热切的；渴望的",
+    level: "IELTS6",
+    root: "eag",
+    rootMeaning: "尖锐；急切",
+    rootMeaningEn: "sharp; keen",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 egian，意为急切或渴望",
+    relatedWords: [],
+    phonetic: "/ˈiːɡə/",
+    frequency: "中频"
+  },
+  {
+    id: "word_132",
+    word: "earn",
+    meaning: "v. 赚得；获得",
+    level: "IELTS5",
+    root: "earn",
+    rootMeaning: "工作；赚取",
+    rootMeaningEn: "work; gain",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 earnian，意为工作或获得",
+    relatedWords: [],
+    phonetic: "/ɜːn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_133",
+    word: "economic",
+    meaning: "adj. 经济学的；经济的",
+    level: "IELTS5",
+    root: "eco",
+    rootMeaning: "家务；经济",
+    rootMeaningEn: "household; economy",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 oikonomia，由 oikos（房子）+ nomos（管理）组成",
+    relatedWords: [],
+    phonetic: "/ˌiːkəˈnɒmɪk/",
+    frequency: "高频"
+  },
+  {
+    id: "word_134",
+    word: "economy",
+    meaning: "n. 经济；节约",
+    level: "IELTS5",
+    root: "eco",
+    rootMeaning: "家务；经济",
+    rootMeaningEn: "household; economy",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 oikonomia，由 oikos（房子）+ nomos（管理）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈkɒnəmi/",
+    frequency: "高频"
+  },
+  {
+    id: "word_135",
+    word: "edge",
+    meaning: "n. 边缘；刀刃",
+    level: "IELTS6",
+    root: "edg",
+    rootMeaning: "锐利；边缘",
+    rootMeaningEn: "sharp; border",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 ecg，意为刀刃或边缘",
+    relatedWords: [],
+    phonetic: "/edʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_136",
+    word: "educate",
+    meaning: "v. 教育；培养",
+    level: "IELTS6",
+    root: "duc",
+    rootMeaning: "引导；带来",
+    rootMeaningEn: "lead; bring",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 educare，由 e-（出）+ ducere（引导）组成",
+    relatedWords: [],
+    phonetic: "/ˈedʒʊkeɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_137",
+    word: "education",
+    meaning: "n. 教育；培养",
+    level: "IELTS5",
+    root: "duc",
+    rootMeaning: "引导",
+    rootMeaningEn: "lead",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 educatio，由 educare（教育）派生",
+    relatedWords: [],
+    phonetic: "/ˌedʒʊˈkeɪʃn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_138",
+    word: "effect",
+    meaning: "n. 效果；影响 v. 产生",
+    level: "IELTS5",
+    root: "fect",
+    rootMeaning: "做；完成",
+    rootMeaningEn: "do; accomplish",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 effectus，由 ex-（出）+ facere（做）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈfekt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_139",
+    word: "effective",
+    meaning: "adj. 有效的；生效的",
+    level: "IELTS6",
+    root: "fect",
+    rootMeaning: "做；完成",
+    rootMeaningEn: "do; accomplish",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 effectivus，由 effectus（效果）派生",
+    relatedWords: [],
+    phonetic: "/ɪˈfektɪv/",
+    frequency: "高频"
+  },
+  {
+    id: "word_140",
+    word: "efficient",
+    meaning: "adj. 有效率的；高效的",
+    level: "IELTS7",
+    root: "fic",
+    rootMeaning: "做；制作",
+    rootMeaningEn: "do; make",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 efficens，由 ex-（出）+ facere（做）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈfɪʃnt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_141",
+    word: "effort",
+    meaning: "n. 努力；尝试",
+    level: "IELTS5",
+    root: "for",
+    rootMeaning: "前； forward",
+    rootMeaningEn: "fore; forward",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 esforz，由 es-（出）+ forcer（强迫）组成",
+    relatedWords: [],
+    phonetic: "/ˈefət/",
+    frequency: "高频"
+  },
+  {
+    id: "word_142",
+    word: "elaborate",
+    meaning: "adj. 精心制作的；复杂的 v. 详细说明",
+    level: "IELTS7",
+    root: "labor",
+    rootMeaning: "工作",
+    rootMeaningEn: "work",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 elaboratus，由 e-（出）+ laborare（工作）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈlæbərət/",
+    frequency: "中频"
+  },
+  {
+    id: "word_143",
+    word: "element",
+    meaning: "n. 元素；要素",
+    level: "IELTS6",
+    root: "elem",
+    rootMeaning: "基础；原理",
+    rootMeaningEn: "basis; principle",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 elementum，意为基本的部分",
+    relatedWords: [],
+    phonetic: "/ˈelɪmənt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_144",
+    word: "eliminate",
+    meaning: "v. 消除；淘汰",
+    level: "IELTS7",
+    root: "limin",
+    rootMeaning: "门槛；界限",
+    rootMeaningEn: "threshold; limit",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 eliminare，由 e-（出）+ limen（门槛）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈlɪmɪneɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_145",
+    word: "emerge",
+    meaning: "v. 出现；浮现",
+    level: "IELTS6",
+    root: "merg",
+    rootMeaning: "沉没；浸入",
+    rootMeaningEn: "dip; plunge",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 emergere，由 e-（出）+ mergere（沉没）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈmɜːdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_146",
+    word: "emergency",
+    meaning: "n. 紧急情况；突发事件",
+    level: "IELTS6",
+    root: "merg",
+    rootMeaning: "沉没",
+    rootMeaningEn: "dip; plunge",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 emergentia，由 emergere（出现）派生",
+    relatedWords: [],
+    phonetic: "/ɪˈmɜːdʒənsi/",
+    frequency: "中频"
+  },
+  {
+    id: "word_147",
+    word: "emission",
+    meaning: "n. 发射；散发",
+    level: "IELTS7",
+    root: "miss",
+    rootMeaning: "发送；放出",
+    rootMeaningEn: "send; let go",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 emissio，由 emittere（放出）派生",
+    relatedWords: [],
+    phonetic: "/ɪˈmɪʃn/",
+    frequency: "中频"
+  },
+  {
+    id: "word_148",
+    word: "emotion",
+    meaning: "n. 情感；情绪",
+    level: "IELTS6",
+    root: "mot",
+    rootMeaning: "移动；感动",
+    rootMeaningEn: "move",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 emotio，由 e-（出）+ movere（移动）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈməʊʃn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_149",
+    word: "emphasis",
+    meaning: "n. 强调；重点",
+    level: "IELTS7",
+    root: "phas",
+    rootMeaning: "显示；出现",
+    rootMeaningEn: "show; appear",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 emphasis，意为明显的表现",
+    relatedWords: [],
+    phonetic: "/ˈemfəsɪs/",
+    frequency: "高频"
+  },
+  {
+    id: "word_150",
+    word: "emphasize",
+    meaning: "v. 强调；着重",
+    level: "IELTS7",
+    root: "phas",
+    rootMeaning: "显示",
+    rootMeaningEn: "show",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 emphainein，由 en-（在内）+ phainein（显示）组成",
+    relatedWords: [],
+    phonetic: "/ˈemfəsaɪz/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个E开头新单词`);

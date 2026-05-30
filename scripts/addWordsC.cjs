@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_101",
+    word: "calculate",
+    meaning: "v. 计算；估计",
+    level: "IELTS6",
+    root: "calc",
+    rootMeaning: "小石头；计算",
+    rootMeaningEn: "small stone; reckon",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 calculare，由 calculus（小石头）派生",
+    relatedWords: [],
+    phonetic: "/ˈkælkjʊleɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_102",
+    word: "campaign",
+    meaning: "n. 运动；战役 v. 从事活动",
+    level: "IELTS6",
+    root: "camp",
+    rootMeaning: "田野；营地",
+    rootMeaningEn: "field; camp",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 campagne，意为旷野或战场",
+    relatedWords: [],
+    phonetic: "/kæmˈpeɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_103",
+    word: "capacity",
+    meaning: "n. 容量；能力",
+    level: "IELTS7",
+    root: "cap",
+    rootMeaning: "拿；握住",
+    rootMeaningEn: "take; hold",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 capacitas，由 capax（宽敞的）派生",
+    relatedWords: [],
+    phonetic: "/kəˈpæsəti/",
+    frequency: "高频"
+  },
+  {
+    id: "word_104",
+    word: "capital",
+    meaning: "n. 首都；资本 adj. 首都的；大写的",
+    level: "IELTS5",
+    root: "cap",
+    rootMeaning: "头",
+    rootMeaningEn: "head",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 capitalis，由 caput（头）派生",
+    relatedWords: [],
+    phonetic: "/ˈkæpɪtl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_105",
+    word: "capture",
+    meaning: "v. 捕获；俘虏；夺取",
+    level: "IELTS7",
+    root: "cap",
+    rootMeaning: "拿；抓住",
+    rootMeaningEn: "take; seize",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 captura，由 capere（拿）派生",
+    relatedWords: [],
+    phonetic: "/ˈkæptʃə/",
+    frequency: "中频"
+  },
+  {
+    id: "word_106",
+    word: "career",
+    meaning: "n. 职业；生涯",
+    level: "IELTS5",
+    root: "car",
+    rootMeaning: "车；运行",
+    rootMeaningEn: "car; run",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 carrus（四轮马车），引申为人生的旅程",
+    relatedWords: [],
+    phonetic: "/kəˈrɪə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_107",
+    word: "careful",
+    meaning: "adj. 小心的；仔细的",
+    level: "IELTS5",
+    root: "car",
+    rootMeaning: "关心",
+    rootMeaningEn: "care",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 care（关心）+ -ful（充满的）组成",
+    relatedWords: [],
+    phonetic: "/ˈkeəfl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_108",
+    word: "carry",
+    meaning: "v. 携带；运送",
+    level: "IELTS5",
+    root: "car",
+    rootMeaning: "车；运载",
+    rootMeaningEn: "car; convey",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 carier，意为用马车运载",
+    relatedWords: [],
+    phonetic: "/ˈkæri/",
+    frequency: "高频"
+  },
+  {
+    id: "word_109",
+    word: "case",
+    meaning: "n. 情况；案例；盒子",
+    level: "IELTS5",
+    root: "cas",
+    rootMeaning: "落下；发生",
+    rootMeaningEn: "fall; happen",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 casus，意为落下或事件",
+    relatedWords: [],
+    phonetic: "/keɪs/",
+    frequency: "高频"
+  },
+  {
+    id: "word_110",
+    word: "catch",
+    meaning: "v. 抓住；赶上；感染",
+    level: "IELTS5",
+    root: "cat",
+    rootMeaning: "抓住",
+    rootMeaningEn: "seize",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 cacan",
+    relatedWords: [],
+    phonetic: "/kætʃ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_111",
+    word: "cause",
+    meaning: "n. 原因；事业 v. 引起；导致",
+    level: "IELTS5",
+    root: "cas",
+    rootMeaning: "落下",
+    rootMeaningEn: "fall",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 causa，意为原因或理由",
+    relatedWords: [],
+    phonetic: "/kɔːz/",
+    frequency: "高频"
+  },
+  {
+    id: "word_112",
+    word: "cease",
+    meaning: "v. 停止；终止",
+    level: "IELTS7",
+    root: "ces",
+    rootMeaning: "走开",
+    rootMeaningEn: "go away",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 cessare，意为停止或休息",
+    relatedWords: [],
+    phonetic: "/siːs/",
+    frequency: "中频"
+  },
+  {
+    id: "word_113",
+    word: "celebrate",
+    meaning: "v. 庆祝；赞美",
+    level: "IELTS6",
+    root: "cel",
+    rootMeaning: "荣誉；著名",
+    rootMeaningEn: "honor; famed",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 celebrare，由 celebs（著名的）派生",
+    relatedWords: [],
+    phonetic: "/ˈselɪbreɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_114",
+    word: "center",
+    meaning: "n. 中心；中央 v. 集中",
+    level: "IELTS5",
+    root: "cent",
+    rootMeaning: "中心；百",
+    rootMeaningEn: "center; hundred",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 centrum，由 centrum（中心点）派生",
+    relatedWords: [],
+    phonetic: "/ˈsentə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_115",
+    word: "central",
+    meaning: "adj. 中心的；核心的",
+    level: "IELTS5",
+    root: "cent",
+    rootMeaning: "中心",
+    rootMeaningEn: "center",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 centralis，由 centrum（中心）派生",
+    relatedWords: [],
+    phonetic: "/ˈsentrəl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_116",
+    word: "century",
+    meaning: "n. 世纪；百年",
+    level: "IELTS5",
+    root: "cent",
+    rootMeaning: "百",
+    rootMeaningEn: "hundred",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 centuria，由 centum（一百）派生",
+    relatedWords: [],
+    phonetic: "/ˈsentʃəri/",
+    frequency: "高频"
+  },
+  {
+    id: "word_117",
+    word: "ceremony",
+    meaning: "n. 仪式；典礼",
+    level: "IELTS6",
+    root: "cerem",
+    rootMeaning: "宗教仪式",
+    rootMeaningEn: "religious rite",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 caerimonia，意为神圣的仪式",
+    relatedWords: [],
+    phonetic: "/ˈserəməni/",
+    frequency: "中频"
+  },
+  {
+    id: "word_118",
+    word: "certain",
+    meaning: "adj. 确定的；某个",
+    level: "IELTS5",
+    root: "cert",
+    rootMeaning: "确定；清楚",
+    rootMeaningEn: "sure; settled",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 certus，意为确定的或清楚的",
+    relatedWords: [],
+    phonetic: "/ˈsɜːtn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_119",
+    word: "challenge",
+    meaning: "n./v. 挑战；质疑",
+    level: "IELTS5",
+    root: "chall",
+    rootMeaning: "挑战",
+    rootMeaningEn: "challenge",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 chalenge，意为争论或挑战",
+    relatedWords: [],
+    phonetic: "/ˈtʃælɪndʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_120",
+    word: "chance",
+    meaning: "n. 机会；运气 v. 碰巧",
+    level: "IELTS5",
+    root: "cad",
+    rootMeaning: "落下；降临",
+    rootMeaningEn: "fall; happen",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 cheance，意为运气或偶然",
+    relatedWords: [],
+    phonetic: "/tʃɑːns/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个C开头新单词`);

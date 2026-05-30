@@ -1,3 +1,17 @@
+export interface WordRoot {
+  prefix?: string;
+  prefixMeaning?: string;
+  prefixMeaningEn?: string;
+  root: string;
+  rootMeaning: string;
+  rootMeaningEn: string;
+  rootOrigin: string;
+  rootOriginNote: string;
+  suffix?: string;
+  suffixMeaning?: string;
+  suffixMeaningEn?: string;
+}
+
 export interface Word {
   id: number;
   word: string;
@@ -6,235 +20,1357 @@ export interface Word {
   example: string;
   level: 'IELTS5' | 'IELTS6' | 'IELTS7' | 'IELTS8';
   category: string;
+  root: WordRoot;
+  writingUsage?: string;
+  topic?: string[];
 }
 
 export const ieltsWords: Word[] = [
   {
     id: 1,
+    word: 'abandon',
+    phonetic: '/əˈbændən/',
+    meaning: 'v. 放弃；抛弃',
+    example: 'They had to abandon their ship.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'a-',
+      prefixMeaning: '离开；否定',
+      prefixMeaningEn: 'away; not',
+      root: 'band',
+      rootMeaning: '捆绑',
+      rootMeaningEn: 'bind',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自古法语 abandonner，由 a-（离开）+ bandon（权力）组成',
+      suffix: '-on',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述放弃计划、项目或地方，在议论文中常用',
+    topic: ['社会', '环境', '计划']
+  },
+  {
+    id: 2,
+    word: 'absorb',
+    phonetic: '/əbˈsɔːb/',
+    meaning: 'v. 吸收；吸引；理解',
+    example: 'Plants absorb carbon dioxide.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'ab-',
+      prefixMeaning: '离开；向外',
+      prefixMeaningEn: 'away; out',
+      root: 'sorb',
+      rootMeaning: '吸收',
+      rootMeaningEn: 'suck',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 absorbere，由 ab-（离开）+ sorbere（吸收）组成'
+    },
+    writingUsage: '用于描述吸收知识、液体或信息，是学术写作的常用词汇',
+    topic: ['科学', '教育', '环境']
+  },
+  {
+    id: 3,
+    word: 'access',
+    phonetic: '/ˈækses/',
+    meaning: 'n./v. 通道；入口；访问',
+    example: 'The access to the building is restricted.',
+    level: 'IELTS5' as const,
+    category: '名词/动词',
+    root: {
+      root: 'cess',
+      rootMeaning: '走；行进',
+      rootMeaningEn: 'go; walk',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 accessus，由 accedere（走近）演变而来',
+      suffix: '-s',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述获取资源或进入某个地方，在科技类话题中常用',
+    topic: ['科技', '社会', '教育']
+  },
+  {
+    id: 4,
     word: 'accommodate',
     phonetic: '/əˈkɒmədeɪt/',
     meaning: 'v. 容纳；适应；提供住宿',
     example: 'The hotel can accommodate up to 200 guests.',
-    level: 'IELTS6',
-    category: '动词'
-  },
-  {
-    id: 2,
-    word: 'substantial',
-    phonetic: '/səbˈstænʃl/',
-    meaning: 'adj. 大量的；实质的；坚固的',
-    example: 'There has been a substantial increase in sales.',
-    level: 'IELTS6',
-    category: '形容词'
-  },
-  {
-    id: 3,
-    word: 'phenomenon',
-    phonetic: '/fɪˈnɒmɪnən/',
-    meaning: 'n. 现象；非凡的人或事',
-    example: 'The Northern Lights is a natural phenomenon.',
-    level: 'IELTS6',
-    category: '名词'
-  },
-  {
-    id: 4,
-    word: 'comprehensive',
-    phonetic: '/ˌkɒmprɪˈhensɪv/',
-    meaning: 'adj. 综合的；全面的；有理解力的',
-    example: 'We need a comprehensive approach to solve this problem.',
-    level: 'IELTS7',
-    category: '形容词'
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'ac-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
+      root: 'commod',
+      rootMeaning: '方便；合适',
+      rootMeaningEn: 'convenient; fitting',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 accommodare，由 ad-（朝向）+ commodus（合适的）组成',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述为他人提供空间或适应某种情况，是写作中的高频动词',
+    topic: ['住宿', '旅游', '社会']
   },
   {
     id: 5,
-    word: 'demonstrate',
-    phonetic: '/ˈdemənstreɪt/',
-    meaning: 'v. 证明；展示；示威',
-    example: 'The experiment demonstrates the theory clearly.',
-    level: 'IELTS6',
-    category: '动词'
+    word: 'achieve',
+    phonetic: '/əˈtʃiːv/',
+    meaning: 'v. 实现；达到；完成',
+    example: 'She achieved her goal of becoming a doctor.',
+    level: 'IELTS5' as const,
+    category: '动词',
+    root: {
+      prefix: 'a-',
+      prefixMeaning: '加强',
+      prefixMeaningEn: 'intensify',
+      root: 'chiev',
+      rootMeaning: '追逐；获得',
+      rootMeaningEn: 'chase; gain',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自古法语 achever，意为"完成"',
+      suffix: '-e',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述实现目标或取得成就，在议论文中常用',
+    topic: ['目标', '成功', '教育']
   },
   {
     id: 6,
-    word: 'significant',
-    phonetic: '/sɪɡˈnɪfɪkənt/',
-    meaning: 'adj. 重大的；显著的；有意义的',
-    example: 'There is a significant difference between the two methods.',
-    level: 'IELTS6',
-    category: '形容词'
-  },
-  {
-    id: 7,
-    word: 'perspective',
-    phonetic: '/pəˈspektɪv/',
-    meaning: 'n. 观点；视角；透视法',
-    example: 'Try to see things from a different perspective.',
-    level: 'IELTS6',
-    category: '名词'
-  },
-  {
-    id: 8,
-    word: 'consequence',
-    phonetic: '/ˈkɒnsɪkwəns/',
-    meaning: 'n. 结果；后果；重要性',
-    example: 'Every action has its consequences.',
-    level: 'IELTS6',
-    category: '名词'
-  },
-  {
-    id: 9,
-    word: 'environment',
-    phonetic: '/ɪnˈvaɪrənmənt/',
-    meaning: 'n. 环境；周围状况；自然环境',
-    example: 'We must protect the natural environment.',
-    level: 'IELTS5',
-    category: '名词'
-  },
-  {
-    id: 10,
-    word: 'contribute',
-    phonetic: '/kənˈtrɪbjuːt/',
-    meaning: 'v. 贡献；捐献；投稿',
-    example: 'Everyone should contribute to society.',
-    level: 'IELTS6',
-    category: '动词'
-  },
-  {
-    id: 11,
-    word: 'fundamental',
-    phonetic: '/ˌfʌndəˈmentl/',
-    meaning: 'adj. 基本的；根本的；重要的',
-    example: 'This is a fundamental principle of physics.',
-    level: 'IELTS6',
-    category: '形容词'
-  },
-  {
-    id: 12,
-    word: 'interaction',
-    phonetic: '/ˌɪntərˈækʃn/',
-    meaning: 'n. 相互作用；互动；交流',
-    example: 'Social interaction is important for mental health.',
-    level: 'IELTS7',
-    category: '名词'
-  },
-  {
-    id: 13,
-    word: 'inevitable',
-    phonetic: '/ɪnˈevɪtəbl/',
-    meaning: 'adj. 不可避免的；必然的',
-    example: 'Change is inevitable in life.',
-    level: 'IELTS7',
-    category: '形容词'
-  },
-  {
-    id: 14,
-    word: 'potential',
-    phonetic: '/pəˈtenʃl/',
-    meaning: 'adj. 潜在的；n. 潜力',
-    example: 'The project has great potential for success.',
-    level: 'IELTS6',
-    category: '形容词/名词'
-  },
-  {
-    id: 15,
-    word: 'approach',
-    phonetic: '/əˈprəʊtʃ/',
-    meaning: 'v./n. 接近；方法；途径',
-    example: 'We need a new approach to this problem.',
-    level: 'IELTS5',
-    category: '动词/名词'
-  },
-  {
-    id: 16,
-    word: 'influence',
-    phonetic: '/ˈɪnfluəns/',
-    meaning: 'n./v. 影响；势力',
-    example: 'Parents have a great influence on their children.',
-    level: 'IELTS5',
-    category: '名词/动词'
-  },
-  {
-    id: 17,
-    word: 'opportunity',
-    phonetic: '/ˌɒpəˈtjuːnəti/',
-    meaning: 'n. 机会；时机',
-    example: 'This is a great opportunity for growth.',
-    level: 'IELTS5',
-    category: '名词'
-  },
-  {
-    id: 18,
-    word: 'technology',
-    phonetic: '/tekˈnɒlədʒi/',
-    meaning: 'n. 技术；科技',
-    example: 'Modern technology has changed our lives.',
-    level: 'IELTS5',
-    category: '名词'
-  },
-  {
-    id: 19,
-    word: 'benefit',
-    phonetic: '/ˈbenɪfɪt/',
-    meaning: 'n./v. 利益；好处；有益于',
-    example: 'Regular exercise has many health benefits.',
-    level: 'IELTS5',
-    category: '名词/动词'
-  },
-  {
-    id: 20,
-    word: 'challenge',
-    phonetic: '/ˈtʃælɪndʒ/',
-    meaning: 'n./v. 挑战；质疑',
-    example: 'Life is full of challenges.',
-    level: 'IELTS5',
-    category: '名词/动词'
-  },
-  {
-    id: 21,
-    word: 'globalization',
-    phonetic: '/ˌɡləʊbəlaɪˈzeɪʃn/',
-    meaning: 'n. 全球化',
-    example: 'Globalization has increased international trade.',
-    level: 'IELTS7',
-    category: '名词'
-  },
-  {
-    id: 22,
-    word: 'sustainability',
-    phonetic: '/səˌsteɪnəˈbɪləti/',
-    meaning: 'n. 可持续性；永续性',
-    example: 'Sustainability is crucial for future generations.',
-    level: 'IELTS7',
-    category: '名词'
-  },
-  {
-    id: 23,
-    word: 'innovation',
-    phonetic: '/ˌɪnəˈveɪʃn/',
-    meaning: 'n. 创新；革新',
-    example: 'Innovation drives economic growth.',
-    level: 'IELTS7',
-    category: '名词'
-  },
-  {
-    id: 24,
-    word: 'collaborate',
-    phonetic: '/kəˈlæbəreɪt/',
-    meaning: 'v. 合作；协作',
-    example: 'We need to collaborate to achieve our goals.',
-    level: 'IELTS7',
-    category: '动词'
-  },
-  {
-    id: 25,
     word: 'analyze',
     phonetic: '/ˈænəlaɪz/',
     meaning: 'v. 分析；解析',
     example: 'Let me analyze the data first.',
-    level: 'IELTS6',
-    category: '动词'
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      root: 'lyz',
+      rootMeaning: '松开；解开',
+      rootMeaningEn: 'loosen; untie',
+      rootOrigin: 'Greek',
+      rootOriginNote: '源自希腊语 analyein，由 ana-（向上）+ lyein（松开）组成，意为"分解开来"',
+      suffix: '-yze',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述分析过程，是学术写作的核心动词',
+    topic: ['分析', '研究', '数据']
+  },
+  {
+    id: 7,
+    word: 'benefit',
+    phonetic: '/ˈbenɪfɪt/',
+    meaning: 'n./v. 利益；好处；有益于',
+    example: 'Regular exercise has many health benefits.',
+    level: 'IELTS5' as const,
+    category: '名词/动词',
+    root: {
+      root: 'bene',
+      rootMeaning: '好',
+      rootMeaningEn: 'good',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 beneficium，由 bene（好）+ facere（做）组成，意为"做好事"'
+    },
+    writingUsage: '用于描述好处或优势，是议论文中常用的词汇',
+    topic: ['好处', '健康', '社会']
+  },
+  {
+    id: 8,
+    word: 'challenge',
+    phonetic: '/ˈtʃælɪndʒ/',
+    meaning: 'n./v. 挑战；质疑',
+    example: 'Life is full of challenges.',
+    level: 'IELTS5' as const,
+    category: '名词/动词',
+    root: {
+      root: 'chall',
+      rootMeaning: '争吵；争论',
+      rootMeaningEn: 'quarrel; dispute',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自古法语 chalenge（争论），最初意为"公开辩论"'
+    },
+    writingUsage: '用于描述困难或挑战，是议论文中常用的词汇',
+    topic: ['困难', '挑战', '成长']
+  },
+  {
+    id: 9,
+    word: 'collaborate',
+    phonetic: '/kəˈlæbəreɪt/',
+    meaning: 'v. 合作；协作',
+    example: 'We need to collaborate to achieve our goals.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      prefix: 'col-',
+      prefixMeaning: '共同；一起',
+      prefixMeaningEn: 'together; with',
+      root: 'labor',
+      rootMeaning: '工作',
+      rootMeaningEn: 'work',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 collaborare，由 col-（共同）+ laborare（工作）组成',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述合作关系，是团队和社会类话题的常用词汇',
+    topic: ['合作', '团队', '社会']
+  },
+  {
+    id: 10,
+    word: 'comprehensive',
+    phonetic: '/ˌkɒmprɪˈhensɪv/',
+    meaning: 'adj. 综合的；全面的；有理解力的',
+    example: 'We need a comprehensive approach to solve this problem.',
+    level: 'IELTS7' as const,
+    category: '形容词',
+    root: {
+      prefix: 'com-',
+      prefixMeaning: '共同；完全',
+      prefixMeaningEn: 'together; completely',
+      root: 'prehens',
+      rootMeaning: '抓住；理解',
+      rootMeaningEn: 'seize; grasp',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 comprehensivus，由 com-（完全）+ prehendere（抓住）组成',
+      suffix: '-ive',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于描述全面、系统的方法或分析，是议论文的高频词汇',
+    topic: ['分析', '方法', '研究']
+  },
+  {
+    id: 11,
+    word: 'consequence',
+    phonetic: '/ˈkɒnsɪkwəns/',
+    meaning: 'n. 结果；后果；重要性',
+    example: 'Every action has its consequences.',
+    level: 'IELTS6' as const,
+    category: '名词',
+    root: {
+      prefix: 'con-',
+      prefixMeaning: '共同；一起',
+      prefixMeaningEn: 'together; with',
+      root: 'sequ',
+      rootMeaning: '跟随',
+      rootMeaningEn: 'follow',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 consequentia，由 con-（共同）+ sequi（跟随）组成',
+      suffix: '-ence',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述因果关系中的结果，是议论文中分析影响的核心词汇',
+    topic: ['结果', '影响', '因果']
+  },
+  {
+    id: 12,
+    word: 'contribute',
+    phonetic: '/kənˈtrɪbjuːt/',
+    meaning: 'v. 贡献；捐献；投稿',
+    example: 'Everyone should contribute to society.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'con-',
+      prefixMeaning: '共同；一起',
+      prefixMeaningEn: 'together; with',
+      root: 'tribut',
+      rootMeaning: '给予；分配',
+      rootMeaningEn: 'give; allocate',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 contribuere，由 con-（共同）+ tribuere（给予）组成',
+      suffix: '-ute',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述对某个目标的贡献，是社会类话题的常用词汇',
+    topic: ['社会', '贡献', '合作']
+  },
+  {
+    id: 13,
+    word: 'demonstrate',
+    phonetic: '/ˈdemənstreɪt/',
+    meaning: 'v. 证明；展示；示威',
+    example: 'The experiment demonstrates the theory clearly.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      root: 'monstr',
+      rootMeaning: '展示；表明',
+      rootMeaningEn: 'show; display',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 demonstrare，由 de-（完全）+ monstrare（展示）组成',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于论证观点或展示证据，是学术写作的核心动词',
+    topic: ['论证', '科学', '社会']
+  },
+  {
+    id: 14,
+    word: 'environment',
+    phonetic: '/ɪnˈvaɪrənmənt/',
+    meaning: 'n. 环境；周围状况；自然环境',
+    example: 'We must protect the natural environment.',
+    level: 'IELTS5' as const,
+    category: '名词',
+    root: {
+      prefix: 'en-',
+      prefixMeaning: '进入；包围',
+      prefixMeaningEn: 'in; surround',
+      root: 'viron',
+      rootMeaning: '围绕',
+      rootMeaningEn: 'surround',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自法语 environ（周围），由古法语 environer（包围）演变而来',
+      suffix: '-ment',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述自然或社会环境，是环境类话题的核心词汇',
+    topic: ['环境', '自然', '保护']
+  },
+  {
+    id: 15,
+    word: 'fundamental',
+    phonetic: '/ˌfʌndəˈmentl/',
+    meaning: 'adj. 基本的；根本的；重要的',
+    example: 'This is a fundamental principle of physics.',
+    level: 'IELTS6' as const,
+    category: '形容词',
+    root: {
+      root: 'fund',
+      rootMeaning: '底部；基础',
+      rootMeaningEn: 'bottom; foundation',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 fundamentum（基础），由 fundare（建立）演变而来',
+      suffix: '-mental',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于描述基础或根本的原则，是学术写作的高频词汇',
+    topic: ['基础', '原则', '理论']
+  },
+  {
+    id: 16,
+    word: 'globalization',
+    phonetic: '/ˌɡləʊbəlaɪˈzeɪʃn/',
+    meaning: 'n. 全球化',
+    example: 'Globalization has increased international trade.',
+    level: 'IELTS7' as const,
+    category: '名词',
+    root: {
+      root: 'glob',
+      rootMeaning: '球；球体',
+      rootMeaningEn: 'sphere; globe',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 globus（球体），引申为"全球"',
+      suffix: '-ization',
+      suffixMeaning: '动作；状态',
+      suffixMeaningEn: 'action; state'
+    },
+    writingUsage: '用于描述全球一体化趋势，是国际类话题的核心词汇',
+    topic: ['全球', '经济', '文化']
+  },
+  {
+    id: 17,
+    word: 'influence',
+    phonetic: '/ˈɪnfluəns/',
+    meaning: 'n./v. 影响；势力',
+    example: 'Parents have a great influence on their children.',
+    level: 'IELTS5' as const,
+    category: '名词/动词',
+    root: {
+      root: 'flu',
+      rootMeaning: '流动',
+      rootMeaningEn: 'flow',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 influentia，意为"流入"，比喻影响的传递'
+    },
+    writingUsage: '用于描述影响关系，是社会类话题的核心词汇',
+    topic: ['影响', '社会', '家庭']
+  },
+  {
+    id: 18,
+    word: 'innovation',
+    phonetic: '/ˌɪnəˈveɪʃn/',
+    meaning: 'n. 创新；革新',
+    example: 'Innovation drives economic growth.',
+    level: 'IELTS7' as const,
+    category: '名词',
+    root: {
+      prefix: 'in-',
+      prefixMeaning: '进入；加强',
+      prefixMeaningEn: 'into; intensify',
+      root: 'nov',
+      rootMeaning: '新',
+      rootMeaningEn: 'new',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 innovare，由 in-（进入）+ novus（新）组成',
+      suffix: '-ation',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述创新和变革，是商业和科技类话题的核心词汇',
+    topic: ['创新', '科技', '经济']
+  },
+  {
+    id: 19,
+    word: 'inevitable',
+    phonetic: '/ɪnˈevɪtəbl/',
+    meaning: 'adj. 不可避免的；必然的',
+    example: 'Change is inevitable in life.',
+    level: 'IELTS7' as const,
+    category: '形容词',
+    root: {
+      prefix: 'in-',
+      prefixMeaning: '不；否定',
+      prefixMeaningEn: 'not; negation',
+      root: 'vit',
+      rootMeaning: '避免',
+      rootMeaningEn: 'avoid',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 inevitabilis，由 in-（不）+ evitare（避免）组成',
+      suffix: '-able',
+      suffixMeaning: '能够...的',
+      suffixMeaningEn: 'capable of'
+    },
+    writingUsage: '用于表达必然性，在讨论趋势或预测时常用',
+    topic: ['趋势', '变化', '未来']
+  },
+  {
+    id: 20,
+    word: 'interaction',
+    phonetic: '/ˌɪntərˈækʃn/',
+    meaning: 'n. 相互作用；互动；交流',
+    example: 'Social interaction is important for mental health.',
+    level: 'IELTS7' as const,
+    category: '名词',
+    root: {
+      prefix: 'inter-',
+      prefixMeaning: '在...之间',
+      prefixMeaningEn: 'between; among',
+      root: 'act',
+      rootMeaning: '行动；做',
+      rootMeaningEn: 'do; act',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 interactio，由 inter-（之间）+ agere（行动）组成',
+      suffix: '-ion',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述人际或群体间的互动，是社会和心理学话题的核心词汇',
+    topic: ['社会', '交流', '心理']
+  },
+  {
+    id: 21,
+    word: 'opportunity',
+    phonetic: '/ˌɒpəˈtjuːnəti/',
+    meaning: 'n. 机会；时机',
+    example: 'This is a great opportunity for growth.',
+    level: 'IELTS5' as const,
+    category: '名词',
+    root: {
+      prefix: 'op-',
+      prefixMeaning: '朝向；反对',
+      prefixMeaningEn: 'toward; against',
+      root: 'port',
+      rootMeaning: '门；通道',
+      rootMeaningEn: 'gate; passage',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 opportunitas，由 ob-（朝向）+ portus（港口）组成，原意为"方便的港口"',
+      suffix: '-ity',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述有利的时机，是议论文中表达机遇的核心词汇',
+    topic: ['机会', '发展', '未来']
+  },
+  {
+    id: 22,
+    word: 'perspective',
+    phonetic: '/pəˈspektɪv/',
+    meaning: 'n. 观点；视角；透视法',
+    example: 'Try to see things from a different perspective.',
+    level: 'IELTS6' as const,
+    category: '名词',
+    root: {
+      prefix: 'per-',
+      prefixMeaning: '通过；完全',
+      prefixMeaningEn: 'through; completely',
+      root: 'spect',
+      rootMeaning: '看',
+      rootMeaningEn: 'look',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 perspectiva，由 per-（通过）+ specere（看）组成',
+      suffix: '-ive',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于表达不同的观点或角度，是议论文的常用词汇',
+    topic: ['观点', '文化', '社会']
+  },
+  {
+    id: 23,
+    word: 'phenomenon',
+    phonetic: '/fɪˈnɒmɪnən/',
+    meaning: 'n. 现象；非凡的人或事',
+    example: 'The Northern Lights is a natural phenomenon.',
+    level: 'IELTS6' as const,
+    category: '名词',
+    root: {
+      root: 'phenom',
+      rootMeaning: '显示；出现',
+      rootMeaningEn: 'show; appear',
+      rootOrigin: 'Greek',
+      rootOriginNote: '源自希腊语 phainomenon，意为"显现的事物"',
+      suffix: '-on',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述自然或社会现象，是学术写作中的核心词汇',
+    topic: ['科学', '自然', '社会']
+  },
+  {
+    id: 24,
+    word: 'potential',
+    phonetic: '/pəˈtenʃl/',
+    meaning: 'adj. 潜在的；n. 潜力',
+    example: 'The project has great potential for success.',
+    level: 'IELTS6' as const,
+    category: '形容词/名词',
+    root: {
+      root: 'pot',
+      rootMeaning: '能够；有力',
+      rootMeaningEn: 'able; powerful',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 potentialis，由 potens（有力的）演变而来',
+      suffix: '-ential',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于描述潜在的能力或可能性，是学术和商业写作的常用词汇',
+    topic: ['潜力', '能力', '发展']
+  },
+  {
+    id: 25,
+    word: 'significant',
+    phonetic: '/sɪɡˈnɪfɪkənt/',
+    meaning: 'adj. 重大的；显著的；有意义的',
+    example: 'There is a significant difference between the two methods.',
+    level: 'IELTS6' as const,
+    category: '形容词',
+    root: {
+      prefix: 'sign-',
+      prefixMeaning: '标记；信号',
+      prefixMeaningEn: 'mark; signal',
+      root: 'sign',
+      rootMeaning: '符号；标记',
+      rootMeaningEn: 'sign; mark',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 significans，由 signum（符号）+ -fic（制造）组成',
+      suffix: '-ant',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于强调重要性或显著性，在数据描述和观点表达中常用',
+    topic: ['数据', '重要性', '差异']
+  },
+  {
+    id: 26,
+    word: 'substantial',
+    phonetic: '/səbˈstænʃl/',
+    meaning: 'adj. 大量的；实质的；坚固的',
+    example: 'There has been a substantial increase in sales.',
+    level: 'IELTS6' as const,
+    category: '形容词',
+    root: {
+      prefix: 'sub-',
+      prefixMeaning: '在下面；次级',
+      prefixMeaningEn: 'under; secondary',
+      root: 'stant',
+      rootMeaning: '站立',
+      rootMeaningEn: 'stand',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 substantia（实体），由 sub-（在下面）+ stare（站立）组成',
+      suffix: '-ial',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于强调数量或程度的重要性，在议论文中常用于描述显著变化',
+    topic: ['经济', '数据', '变化']
+  },
+  {
+    id: 27,
+    word: 'sustainability',
+    phonetic: '/səˌsteɪnəˈbɪləti/',
+    meaning: 'n. 可持续性；永续性',
+    example: 'Sustainability is crucial for future generations.',
+    level: 'IELTS7' as const,
+    category: '名词',
+    root: {
+      root: 'sust',
+      rootMeaning: '支撑；维持',
+      rootMeaningEn: 'support; maintain',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 sustinere，由 sub-（在下面）+ tenere（保持）组成',
+      suffix: '-ability',
+      suffixMeaning: '能够...的状态',
+      suffixMeaningEn: 'state of being able'
+    },
+    writingUsage: '用于描述可持续发展，是环境类话题的核心词汇',
+    topic: ['环境', '发展', '未来']
+  },
+  {
+    id: 28,
+    word: 'technology',
+    phonetic: '/tekˈnɒlədʒi/',
+    meaning: 'n. 技术；科技',
+    example: 'Modern technology has changed our lives.',
+    level: 'IELTS5' as const,
+    category: '名词',
+    root: {
+      root: 'techn',
+      rootMeaning: '技艺；工艺',
+      rootMeaningEn: 'skill; craft',
+      rootOrigin: 'Greek',
+      rootOriginNote: '源自希腊语 techne（技艺）+ logos（学问），意为"技艺的研究"',
+      suffix: '-ology',
+      suffixMeaning: '学科；研究',
+      suffixMeaningEn: 'study of'
+    },
+    writingUsage: '用于描述技术发展，是科技类话题的核心词汇',
+    topic: ['科技', '发展', '未来']
+  },
+  {
+    id: 29,
+    word: 'approach',
+    phonetic: '/əˈprəʊtʃ/',
+    meaning: 'v./n. 接近；方法；途径',
+    example: 'We need a new approach to this problem.',
+    level: 'IELTS5' as const,
+    category: '动词/名词',
+    root: {
+      root: 'proach',
+      rootMeaning: '靠近',
+      rootMeaningEn: 'near',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自法语 approcher，由拉丁语 appropiare（靠近）演变而来'
+    },
+    writingUsage: '用于描述解决问题的方法，是议论文中常用的词汇',
+    topic: ['方法', '解决', '问题']
+  },
+  {
+    id: 30,
+    word: 'appreciate',
+    phonetic: '/əˈpriːʃieɪt/',
+    meaning: 'v. 欣赏；感激；增值',
+    example: 'I appreciate your help.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'ap-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
+      root: 'preci',
+      rootMeaning: '价值；价格',
+      rootMeaningEn: 'value; price',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 appretiari，意为"评价；估价"',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于表达感激或欣赏，在书信和议论文中常用',
+    topic: ['情感', '社交', '价值']
+  },
+  {
+    id: 31,
+    word: 'assess',
+    phonetic: '/əˈses/',
+    meaning: 'v. 评估；评价',
+    example: 'We need to assess the situation carefully.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      root: 'sess',
+      rootMeaning: '坐；会议',
+      rootMeaningEn: 'sit; session',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 assessare，由 ad-（朝向）+ sedere（坐）组成，原意为"坐到旁边评估"',
+      suffix: '-ess',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述评估过程，是学术和商业写作的常用词汇',
+    topic: ['评估', '分析', '决策']
+  },
+  {
+    id: 32,
+    word: 'assure',
+    phonetic: '/əˈʃʊə/',
+    meaning: 'v. 保证；确保；使确信',
+    example: 'I assure you that everything will be fine.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'as-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
+      root: 'sur',
+      rootMeaning: '确定；安全',
+      rootMeaningEn: 'sure; safe',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 assicurare，由 ad-（朝向）+ securus（安全的）组成',
+      suffix: '-e',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于表达保证或承诺，在议论文和正式文书中常用',
+    topic: ['保证', '承诺', '信任']
+  },
+  {
+    id: 33,
+    word: 'consider',
+    phonetic: '/kənˈsɪdə/',
+    meaning: 'v. 考虑；认为；顾及',
+    example: 'Please consider my proposal.',
+    level: 'IELTS5' as const,
+    category: '动词',
+    root: {
+      prefix: 'con-',
+      prefixMeaning: '共同；一起',
+      prefixMeaningEn: 'together; with',
+      root: 'sid',
+      rootMeaning: '坐',
+      rootMeaningEn: 'sit',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 considerare，由 con-（共同）+ sidus（星）组成，原意为"观察星象思考"',
+      suffix: '-er',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于表达思考或考虑，是议论文中的常用词汇',
+    topic: ['思考', '决策', '观点']
+  },
+  {
+    id: 34,
+    word: 'construct',
+    phonetic: '/kənˈstrʌkt/',
+    meaning: 'v. 建造；构建；创立',
+    example: 'They plan to construct a new bridge.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'con-',
+      prefixMeaning: '共同；一起',
+      prefixMeaningEn: 'together; with',
+      root: 'struct',
+      rootMeaning: '建造',
+      rootMeaningEn: 'build',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 construere，由 con-（共同）+ struere（堆叠）组成',
+      suffix: '-ct',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述建造或构建过程，是科技和社会类话题的常用词汇',
+    topic: ['建筑', '建设', '结构']
+  },
+  {
+    id: 35,
+    word: 'convince',
+    phonetic: '/kənˈvɪns/',
+    meaning: 'v. 说服；使相信',
+    example: 'I managed to convince him to change his mind.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'con-',
+      prefixMeaning: '共同；加强',
+      prefixMeaningEn: 'together; intensify',
+      root: 'vinc',
+      rootMeaning: '征服；战胜',
+      rootMeaningEn: 'conquer; overcome',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 convincere，由 con-（加强）+ vincere（战胜）组成，意为"说服对方"',
+      suffix: '-e',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述说服过程，是议论文中的核心动词',
+    topic: ['说服', '论证', '沟通']
+  },
+  {
+    id: 36,
+    word: 'decline',
+    phonetic: '/dɪˈklaɪn/',
+    meaning: 'v./n. 下降；衰退；拒绝',
+    example: 'The number of students has declined.',
+    level: 'IELTS6' as const,
+    category: '动词/名词',
+    root: {
+      prefix: 'de-',
+      prefixMeaning: '向下；离开',
+      prefixMeaningEn: 'down; away',
+      root: 'clin',
+      rootMeaning: '弯曲；倾斜',
+      rootMeaningEn: 'bend; incline',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 declinare，由 de-（向下）+ clinare（弯曲）组成',
+      suffix: '-e',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述下降趋势或拒绝行为，在数据描述和议论文中常用',
+    topic: ['趋势', '变化', '拒绝']
+  },
+  {
+    id: 37,
+    word: 'develop',
+    phonetic: '/dɪˈveləp/',
+    meaning: 'v. 发展；开发；培养',
+    example: 'Countries need to develop their economies.',
+    level: 'IELTS5' as const,
+    category: '动词',
+    root: {
+      prefix: 'de-',
+      prefixMeaning: '去除；展开',
+      prefixMeaningEn: 'remove; unfold',
+      root: 'velop',
+      rootMeaning: '包裹',
+      rootMeaningEn: 'wrap',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自古法语 desveloper，意为"解开包裹"，引申为"发展"',
+      suffix: '-p',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述发展过程，是议论文中的高频词汇',
+    topic: ['发展', '经济', '成长']
+  },
+  {
+    id: 38,
+    word: 'emphasize',
+    phonetic: '/ˈemfəsaɪz/',
+    meaning: 'v. 强调；着重',
+    example: 'The report emphasizes the importance of education.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      root: 'emph',
+      rootMeaning: '显示；表达',
+      rootMeaningEn: 'show; express',
+      rootOrigin: 'Greek',
+      rootOriginNote: '源自希腊语 emphainein，意为"显示；指出"',
+      suffix: '-asize',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于强调重要观点，是议论文中的核心动词',
+    topic: ['强调', '重点', '观点']
+  },
+  {
+    id: 39,
+    word: 'evaluate',
+    phonetic: '/ɪˈvæljueɪt/',
+    meaning: 'v. 评估；评价；估价',
+    example: 'We need to evaluate the effectiveness of the program.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      root: 'valu',
+      rootMeaning: '价值；价格',
+      rootMeaningEn: 'value; price',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 evaluare，由 e-（出）+ valere（强壮）组成，意为"评估价值"',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述评估过程，是学术和商业写作的常用词汇',
+    topic: ['评估', '分析', '决策']
+  },
+  {
+    id: 40,
+    word: 'facilitate',
+    phonetic: '/fəˈsɪlɪteɪt/',
+    meaning: 'v. 促进；使便利；帮助',
+    example: 'Technology can facilitate communication.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      root: 'facil',
+      rootMeaning: '容易；简单',
+      rootMeaningEn: 'easy; simple',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 facilitas（容易），由 facilis（容易的）演变而来',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述促进或帮助的过程，是学术写作的常用词汇',
+    topic: ['促进', '帮助', '发展']
+  },
+  {
+    id: 41,
+    word: 'guarantee',
+    phonetic: '/ˌɡærənˈtiː/',
+    meaning: 'n./v. 保证；担保',
+    example: 'The company guarantees quality products.',
+    level: 'IELTS6' as const,
+    category: '名词/动词',
+    root: {
+      root: 'guarant',
+      rootMeaning: '保证人',
+      rootMeaningEn: 'warantor',
+      rootOrigin: 'Old French',
+      rootOriginNote: '源自古法语 garant，意为"保证人"',
+      suffix: '-ee',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于表达保证或承诺，在商业和议论文中常用',
+    topic: ['保证', '承诺', '商业']
+  },
+  {
+    id: 42,
+    word: 'hypothesis',
+    phonetic: '/haɪˈpɒθəsɪs/',
+    meaning: 'n. 假设；假说',
+    example: 'The hypothesis was tested through experiments.',
+    level: 'IELTS7' as const,
+    category: '名词',
+    root: {
+      prefix: 'hypo-',
+      prefixMeaning: '在下面；低于',
+      prefixMeaningEn: 'under; below',
+      root: 'thes',
+      rootMeaning: '放置；设定',
+      rootMeaningEn: 'place; set',
+      rootOrigin: 'Greek',
+      rootOriginNote: '源自希腊语 hypothesis，由 hypo-（在下面）+ thesis（放置）组成',
+      suffix: '-is',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述科学假设，是学术写作的核心词汇',
+    topic: ['科学', '研究', '理论']
+  },
+  {
+    id: 43,
+    word: 'implement',
+    phonetic: '/ˈɪmplɪment/',
+    meaning: 'v. 实施；执行；实现',
+    example: 'The plan will be implemented next year.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      root: 'plem',
+      rootMeaning: '填充；完成',
+      rootMeaningEn: 'fill; complete',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 implere，由 im-（进入）+ plere（填充）组成',
+      suffix: '-ment',
+      suffixMeaning: '名词/动词后缀',
+      suffixMeaningEn: 'noun/verb suffix'
+    },
+    writingUsage: '用于描述实施计划或政策，是议论文中的高频词汇',
+    topic: ['实施', '执行', '政策']
+  },
+  {
+    id: 44,
+    word: 'justify',
+    phonetic: '/ˈdʒʌstɪfaɪ/',
+    meaning: 'v. 证明...正当；为...辩护',
+    example: 'You need to justify your decision.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      root: 'just',
+      rootMeaning: '公正；正当',
+      rootMeaningEn: 'just; right',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 iustificare，由 iustus（公正的）+ facere（做）组成',
+      suffix: '-ify',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于论证观点的合理性，是议论文中的核心动词',
+    topic: ['论证', '公正', '辩护']
+  },
+  {
+    id: 45,
+    word: 'maintain',
+    phonetic: '/meɪnˈteɪn/',
+    meaning: 'v. 维持；保持；维护',
+    example: 'We must maintain high standards.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'main-',
+      prefixMeaning: '主要；保持',
+      prefixMeaningEn: 'main; keep',
+      root: 'tain',
+      rootMeaning: '持有；保持',
+      rootMeaningEn: 'hold; keep',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 manu tenere，意为"用手握住"',
+      suffix: '-ain',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述维持状态或标准，是议论文中的常用词汇',
+    topic: ['维持', '保持', '标准']
+  },
+  {
+    id: 46,
+    word: 'negotiate',
+    phonetic: '/nɪˈɡəʊʃieɪt/',
+    meaning: 'v. 谈判；协商；处理',
+    example: 'They are negotiating a new contract.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      prefix: 'ne-',
+      prefixMeaning: '不；否定',
+      prefixMeaningEn: 'not; negation',
+      root: 'goti',
+      rootMeaning: '商业；交易',
+      rootMeaningEn: 'business; deal',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 negotiari，意为"做生意；交易"',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述谈判或协商过程，是社会和商业类话题的常用词汇',
+    topic: ['谈判', '协商', '商业']
+  },
+  {
+    id: 47,
+    word: 'obtain',
+    phonetic: '/əbˈteɪn/',
+    meaning: 'v. 获得；得到',
+    example: 'She obtained a degree from the university.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'ob-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
+      root: 'tain',
+      rootMeaning: '持有；保持',
+      rootMeaningEn: 'hold; keep',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 obtinere，由 ob-（朝向）+ tenere（持有）组成',
+      suffix: '-ain',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述获得或取得的过程，是学术和议论文中的常用词汇',
+    topic: ['获得', '取得', '成就']
+  },
+  {
+    id: 48,
+    word: 'predict',
+    phonetic: '/prɪˈdɪkt/',
+    meaning: 'v. 预测；预言',
+    example: 'Scientists predict climate change.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'pre-',
+      prefixMeaning: '在前面；预先',
+      prefixMeaningEn: 'before; in advance',
+      root: 'dict',
+      rootMeaning: '说；宣称',
+      rootMeaningEn: 'say; declare',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 praedicere，由 prae-（在前）+ dicere（说）组成',
+      suffix: '-ct',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述预测未来趋势，是议论文中的常用词汇',
+    topic: ['预测', '未来', '趋势']
+  },
+  {
+    id: 49,
+    word: 'regulate',
+    phonetic: '/ˈreɡjuleɪt/',
+    meaning: 'v. 调节；规范；管理',
+    example: 'Governments regulate industries.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      prefix: 're-',
+      prefixMeaning: '再次；加强',
+      prefixMeaningEn: 'again; intensify',
+      root: 'gulat',
+      rootMeaning: '规则；指导',
+      rootMeaningEn: 'rule; guide',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 regulare，由 regula（规则）演变而来',
+      suffix: '-ate',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述规范或管理的过程，是社会类话题的核心词汇',
+    topic: ['规范', '管理', '政策']
+  },
+  {
+    id: 50,
+    word: 'resolve',
+    phonetic: '/rɪˈzɒlv/',
+    meaning: 'v. 解决；决定；分解',
+    example: 'We need to resolve this issue quickly.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 're-',
+      prefixMeaning: '再次；加强',
+      prefixMeaningEn: 'again; intensify',
+      root: 'solv',
+      rootMeaning: '松开；解决',
+      rootMeaningEn: 'loosen; solve',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 resolvere，由 re-（再次）+ solvere（松开）组成',
+      suffix: '-e',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述解决问题的过程，是议论文中的核心动词',
+    topic: ['解决', '问题', '决定']
+  },
+  {
+    id: 51,
+    word: 'substitute',
+    phonetic: '/ˈsʌbstɪtjuːt/',
+    meaning: 'n./v. 替代品；替代',
+    example: 'We need a substitute for this ingredient.',
+    level: 'IELTS7' as const,
+    category: '名词/动词',
+    root: {
+      prefix: 'sub-',
+      prefixMeaning: '在下面；次级',
+      prefixMeaningEn: 'under; secondary',
+      root: 'stitut',
+      rootMeaning: '站立；放置',
+      rootMeaningEn: 'stand; place',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 substituere，由 sub-（在下面）+ statuere（站立）组成',
+      suffix: '-ute',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述替代或替换，是科技和商业类话题的常用词汇',
+    topic: ['替代', '替换', '选择']
+  },
+  {
+    id: 52,
+    word: 'transform',
+    phonetic: '/trænsˈfɔːm/',
+    meaning: 'v. 转变；改变；变形',
+    example: 'Technology has transformed our lives.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      prefix: 'trans-',
+      prefixMeaning: '跨越；转变',
+      prefixMeaningEn: 'across; change',
+      root: 'form',
+      rootMeaning: '形状；形式',
+      rootMeaningEn: 'shape; form',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 transformare，由 trans-（跨越）+ forma（形状）组成',
+      suffix: '-m',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述重大转变，是议论文中的高频词汇',
+    topic: ['转变', '改变', '发展']
+  },
+  {
+    id: 53,
+    word: 'undertake',
+    phonetic: '/ˌʌndəˈteɪk/',
+    meaning: 'v. 承担；从事；承诺',
+    example: 'They undertook a major project.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      prefix: 'under-',
+      prefixMeaning: '在下面；承担',
+      prefixMeaningEn: 'under; take on',
+      root: 'take',
+      rootMeaning: '拿；取',
+      rootMeaningEn: 'take; grab',
+      rootOrigin: 'Anglo-Saxon',
+      rootOriginNote: '源自盎格鲁-撒克逊语 under + take，意为"承担任务"',
+      suffix: '-e',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述承担责任或任务，是学术和商业写作的常用词汇',
+    topic: ['承担', '任务', '责任']
+  },
+  {
+    id: 54,
+    word: 'utilize',
+    phonetic: '/ˈjuːtəlaɪz/',
+    meaning: 'v. 利用；使用',
+    example: 'We need to utilize resources efficiently.',
+    level: 'IELTS6' as const,
+    category: '动词',
+    root: {
+      root: 'util',
+      rootMeaning: '有用；益处',
+      rootMeaningEn: 'useful; benefit',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 utilis（有用的），由 uti（使用）演变而来',
+      suffix: '-ize',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述利用资源或机会，是议论文中的常用词汇',
+    topic: ['利用', '资源', '机会']
+  },
+  {
+    id: 55,
+    word: 'verify',
+    phonetic: '/ˈverɪfaɪ/',
+    meaning: 'v. 验证；核实；确认',
+    example: 'Please verify the information.',
+    level: 'IELTS7' as const,
+    category: '动词',
+    root: {
+      root: 'ver',
+      rootMeaning: '真实；真相',
+      rootMeaningEn: 'true; truth',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 verus（真实的），由 veritas（真理）演变而来',
+      suffix: '-ify',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
+    },
+    writingUsage: '用于描述验证或核实的过程，是学术写作的常用词汇',
+    topic: ['验证', '核实', '确认']
+  },
+  {
+    id: 56,
+    word: 'witness',
+    phonetic: '/ˈwɪtnəs/',
+    meaning: 'n./v. 目击者；见证；作证',
+    example: 'Many people witnessed the event.',
+    level: 'IELTS6' as const,
+    category: '名词/动词',
+    root: {
+      root: 'wit',
+      rootMeaning: '知道；看见',
+      rootMeaningEn: 'know; see',
+      rootOrigin: 'Anglo-Saxon',
+      rootOriginNote: '源自盎格鲁-撒克逊语 witnes，由 wit（知道）+ -ness（状态）组成',
+      suffix: '-ness',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述见证或作证，是议论文中的常用词汇',
+    topic: ['见证', '证据', '事件']
+  },
+  {
+    id: 57,
+    word: 'yield',
+    phonetic: '/jiːld/',
+    meaning: 'v./n. 产出；屈服；产量',
+    example: 'The crops yield a good harvest.',
+    level: 'IELTS6' as const,
+    category: '动词/名词',
+    root: {
+      root: 'yield',
+      rootMeaning: '给予；产生',
+      rootMeaningEn: 'give; produce',
+      rootOrigin: 'Anglo-Saxon',
+      rootOriginNote: '源自盎格鲁-撒克逊语 gieldan，意为"给予；支付"'
+    },
+    writingUsage: '用于描述产出或屈服，是农业和商业类话题的常用词汇',
+    topic: ['产出', '产量', '农业']
+  },
+  {
+    id: 58,
+    word: 'zone',
+    phonetic: '/zəʊn/',
+    meaning: 'n./v. 区域；划分区域',
+    example: 'This is a residential zone.',
+    level: 'IELTS5' as const,
+    category: '名词/动词',
+    root: {
+      root: 'zon',
+      rootMeaning: '腰带；区域',
+      rootMeaningEn: 'girdle; area',
+      rootOrigin: 'Greek',
+      rootOriginNote: '源自希腊语 zōnē（腰带），引申为"区域"',
+      suffix: '-e',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
+    },
+    writingUsage: '用于描述地理或功能区域，是社会和环境类话题的常用词汇',
+    topic: ['区域', '规划', '地理']
+  },
+  {
+    id: 59,
+    word: 'ambiguous',
+    phonetic: '/æmˈbɪɡjuəs/',
+    meaning: 'adj. 模棱两可的；含糊的',
+    example: 'The statement was deliberately ambiguous.',
+    level: 'IELTS7' as const,
+    category: '形容词',
+    root: {
+      prefix: 'ambi-',
+      prefixMeaning: '两者；周围',
+      prefixMeaningEn: 'both; around',
+      root: 'gu',
+      rootMeaning: '引导；驱动',
+      rootMeaningEn: 'drive; guide',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 ambiguus，由 ambi-（两者）+ agere（驱动）组成，意为"向两边驱动"',
+      suffix: '-ous',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于描述模糊不清的表达，是学术写作的常用词汇',
+    topic: ['语言', '表达', '理解']
+  },
+  {
+    id: 60,
+    word: 'coherent',
+    phonetic: '/kəʊˈhɪərənt/',
+    meaning: 'adj. 连贯的；一致的；条理清晰的',
+    example: 'She gave a coherent presentation.',
+    level: 'IELTS7' as const,
+    category: '形容词',
+    root: {
+      prefix: 'co-',
+      prefixMeaning: '共同；一起',
+      prefixMeaningEn: 'together; with',
+      root: 'her',
+      rootMeaning: '黏合；连接',
+      rootMeaningEn: 'stick; join',
+      rootOrigin: 'Latin',
+      rootOriginNote: '源自拉丁语 cohaerere，由 co-（共同）+ haerere（黏合）组成',
+      suffix: '-ent',
+      suffixMeaning: '形容词后缀',
+      suffixMeaningEn: 'adjective suffix'
+    },
+    writingUsage: '用于描述逻辑清晰的表达，是学术写作的核心词汇',
+    topic: ['逻辑', '表达', '写作']
   }
-];
-
-export const wordCategories = ['全部', '动词', '名词', '形容词', '形容词/名词', '动词/名词'];
-export const wordLevels = ['全部', 'IELTS5', 'IELTS6', 'IELTS7', 'IELTS8'];
+].sort((a, b) => a.word.localeCompare(b.word));

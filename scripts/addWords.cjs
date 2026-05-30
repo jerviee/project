@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_61",
+    word: "ability",
+    meaning: "n. 能力；才能",
+    level: "IELTS5",
+    root: "abil",
+    rootMeaning: "能够；有能力",
+    rootMeaningEn: "capable; skilled",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 habilitas，由 habere（拥有）演变而来",
+    relatedWords: [],
+    phonetic: "/əˈbɪləti/",
+    frequency: "高频"
+  },
+  {
+    id: "word_62",
+    word: "able",
+    meaning: "adj. 能够的；有能力的",
+    level: "IELTS5",
+    root: "abil",
+    rootMeaning: "能够",
+    rootMeaningEn: "capable",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 habilis，意为适合的、有能力的",
+    relatedWords: [],
+    phonetic: "/ˈeɪbl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_63",
+    word: "aboard",
+    meaning: "adv./prep. 在船（飞机、火车）上；上船",
+    level: "IELTS6",
+    root: "board",
+    rootMeaning: "木板；甲板",
+    rootMeaningEn: "board; plank",
+    rootOrigin: "Old French",
+    rootOriginNote: "由 a-（在）+ board（木板）组成",
+    relatedWords: [],
+    phonetic: "/əˈbɔːd/",
+    frequency: "低频"
+  },
+  {
+    id: "word_64",
+    word: "about",
+    meaning: "prep. 关于；大约 adv. 关于；左右",
+    level: "IELTS5",
+    root: "bout",
+    rootMeaning: "一圈；一次",
+    rootMeaningEn: "a turn; a circuit",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 onbūtan，意为在周围",
+    relatedWords: [],
+    phonetic: "/əˈbaʊt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_65",
+    word: "above",
+    meaning: "prep. 在...上面 adv. 在上面 adj. 上面的",
+    level: "IELTS5",
+    root: "ov",
+    rootMeaning: "上方；超过",
+    rootMeaningEn: "over; beyond",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自 onbūfan，由 on（在）+ bufan（上面）组成",
+    relatedWords: [],
+    phonetic: "/əˈbʌv/",
+    frequency: "高频"
+  },
+  {
+    id: "word_66",
+    word: "abroad",
+    meaning: "adv. 到国外；在国外",
+    level: "IELTS6",
+    root: "broad",
+    rootMeaning: "宽广的",
+    rootMeaningEn: "wide; broad",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 a-（在）+ broad（宽广的）组成",
+    relatedWords: [],
+    phonetic: "/əˈbrɔːd/",
+    frequency: "中频"
+  },
+  {
+    id: "word_67",
+    word: "absence",
+    meaning: "n. 缺席；不在；缺乏",
+    level: "IELTS6",
+    root: "sent",
+    rootMeaning: "存在；本质",
+    rootMeaningEn: "being; essence",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 absentia，由 ab-（离开）+ esse（存在）组成",
+    relatedWords: [],
+    phonetic: "/ˈæbsəns/",
+    frequency: "中频"
+  },
+  {
+    id: "word_68",
+    word: "absolute",
+    meaning: "adj. 绝对的；完全的",
+    level: "IELTS7",
+    root: "solv",
+    rootMeaning: "松开；解开",
+    rootMeaningEn: "loosen; release",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 absolutus，由 ab-（离开）+ solvere（解开）组成",
+    relatedWords: [],
+    phonetic: "/ˈæbsəluːt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_69",
+    word: "abstract",
+    meaning: "adj. 抽象的 n. 摘要 v. 提取；抽取",
+    level: "IELTS7",
+    root: "tract",
+    rootMeaning: "拉；抽",
+    rootMeaningEn: "draw; pull",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 abstractus，由 ab-（离开）+ trahere（拉）组成",
+    relatedWords: [],
+    phonetic: "/ˈæbstrækt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_70",
+    word: "abundant",
+    meaning: "adj. 丰富的；大量的",
+    level: "IELTS7",
+    root: "und",
+    rootMeaning: "波浪；流动",
+    rootMeaningEn: "wave; flow",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 abundantia，由 ad-（到）+ undare（流动）组成",
+    relatedWords: [],
+    phonetic: "/əˈbʌndənt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_71",
+    word: "academic",
+    meaning: "adj. 学术的；学院的 n. 大学教师",
+    level: "IELTS6",
+    root: "cad",
+    rootMeaning: "落下；发生",
+    rootMeaningEn: "fall; happen",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 akademeia，指柏拉图创立的学院",
+    relatedWords: [],
+    phonetic: "/ˌækəˈdemɪk/",
+    frequency: "高频"
+  },
+  {
+    id: "word_72",
+    word: "accelerate",
+    meaning: "v. 加速；加快",
+    level: "IELTS7",
+    root: "cel",
+    rootMeaning: "快速",
+    rootMeaningEn: "swift",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 accelerare，由 ad-（加强）+ celer（快速的）组成",
+    relatedWords: [],
+    phonetic: "/əkˈseləreɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_73",
+    word: "accept",
+    meaning: "v. 接受；承认",
+    level: "IELTS5",
+    root: "cept",
+    rootMeaning: "拿；取",
+    rootMeaningEn: "take; grasp",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 acceptare，由 ad-（到）+ capere（拿）组成",
+    relatedWords: [],
+    phonetic: "/əkˈsept/",
+    frequency: "高频"
+  },
+  {
+    id: "word_74",
+    word: "accident",
+    meaning: "n. 事故；意外事件",
+    level: "IELTS5",
+    root: "cid",
+    rootMeaning: "落下；降临",
+    rootMeaningEn: "fall; happen",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 accidentia，由 ad-（到）+ cadere（落下）组成",
+    relatedWords: [],
+    phonetic: "/ˈæksɪdənt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_75",
+    word: "accommodate",
+    meaning: "v. 容纳；适应；提供住宿",
+    level: "IELTS6",
+    root: "mod",
+    rootMeaning: "方式；模式",
+    rootMeaningEn: "way; manner",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 accommodare，由 ad-（到）+ commodus（合适的）组成",
+    relatedWords: [],
+    phonetic: "/əˈkɒmədeɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_76",
+    word: "accompany",
+    meaning: "v. 陪伴；伴随",
+    level: "IELTS6",
+    root: "pan",
+    rootMeaning: "面包；食物",
+    rootMeaningEn: "bread; food",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 acompaignier，由 a-（到）+ compain（伙伴）组成",
+    relatedWords: [],
+    phonetic: "/əˈkʌmpəni/",
+    frequency: "中频"
+  },
+  {
+    id: "word_77",
+    word: "accomplish",
+    meaning: "v. 完成；实现",
+    level: "IELTS6",
+    root: "pl",
+    rootMeaning: "充满；完成",
+    rootMeaningEn: "fill; complete",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 accomplish，由 ad-（到）+ complere（完成）组成",
+    relatedWords: [],
+    phonetic: "/əˈkʌmplɪʃ/",
+    frequency: "中频"
+  },
+  {
+    id: "word_78",
+    word: "account",
+    meaning: "n. 账户；说明 v. 解释；认为",
+    level: "IELTS6",
+    root: "count",
+    rootMeaning: "数；计算",
+    rootMeaningEn: "count; calculate",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 aconter，由 a-（到）+ conter（计数）组成",
+    relatedWords: [],
+    phonetic: "/əˈkaʊnt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_79",
+    word: "accumulate",
+    meaning: "v. 积累；堆积",
+    level: "IELTS7",
+    root: "cumul",
+    rootMeaning: "堆积",
+    rootMeaningEn: "heap; pile",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 accumulare，由 ad-（到）+ cumulare（堆积）组成",
+    relatedWords: [],
+    phonetic: "/əˈkjuːmjʊleɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_80",
+    word: "accurate",
+    meaning: "adj. 准确的；精确的",
+    level: "IELTS6",
+    root: "cur",
+    rootMeaning: "关心；挂念",
+    rootMeaningEn: "care; concern",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 accuratus，由 ad-（到）+ curare（关心）组成",
+    relatedWords: [],
+    phonetic: "/ˈækjʊrət/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个新单词`);

@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_207",
+    word: "identical",
+    meaning: "adj. 相同的；同一的",
+    level: "IELTS7",
+    root: "ident",
+    rootMeaning: "相同；识别",
+    rootMeaningEn: "same; recognize",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 identitas，由 idem（相同）派生",
+    relatedWords: [],
+    phonetic: "/aɪˈdentɪkl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_208",
+    word: "identify",
+    meaning: "v. 识别；鉴定",
+    level: "IELTS6",
+    root: "ident",
+    rootMeaning: "相同；认出",
+    rootMeaningEn: "same; recognize",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 identificare，由 idem（相同）+ facere（做）组成",
+    relatedWords: [],
+    phonetic: "/aɪˈdentɪfaɪ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_209",
+    word: "identity",
+    meaning: "n. 身份；同一性",
+    level: "IELTS7",
+    root: "ident",
+    rootMeaning: "相同；识别",
+    rootMeaningEn: "same; recognition",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 identitas",
+    relatedWords: [],
+    phonetic: "/aɪˈdentəti/",
+    frequency: "高频"
+  },
+  {
+    id: "word_210",
+    word: "ideology",
+    meaning: "n. 意识形态；思想体系",
+    level: "IELTS7",
+    root: "ide",
+    rootMeaning: "观念；想法",
+    rootMeaningEn: "idea; notion",
+    rootOrigin: "Greek",
+    rootOriginNote: "由希腊语 idea（形式）+ logos（理性）组成",
+    relatedWords: [],
+    phonetic: "/ˌaɪdiˈɒlədʒi/",
+    frequency: "中频"
+  },
+  {
+    id: "word_211",
+    word: "ignorance",
+    meaning: "n. 无知；愚昧",
+    level: "IELTS7",
+    root: "gnor",
+    rootMeaning: "知道",
+    rootMeaningEn: "know",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 ignorantia，由 ignorare（不知道）派生",
+    relatedWords: [],
+    phonetic: "/ˈɪɡnərəns/",
+    frequency: "中频"
+  },
+  {
+    id: "word_212",
+    word: "ignore",
+    meaning: "v. 忽视；忽略",
+    level: "IELTS6",
+    root: "gnor",
+    rootMeaning: "知道",
+    rootMeaningEn: "know",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 ignorare，意为不知道或忽视",
+    relatedWords: [],
+    phonetic: "/ɪɡˈnɔː/",
+    frequency: "高频"
+  },
+  {
+    id: "word_213",
+    word: "illegal",
+    meaning: "adj. 非法的；违法的",
+    level: "IELTS6",
+    root: "leg",
+    rootMeaning: "法律",
+    rootMeaningEn: "law",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 illegalis，由 in-（不）+ legalis（法律的）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈliːɡl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_214",
+    word: "illustrate",
+    meaning: "v. 说明；举例",
+    level: "IELTS7",
+    root: "lustr",
+    rootMeaning: "光；照亮",
+    rootMeaningEn: "light; shine",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 illuminare，由 in-（在内）+ lumen（光）组成",
+    relatedWords: [],
+    phonetic: "/ˈɪləstreɪt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_215",
+    word: "image",
+    meaning: "n. 图像；形象",
+    level: "IELTS6",
+    root: "imag",
+    rootMeaning: "图像；想象",
+    rootMeaningEn: "likeness; imagination",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 imago，意为肖像或反映",
+    relatedWords: [],
+    phonetic: "/ˈɪmɪdʒ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_216",
+    word: "imagination",
+    meaning: "n. 想象力；想象",
+    level: "IELTS6",
+    root: "imag",
+    rootMeaning: "想象",
+    rootMeaningEn: "imagine",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 imaginatio，由 imago（图像）派生",
+    relatedWords: [],
+    phonetic: "/ɪˌmædʒɪˈneɪʃn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_217",
+    word: "imagine",
+    meaning: "v. 想象；设想",
+    level: "IELTS6",
+    root: "imag",
+    rootMeaning: "图像；想象",
+    rootMeaningEn: "picture; think",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 imaginari，由 imago（图像）派生",
+    relatedWords: [],
+    phonetic: "/ɪˈmædʒɪn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_218",
+    word: "imitate",
+    meaning: "v. 模仿；仿效",
+    level: "IELTS7",
+    root: "imit",
+    rootMeaning: "模仿",
+    rootMeaningEn: "copy; mimic",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 imitari，意为模仿或效仿",
+    relatedWords: [],
+    phonetic: "/ˈɪmɪteɪt/",
+    frequency: "中频"
+  },
+  {
+    id: "word_219",
+    word: "immediate",
+    meaning: "adj. 立即的；直接的",
+    level: "IELTS6",
+    root: "medi",
+    rootMeaning: "中间",
+    rootMeaningEn: "middle",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 immediatus，由 in-（不）+ mediatus（中间的）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈmiːdiət/",
+    frequency: "高频"
+  },
+  {
+    id: "word_220",
+    word: "immense",
+    meaning: "adj. 巨大的；广大的",
+    level: "IELTS7",
+    root: "immens",
+    rootMeaning: "不可测量的",
+    rootMeaningEn: "immeasurable",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 immensus，由 in-（不）+ mensus（测量）组成",
+    relatedWords: [],
+    phonetic: "/ɪˈmens/",
+    frequency: "中频"
+  },
+  {
+    id: "word_221",
+    word: "impact",
+    meaning: "n./v. 影响；冲击",
+    level: "IELTS5",
+    root: "pact",
+    rootMeaning: "固定；契约",
+    rootMeaningEn: "fastened; pact",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 impactus，由 im-（在内）+ pangere（固定）组成",
+    relatedWords: [],
+    phonetic: "/ˈɪmpækt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_222",
+    word: "implement",
+    meaning: "v. 实施；执行 n. 工具",
+    level: "IELTS7",
+    root: "ple",
+    rootMeaning: "充满；完成",
+    rootMeaningEn: "fill; complete",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 implere，由 im-（在内）+ plere（充满）组成",
+    relatedWords: [],
+    phonetic: "/ˈɪmplɪment/",
+    frequency: "高频"
+  },
+  {
+    id: "word_223",
+    word: "imply",
+    meaning: "v. 暗示；意味",
+    level: "IELTS7",
+    root: "plic",
+    rootMeaning: "折叠；包含",
+    rootMeaningEn: "fold; involve",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 implicare，由 im-（在内）+ plicare（折叠）组成",
+    relatedWords: [],
+    phonetic: "/ɪmˈplaɪ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_224",
+    word: "import",
+    meaning: "v./n. 进口；输入",
+    level: "IELTS6",
+    root: "port",
+    rootMeaning: "携带；运输",
+    rootMeaningEn: "carry; bring",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 importare，由 im-（进入）+ portare（携带）组成",
+    relatedWords: [],
+    phonetic: "/ɪmˈpɔːt/",
+    frequency: "高频"
+  },
+  {
+    id: "word_225",
+    word: "importance",
+    meaning: "n. 重要性",
+    level: "IELTS5",
+    root: "port",
+    rootMeaning: "携带；价值",
+    rootMeaningEn: "carry; value",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 importare，意为带有价值",
+    relatedWords: [],
+    phonetic: "/ɪmˈpɔːtns/",
+    frequency: "高频"
+  },
+  {
+    id: "word_226",
+    word: "important",
+    meaning: "adj. 重要的",
+    level: "IELTS5",
+    root: "port",
+    rootMeaning: "携带；价值",
+    rootMeaningEn: "carry; value",
+    rootOrigin: "Latin",
+    rootOriginNote: "由 importance 派生而来",
+    relatedWords: [],
+    phonetic: "/ɪmˈpɔːtnt/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个I开头新单词`);

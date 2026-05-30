@@ -1,0 +1,297 @@
+const fs = require('fs');
+const path = require('path');
+
+const newWords = [
+  {
+    id: "word_151",
+    word: "factor",
+    meaning: "n. 因素；因子",
+    level: "IELTS5",
+    root: "fac",
+    rootMeaning: "做；制作",
+    rootMeaningEn: "do; make",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 factor，意为制造者或因素",
+    relatedWords: [],
+    phonetic: "/ˈfæktə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_152",
+    word: "fail",
+    meaning: "v. 失败；不及格",
+    level: "IELTS5",
+    root: "fal",
+    rootMeaning: "错误；欺骗",
+    rootMeaningEn: "err; deceive",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 faillir，意为犯错或失败",
+    relatedWords: [],
+    phonetic: "/feɪl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_153",
+    word: "failure",
+    meaning: "n. 失败；失败者",
+    level: "IELTS6",
+    root: "fal",
+    rootMeaning: "错误",
+    rootMeaningEn: "err",
+    rootOrigin: "Old French",
+    rootOriginNote: "由 fail 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈfeɪljə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_154",
+    word: "fair",
+    meaning: "adj. 公平的；美丽的 n. 展览会",
+    level: "IELTS5",
+    root: "fair",
+    rootMeaning: "公平；美丽",
+    rootMeaningEn: "just; beautiful",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 fæger，意为公平或美丽",
+    relatedWords: [],
+    phonetic: "/feə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_155",
+    word: "faith",
+    meaning: "n. 信仰；信任",
+    level: "IELTS6",
+    root: "fid",
+    rootMeaning: "信任；相信",
+    rootMeaningEn: "trust; believe",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 fides，意为信任或信仰",
+    relatedWords: [],
+    phonetic: "/feɪθ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_156",
+    word: "familiar",
+    meaning: "adj. 熟悉的；常见的",
+    level: "IELTS6",
+    root: "fam",
+    rootMeaning: "家庭；名声",
+    rootMeaningEn: "family; fame",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 familiaris，由 familia（家庭）派生",
+    relatedWords: [],
+    phonetic: "/fəˈmɪliə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_157",
+    word: "famous",
+    meaning: "adj. 著名的",
+    level: "IELTS5",
+    root: "fam",
+    rootMeaning: "名声",
+    rootMeaningEn: "fame",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 famous，由 fama（名声）派生",
+    relatedWords: [],
+    phonetic: "/ˈfeɪməs/",
+    frequency: "高频"
+  },
+  {
+    id: "word_158",
+    word: "fancy",
+    meaning: "v. 想象；爱好 n. 想象力 adj. 精致的",
+    level: "IELTS6",
+    root: "fant",
+    rootMeaning: "显示；想象",
+    rootMeaningEn: "show; imagine",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 facerie，意为想象力",
+    relatedWords: [],
+    phonetic: "/ˈfænsi/",
+    frequency: "中频"
+  },
+  {
+    id: "word_159",
+    word: "fantastic",
+    meaning: "adj. 极好的；荒诞的",
+    level: "IELTS5",
+    root: "fant",
+    rootMeaning: "想象",
+    rootMeaningEn: "imagine",
+    rootOrigin: "Greek",
+    rootOriginNote: "源自希腊语 phantastikos，由 phainein（显示）派生",
+    relatedWords: [],
+    phonetic: "/fænˈtæstɪk/",
+    frequency: "中频"
+  },
+  {
+    id: "word_160",
+    word: "fashion",
+    meaning: "n. 时尚；方式",
+    level: "IELTS6",
+    root: "fact",
+    rootMeaning: "制作；形式",
+    rootMeaningEn: "make; form",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 factio，意为制作或形成",
+    relatedWords: [],
+    phonetic: "/ˈfæʃn/",
+    frequency: "高频"
+  },
+  {
+    id: "word_161",
+    word: "feature",
+    meaning: "n. 特征；特点 v. 是...的特色",
+    level: "IELTS6",
+    root: "feat",
+    rootMeaning: "制作；成就",
+    rootMeaningEn: "make; do",
+    rootOrigin: "Old French",
+    rootOriginNote: "源自古法语 feture，意为外形或特征",
+    relatedWords: [],
+    phonetic: "/ˈfiːtʃə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_162",
+    word: "federal",
+    meaning: "adj. 联邦的",
+    level: "IELTS7",
+    root: "fed",
+    rootMeaning: "信任；协议",
+    rootMeaningEn: "trust; covenant",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 foedus，意为条约或协议",
+    relatedWords: [],
+    phonetic: "/ˈfedərəl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_163",
+    word: "feel",
+    meaning: "v. 感觉；认为",
+    level: "IELTS5",
+    root: "feel",
+    rootMeaning: "感觉",
+    rootMeaningEn: "feel",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 felan",
+    relatedWords: [],
+    phonetic: "/fiːl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_164",
+    word: "feeling",
+    meaning: "n. 感觉；感情",
+    level: "IELTS5",
+    root: "feel",
+    rootMeaning: "感觉",
+    rootMeaningEn: "feel",
+    rootOrigin: "Old English",
+    rootOriginNote: "由 feel 派生而来",
+    relatedWords: [],
+    phonetic: "/ˈfiːlɪŋ/",
+    frequency: "高频"
+  },
+  {
+    id: "word_165",
+    word: "female",
+    meaning: "adj. 女性的；雌性的 n. 女性",
+    level: "IELTS6",
+    root: "fem",
+    rootMeaning: "妇女",
+    rootMeaningEn: "woman",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 femina，意为妇女",
+    relatedWords: [],
+    phonetic: "/ˈfiːmeɪl/",
+    frequency: "中频"
+  },
+  {
+    id: "word_166",
+    word: "figure",
+    meaning: "n. 数字；人物 v. 计算；认为",
+    level: "IELTS6",
+    root: "fig",
+    rootMeaning: "形状；塑造",
+    rootMeaningEn: "shape; form",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 figura，意为形状或人物",
+    relatedWords: [],
+    phonetic: "/ˈfɪɡə/",
+    frequency: "高频"
+  },
+  {
+    id: "word_167",
+    word: "file",
+    meaning: "n. 文件；档案 v. 归档",
+    level: "IELTS5",
+    root: "fil",
+    rootMeaning: "线；线程",
+    rootMeaningEn: "thread; line",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 filum，意为线或丝",
+    relatedWords: [],
+    phonetic: "/faɪl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_168",
+    word: "fill",
+    meaning: "v. 填充；充满",
+    level: "IELTS5",
+    root: "fill",
+    rootMeaning: "充满",
+    rootMeaningEn: "make full",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 fyllan",
+    relatedWords: [],
+    phonetic: "/fɪl/",
+    frequency: "高频"
+  },
+  {
+    id: "word_169",
+    word: "film",
+    meaning: "n. 电影；薄膜",
+    level: "IELTS5",
+    root: "fil",
+    rootMeaning: "薄膜",
+    rootMeaningEn: "thin skin",
+    rootOrigin: "Old English",
+    rootOriginNote: "源自盎格鲁-撒克逊语 filmen，意为薄膜或皮肤",
+    relatedWords: [],
+    phonetic: "/fɪlm/",
+    frequency: "高频"
+  },
+  {
+    id: "word_170",
+    word: "final",
+    meaning: "adj. 最后的；最终的",
+    level: "IELTS5",
+    root: "fin",
+    rootMeaning: "结束；界限",
+    rootMeaningEn: "end; boundary",
+    rootOrigin: "Latin",
+    rootOriginNote: "源自拉丁语 finalis，由 finis（结束）派生",
+    relatedWords: [],
+    phonetic: "/ˈfaɪnl/",
+    frequency: "高频"
+  }
+];
+
+const filePath = path.join(__dirname, '../src/data/mockWords.ts');
+let content = fs.readFileSync(filePath, 'utf-8');
+
+content = content.slice(0, -3);
+
+const newContent = JSON.stringify(newWords, null, 2);
+
+content += ',\n' + newContent.slice(1, -1) + '\n];\n';
+
+fs.writeFileSync(filePath, content);
+console.log(`已添加 ${newWords.length} 个F开头新单词`);
