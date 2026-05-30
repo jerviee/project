@@ -389,6 +389,11 @@ export default function WordList() {
                                                       <p className="text-sm">{word.root} - {word.rootMeaning} ({word.rootMeaningEn})</p>
                                                     </div>
                                                     
+                                                    <div className="bg-white/10 rounded-lg p-3 mb-3">
+                                                      <p className="text-xs text-blue-200 mb-1">例句</p>
+                                                      <p className="text-sm italic">{word.example}</p>
+                                                    </div>
+                                                    
                                                     {word.relatedWords && word.relatedWords.length > 0 && (
                                                       <div className="bg-white/10 rounded-lg p-3 flex-1">
                                                         <p className="text-xs text-blue-200 mb-2">相关词汇</p>

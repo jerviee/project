@@ -190,6 +190,11 @@ export default function FlashCards() {
               <p className="text-sm opacity-80 mb-1">词根:</p>
               <p className="text-base">{currentWord?.root} - {currentWord?.rootMeaning} ({currentWord?.rootMeaningEn})</p>
             </div>
+            
+            <div className="bg-white/10 rounded-xl p-4 w-full mb-3">
+              <p className="text-sm opacity-80 mb-1">例句:</p>
+              <p className="text-base italic">{currentWord?.example}</p>
+            </div>
           </div>
         </div>
       </div>
