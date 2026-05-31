@@ -9243,7 +9243,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_616",
     "word": "artichoke",
-    "meaning": "n.artichoke；相关事物",
+    "meaning": "n. 洋蓟；朝鲜蓟",
     "level": "IELTS7",
     "root": "ar",
     "rootMeaning": "向",
@@ -9408,7 +9408,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_627",
     "word": "arum",
-    "meaning": "n.arum；相关事物",
+    "meaning": "n. 海芋；竹叶",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "向",
@@ -9588,7 +9588,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_639",
     "word": "asian",
-    "meaning": "n.asian；相关事物",
+    "meaning": "adj./n. 亚洲的；亚洲人",
     "level": "IELTS8",
     "root": "as",
     "rootMeaning": "向",
@@ -9663,7 +9663,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_644",
     "word": "asphalt",
-    "meaning": "n.asphalt；相关事物",
+    "meaning": "n. 沥青；柏油",
     "level": "IELTS6",
     "root": "as",
     "rootMeaning": "向",
@@ -9738,7 +9738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_649",
     "word": "assay",
-    "meaning": "n.assay；相关事物",
+    "meaning": "n./v. 化验；分析",
     "level": "IELTS7",
     "root": "as",
     "rootMeaning": "向",
@@ -9978,7 +9978,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_665",
     "word": "assize",
-    "meaning": "n.assize；相关事物",
+    "meaning": "n. 巡回审判；法规",
     "level": "IELTS7",
     "root": "as",
     "rootMeaning": "向",
@@ -10038,7 +10038,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_669",
     "word": "assort",
-    "meaning": "n.assort；相关事物",
+    "meaning": "v. 分类；分配",
     "level": "IELTS7",
     "root": "as",
     "rootMeaning": "向",
@@ -10143,7 +10143,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_676",
     "word": "astern",
-    "meaning": "n.astern；相关事物",
+    "meaning": "adv. 在船尾；向后",
     "level": "IELTS6",
     "root": "as",
     "rootMeaning": "向",
@@ -10188,7 +10188,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_679",
     "word": "astir",
-    "meaning": "n.astir；相关事物",
+    "meaning": "adv./adj. 起床的；活动的",
     "level": "IELTS5",
     "root": "as",
     "rootMeaning": "向",
@@ -10263,7 +10263,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_684",
     "word": "astrobiology",
-    "meaning": "n.astrobiology；相关事物",
+    "meaning": "n. 天体生物学",
     "level": "IELTS6",
     "root": "as",
     "rootMeaning": "向",
@@ -10278,7 +10278,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_685",
     "word": "astrolabe",
-    "meaning": "n.astrolabe；相关事物",
+    "meaning": "n. 星盘；天体仪",
     "level": "IELTS7",
     "root": "as",
     "rootMeaning": "向",
@@ -10293,7 +10293,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_686",
     "word": "astrology",
-    "meaning": "n.astrology；相关事物",
+    "meaning": "n. 占星术",
     "level": "IELTS8",
     "root": "as",
     "rootMeaning": "向",
@@ -10443,7 +10443,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_696",
     "word": "atherosclerosis",
-    "meaning": "n.atherosclerosis；相关事物",
+    "meaning": "n. 动脉粥样硬化",
     "level": "IELTS6",
     "root": "at",
     "rootMeaning": "向",
@@ -10563,7 +10563,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_704",
     "word": "atone",
-    "meaning": "n.atone；相关事物",
+    "meaning": "v. 弥补；补偿",
     "level": "IELTS6",
     "root": "at",
     "rootMeaning": "向",
@@ -10578,7 +10578,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_705",
     "word": "atrium",
-    "meaning": "n.atrium；相关事物",
+    "meaning": "n. 心房；中庭",
     "level": "IELTS7",
     "root": "at",
     "rootMeaning": "向",
@@ -11883,7 +11883,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_792",
     "word": "awash",
-    "meaning": "n.awash；相关事物",
+    "meaning": "adj. 被水覆盖的；漂浮的",
     "level": "IELTS7",
     "root": "awa",
     "rootMeaning": "词根",
@@ -12018,7 +12018,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_801",
     "word": "axile",
-    "meaning": "n.axile；相关事物",
+    "meaning": "adj. 轴向的；中轴的",
     "level": "IELTS7",
     "root": "ile",
     "rootMeaning": "...的",
@@ -12093,7 +12093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_806",
     "word": "baa",
-    "meaning": "n.baa；相关事物",
+    "meaning": "n./v. 羊叫；咩咩声",
     "level": "IELTS8",
     "root": "baa",
     "rootMeaning": "词根",
@@ -12123,7 +12123,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_808",
     "word": "babel",
-    "meaning": "n.babel；相关事物",
+    "meaning": "n. 巴别塔；嘈杂",
     "level": "IELTS6",
     "root": "bab",
     "rootMeaning": "词根",
@@ -12138,7 +12138,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_809",
     "word": "baboon",
-    "meaning": "n.baboon；相关事物",
+    "meaning": "n. 狒狒",
     "level": "IELTS7",
     "root": "bab",
     "rootMeaning": "词根",
@@ -12243,7 +12243,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_816",
     "word": "backward",
-    "meaning": "n.backward；相关事物",
+    "meaning": "adv./adj. 向后；落后的",
     "level": "IELTS7",
     "root": "ward",
     "rootMeaning": "向...的",
@@ -12273,7 +12273,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_818",
     "word": "baculite",
-    "meaning": "n.baculite；相关事物",
+    "meaning": "n. 杆菊石",
     "level": "IELTS8",
     "root": "ite",
     "rootMeaning": "...的人",
@@ -12348,7 +12348,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_823",
     "word": "badman",
-    "meaning": "n.badman；相关事物",
+    "meaning": "n. 恶棍；坏人",
     "level": "IELTS5",
     "root": "bad",
     "rootMeaning": "词根",
@@ -12408,7 +12408,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_827",
     "word": "bagel",
-    "meaning": "n.bagel；相关事物",
+    "meaning": "n. 百吉饼；圈饼",
     "level": "IELTS5",
     "root": "bag",
     "rootMeaning": "词根",
@@ -12438,7 +12438,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_829",
     "word": "bagpipe",
-    "meaning": "n.bagpipe；相关事物",
+    "meaning": "n. 风笛",
     "level": "IELTS7",
     "root": "bag",
     "rootMeaning": "词根",
@@ -12453,7 +12453,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_830",
     "word": "baguette",
-    "meaning": "n.baguette；相关事物",
+    "meaning": "n. 法棍面包",
     "level": "IELTS8",
     "root": "bag",
     "rootMeaning": "词根",
@@ -12468,7 +12468,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_831",
     "word": "bailey",
-    "meaning": "n.bailey；相关事物",
+    "meaning": "n. 城郭；外墙",
     "level": "IELTS5",
     "root": "bai",
     "rootMeaning": "词根",
@@ -12543,7 +12543,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_836",
     "word": "baksheesh",
-    "meaning": "n.baksheesh；相关事物",
+    "meaning": "n. 小费；赏钱",
     "level": "IELTS6",
     "root": "bak",
     "rootMeaning": "词根",
@@ -12663,7 +12663,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_844",
     "word": "ballad",
-    "meaning": "n.ballad；相关事物",
+    "meaning": "n. 民谣；抒情诗",
     "level": "IELTS6",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12693,7 +12693,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_846",
     "word": "ballerina",
-    "meaning": "n.ballerina；相关事物",
+    "meaning": "n. 芭蕾舞女演员",
     "level": "IELTS8",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12708,7 +12708,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_847",
     "word": "ballet",
-    "meaning": "n.ballet；相关事物",
+    "meaning": "n. 芭蕾舞",
     "level": "IELTS5",
     "root": "let",
     "rootMeaning": "小...",
@@ -12738,7 +12738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_849",
     "word": "ballight",
-    "meaning": "n.ballight；相关事物",
+    "meaning": "n. 球形灯",
     "level": "IELTS7",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12753,7 +12753,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_850",
     "word": "ballion",
-    "meaning": "n.ballion；相关事物",
+    "meaning": "n. 塔楼；碉堡",
     "level": "IELTS8",
     "root": "ion",
     "rootMeaning": "行为结果",
@@ -12768,7 +12768,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_851",
     "word": "ballistics",
-    "meaning": "n.ballistics；相关事物",
+    "meaning": "n. 弹道学",
     "level": "IELTS5",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12813,7 +12813,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_854",
     "word": "ballpark",
-    "meaning": "n.ballpark；相关事物",
+    "meaning": "n. 棒球场；大致范围",
     "level": "IELTS8",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12828,7 +12828,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_855",
     "word": "ballyhoo",
-    "meaning": "n.ballyhoo；相关事物",
+    "meaning": "n. 大吹大擂；喧闹",
     "level": "IELTS5",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12858,7 +12858,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_857",
     "word": "balmy",
-    "meaning": "n.balmy；相关事物",
+    "meaning": "adj. 温和的；芳香的",
     "level": "IELTS7",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12873,7 +12873,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_858",
     "word": "balustrade",
-    "meaning": "n.balustrade；相关事物",
+    "meaning": "n. 栏杆；扶手",
     "level": "IELTS8",
     "root": "bal",
     "rootMeaning": "词根",
@@ -12993,7 +12993,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_866",
     "word": "bandy",
-    "meaning": "n.bandy；相关事物",
+    "meaning": "v. 来回传递；adj. 外翻的",
     "level": "IELTS8",
     "root": "ban",
     "rootMeaning": "词根",
@@ -13038,7 +13038,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_869",
     "word": "bangle",
-    "meaning": "n.bangle；相关事物",
+    "meaning": "n. 手镯；脚镯",
     "level": "IELTS7",
     "root": "ban",
     "rootMeaning": "词根",
@@ -13083,7 +13083,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_872",
     "word": "banknote",
-    "meaning": "n.banknote；相关事物",
+    "meaning": "n. 纸币；钞票",
     "level": "IELTS5",
     "root": "ban",
     "rootMeaning": "词根",
@@ -13143,7 +13143,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_876",
     "word": "banshee",
-    "meaning": "n.banshee；相关事物",
+    "meaning": "n. 报丧女妖",
     "level": "IELTS5",
     "root": "ee",
     "rootMeaning": "被...者",
@@ -13263,7 +13263,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_884",
     "word": "barbecue",
-    "meaning": "n.barbecue；相关事物",
+    "meaning": "n./v. 烧烤；烤肉",
     "level": "IELTS6",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13278,7 +13278,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_885",
     "word": "bareback",
-    "meaning": "n.bareback；相关事物",
+    "meaning": "adv. 无马鞍地；裸露地",
     "level": "IELTS6",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13338,7 +13338,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_889",
     "word": "baritone",
-    "meaning": "n.baritone；相关事物",
+    "meaning": "n. 男中音",
     "level": "IELTS6",
     "root": "one",
     "rootMeaning": "...者",
@@ -13368,7 +13368,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_891",
     "word": "barman",
-    "meaning": "n.barman；相关事物",
+    "meaning": "n. 酒吧招待",
     "level": "IELTS8",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13398,7 +13398,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_893",
     "word": "baron",
-    "meaning": "n.baron；相关事物",
+    "meaning": "n. 男爵；巨头",
     "level": "IELTS6",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13458,7 +13458,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_897",
     "word": "barrack",
-    "meaning": "n.barrack；相关事物",
+    "meaning": "n./v. 兵营；嘲笑",
     "level": "IELTS6",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13488,7 +13488,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_899",
     "word": "barratry",
-    "meaning": "n.barratry；相关事物",
+    "meaning": "n. 诉讼教唆；海员欺诈",
     "level": "IELTS8",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13503,7 +13503,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_900",
     "word": "barricade",
-    "meaning": "n.barricade；相关事物",
+    "meaning": "n./v. 路障；阻塞",
     "level": "IELTS5",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13548,7 +13548,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_903",
     "word": "barrow",
-    "meaning": "n.barrow；相关事物",
+    "meaning": "n. 手推车；古墓",
     "level": "IELTS8",
     "root": "bar",
     "rootMeaning": "词根",
@@ -13563,7 +13563,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_904",
     "word": "basalt",
-    "meaning": "n.basalt；相关事物",
+    "meaning": "n. 玄武岩",
     "level": "IELTS5",
     "root": "bas",
     "rootMeaning": "词根",
@@ -13668,7 +13668,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_911",
     "word": "basil",
-    "meaning": "n.basil；相关事物",
+    "meaning": "n. 罗勒；香草",
     "level": "IELTS8",
     "root": "bas",
     "rootMeaning": "词根",
@@ -13683,7 +13683,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_912",
     "word": "basilica",
-    "meaning": "n.basilica；相关事物",
+    "meaning": "n. 长方形教堂；大教堂",
     "level": "IELTS5",
     "root": "bas",
     "rootMeaning": "词根",
@@ -13698,7 +13698,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_913",
     "word": "basilisk",
-    "meaning": "n.basilisk；相关事物",
+    "meaning": "n. 蛇怪；蜥蜴",
     "level": "IELTS6",
     "root": "bas",
     "rootMeaning": "词根",
@@ -13743,7 +13743,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_916",
     "word": "bask",
-    "meaning": "n.bask；相关事物",
+    "meaning": "v. 晒太阳；取暖",
     "level": "IELTS5",
     "root": "bas",
     "rootMeaning": "词根",
@@ -13773,7 +13773,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_918",
     "word": "basketwork",
-    "meaning": "n.basketwork；相关事物",
+    "meaning": "n. 编织物；篓筐",
     "level": "IELTS6",
     "root": "bas",
     "rootMeaning": "词根",
