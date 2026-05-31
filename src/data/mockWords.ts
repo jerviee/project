@@ -17988,7 +17988,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1199",
     "word": "bleary",
-    "meaning": "n....的；场所",
+    "meaning": "adj. 模糊的；视力模糊的",
     "level": "IELTS6",
     "root": "ary",
     "rootMeaning": "...的",
@@ -21348,7 +21348,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1423",
     "word": "bravery",
-    "meaning": "n....的；场所",
+    "meaning": "n. 勇敢；勇气",
     "level": "IELTS6",
     "root": "bra",
     "rootMeaning": "词根",
@@ -21798,7 +21798,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1453",
     "word": "breviary",
-    "meaning": "n....的；场所",
+    "meaning": "n. 摘要；每日祈祷书",
     "level": "IELTS8",
     "root": "ary",
     "rootMeaning": "...的",
@@ -24303,7 +24303,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1620",
     "word": "bursary",
-    "meaning": "n....的；场所",
+    "meaning": "n. 奖学金；财政部门",
     "level": "IELTS8",
     "root": "ary",
     "rootMeaning": "...的",
@@ -26118,7 +26118,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1741",
     "word": "cemetery",
-    "meaning": "n....的；场所",
+    "meaning": "n. 公墓；墓地",
     "level": "IELTS7",
     "root": "cem",
     "rootMeaning": "词根",
@@ -29073,7 +29073,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1938",
     "word": "commonly",
-    "meaning": "v....地",
+    "meaning": "adv. 通常地；一般地",
     "level": "IELTS7",
     "root": "com",
     "rootMeaning": "共同",
@@ -29433,7 +29433,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1962",
     "word": "completely",
-    "meaning": "v....地",
+    "meaning": "adv. 完全地；彻底地",
     "level": "IELTS7",
     "root": "com",
     "rootMeaning": "共同",
@@ -30078,7 +30078,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2005",
     "word": "confidential",
-    "meaning": "adj....的",
+    "meaning": "adj. 保密的；机密的",
     "level": "IELTS6",
     "root": "con",
     "rootMeaning": "共同",
@@ -30258,7 +30258,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2017",
     "word": "congressional",
-    "meaning": "adj....的",
+    "meaning": "adj. 国会的；会议的",
     "level": "IELTS6",
     "root": "con",
     "rootMeaning": "共同",
@@ -30348,7 +30348,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2023",
     "word": "conscious",
-    "meaning": "adj....的",
+    "meaning": "adj. 有意识的；意识到的",
     "level": "IELTS8",
     "root": "con",
     "rootMeaning": "共同",
@@ -30558,7 +30558,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2037",
     "word": "consistently",
-    "meaning": "v....地",
+    "meaning": "adv. 一致地；始终如一地",
     "level": "IELTS6",
     "root": "con",
     "rootMeaning": "共同",
@@ -30618,7 +30618,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2041",
     "word": "constantly",
-    "meaning": "v....地",
+    "meaning": "adv. 不断地；持续地",
     "level": "IELTS6",
     "root": "con",
     "rootMeaning": "共同",
@@ -31008,7 +31008,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2067",
     "word": "continuously",
-    "meaning": "v....地",
+    "meaning": "adv. 连续不断地；持续地",
     "level": "IELTS8",
     "root": "con",
     "rootMeaning": "共同",
@@ -31278,7 +31278,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2085",
     "word": "conversely",
-    "meaning": "v....地",
+    "meaning": "adv. 相反地",
     "level": "IELTS6",
     "root": "con",
     "rootMeaning": "共同",
@@ -33498,7 +33498,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2233",
     "word": "deadly",
-    "meaning": "v....地",
+    "meaning": "adj. 致命的；adv. 极其",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -33978,7 +33978,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2265",
     "word": "deeply",
-    "meaning": "v....地",
+    "meaning": "adv. 深深地；深刻地",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -34098,7 +34098,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2273",
     "word": "defensive",
-    "meaning": "n....性的",
+    "meaning": "adj. 防御性的；n. 防御",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -34158,7 +34158,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2277",
     "word": "definitely",
-    "meaning": "v....地",
+    "meaning": "adv. 明确地；肯定地",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -34338,7 +34338,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2289",
     "word": "delivery",
-    "meaning": "n....的；场所",
+    "meaning": "n. 交付；递送；分娩",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -34473,7 +34473,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2298",
     "word": "denial",
-    "meaning": "adj....的",
+    "meaning": "n. 否认；拒绝",
     "level": "IELTS6",
     "root": "de",
     "rootMeaning": "向下",
@@ -34998,7 +34998,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2333",
     "word": "destructive",
-    "meaning": "n....性的",
+    "meaning": "adj. 破坏性的；毁灭性的",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -35058,7 +35058,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2337",
     "word": "detective",
-    "meaning": "n....性的",
+    "meaning": "n. 侦探；adj. 侦探的",
     "level": "IELTS5",
     "root": "de",
     "rootMeaning": "向下",
@@ -35148,7 +35148,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2343",
     "word": "developmental",
-    "meaning": "adj....的",
+    "meaning": "adj. 发展的；发育的",
     "level": "IELTS7",
     "root": "de",
     "rootMeaning": "向下",
@@ -35328,7 +35328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2355",
     "word": "diary",
-    "meaning": "n....的；场所",
+    "meaning": "n. 日记；日记簿",
     "level": "IELTS7",
     "root": "dia",
     "rootMeaning": "通过",
@@ -36033,7 +36033,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2402",
     "word": "disastrous",
-    "meaning": "adj....的",
+    "meaning": "adj. 灾难性的",
     "level": "IELTS5",
     "root": "dis",
     "rootMeaning": "否定",
@@ -36183,7 +36183,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2412",
     "word": "discovery",
-    "meaning": "n....的；场所",
+    "meaning": "n. 发现；发觉",
     "level": "IELTS7",
     "root": "dis",
     "rootMeaning": "否定",
@@ -36423,7 +36423,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2428",
     "word": "dismissal",
-    "meaning": "adj....的",
+    "meaning": "n. 解雇；解散",
     "level": "IELTS7",
     "root": "dis",
     "rootMeaning": "否定",
@@ -36633,7 +36633,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2442",
     "word": "distinctive",
-    "meaning": "n....性的",
+    "meaning": "adj. 独特的；有特色的",
     "level": "IELTS5",
     "root": "dis",
     "rootMeaning": "否定",
@@ -37008,7 +37008,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2467",
     "word": "documentary",
-    "meaning": "n....的；场所",
+    "meaning": "adj. 纪录的；n. 纪录片",
     "level": "IELTS6",
     "root": "ary",
     "rootMeaning": "...的",
@@ -38073,7 +38073,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2538",
     "word": "dynamic",
-    "meaning": "n....的",
+    "meaning": "adj. 动态的；有活力的",
     "level": "IELTS6",
     "root": "ic",
     "rootMeaning": "...的",
@@ -40518,7 +40518,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2701",
     "word": "epidemic",
-    "meaning": "n....的",
+    "meaning": "n. 流行病；adj. 流行的",
     "level": "IELTS8",
     "root": "epi",
     "rootMeaning": "在...上",
@@ -41613,7 +41613,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2774",
     "word": "excessive",
-    "meaning": "n....性的",
+    "meaning": "adj. 过度的；过多的",
     "level": "IELTS7",
     "root": "ex",
     "rootMeaning": "出",
@@ -41748,7 +41748,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2783",
     "word": "exclusively",
-    "meaning": "v....地",
+    "meaning": "adv. 排他地；专门地",
     "level": "IELTS7",
     "root": "ex",
     "rootMeaning": "出",
@@ -42018,7 +42018,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2801",
     "word": "existential",
-    "meaning": "adj....的",
+    "meaning": "adj. 存在的；生存的",
     "level": "IELTS8",
     "root": "ex",
     "rootMeaning": "出",
@@ -42063,7 +42063,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2804",
     "word": "exotic",
-    "meaning": "n....的",
+    "meaning": "adj. 异国的；奇异的",
     "level": "IELTS7",
     "root": "exo",
     "rootMeaning": "外",
@@ -42378,7 +42378,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2825",
     "word": "explicitly",
-    "meaning": "v....地",
+    "meaning": "adv. 明确地；清楚地",
     "level": "IELTS8",
     "root": "ex",
     "rootMeaning": "出",
@@ -42603,7 +42603,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2840",
     "word": "expressly",
-    "meaning": "v....地",
+    "meaning": "adv. 明确地；特地",
     "level": "IELTS6",
     "root": "ex",
     "rootMeaning": "出",
@@ -46338,7 +46338,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3089",
     "word": "frantic",
-    "meaning": "n....的",
+    "meaning": "adj. 疯狂的；狂乱的",
     "level": "IELTS8",
     "root": "ic",
     "rootMeaning": "...的",
@@ -47688,7 +47688,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3179",
     "word": "generic",
-    "meaning": "n....的",
+    "meaning": "adj. 类的；一般的；通用的",
     "level": "IELTS5",
     "root": "ic",
     "rootMeaning": "...的",
@@ -51288,7 +51288,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3419",
     "word": "hereditary",
-    "meaning": "n....的；场所",
+    "meaning": "adj. 遗传的；世袭的",
     "level": "IELTS6",
     "root": "ary",
     "rootMeaning": "...的",
@@ -53238,7 +53238,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3549",
     "word": "illegally",
-    "meaning": "v....地",
+    "meaning": "adv. 非法地",
     "level": "IELTS8",
     "root": "il",
     "rootMeaning": "不",
@@ -53703,7 +53703,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3580",
     "word": "implicitly",
-    "meaning": "v....地",
+    "meaning": "adv. 含蓄地；暗中地",
     "level": "IELTS8",
     "root": "im",
     "rootMeaning": "不",
@@ -53778,7 +53778,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3585",
     "word": "importantly",
-    "meaning": "v....地",
+    "meaning": "adv. 重要地",
     "level": "IELTS5",
     "root": "im",
     "rootMeaning": "不",
@@ -53943,7 +53943,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3596",
     "word": "incentive",
-    "meaning": "n....性的",
+    "meaning": "n. 激励；刺激；奖励",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -54123,7 +54123,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3608",
     "word": "increasingly",
-    "meaning": "v....地",
+    "meaning": "adv. 越来越多地；日益",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -54153,7 +54153,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3610",
     "word": "incredibly",
-    "meaning": "v....地",
+    "meaning": "adv. 难以置信地；极其",
     "level": "IELTS5",
     "root": "in",
     "rootMeaning": "内",
@@ -54288,7 +54288,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3619",
     "word": "indicative",
-    "meaning": "n....性的",
+    "meaning": "adj. 指示的；表示的",
     "level": "IELTS8",
     "root": "in",
     "rootMeaning": "内",
@@ -54393,7 +54393,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3626",
     "word": "indirectly",
-    "meaning": "v....地",
+    "meaning": "adv. 间接地",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -54588,7 +54588,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3639",
     "word": "inevitably",
-    "meaning": "v....地",
+    "meaning": "adv. 不可避免地",
     "level": "IELTS6",
     "root": "in",
     "rootMeaning": "内",
@@ -54648,7 +54648,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3643",
     "word": "infectious",
-    "meaning": "adj....的",
+    "meaning": "adj. 传染的；感染性的",
     "level": "IELTS6",
     "root": "in",
     "rootMeaning": "内",
@@ -54753,7 +54753,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3650",
     "word": "influential",
-    "meaning": "adj....的",
+    "meaning": "adj. 有影响力的",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -54783,7 +54783,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3652",
     "word": "informal",
-    "meaning": "adj....的",
+    "meaning": "adj. 非正式的；随意的",
     "level": "IELTS5",
     "root": "in",
     "rootMeaning": "内",
@@ -54813,7 +54813,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3654",
     "word": "informative",
-    "meaning": "n....性的",
+    "meaning": "adj. 提供信息的；教育性的",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -55458,7 +55458,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3697",
     "word": "instantly",
-    "meaning": "v....地",
+    "meaning": "adv. 立即地；马上地",
     "level": "IELTS8",
     "root": "in",
     "rootMeaning": "内",
@@ -55503,7 +55503,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3700",
     "word": "instinctive",
-    "meaning": "n....性的",
+    "meaning": "adj. 本能的；直觉的",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -55578,7 +55578,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3705",
     "word": "instructional",
-    "meaning": "adj....的",
+    "meaning": "adj. 教学的；指导性的",
     "level": "IELTS7",
     "root": "in",
     "rootMeaning": "内",
@@ -55623,7 +55623,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3708",
     "word": "instrumental",
-    "meaning": "adj....的",
+    "meaning": "adj. 仪器的；有帮助的",
     "level": "IELTS6",
     "root": "in",
     "rootMeaning": "内",
@@ -56073,7 +56073,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3738",
     "word": "internally",
-    "meaning": "v....地",
+    "meaning": "adv. 内部地",
     "level": "IELTS6",
     "root": "inter",
     "rootMeaning": "之间",
@@ -56373,7 +56373,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3758",
     "word": "inventive",
-    "meaning": "n....性的",
+    "meaning": "adj. 发明创造的；有创意的",
     "level": "IELTS8",
     "root": "in",
     "rootMeaning": "内",
@@ -59163,7 +59163,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3944",
     "word": "legendary",
-    "meaning": "n....的；场所",
+    "meaning": "adj. 传奇的；著名的",
     "level": "IELTS7",
     "root": "ary",
     "rootMeaning": "...的",
@@ -60798,7 +60798,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4053",
     "word": "lyric",
-    "meaning": "n....的",
+    "meaning": "n. 歌词；抒情诗；adj. 抒情的",
     "level": "IELTS8",
     "root": "ic",
     "rootMeaning": "...的",
@@ -60933,7 +60933,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4062",
     "word": "magnetic",
-    "meaning": "n....的",
+    "meaning": "adj. 磁性的；有吸引力的",
     "level": "IELTS7",
     "root": "ic",
     "rootMeaning": "...的",
@@ -63093,7 +63093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4206",
     "word": "minimal",
-    "meaning": "adj....的",
+    "meaning": "adj. 最小的；最低限度的",
     "level": "IELTS7",
     "root": "mini",
     "rootMeaning": "小",
@@ -65238,7 +65238,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4349",
     "word": "neurotic",
-    "meaning": "n....的",
+    "meaning": "adj. 神经质的；n. 神经症患者",
     "level": "IELTS5",
     "root": "ic",
     "rootMeaning": "...的",
@@ -66483,7 +66483,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4432",
     "word": "obviously",
-    "meaning": "v....地",
+    "meaning": "adv. 明显地",
     "level": "IELTS8",
     "root": "ob",
     "rootMeaning": "对面",
@@ -66528,7 +66528,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4435",
     "word": "occasionally",
-    "meaning": "v....地",
+    "meaning": "adv. 偶尔；有时",
     "level": "IELTS7",
     "root": "oc",
     "rootMeaning": "向",
@@ -66858,7 +66858,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4457",
     "word": "officially",
-    "meaning": "v....地",
+    "meaning": "adv. 官方地；正式地",
     "level": "IELTS5",
     "root": "of",
     "rootMeaning": "向",
@@ -67158,7 +67158,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4477",
     "word": "openly",
-    "meaning": "v....地",
+    "meaning": "adv. 公开地；坦率地",
     "level": "IELTS5",
     "root": "op",
     "rootMeaning": "向",
@@ -67233,7 +67233,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4482",
     "word": "operational",
-    "meaning": "adj....的",
+    "meaning": "adj. 操作的；运营的",
     "level": "IELTS6",
     "root": "op",
     "rootMeaning": "向",
@@ -67248,7 +67248,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4483",
     "word": "operative",
-    "meaning": "n....性的",
+    "meaning": "adj. 运行的；有效的；n. 特工",
     "level": "IELTS7",
     "root": "op",
     "rootMeaning": "向",
@@ -69558,7 +69558,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4637",
     "word": "penal",
-    "meaning": "adj....的",
+    "meaning": "adj. 刑罚的；刑事的",
     "level": "IELTS6",
     "root": "pen",
     "rootMeaning": "几乎",
@@ -69693,7 +69693,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4646",
     "word": "perceive",
-    "meaning": "n....性的",
+    "meaning": "v. 感知；察觉；理解",
     "level": "IELTS7",
     "root": "per",
     "rootMeaning": "通过",
@@ -69768,7 +69768,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4651",
     "word": "perfectly",
-    "meaning": "v....地",
+    "meaning": "adv. 完美地；完全地",
     "level": "IELTS7",
     "root": "per",
     "rootMeaning": "通过",
@@ -69858,7 +69858,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4657",
     "word": "permanently",
-    "meaning": "v....地",
+    "meaning": "adv. 永久地",
     "level": "IELTS5",
     "root": "per",
     "rootMeaning": "通过",
@@ -70068,7 +70068,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4671",
     "word": "persuasive",
-    "meaning": "n....性的",
+    "meaning": "adj. 有说服力的",
     "level": "IELTS7",
     "root": "per",
     "rootMeaning": "通过",
@@ -72048,7 +72048,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4803",
     "word": "pottery",
-    "meaning": "n....的；场所",
+    "meaning": "n. 陶器；陶艺",
     "level": "IELTS5",
     "root": "pot",
     "rootMeaning": "词根",
@@ -74973,7 +74973,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4998",
     "word": "query",
-    "meaning": "n....的；场所",
+    "meaning": "n./v. 疑问；询问",
     "level": "IELTS7",
     "root": "que",
     "rootMeaning": "词根",
@@ -75768,7 +75768,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5051",
     "word": "readily",
-    "meaning": "v....地",
+    "meaning": "adv. 容易地；乐意地",
     "level": "IELTS6",
     "root": "re",
     "rootMeaning": "回",
@@ -75963,7 +75963,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5064",
     "word": "reasonably",
-    "meaning": "v....地",
+    "meaning": "adv. 合理地；相当地",
     "level": "IELTS7",
     "root": "re",
     "rootMeaning": "回",
@@ -76158,7 +76158,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5077",
     "word": "recital",
-    "meaning": "adj....的",
+    "meaning": "n. 朗诵；背诵； recital 独奏会",
     "level": "IELTS8",
     "root": "re",
     "rootMeaning": "回",
@@ -76338,7 +76338,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5089",
     "word": "recreative",
-    "meaning": "n....性的",
+    "meaning": "adj. 消遣的；娱乐的",
     "level": "IELTS8",
     "root": "re",
     "rootMeaning": "回",
@@ -77148,7 +77148,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5143",
     "word": "reluctantly",
-    "meaning": "v....地",
+    "meaning": "adv. 不情愿地",
     "level": "IELTS7",
     "root": "re",
     "rootMeaning": "回",
@@ -77343,7 +77343,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5156",
     "word": "removal",
-    "meaning": "adj....的",
+    "meaning": "n. 移除；切除",
     "level": "IELTS6",
     "root": "re",
     "rootMeaning": "回",
@@ -77493,7 +77493,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5166",
     "word": "repeatedly",
-    "meaning": "v....地",
+    "meaning": "adv. 反复地；重复地",
     "level": "IELTS6",
     "root": "re",
     "rootMeaning": "回",
@@ -77643,7 +77643,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5176",
     "word": "republic",
-    "meaning": "n....的",
+    "meaning": "n. 共和国；共和政体",
     "level": "IELTS7",
     "root": "re",
     "rootMeaning": "回",
@@ -77868,7 +77868,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5191",
     "word": "residential",
-    "meaning": "adj....的",
+    "meaning": "adj. 住宅的；居住的",
     "level": "IELTS8",
     "root": "re",
     "rootMeaning": "回",
@@ -78078,7 +78078,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5205",
     "word": "respectively",
-    "meaning": "v....地",
+    "meaning": "adv. 分别地；各自地",
     "level": "IELTS5",
     "root": "re",
     "rootMeaning": "回",
@@ -78468,7 +78468,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5231",
     "word": "revival",
-    "meaning": "adj....的",
+    "meaning": "n. 复兴；复活",
     "level": "IELTS8",
     "root": "re",
     "rootMeaning": "回",
@@ -78483,7 +78483,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5232",
     "word": "revive",
-    "meaning": "n....性的",
+    "meaning": "v. 复活；复兴；恢复",
     "level": "IELTS5",
     "root": "re",
     "rootMeaning": "回",
@@ -78558,7 +78558,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5237",
     "word": "rhetoric",
-    "meaning": "n....的",
+    "meaning": "n. 修辞；华丽的辞藻",
     "level": "IELTS6",
     "root": "ic",
     "rootMeaning": "...的",
@@ -79083,7 +79083,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5272",
     "word": "romantic",
-    "meaning": "n....的",
+    "meaning": "adj. 浪漫的；n. 浪漫的人",
     "level": "IELTS8",
     "root": "ic",
     "rootMeaning": "...的",
@@ -80688,7 +80688,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5379",
     "word": "seal",
-    "meaning": "adj....的",
+    "meaning": "n. 印章；封条；海豹 v. 密封",
     "level": "IELTS5",
     "root": "se",
     "rootMeaning": "离开",
@@ -80808,7 +80808,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5387",
     "word": "secretive",
-    "meaning": "n....性的",
+    "meaning": "adj. 隐秘的；秘密的",
     "level": "IELTS5",
     "root": "se",
     "rootMeaning": "离开",
@@ -81183,7 +81183,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5412",
     "word": "sensational",
-    "meaning": "adj....的",
+    "meaning": "adj. 耸人听闻的；极好的",
     "level": "IELTS8",
     "root": "se",
     "rootMeaning": "离开",
@@ -81303,7 +81303,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5420",
     "word": "separately",
-    "meaning": "v....地",
+    "meaning": "adv. 分别地；独立地",
     "level": "IELTS6",
     "root": "se",
     "rootMeaning": "离开",
@@ -86838,7 +86838,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5789",
     "word": "substantially",
-    "meaning": "v....地",
+    "meaning": "adv. 实质上；大量地",
     "level": "IELTS5",
     "root": "sub",
     "rootMeaning": "下",
@@ -87453,7 +87453,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5830",
     "word": "superficial",
-    "meaning": "adj....的",
+    "meaning": "adj. 表面的；肤浅的",
     "level": "IELTS6",
     "root": "sup",
     "rootMeaning": "下",
@@ -87663,7 +87663,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5844",
     "word": "supportive",
-    "meaning": "n....性的",
+    "meaning": "adj. 支持的；帮助的",
     "level": "IELTS7",
     "root": "sup",
     "rootMeaning": "下",
@@ -89898,7 +89898,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5993",
     "word": "thermal",
-    "meaning": "adj....的",
+    "meaning": "adj. 热的；热量的",
     "level": "IELTS5",
     "root": "therm",
     "rootMeaning": "热",
@@ -91518,7 +91518,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6101",
     "word": "tragic",
-    "meaning": "n....的",
+    "meaning": "adj. 悲剧的；悲惨的",
     "level": "IELTS5",
     "root": "ic",
     "rootMeaning": "...的",
@@ -92088,7 +92088,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6139",
     "word": "tribal",
-    "meaning": "adj....的",
+    "meaning": "adj. 部落的；宗族的",
     "level": "IELTS8",
     "root": "tri",
     "rootMeaning": "三",
@@ -92238,7 +92238,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6149",
     "word": "trivial",
-    "meaning": "adj....的",
+    "meaning": "adj. 琐碎的；不重要的",
     "level": "IELTS8",
     "root": "tri",
     "rootMeaning": "三",
@@ -92298,7 +92298,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6153",
     "word": "tropic",
-    "meaning": "n....的",
+    "meaning": "n. 热带；回归线；adj. 热带的",
     "level": "IELTS6",
     "root": "ic",
     "rootMeaning": "...的",
@@ -93183,7 +93183,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6212",
     "word": "unfortunately",
-    "meaning": "v....地",
+    "meaning": "adv. 不幸地",
     "level": "IELTS7",
     "root": "un",
     "rootMeaning": "不",
