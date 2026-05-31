@@ -71328,7 +71328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4755",
     "word": "polar",
-    "meaning": "n. Polar",
+    "meaning": "adj. 极地的；正好相反的；磁极的 n. 极地",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "...的",
@@ -71343,7 +71343,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4756",
     "word": "pole",
-    "meaning": "n. Pole",
+    "meaning": "n. 杆；柱；极；磁极 v. 用杆支撑",
     "level": "IELTS7",
     "root": "pol",
     "rootMeaning": "词根",
@@ -71388,7 +71388,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4759",
     "word": "polish",
-    "meaning": "n. Polish",
+    "meaning": "v. 擦亮；磨光；改进 n. 光泽；优雅；擦亮剂",
     "level": "IELTS6",
     "root": "ish",
     "rootMeaning": "...的",
@@ -82818,7 +82818,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5521",
     "word": "Singapore",
-    "meaning": "n. Singapore",
+    "meaning": "n. 新加坡",
     "level": "IELTS7",
     "root": "Sin",
     "rootMeaning": "词根",
@@ -83013,7 +83013,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5534",
     "word": "skeleton",
-    "meaning": "n. 骨骼；骨架",
+    "meaning": "n. 骨骼；骨架；框架；提纲",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -83028,7 +83028,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5535",
     "word": "sketch",
-    "meaning": "n./v. 素描；速写",
+    "meaning": "n. 素描；速写；略图 v. 绘略图；素描",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83088,7 +83088,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5539",
     "word": "skip",
-    "meaning": "v. 跳过；略过",
+    "meaning": "v. 跳过；略过；漏过 n. 跳跃；跳过",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83133,7 +83133,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5542",
     "word": "slave",
-    "meaning": "n. Slave",
+    "meaning": "n. 奴隶；苦工 v. 苦干；做苦工",
     "level": "IELTS7",
     "root": "sla",
     "rootMeaning": "词根",
@@ -83148,7 +83148,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5543",
     "word": "slavery",
-    "meaning": "n. 奴隶制度；奴役",
+    "meaning": "n. 奴隶制度；奴役；奴隶身份",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -83208,7 +83208,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5547",
     "word": "slice",
-    "meaning": "n./v. 切片；薄片",
+    "meaning": "n. 薄片；部分；切片 v. 切成薄片；切",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83223,7 +83223,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5548",
     "word": "slide",
-    "meaning": "v./n. 滑动；幻灯片",
+    "meaning": "v. 滑动；滑落；悄悄移动 n. 幻灯片；滑梯",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83238,7 +83238,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5549",
     "word": "slight",
-    "meaning": "adj./v. 轻微的；轻视",
+    "meaning": "adj. 轻微的；纤细的；瘦弱的 v. 轻视；忽略 n. 轻蔑",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83283,7 +83283,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5552",
     "word": "slip",
-    "meaning": "v./n. 滑倒；滑落",
+    "meaning": "v. 滑倒；滑落；溜走 n. 滑倒；纸片；失误",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83313,7 +83313,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5554",
     "word": "slope",
-    "meaning": "n./v. 斜坡；倾斜",
+    "meaning": "n. 斜坡；倾斜；斜率 v. 倾斜；有坡度",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83328,7 +83328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5555",
     "word": "slot",
-    "meaning": "n. Slot",
+    "meaning": "n. 狭缝；硬币投币口；位置 v. 开槽于；装入",
     "level": "IELTS7",
     "root": "slo",
     "rootMeaning": "词根",
@@ -83373,7 +83373,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5558",
     "word": "small",
-    "meaning": "adj. 小的；少的",
+    "meaning": "adj. 小的；少的；微小的 n. 小件；细小的东西",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -83388,7 +83388,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5559",
     "word": "smart",
-    "meaning": "adj. 聪明的；敏捷的",
+    "meaning": "adj. 聪明的；智能的；时髦的 v. 刺痛；感到剧痛",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83403,7 +83403,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5560",
     "word": "smash",
-    "meaning": "n. Smash",
+    "meaning": "v. 打碎；粉碎；撞毁 n. 破碎；扣球； smash",
     "level": "IELTS8",
     "root": "sma",
     "rootMeaning": "词根",
@@ -83418,7 +83418,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5561",
     "word": "smell",
-    "meaning": "n./v. 气味；闻",
+    "meaning": "n. 气味；嗅觉 v. 闻；嗅；发出气味",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83433,7 +83433,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5562",
     "word": "smile",
-    "meaning": "n./v. 微笑；笑容",
+    "meaning": "n. 微笑；笑容 v. 微笑；眉开眼笑",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83448,7 +83448,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5563",
     "word": "smoke",
-    "meaning": "n./v. 烟；吸烟",
+    "meaning": "n. 烟；抽烟；雾气 v. 吸烟；冒烟；烟熏",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83463,7 +83463,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5564",
     "word": "smooth",
-    "meaning": "adj./v. 光滑的；使平滑",
+    "meaning": "adj. 光滑的；流畅的；平稳的 v. 使光滑；使平稳",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83493,7 +83493,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5566",
     "word": "snap",
-    "meaning": "v./n. 突然断裂；快照",
+    "meaning": "v. 猛咬；快照；突然折断 n. 快照；啪声； snap",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -83508,7 +83508,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5567",
     "word": "sneak",
-    "meaning": "n. Sneak",
+    "meaning": "v. 偷偷溜走；偷偷地做 adj. 偷偷的；秘密的",
     "level": "IELTS7",
     "root": "sne",
     "rootMeaning": "词根",
@@ -83523,7 +83523,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5568",
     "word": "snow",
-    "meaning": "n./v. 雪；下雪",
+    "meaning": "n. 雪；雪花；积雪 v. 下雪；雪片般落下",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83568,7 +83568,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5571",
     "word": "soak",
-    "meaning": "v./n. 浸泡；浸透",
+    "meaning": "v. 浸泡；浸透；湿透 n. 浸泡；浸透",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83583,7 +83583,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5572",
     "word": "soap",
-    "meaning": "n. 肥皂",
+    "meaning": "n. 肥皂；油脂 v. 用肥皂洗；涂上肥皂",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83598,7 +83598,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5573",
     "word": "soar",
-    "meaning": "v. 高飞；猛增",
+    "meaning": "v. 高飞；剧增；翱翔 n. 飞扬；高飞",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
