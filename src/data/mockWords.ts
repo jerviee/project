@@ -37623,7 +37623,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2508",
     "word": "dream",
-    "meaning": "n.dream",
+    "meaning": "n. 梦；梦想 v. 做梦；梦想",
     "level": "IELTS7",
     "root": "dre",
     "rootMeaning": "词根",
@@ -37633,12 +37633,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/dream/",
     "frequency": "低频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与dream相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与梦相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_2509",
     "word": "dress",
-    "meaning": "n.dress",
+    "meaning": "n. 连衣裙；服装 v. 穿衣服；给...穿衣服",
     "level": "IELTS8",
     "root": "ess",
     "rootMeaning": "女性",
@@ -37648,7 +37648,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/dress/",
     "frequency": "高频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会dress的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会连衣裙的发展。"
   },
   {
     "id": "word_2510",
@@ -37683,7 +37683,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2512",
     "word": "drink",
-    "meaning": "n.drink",
+    "meaning": "v. 喝；饮 n. 饮料；喝酒",
     "level": "IELTS7",
     "root": "dri",
     "rootMeaning": "词根",
@@ -37693,7 +37693,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/drink/",
     "frequency": "高频",
-    "example": "The application of this concept has revolutionized various industries.\ndrink的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n喝的应用革新了各个行业。"
   },
   {
     "id": "word_2513",
@@ -37713,7 +37713,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2514",
     "word": "drive",
-    "meaning": "adj. ...的Dr",
+    "meaning": "v. 驾驶；驱动 n. 驾驶；驱动器；车道",
     "level": "IELTS6",
     "root": "ive",
     "rootMeaning": "...的",
@@ -37723,7 +37723,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/drive/",
     "frequency": "高频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，...的Dr的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，驾驶的重要性怎么强调都不为过。"
   },
   {
     "id": "word_2515",
@@ -37743,7 +37743,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2516",
     "word": "drop",
-    "meaning": "n.drop",
+    "meaning": "v. 落下；下降；停止 n. 滴；降落；下跌",
     "level": "IELTS8",
     "root": "dro",
     "rootMeaning": "词根",
@@ -37753,7 +37753,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/drop/",
     "frequency": "低频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与drop相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与落下相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_2517",
@@ -60333,7 +60333,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4022",
     "word": "look",
-    "meaning": "v./n. 看；表情",
+    "meaning": "v./n. 看；注视；显得",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -80898,7 +80898,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5393",
     "word": "see",
-    "meaning": "n.see",
+    "meaning": "v. 看见；理解；拜访",
     "level": "IELTS6",
     "root": "se",
     "rootMeaning": "离开",
@@ -80908,7 +80908,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/see/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对see的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对看见的认识显著提高。"
   },
   {
     "id": "word_5394",
@@ -83163,7 +83163,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5544",
     "word": "sleep",
-    "meaning": "n./v. 睡眠；睡觉",
+    "meaning": "v. 睡觉 n. 睡眠",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83173,7 +83173,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/sliːp/",
     "frequency": "中频",
-    "example": "The application of this concept has revolutionized various industries.\n睡眠的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n睡觉的应用革新了各个行业。"
   },
   {
     "id": "word_5545",
@@ -83343,7 +83343,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5556",
     "word": "slow",
-    "meaning": "adj./adv./v. 慢的；减速",
+    "meaning": "adj. 慢的；迟钝的 v. 放慢",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -83373,7 +83373,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5558",
     "word": "small",
-    "meaning": "adj. 小的；少的；微小的 n. 小件；细小的东西",
+    "meaning": "adj. 小的；少的",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -83388,7 +83388,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5559",
     "word": "smart",
-    "meaning": "adj. 聪明的；智能的；时髦的 v. 刺痛；感到剧痛",
+    "meaning": "adj. 聪明的；敏捷的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83433,7 +83433,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5562",
     "word": "smile",
-    "meaning": "n. 微笑；笑容 v. 微笑；眉开眼笑",
+    "meaning": "v./n. 微笑；笑容",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83448,7 +83448,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5563",
     "word": "smoke",
-    "meaning": "n. 烟；抽烟；雾气 v. 吸烟；冒烟；烟熏",
+    "meaning": "n. 烟；烟雾 v. 吸烟；冒烟",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83523,7 +83523,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5568",
     "word": "snow",
-    "meaning": "n. 雪；雪花；积雪 v. 下雪；雪片般落下",
+    "meaning": "n. 雪 v. 下雪",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83583,7 +83583,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5572",
     "word": "soap",
-    "meaning": "n. 肥皂；油脂 v. 用肥皂洗；涂上肥皂",
+    "meaning": "n. 肥皂 v. 用肥皂洗",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83703,7 +83703,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5580",
     "word": "sock",
-    "meaning": "n. 袜子",
+    "meaning": "n. 短袜 v. 给...穿袜子",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83713,7 +83713,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/sɒk/",
     "frequency": "低频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与袜子相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与短袜相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_5581",
@@ -83763,7 +83763,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5584",
     "word": "soft",
-    "meaning": "adj. 柔软的；温和的",
+    "meaning": "adj. 软的；柔和的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -83773,7 +83773,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/sɒft/",
     "frequency": "中频",
-    "example": "The application of this concept has revolutionized various industries.\n柔软的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n软的应用革新了各个行业。"
   },
   {
     "id": "word_5585",
@@ -83793,7 +83793,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5586",
     "word": "soil",
-    "meaning": "n./v. 土壤；弄脏",
+    "meaning": "n. 土壤；土地 v. 弄脏；污染",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -83883,7 +83883,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5592",
     "word": "solid",
-    "meaning": "adj./n. 固体的；固体",
+    "meaning": "adj. 固体的；结实的 n. 固体",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84063,7 +84063,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5604",
     "word": "son",
-    "meaning": "n. 儿子",
+    "meaning": "n. 儿子；孩子",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -84078,7 +84078,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5605",
     "word": "song",
-    "meaning": "n. 歌曲；歌词",
+    "meaning": "n. 歌曲；歌声",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84153,7 +84153,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5610",
     "word": "sort",
-    "meaning": "n./v. 种类；分类",
+    "meaning": "n. 种类；分类 v. 分类；整理",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84198,7 +84198,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5613",
     "word": "sound",
-    "meaning": "n./v./adj. 声音；听起来",
+    "meaning": "n. 声音 v. 听起来 adj. 健康的；合理的",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -84213,7 +84213,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5614",
     "word": "soup",
-    "meaning": "n. 汤",
+    "meaning": "n. 汤；羹",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84243,7 +84243,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5616",
     "word": "south",
-    "meaning": "n./adj./adv. 南方；南方的",
+    "meaning": "n. 南方 adj. 南方的 adv. 向南",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -84348,7 +84348,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5623",
     "word": "space",
-    "meaning": "n./v. 空间；间隔",
+    "meaning": "n. 空间；太空 v. 留间隔",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84423,7 +84423,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5628",
     "word": "spare",
-    "meaning": "adj./v. 多余的；抽出",
+    "meaning": "adj. 多余的；备用的 v. 节省；抽出",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -84453,7 +84453,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5630",
     "word": "speak",
-    "meaning": "v. 说话；讲话",
+    "meaning": "v. 说；说话；演讲",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -84463,12 +84463,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/spiːk/",
     "frequency": "高频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，说话的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，说的研究取得了重大进展。"
   },
   {
     "id": "word_5631",
     "word": "speaker",
-    "meaning": "n. 说话者；扬声器",
+    "meaning": "n. 演讲者；扬声器",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84478,7 +84478,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈspiːkə/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索说话者的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索演讲者的新方面。"
   },
   {
     "id": "word_5632",
@@ -84693,7 +84693,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5646",
     "word": "speed",
-    "meaning": "n./v. 速度；加速",
+    "meaning": "n. 速度 v. 加速；超速",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84708,7 +84708,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5647",
     "word": "spell",
-    "meaning": "v. 拼写；招致 n. 拼写；咒语",
+    "meaning": "v. 拼写；意味着 n. 咒语；一段时间",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84738,7 +84738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5649",
     "word": "spend",
-    "meaning": "v. 花费；度过",
+    "meaning": "v. 花费；度过；消耗",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84873,7 +84873,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5658",
     "word": "spirit",
-    "meaning": "n. 精神；灵魂",
+    "meaning": "n. 精神；灵魂；酒精",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84918,7 +84918,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5661",
     "word": "split",
-    "meaning": "v./n./adj. 分裂；分开",
+    "meaning": "v. 分裂；分开 n. 分裂；裂缝",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -84948,7 +84948,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5663",
     "word": "spoke",
-    "meaning": "v. 说话（speak的过去式）",
+    "meaning": "v. 说（speak过去式）",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -84958,7 +84958,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/spəʊk/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索说话的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索说的新方面。"
   },
   {
     "id": "word_5664",
@@ -85038,7 +85038,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5669",
     "word": "sport",
-    "meaning": "n./v. 运动；玩耍",
+    "meaning": "n. 运动；游戏",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85068,7 +85068,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5671",
     "word": "spot",
-    "meaning": "n./v. 地点；发现",
+    "meaning": "n. 地点；斑点 v. 发现；弄脏",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85113,7 +85113,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5674",
     "word": "spread",
-    "meaning": "v./n. 传播；展开",
+    "meaning": "v. 传播；展开 n. 传播；范围",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85128,7 +85128,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5675",
     "word": "spring",
-    "meaning": "n./v./adj. 春天；弹跳",
+    "meaning": "n. 春天；弹簧 v. 跳跃；涌出",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85173,7 +85173,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5678",
     "word": "square",
-    "meaning": "n./adj./v. 正方形；广场",
+    "meaning": "adj. 平方的；正方形的 n. 广场；正方形",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85183,7 +85183,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/skweə/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，正方形的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，平方的研究取得了重大进展。"
   },
   {
     "id": "word_5679",
@@ -85278,7 +85278,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5685",
     "word": "stage",
-    "meaning": "n./v. 阶段；舞台",
+    "meaning": "n. 阶段；舞台 v. 举行；上演",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85308,7 +85308,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5687",
     "word": "stair",
-    "meaning": "n. 楼梯",
+    "meaning": "n. 楼梯；阶梯",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85323,7 +85323,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5688",
     "word": "stake",
-    "meaning": "n./v. 赌注；利害关系",
+    "meaning": "n. 赌注；桩 v. 冒险；以...为赌注",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -85368,7 +85368,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5691",
     "word": "stamp",
-    "meaning": "n./v. 邮票；盖章",
+    "meaning": "n. 邮票；印记 v. 盖章；跺脚",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -85398,7 +85398,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5693",
     "word": "stand",
-    "meaning": "v./n. 站立；忍受",
+    "meaning": "v. 站立；位于 n. 立场；停止",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85413,7 +85413,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5694",
     "word": "standard",
-    "meaning": "n./adj. 标准；标准的",
+    "meaning": "n. 标准 adj. 标准的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85443,7 +85443,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5696",
     "word": "star",
-    "meaning": "n./v. 星星；主演",
+    "meaning": "n. 星星；明星 v. 主演",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85458,7 +85458,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5697",
     "word": "stare",
-    "meaning": "v./n. 盯着看",
+    "meaning": "v. 凝视；注视 n. 凝视",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -85468,7 +85468,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/steə/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对盯着看的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对凝视的认识显著提高。"
   },
   {
     "id": "word_5698",
@@ -85488,7 +85488,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5699",
     "word": "start",
-    "meaning": "v./n. 开始；启动",
+    "meaning": "v. 开始；启动 n. 开始；起点",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85563,7 +85563,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5704",
     "word": "state",
-    "meaning": "n./v./adj. 状态；说；国家的",
+    "meaning": "n. 状态；国家 v. 陈述",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85593,7 +85593,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5706",
     "word": "station",
-    "meaning": "n./v. 车站；驻扎",
+    "meaning": "n. 车站；站 v. 驻扎",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85683,7 +85683,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5712",
     "word": "stay",
-    "meaning": "v./n. 停留；留下",
+    "meaning": "v. 停留；保持 n. 停留；逗留",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85728,7 +85728,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5715",
     "word": "steal",
-    "meaning": "v. 偷窃；窃取",
+    "meaning": "v. 偷窃；窃取 n. 便宜货",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85743,7 +85743,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5716",
     "word": "steam",
-    "meaning": "n./v. 蒸汽；蒸",
+    "meaning": "n. 蒸汽 v. 蒸发；蒸煮",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -85758,7 +85758,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5717",
     "word": "steel",
-    "meaning": "n./v. 钢；使坚强",
+    "meaning": "n. 钢铁 v. 使坚强",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -85768,12 +85768,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/stiːl/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会钢的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会钢铁的发展。"
   },
   {
     "id": "word_5718",
     "word": "steep",
-    "meaning": "adj. 陡峭的；急剧的",
+    "meaning": "adj. 陡峭的；急剧的 v. 浸泡",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -85803,7 +85803,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5720",
     "word": "steer",
-    "meaning": "v. 驾驶；引导",
+    "meaning": "v. 驾驶；引导 n. 公牛",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -85818,7 +85818,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5721",
     "word": "stem",
-    "meaning": "n./v. 茎；起源",
+    "meaning": "n. 茎；干 v. 阻止；起源于",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -85833,7 +85833,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5722",
     "word": "step",
-    "meaning": "n./v. 步骤；踏",
+    "meaning": "n. 步骤；步伐 v. 踏；走",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85878,7 +85878,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5725",
     "word": "stick",
-    "meaning": "n./v. 棍棒；粘贴",
+    "meaning": "n. 棍棒；手杖 v. 粘贴；刺",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -85893,7 +85893,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5726",
     "word": "sticky",
-    "meaning": "adj. 粘性的；棘手的",
+    "meaning": "adj. 粘的；棘手的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -85903,7 +85903,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈstɪki/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，粘性的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，粘的研究取得了重大进展。"
   },
   {
     "id": "word_5727",
@@ -85923,7 +85923,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5728",
     "word": "still",
-    "meaning": "adv./adj. 仍然；静止的",
+    "meaning": "adv. 仍然 adj. 静止的 n. 寂静",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -85998,7 +85998,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5733",
     "word": "stock",
-    "meaning": "n./v./adj. 股票；库存",
+    "meaning": "n. 股票；库存 v. 储备",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86013,7 +86013,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5734",
     "word": "stomach",
-    "meaning": "n. 胃；腹部",
+    "meaning": "n. 胃；腹部 v. 忍受",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -86028,7 +86028,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5735",
     "word": "stone",
-    "meaning": "n. 石头；石料",
+    "meaning": "n. 石头 v. 向...扔石头",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86043,7 +86043,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5736",
     "word": "stop",
-    "meaning": "v./n. 停止；阻止",
+    "meaning": "v. 停止 n. 停止；车站",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -86073,7 +86073,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5738",
     "word": "store",
-    "meaning": "n./v. 商店；储存",
+    "meaning": "n. 商店 v. 储存",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86088,7 +86088,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5739",
     "word": "storm",
-    "meaning": "n./v. 暴风雨；猛攻",
+    "meaning": "n. 暴风雨 v. 猛攻；起风暴",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86118,7 +86118,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5741",
     "word": "stove",
-    "meaning": "n.stove",
+    "meaning": "n. 火炉",
     "level": "IELTS8",
     "root": "sto",
     "rootMeaning": "词根",
@@ -86128,12 +86128,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/stove/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会stove的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会火炉的发展。"
   },
   {
     "id": "word_5742",
     "word": "straight",
-    "meaning": "adj./adv. 直的；直接地",
+    "meaning": "adj. 直的 adv. 直接地",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86163,7 +86163,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5744",
     "word": "strain",
-    "meaning": "n./v. 压力；拉紧",
+    "meaning": "v. 拉紧 n. 张力；拉紧",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -86173,7 +86173,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/streɪn/",
     "frequency": "中频",
-    "example": "The application of this concept has revolutionized various industries.\n压力的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n拉紧的应用革新了各个行业。"
   },
   {
     "id": "word_5745",
@@ -86208,7 +86208,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5747",
     "word": "stranger",
-    "meaning": "n. 陌生人；异乡人",
+    "meaning": "n. 陌生人",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -86298,7 +86298,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5753",
     "word": "stream",
-    "meaning": "n./v. 溪流；流动",
+    "meaning": "n. 溪流 v. 流；涌",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86313,7 +86313,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5754",
     "word": "street",
-    "meaning": "n. 街道；马路",
+    "meaning": "n. 街道",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -86328,7 +86328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5755",
     "word": "strength",
-    "meaning": "n. 力量；力气",
+    "meaning": "n. 力量；强度",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86358,7 +86358,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5757",
     "word": "stress",
-    "meaning": "n./v. 压力；强调",
+    "meaning": "n. 压力 v. 强调",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86373,7 +86373,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5758",
     "word": "stretch",
-    "meaning": "v./n. 伸展；延伸",
+    "meaning": "v. 伸展 n. 伸展；弹性",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -86388,7 +86388,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5759",
     "word": "strict",
-    "meaning": "adj. 严格的；严密的",
+    "meaning": "adj. 严格的；精确的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86433,7 +86433,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5762",
     "word": "strike",
-    "meaning": "v./n. 罢工；打击",
+    "meaning": "v. 打；撞击 n. 罢工；打击",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -86443,7 +86443,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/straɪk/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，罢工的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，打的重要性怎么强调都不为过。"
   },
   {
     "id": "word_5763",
@@ -86463,7 +86463,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5764",
     "word": "string",
-    "meaning": "n./v. 弦；绳子； strung",
+    "meaning": "n. 线；弦 v. 绑；伸展",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -86473,12 +86473,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/strɪŋ/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与弦相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与线相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_5765",
     "word": "strip",
-    "meaning": "v./n. 剥夺；脱去",
+    "meaning": "v. 脱光 n. 条带；脱衣舞",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -86488,12 +86488,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/strɪp/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会剥夺的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会脱光的发展。"
   },
   {
     "id": "word_5766",
     "word": "stripe",
-    "meaning": "n. 条纹；斑纹",
+    "meaning": "n. 条纹 v. 给...加条纹",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -86508,7 +86508,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5767",
     "word": "stroke",
-    "meaning": "n./v. 中风；击打",
+    "meaning": "n. 中风；击球 v. 抚摸",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -86568,7 +86568,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5771",
     "word": "structure",
-    "meaning": "n./v. 结构；组织",
+    "meaning": "n. 结构 v. 构建",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -86583,7 +86583,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5772",
     "word": "struggle",
-    "meaning": "v./n. 挣扎；奋斗",
+    "meaning": "v. 挣扎 n. 斗争；努力",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86658,7 +86658,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5777",
     "word": "stuff",
-    "meaning": "n./v. 东西；塞满",
+    "meaning": "n. 东西 v. 填满；塞满",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86703,7 +86703,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5780",
     "word": "stupid",
-    "meaning": "adj. 愚蠢的；笨的",
+    "meaning": "adj. 愚蠢的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -86733,7 +86733,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5782",
     "word": "subject",
-    "meaning": "n./adj./v. 主题；主观",
+    "meaning": "n. 主题 v. 使服从",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87003,7 +87003,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5800",
     "word": "such",
-    "meaning": "adj./pron. 这样的；如此",
+    "meaning": "adj. 这样的 pron. 这样的人",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -87013,12 +87013,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/sʌtʃ/",
     "frequency": "高频",
-    "example": "The application of this concept has revolutionized various industries.\n/pron. 这样的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n这样的 pron. 这样的人的应用革新了各个行业。"
   },
   {
     "id": "word_5801",
     "word": "suck",
-    "meaning": "v./n. 吸；吮",
+    "meaning": "v. 吸；舐 n. 吸",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -87033,7 +87033,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5802",
     "word": "sudden",
-    "meaning": "adj. 突然的；意外的",
+    "meaning": "adj. 突然的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87063,7 +87063,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5804",
     "word": "suffer",
-    "meaning": "v. 遭受；忍受",
+    "meaning": "v. 遭受；经历",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87093,7 +87093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5806",
     "word": "sugar",
-    "meaning": "n. 糖；食糖",
+    "meaning": "n. 糖 v. 加糖",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87153,7 +87153,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5810",
     "word": "suit",
-    "meaning": "n./v. 西装；适合",
+    "meaning": "n. 套装 v. 适合；起诉",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87163,7 +87163,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/suːt/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，西装的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，套装的重要性怎么强调都不为过。"
   },
   {
     "id": "word_5811",
@@ -87318,7 +87318,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5821",
     "word": "sun",
-    "meaning": "n./v. 太阳；晒",
+    "meaning": "n. 太阳；阳光 v. 晒太阳",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -87423,7 +87423,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5828",
     "word": "super",
-    "meaning": "adj./adv. 超级的；极好的",
+    "meaning": "adj. 超级的；极好的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87573,7 +87573,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5838",
     "word": "supper",
-    "meaning": "n. 晚餐；晚饭",
+    "meaning": "n. 晚餐",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87618,7 +87618,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5841",
     "word": "supply",
-    "meaning": "n./v. 供应；供给",
+    "meaning": "v./n. 供给；供应",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -87628,7 +87628,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/səˈplaɪ/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对供应的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对供给的认识显著提高。"
   },
   {
     "id": "word_5842",
@@ -87738,7 +87738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5849",
     "word": "sure",
-    "meaning": "adj./adv. 确信的；当然",
+    "meaning": "adj. 确信的 adv. 当然",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -87768,7 +87768,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5851",
     "word": "surface",
-    "meaning": "n./v. 表面；浮现",
+    "meaning": "n. 表面 v. 浮出水面",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -87828,7 +87828,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5855",
     "word": "surprise",
-    "meaning": "n./v. 惊讶；使惊奇",
+    "meaning": "n. 惊讶 v. 使惊讶",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -87903,7 +87903,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5860",
     "word": "surround",
-    "meaning": "v. 包围；围绕",
+    "meaning": "v. 围绕 n. 围绕物",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -87913,7 +87913,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/səˈraʊnd/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与包围相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与围绕相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_5861",
@@ -87978,7 +87978,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5865",
     "word": "survive",
-    "meaning": "v. 生存；存活",
+    "meaning": "v. 幸存；活下来",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -87988,7 +87988,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/səˈvaɪv/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对生存的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对幸存的认识显著提高。"
   },
   {
     "id": "word_5866",
@@ -88008,7 +88008,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5867",
     "word": "suspect",
-    "meaning": "v./n. 怀疑；嫌疑人",
+    "meaning": "v. 怀疑 n. 嫌疑犯",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -88578,7 +88578,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5905",
     "word": "tail",
-    "meaning": "n./v. 尾巴；跟踪",
+    "meaning": "n. 尾巴 v. 跟踪",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -88593,7 +88593,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5906",
     "word": "tailor",
-    "meaning": "n./v. 裁缝；专门制作",
+    "meaning": "n. 裁缝 v. 剪裁；调整",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -88608,7 +88608,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5907",
     "word": "take",
-    "meaning": "v. 拿；带走",
+    "meaning": "v. 拿；取；花费",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -88698,7 +88698,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5913",
     "word": "tank",
-    "meaning": "n./v. 坦克；油箱",
+    "meaning": "n. 坦克；容器",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -88728,7 +88728,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5915",
     "word": "tape",
-    "meaning": "n./v. 磁带；录音",
+    "meaning": "n. 磁带 v. 录音",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -88773,7 +88773,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5918",
     "word": "task",
-    "meaning": "n. 任务；工作",
+    "meaning": "n. 任务 v. 分派任务",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -88788,7 +88788,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5919",
     "word": "taste",
-    "meaning": "n./v. 味道；品尝",
+    "meaning": "v./n. 品尝；味道",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -88798,7 +88798,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/teɪst/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索味道的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索品尝的新方面。"
   },
   {
     "id": "word_5920",
@@ -88818,7 +88818,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5921",
     "word": "tax",
-    "meaning": "n./v. 税；征税",
+    "meaning": "n. 税 v. 征税",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -88848,7 +88848,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5923",
     "word": "taxi",
-    "meaning": "n. 出租车",
+    "meaning": "n. 出租车 v. 滑行",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -88893,7 +88893,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5926",
     "word": "teacher",
-    "meaning": "n. 教师；老师",
+    "meaning": "n. 教师",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -88923,7 +88923,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5928",
     "word": "team",
-    "meaning": "n./v. 团队；组队",
+    "meaning": "n. 团队 v. 协作",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -88938,7 +88938,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5929",
     "word": "tear",
-    "meaning": "n./v. 眼泪；撕破",
+    "meaning": "n. 眼泪 v. 撕开",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -88953,7 +88953,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5930",
     "word": "technical",
-    "meaning": "adj. 技术的；专业的",
+    "meaning": "adj. 技术的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -89058,7 +89058,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5937",
     "word": "telephone",
-    "meaning": "n./v. 电话；打电话",
+    "meaning": "n. 电话 v. 打电话",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -89088,7 +89088,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5939",
     "word": "television",
-    "meaning": "n. 电视；电视机",
+    "meaning": "n. 电视",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -89103,7 +89103,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5940",
     "word": "tell",
-    "meaning": "v. 告诉；讲述",
+    "meaning": "v. 告诉；说",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -89118,7 +89118,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5941",
     "word": "temperature",
-    "meaning": "n. 温度；体温",
+    "meaning": "n. 温度",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89133,7 +89133,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5942",
     "word": "temple",
-    "meaning": "n. 寺庙；教堂",
+    "meaning": "n. 寺庙；太阳穴",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -89148,7 +89148,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5943",
     "word": "temporary",
-    "meaning": "adj. 暂时的；临时的",
+    "meaning": "adj. 暂时的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -89193,7 +89193,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5946",
     "word": "ten",
-    "meaning": "num./n. 十；十个",
+    "meaning": "num. 十",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89223,7 +89223,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5948",
     "word": "tend",
-    "meaning": "v. 倾向；照料",
+    "meaning": "v. 趋向；照管",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89233,7 +89233,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/tend/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与倾向相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与趋向相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_5949",
@@ -89283,7 +89283,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5952",
     "word": "tense",
-    "meaning": "adj./n. 紧张的；时态",
+    "meaning": "adj. 紧张的 n. 时态",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89328,7 +89328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5955",
     "word": "term",
-    "meaning": "n./v. 学期；术语",
+    "meaning": "n. 学期；术语",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89403,7 +89403,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5960",
     "word": "terrible",
-    "meaning": "adj. 可怕的；极差的",
+    "meaning": "adj. 可怕的；糟糕的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -89493,7 +89493,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5966",
     "word": "test",
-    "meaning": "n./v. 测试；测验",
+    "meaning": "v./n. 测试；测验",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -89553,7 +89553,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5970",
     "word": "text",
-    "meaning": "n./v. 文本；发短信",
+    "meaning": "n. 文本；正文",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89628,7 +89628,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5975",
     "word": "that",
-    "meaning": "pron./adj. 那个",
+    "meaning": "pron./adj. 那；那个",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89638,7 +89638,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ðæt/",
     "frequency": "高频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索那个的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索那的新方面。"
   },
   {
     "id": "word_5976",
@@ -89673,7 +89673,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5978",
     "word": "theatre",
-    "meaning": "n. 剧院；剧场",
+    "meaning": "n. 剧院",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89688,7 +89688,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5979",
     "word": "their",
-    "meaning": "pron. 他/她/它们的",
+    "meaning": "pron. 他们的",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89698,12 +89698,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ðeə/",
     "frequency": "高频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n他/她/它们的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n他们的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_5980",
     "word": "them",
-    "meaning": "pron. 他们；她们；它们",
+    "meaning": "pron. 他们",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89718,7 +89718,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5981",
     "word": "theme",
-    "meaning": "n. 主题；题目",
+    "meaning": "n. 主题",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -89748,7 +89748,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5983",
     "word": "then",
-    "meaning": "adv./conj. 那时；然后",
+    "meaning": "adv. 然后；当时",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89758,7 +89758,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ðen/",
     "frequency": "高频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索/conj. 那时的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索然后的新方面。"
   },
   {
     "id": "word_5984",
@@ -89808,7 +89808,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5987",
     "word": "theory",
-    "meaning": "n. 理论；学说",
+    "meaning": "n. 理论",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -89838,7 +89838,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5989",
     "word": "there",
-    "meaning": "adv./n. 那里；在那里",
+    "meaning": "adv. 在那里",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89848,7 +89848,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ðeə/",
     "frequency": "高频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会那里的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会在那里的发展。"
   },
   {
     "id": "word_5990",
@@ -89883,7 +89883,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5992",
     "word": "therefore",
-    "meaning": "adv. 因此；所以",
+    "meaning": "adv. 因此",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89943,7 +89943,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5996",
     "word": "they",
-    "meaning": "pron. 他们；她们；它们",
+    "meaning": "pron. 他们",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -89958,7 +89958,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5997",
     "word": "thick",
-    "meaning": "adj. 厚的；粗的",
+    "meaning": "adj. 厚的；浓的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -89988,7 +89988,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5999",
     "word": "thief",
-    "meaning": "n.thief",
+    "meaning": "n. 小偷",
     "level": "IELTS6",
     "root": "thi",
     "rootMeaning": "词根",
@@ -89998,12 +89998,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/thief/",
     "frequency": "低频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索thief的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索小偷的新方面。"
   },
   {
     "id": "word_6000",
     "word": "thin",
-    "meaning": "adj./v. 薄的；瘦的",
+    "meaning": "adj. 薄的；瘦的 v. 变薄",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90033,7 +90033,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6002",
     "word": "think",
-    "meaning": "v. 想；认为",
+    "meaning": "v. 想；思考",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90063,7 +90063,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6004",
     "word": "third",
-    "meaning": "num./adj. 第三",
+    "meaning": "num. 第三",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90093,7 +90093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6006",
     "word": "thirty",
-    "meaning": "num./n. 三十",
+    "meaning": "num. 三十",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -90108,7 +90108,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6007",
     "word": "this",
-    "meaning": "pron./adj. 这个",
+    "meaning": "pron./adj. 这；这个",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -90118,7 +90118,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ðɪs/",
     "frequency": "高频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索这个的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索这的新方面。"
   },
   {
     "id": "word_6008",
@@ -90168,7 +90168,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6011",
     "word": "though",
-    "meaning": "conj./adv. 虽然；可是",
+    "meaning": "conj. 虽然",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90183,7 +90183,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6012",
     "word": "thought",
-    "meaning": "n./v. 思想；思考",
+    "meaning": "n. 思想；想法",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -90198,7 +90198,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6013",
     "word": "thousand",
-    "meaning": "num./n. 千",
+    "meaning": "num. 千",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90213,7 +90213,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6014",
     "word": "thread",
-    "meaning": "n.thread",
+    "meaning": "n. 线；线索",
     "level": "IELTS5",
     "root": "thr",
     "rootMeaning": "词根",
@@ -90223,12 +90223,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/thread/",
     "frequency": "低频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，thread的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，线的研究取得了重大进展。"
   },
   {
     "id": "word_6015",
     "word": "threat",
-    "meaning": "n. 威胁；恐吓",
+    "meaning": "n. 威胁",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -90333,7 +90333,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6022",
     "word": "through",
-    "meaning": "prep./adv. 通过；穿过",
+    "meaning": "prep./adv. 通过",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90363,7 +90363,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6024",
     "word": "throw",
-    "meaning": "v./n. 投；扔",
+    "meaning": "v. 投；掷",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90438,7 +90438,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6029",
     "word": "thus",
-    "meaning": "adv. 因此；如此",
+    "meaning": "adv. 因此",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -90468,7 +90468,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6031",
     "word": "ticket",
-    "meaning": "n.ticket",
+    "meaning": "n. 票；标签",
     "level": "IELTS5",
     "root": "tic",
     "rootMeaning": "词根",
@@ -90478,7 +90478,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ticket/",
     "frequency": "低频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索ticket的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索票的新方面。"
   },
   {
     "id": "word_6032",
@@ -90498,7 +90498,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6033",
     "word": "tidy",
-    "meaning": "n.tidy",
+    "meaning": "adj. 整洁的 v. 整理",
     "level": "IELTS7",
     "root": "tid",
     "rootMeaning": "词根",
@@ -90508,12 +90508,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/tidy/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对tidy的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对整洁的认识显著提高。"
   },
   {
     "id": "word_6034",
     "word": "tie",
-    "meaning": "n./v. 领带；系",
+    "meaning": "n. 领带 v. 系；连接",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -90528,7 +90528,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6035",
     "word": "tiger",
-    "meaning": "n. ...的人Tig",
+    "meaning": "n. 老虎",
     "level": "IELTS5",
     "root": "er",
     "rootMeaning": "...者",
@@ -90538,12 +90538,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/tiger/",
     "frequency": "高频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n...的人Tig的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n老虎的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_6036",
     "word": "tight",
-    "meaning": "adj./adv. 紧的；紧紧地",
+    "meaning": "adj. 紧的；严格的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -90618,7 +90618,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6041",
     "word": "time",
-    "meaning": "n./v. 时间；计时",
+    "meaning": "n. 时间 v. 计时",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -90678,7 +90678,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6045",
     "word": "tiny",
-    "meaning": "adj. 极小的；微小的",
+    "meaning": "adj. 极小的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90693,7 +90693,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6046",
     "word": "tip",
-    "meaning": "n./v. 尖端；小费",
+    "meaning": "n. 尖端；小费 v. 倾斜",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -90708,7 +90708,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6047",
     "word": "tired",
-    "meaning": "adj. 疲劳的；累的",
+    "meaning": "adj. 疲劳的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90738,7 +90738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6049",
     "word": "title",
-    "meaning": "n./v. 标题；称号",
+    "meaning": "n. 标题；权利",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -90768,7 +90768,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6051",
     "word": "toast",
-    "meaning": "n./v. 烤面包；祝酒",
+    "meaning": "n. 烤面包 v. 烤；祝酒",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -90798,7 +90798,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6053",
     "word": "today",
-    "meaning": "adv./n. 今天；现今",
+    "meaning": "adv./n. 今天",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -90828,7 +90828,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6055",
     "word": "together",
-    "meaning": "adv. 一起；同时",
+    "meaning": "adv. 一起",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90843,7 +90843,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6056",
     "word": "toilet",
-    "meaning": "n. 厕所；马桶",
+    "meaning": "n. 厕所",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90933,7 +90933,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6062",
     "word": "tomato",
-    "meaning": "n. 西红柿",
+    "meaning": "n. 番茄",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -90943,7 +90943,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/təˈmɑːtəʊ/",
     "frequency": "低频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，西红柿的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，番茄的研究取得了重大进展。"
   },
   {
     "id": "word_6063",
@@ -90963,7 +90963,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6064",
     "word": "tone",
-    "meaning": "n./v. 音调；色调",
+    "meaning": "n. 音调；语气",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -90993,7 +90993,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6066",
     "word": "tonight",
-    "meaning": "adv./n. 今晚；今夜",
+    "meaning": "adv./n. 今晚",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -91008,7 +91008,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6067",
     "word": "too",
-    "meaning": "n.too",
+    "meaning": "adv. 也；太",
     "level": "IELTS6",
     "root": "too",
     "rootMeaning": "词根",
@@ -91018,7 +91018,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/too/",
     "frequency": "中频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\ntoo的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n也的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_6068",
@@ -91038,7 +91038,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6069",
     "word": "tool",
-    "meaning": "n. 工具；器械",
+    "meaning": "n. 工具",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91068,7 +91068,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6071",
     "word": "top",
-    "meaning": "n./adj./v. 顶部；最高的",
+    "meaning": "n. 顶部 adj. 最高的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -91143,7 +91143,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6076",
     "word": "total",
-    "meaning": "n./adj./v. 总数；全部的",
+    "meaning": "adj. 总的 n. 总数",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91153,7 +91153,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈtəʊtl/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与总数相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与总相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_6077",
@@ -91188,7 +91188,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6079",
     "word": "tough",
-    "meaning": "adj. 艰难的；坚强的",
+    "meaning": "adj. 坚韧的；困难的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91198,7 +91198,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/tʌf/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索艰难的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索坚韧的新方面。"
   },
   {
     "id": "word_6080",
@@ -91233,7 +91233,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6082",
     "word": "tourist",
-    "meaning": "n. 游客；旅游者",
+    "meaning": "n. 游客",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91263,7 +91263,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6084",
     "word": "toward",
-    "meaning": "prep. 向；朝着",
+    "meaning": "prep. 向；朝",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91308,7 +91308,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6087",
     "word": "tower",
-    "meaning": "n. 塔；塔楼",
+    "meaning": "n. 塔 v. 高耸",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91323,7 +91323,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6088",
     "word": "town",
-    "meaning": "n. 城镇；小镇",
+    "meaning": "n. 城镇",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -91353,7 +91353,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6090",
     "word": "toy",
-    "meaning": "n.toy",
+    "meaning": "n. 玩具 v. 玩弄",
     "level": "IELTS8",
     "root": "toy",
     "rootMeaning": "词根",
@@ -91363,7 +91363,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/toy/",
     "frequency": "低频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，toy的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，玩具的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6091",
@@ -91383,7 +91383,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6092",
     "word": "track",
-    "meaning": "n./v. 轨道；跟踪",
+    "meaning": "n. 轨道 v. 追踪",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91458,7 +91458,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6097",
     "word": "tradition",
-    "meaning": "n. 传统；惯例",
+    "meaning": "n. 传统",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -91473,7 +91473,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6098",
     "word": "traditional",
-    "meaning": "adj. 传统的；惯例的",
+    "meaning": "adj. 传统的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -91488,7 +91488,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6099",
     "word": "traffic",
-    "meaning": "n. 交通；流量",
+    "meaning": "n. 交通 v. 交易",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91563,7 +91563,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6104",
     "word": "train",
-    "meaning": "n./v. 火车；培训",
+    "meaning": "n. 火车 v. 训练",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -91593,7 +91593,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6106",
     "word": "training",
-    "meaning": "n. 训练；培训",
+    "meaning": "n. 训练",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91668,7 +91668,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6111",
     "word": "transform",
-    "meaning": "v. 改变；改造",
+    "meaning": "v. 转换；改变",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -91678,7 +91678,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/trænsˈfɔːm/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索改变的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索转换的新方面。"
   },
   {
     "id": "word_6112",
@@ -91848,7 +91848,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6123",
     "word": "transport",
-    "meaning": "n./v. 运输；交通工具",
+    "meaning": "n./v. 运输",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91878,7 +91878,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6125",
     "word": "trap",
-    "meaning": "n./v. 陷阱；困住",
+    "meaning": "n. 陷阱 v. 诱捕",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -91893,7 +91893,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6126",
     "word": "travel",
-    "meaning": "v./n. 旅行；旅游",
+    "meaning": "v./n. 旅行",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -91923,7 +91923,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6128",
     "word": "tray",
-    "meaning": "n. 托盘；盘子",
+    "meaning": "n. 托盘",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -91938,7 +91938,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6129",
     "word": "treasure",
-    "meaning": "n./v. 财富；珍视",
+    "meaning": "n. 财富 v. 珍视",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -91968,7 +91968,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6131",
     "word": "treat",
-    "meaning": "v./n. 对待；治疗",
+    "meaning": "v. 对待；治疗 n. 款待",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92013,7 +92013,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6134",
     "word": "tree",
-    "meaning": "n. 树；树木",
+    "meaning": "n. 树 v. 爬上树",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -92043,7 +92043,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6136",
     "word": "trend",
-    "meaning": "n. 趋势；倾向",
+    "meaning": "n. 趋势 v. 趋向",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -92058,7 +92058,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6137",
     "word": "trial",
-    "meaning": "n./adj. 审判；试验",
+    "meaning": "n. 审判；试验",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -92103,7 +92103,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6140",
     "word": "tribe",
-    "meaning": "n.tribe",
+    "meaning": "n. 部落",
     "level": "IELTS5",
     "root": "tri",
     "rootMeaning": "三",
@@ -92113,7 +92113,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/tribe/",
     "frequency": "低频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与tribe相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与部落相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_6141",
@@ -92148,7 +92148,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6143",
     "word": "trick",
-    "meaning": "n./v. 恶作剧；欺骗",
+    "meaning": "n. 诡计 v. 欺骗",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92158,7 +92158,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/trɪk/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索恶作剧的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索诡计的新方面。"
   },
   {
     "id": "word_6144",
@@ -92208,7 +92208,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6147",
     "word": "trip",
-    "meaning": "n./v. 旅行；绊倒",
+    "meaning": "v. 绊倒 n. 旅行",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -92218,7 +92218,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/trɪp/",
     "frequency": "中频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n旅行的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n绊倒的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_6148",
@@ -92268,7 +92268,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6151",
     "word": "troop",
-    "meaning": "n./v. 军队；群",
+    "meaning": "n. 军队 v. 群集",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -92328,7 +92328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6155",
     "word": "trouble",
-    "meaning": "n./v. 麻烦；困扰",
+    "meaning": "n. 麻烦 v. 使麻烦",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -92388,7 +92388,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6159",
     "word": "truck",
-    "meaning": "n. 卡车；货车",
+    "meaning": "n. 卡车 v. 用卡车运",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92403,7 +92403,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6160",
     "word": "true",
-    "meaning": "adj. 真实的；真的",
+    "meaning": "adj. 真实的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -92418,7 +92418,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6161",
     "word": "truly",
-    "meaning": "adv. 真正地；真实地",
+    "meaning": "adv. 真实地",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -92428,7 +92428,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈtruːli/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对真正地的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对真实地的认识显著提高。"
   },
   {
     "id": "word_6162",
@@ -92448,7 +92448,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6163",
     "word": "trust",
-    "meaning": "n./v. 信任；相信",
+    "meaning": "n./v. 信任",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92463,7 +92463,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6164",
     "word": "truth",
-    "meaning": "n. 真理；事实",
+    "meaning": "n. 真理；真相",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92598,7 +92598,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6173",
     "word": "turn",
-    "meaning": "v./n. 转动；转向",
+    "meaning": "v./n. 转向；转动",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -92608,7 +92608,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/tɜːn/",
     "frequency": "高频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会转动的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会转向的发展。"
   },
   {
     "id": "word_6174",
@@ -92733,7 +92733,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6182",
     "word": "twin",
-    "meaning": "n./adj. 双胞胎；成对的",
+    "meaning": "n. 双胞胎 adj. 双的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92748,7 +92748,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6183",
     "word": "twist",
-    "meaning": "n. ...主义者Tw",
+    "meaning": "v. 拧；扭曲 n. 拧",
     "level": "IELTS7",
     "root": "ist",
     "rootMeaning": "...者",
@@ -92758,7 +92758,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/twist/",
     "frequency": "高频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索...主义者Tw的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索拧的新方面。"
   },
   {
     "id": "word_6184",
@@ -92778,7 +92778,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6185",
     "word": "type",
-    "meaning": "n./v. 类型；打字",
+    "meaning": "n. 类型 v. 打字",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92823,7 +92823,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6188",
     "word": "ugly",
-    "meaning": "adj. 丑陋的；难看的",
+    "meaning": "adj. 丑陋的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92898,7 +92898,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6193",
     "word": "umbrella",
-    "meaning": "n. 雨伞；伞",
+    "meaning": "n. 伞",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -92908,7 +92908,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ʌmˈbrelə/",
     "frequency": "低频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对雨伞的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对伞的认识显著提高。"
   },
   {
     "id": "word_6194",
@@ -92943,7 +92943,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6196",
     "word": "uncle",
-    "meaning": "n. 伯父；叔父",
+    "meaning": "n. 叔叔",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -92953,12 +92953,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈʌŋkl/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与伯父相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与叔叔相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_6197",
     "word": "under",
-    "meaning": "prep./adv. 在...下面",
+    "meaning": "prep. 在...下面",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -93063,7 +93063,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6204",
     "word": "understand",
-    "meaning": "v. 理解；明白",
+    "meaning": "v. 理解",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -93093,7 +93093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6206",
     "word": "undertake",
-    "meaning": "v. 承担；从事",
+    "meaning": "v. 承担；着手做",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93123,7 +93123,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6208",
     "word": "unexpected",
-    "meaning": "adj. 意外的；突然的",
+    "meaning": "adj. 意外的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93198,7 +93198,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6213",
     "word": "unhappy",
-    "meaning": "adj. 不快乐的；不高兴的",
+    "meaning": "adj. 不快乐的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93213,7 +93213,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6214",
     "word": "uniform",
-    "meaning": "n./adj. 制服；统一的",
+    "meaning": "n. 制服 adj. 统一的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93243,7 +93243,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6216",
     "word": "unique",
-    "meaning": "adj. 独特的；唯一的",
+    "meaning": "adj. 独特的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93303,7 +93303,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6220",
     "word": "unity",
-    "meaning": "n. 团结；统一",
+    "meaning": "n. 团结；一致",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93333,7 +93333,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6222",
     "word": "universe",
-    "meaning": "n. 宇宙；世界",
+    "meaning": "n. 宇宙",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93363,7 +93363,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6224",
     "word": "unknown",
-    "meaning": "adj./n. 未知的；未知",
+    "meaning": "adj. 未知的 n. 未知的事物",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93378,7 +93378,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6225",
     "word": "unless",
-    "meaning": "conj. 除非；如果不",
+    "meaning": "conj. 除非",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93393,7 +93393,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6226",
     "word": "unlike",
-    "meaning": "prep./adj. 不同；不像",
+    "meaning": "prep. 与...不同",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93403,12 +93403,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˌʌnˈlaɪk/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，不同的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，与...不同的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6227",
     "word": "unlikely",
-    "meaning": "adj. 不可能的；未必的",
+    "meaning": "adj. 不太可能的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93418,7 +93418,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ʌnˈlaɪkli/",
     "frequency": "中频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n不可能的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n不太可能的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_6228",
@@ -93438,7 +93438,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6229",
     "word": "unusual",
-    "meaning": "adj. 不寻常的；独特的",
+    "meaning": "adj. 不寻常的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93483,7 +93483,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6232",
     "word": "update",
-    "meaning": "v. 更新；现代化 n. 更新；最新消息",
+    "meaning": "v./n. 更新",
     "level": "IELTS6",
     "root": "ate",
     "rootMeaning": "使",
@@ -93513,7 +93513,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6234",
     "word": "upon",
-    "meaning": "prep. 在...上；在...时",
+    "meaning": "prep. 在...之上",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93523,12 +93523,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/əˈpɒn/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，在...上的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，在...之上的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6235",
     "word": "upper",
-    "meaning": "adj. 上面的；较高的；上级\n",
+    "meaning": "adj. 上面的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93573,7 +93573,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6238",
     "word": "upset",
-    "meaning": "v. 使难过；打乱；推翻 adj. 难过的；混乱的 n. 烦恼；混乱",
+    "meaning": "v. 使心烦 adj. 不安的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93583,12 +93583,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ʌpˈset/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，使难过的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，使心烦的研究取得了重大进展。"
   },
   {
     "id": "word_6239",
     "word": "urban",
-    "meaning": "adj. 城市的；都市的",
+    "meaning": "adj. 城市的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93603,7 +93603,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6240",
     "word": "urge",
-    "meaning": "v./n. 强烈要求；冲动",
+    "meaning": "v. 强烈要求 n. 冲动",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93618,7 +93618,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6241",
     "word": "urgent",
-    "meaning": "adj. 紧急的；急迫的",
+    "meaning": "adj. 紧急的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93663,7 +93663,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6244",
     "word": "use",
-    "meaning": "v./n. 使用；利用",
+    "meaning": "v./n. 使用",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -93678,7 +93678,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6245",
     "word": "used",
-    "meaning": "adj./v. 用过的；使用",
+    "meaning": "v. 用过 adj. 用过的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -93693,7 +93693,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6246",
     "word": "useful",
-    "meaning": "adj. 有用的；有益的",
+    "meaning": "adj. 有用的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93708,7 +93708,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6247",
     "word": "user",
-    "meaning": "n. 用户；使用者",
+    "meaning": "n. 用户",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93723,7 +93723,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6248",
     "word": "usual",
-    "meaning": "adj. 通常的；平常的",
+    "meaning": "adj. 通常的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93738,7 +93738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6249",
     "word": "usually",
-    "meaning": "adv. 通常；经常",
+    "meaning": "adv. 通常",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93753,7 +93753,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6250",
     "word": "utility",
-    "meaning": "n. 实用；效用",
+    "meaning": "n. 功用；公共事业",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93763,7 +93763,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/juːˈtɪləti/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，实用的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，功用的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6251",
@@ -93813,7 +93813,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6254",
     "word": "vacant",
-    "meaning": "adj. 空缺的；空闲的",
+    "meaning": "adj. 空缺的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93828,7 +93828,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6255",
     "word": "vacation",
-    "meaning": "n./v. 假期；度假",
+    "meaning": "n. 假期 v. 度假",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -93873,7 +93873,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6258",
     "word": "vague",
-    "meaning": "adj. 模糊的；含糊的",
+    "meaning": "adj. 模糊的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93903,7 +93903,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6260",
     "word": "valid",
-    "meaning": "adj. 有效的；正当的",
+    "meaning": "adj. 有效的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93918,7 +93918,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6261",
     "word": "valley",
-    "meaning": "n. 山谷；峡谷",
+    "meaning": "n. 山谷",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93933,7 +93933,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6262",
     "word": "valuable",
-    "meaning": "adj. 贵重的；有价值的",
+    "meaning": "adj. 贵重的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -93993,7 +93993,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6266",
     "word": "van",
-    "meaning": "n. 面包车；货车",
+    "meaning": "n. 面包车",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94008,7 +94008,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6267",
     "word": "vanish",
-    "meaning": "v. 消失；不见",
+    "meaning": "v. 消失",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94098,7 +94098,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6273",
     "word": "variety",
-    "meaning": "n. 多样化；种类",
+    "meaning": "n. 多样；种类",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94108,7 +94108,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/vəˈraɪəti/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对多样化的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对多样的认识显著提高。"
   },
   {
     "id": "word_6274",
@@ -94143,7 +94143,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6276",
     "word": "vast",
-    "meaning": "adj. 巨大的；广阔的",
+    "meaning": "adj. 广阔的；大量的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94153,7 +94153,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/vɑːst/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与巨大相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与广阔相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_6277",
@@ -94203,7 +94203,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6280",
     "word": "vehicle",
-    "meaning": "n. 车辆；交通工具",
+    "meaning": "n. 车辆；工具",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94473,7 +94473,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6298",
     "word": "very",
-    "meaning": "adv. 非常；很",
+    "meaning": "adv. 非常 adj. 正是的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -94593,7 +94593,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6306",
     "word": "victim",
-    "meaning": "n. 受害者；牺牲品",
+    "meaning": "n. 受害者",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94608,7 +94608,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6307",
     "word": "victory",
-    "meaning": "n. 胜利；成功",
+    "meaning": "n. 胜利",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94623,7 +94623,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6308",
     "word": "video",
-    "meaning": "n./v. 视频；录像",
+    "meaning": "n. 视频 v. 录制",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -94638,7 +94638,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6309",
     "word": "view",
-    "meaning": "n./v. 观点；观看",
+    "meaning": "n. 观点；视野 v. 看待",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -94653,7 +94653,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6310",
     "word": "viewer",
-    "meaning": "n. 观看者；观众",
+    "meaning": "n. 观众； viewer",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94663,7 +94663,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈvjuːə/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，观看者的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，观众的研究取得了重大进展。"
   },
   {
     "id": "word_6311",
@@ -94683,7 +94683,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6312",
     "word": "village",
-    "meaning": "n. 村庄；乡村",
+    "meaning": "n. 村庄",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -94758,7 +94758,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6317",
     "word": "violence",
-    "meaning": "n. 暴力；暴行",
+    "meaning": "n. 暴力",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94773,7 +94773,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6318",
     "word": "violent",
-    "meaning": "adj. 暴力的；猛烈的",
+    "meaning": "adj. 暴力的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94833,7 +94833,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6322",
     "word": "virtue",
-    "meaning": "n.virtue",
+    "meaning": "n. 美德；优点",
     "level": "IELTS7",
     "root": "vir",
     "rootMeaning": "词根",
@@ -94843,7 +94843,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/virtue/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，virtue的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，美德的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6323",
@@ -94863,7 +94863,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6324",
     "word": "visible",
-    "meaning": "adj. 可见的；明显的",
+    "meaning": "adj. 可见的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94878,7 +94878,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6325",
     "word": "vision",
-    "meaning": "n. 视力；视野",
+    "meaning": "n. 视力；愿景",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94908,7 +94908,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6327",
     "word": "visitor",
-    "meaning": "n. 游客；访问者",
+    "meaning": "n. 访问者；游客",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -94918,12 +94918,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈvɪzɪtə/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索游客的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索访问者的新方面。"
   },
   {
     "id": "word_6328",
     "word": "visual",
-    "meaning": "adj. 视觉的；视力的",
+    "meaning": "adj. 视觉的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95013,7 +95013,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6334",
     "word": "voice",
-    "meaning": "n./v. 声音；表达",
+    "meaning": "n. 声音 v. 表达",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95118,7 +95118,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6341",
     "word": "voluntary",
-    "meaning": "adj. 自愿的；志愿的",
+    "meaning": "adj. 自愿的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95133,7 +95133,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6342",
     "word": "volunteer",
-    "meaning": "n./v. 志愿者；自愿做",
+    "meaning": "n. 志愿者 v. 自愿做",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95148,7 +95148,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6343",
     "word": "vote",
-    "meaning": "v./n. 投票；选举",
+    "meaning": "n./v. 投票；选举",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95193,7 +95193,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6346",
     "word": "voyage",
-    "meaning": "n.行为；结果；费用",
+    "meaning": "n./v. 航行；旅行",
     "level": "IELTS6",
     "root": "voy",
     "rootMeaning": "词根",
@@ -95203,7 +95203,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/voyage/",
     "frequency": "低频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，行为的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，航行的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6347",
@@ -95223,7 +95223,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6348",
     "word": "wage",
-    "meaning": "n./v. 工资；进行",
+    "meaning": "n. 工资 v. 进行",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95253,7 +95253,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6350",
     "word": "wait",
-    "meaning": "v./n. 等；等待",
+    "meaning": "v./n. 等待",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95263,12 +95263,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/weɪt/",
     "frequency": "高频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，等的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，等待的研究取得了重大进展。"
   },
   {
     "id": "word_6351",
     "word": "wake",
-    "meaning": "v. 醒来；唤醒；使认识；激发 n. 醒；守夜；痕迹",
+    "meaning": "v. 醒来；唤醒 n. 守夜",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95283,7 +95283,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6352",
     "word": "walk",
-    "meaning": "v. 走；步行；散步；陪...走 n. 步行；散步；人行道",
+    "meaning": "v./n. 步行；散步",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95293,12 +95293,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wɔːk/",
     "frequency": "中频",
-    "example": "The application of this concept has revolutionized various industries.\n走的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n步行的应用革新了各个行业。"
   },
   {
     "id": "word_6353",
     "word": "wall",
-    "meaning": "n. 墙；墙壁；壁垒；护城河 v. 用墙围住；分隔",
+    "meaning": "n. 墙壁 v. 用墙围住",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95308,12 +95308,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wɔːl/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对墙的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对墙壁的认识显著提高。"
   },
   {
     "id": "word_6354",
     "word": "wander",
-    "meaning": "v. 漫游；闲逛",
+    "meaning": "v. 徘徊；迷路",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95323,12 +95323,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈwɒndə/",
     "frequency": "中频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，漫游的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，徘徊的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6355",
     "word": "want",
-    "meaning": "v. 想要；需要；希望 n. 需要；缺乏；欲望；贫困",
+    "meaning": "v. 想要 n. 需要",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95343,7 +95343,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6356",
     "word": "war",
-    "meaning": "n. 战争；斗争；冲突；军事行动 v. 打仗；作战；斗争",
+    "meaning": "n. 战争 v. 作战",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95373,7 +95373,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6358",
     "word": "warm",
-    "meaning": "adj. 温暖的；热情的；亲切的 v. 使温暖；使暖和；使兴奋",
+    "meaning": "adj. 温暖的 v. 使温暖",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95388,7 +95388,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6359",
     "word": "warmth",
-    "meaning": "n. 温暖；热情；温馨；暖和",
+    "meaning": "n. 温暖；热情",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95403,7 +95403,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6360",
     "word": "warn",
-    "meaning": "v. 警告；提醒；通知；告诫",
+    "meaning": "v. 警告；提醒",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95418,7 +95418,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6361",
     "word": "warning",
-    "meaning": "n. 警告；警报；预警；前兆 adj. 警告的；提醒的",
+    "meaning": "n. 警告；警示",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95478,7 +95478,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6365",
     "word": "wash",
-    "meaning": "v. 洗；洗涤；洗衣；冲刷 n. 洗；洗涤；要洗的衣物",
+    "meaning": "v./n. 洗；洗涤",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95493,7 +95493,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6366",
     "word": "waste",
-    "meaning": "v. 浪费；消耗；使荒芜 n. 浪费；废物；废料 adj. 废弃的；荒芜的",
+    "meaning": "v./n. 浪费 adj. 废弃的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95508,7 +95508,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6367",
     "word": "watch",
-    "meaning": "v. 观看；注视；看守；等待 n. 手表；监视；守护；值班",
+    "meaning": "v./n. 观看；注视 n. 手表",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95538,7 +95538,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6369",
     "word": "water",
-    "meaning": "n. 水；海水；水位；雨水 v. 浇水；给...水喝；流泪",
+    "meaning": "n. 水 v. 浇水",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95568,7 +95568,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6371",
     "word": "wave",
-    "meaning": "n. 波浪；波涛；浪潮；挥动 v. 波动；挥手；飘动；汹涌",
+    "meaning": "n. 波浪 v. 波动；挥手",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95583,7 +95583,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6372",
     "word": "way",
-    "meaning": "n. 道路；方法；方式；途径；方向；习惯 adv. 非常；大大地",
+    "meaning": "n. 方式；道路",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95593,7 +95593,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/weɪ/",
     "frequency": "高频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与道路相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与方式相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_6373",
@@ -95613,7 +95613,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6374",
     "word": "weak",
-    "meaning": "adj. 弱的；虚弱的；无力的；不擅长的；差的",
+    "meaning": "adj. 虚弱的；弱的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95623,7 +95623,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wiːk/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，弱的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，虚弱的研究取得了重大进展。"
   },
   {
     "id": "word_6375",
@@ -95643,7 +95643,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6376",
     "word": "wealth",
-    "meaning": "n. 财富；财产；丰富；大量",
+    "meaning": "n. 财富",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95658,7 +95658,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6377",
     "word": "wealthy",
-    "meaning": "adj. 富有的；富裕的；丰富的 n. 富人；有钱人",
+    "meaning": "adj. 富有的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95673,7 +95673,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6378",
     "word": "weapon",
-    "meaning": "n. 武器；兵器；斗争工具 v. 武装",
+    "meaning": "n. 武器",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95688,7 +95688,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6379",
     "word": "wear",
-    "meaning": "v. 穿；戴；磨损；用旧；面露 n. 服装；穿戴；磨损；耐久性",
+    "meaning": "v. 穿；戴 n. 服装",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95703,7 +95703,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6380",
     "word": "weather",
-    "meaning": "n. 天气；气象；气候 v. 经受住；风化；使褪色",
+    "meaning": "n. 天气",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95733,7 +95733,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6382",
     "word": "web",
-    "meaning": "n. 网；网络；蛛丝；织物 v. 用网覆盖；织网",
+    "meaning": "n. 网络；网",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95743,12 +95743,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/web/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，网的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，网络的研究取得了重大进展。"
   },
   {
     "id": "word_6383",
     "word": "website",
-    "meaning": "n. 网站；网址",
+    "meaning": "n. 网站",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95808,7 +95808,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6387",
     "word": "week",
-    "meaning": "n. 周；星期；周工作日",
+    "meaning": "n. 周；星期",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -95838,7 +95838,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6389",
     "word": "weekly",
-    "meaning": "adj. 每周的；一周一次的 adv. 每周一次地 n. 周刊；周报",
+    "meaning": "adj. 每周的 adv. 每周",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95868,7 +95868,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6391",
     "word": "weigh",
-    "meaning": "v. 称...重量；权衡；考虑；重压；起锚",
+    "meaning": "v. 称重；重量为",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95878,12 +95878,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/weɪ/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索称...重量的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索称重的新方面。"
   },
   {
     "id": "word_6392",
     "word": "weight",
-    "meaning": "n. 重量；体重；分量；砝码；重要 v. 加重量于；使负重",
+    "meaning": "n. 重量；体重",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95913,7 +95913,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6394",
     "word": "welcome",
-    "meaning": "v. 欢迎；迎接；乐于接受 n. 欢迎；迎接 adj. 受欢迎的",
+    "meaning": "v./n./adj. 欢迎",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -95928,7 +95928,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6395",
     "word": "welfare",
-    "meaning": "n. 福利；社会保障；安宁；幸福 adj. 福利的",
+    "meaning": "n. 福利；幸福",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -95943,7 +95943,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6396",
     "word": "well",
-    "meaning": "adv. 好；很；相当；恰当地 adj. 健康的；良好的；适当的 n. 井；源泉",
+    "meaning": "adv. 好；很 adj. 健康的 n. 井",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96003,7 +96003,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6400",
     "word": "west",
-    "meaning": "n. 西；西方；西部 adj. 西方的；西部的 adv. 向西；朝西",
+    "meaning": "n. 西方 adj. 西方的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96013,12 +96013,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/west/",
     "frequency": "中频",
-    "example": "The application of this concept has revolutionized various industries.\n西的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n西方的应用革新了各个行业。"
   },
   {
     "id": "word_6401",
     "word": "western",
-    "meaning": "adj. 西方的；西洋的；来自西方的 n. 西方国家；美国西部片",
+    "meaning": "adj. 西方的；西方的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96063,7 +96063,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6404",
     "word": "what",
-    "meaning": "pron. 什么；...的东西；有多少 adj. 什么；哪个；尽可能多的",
+    "meaning": "pron./adj. 什么",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -96078,7 +96078,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6405",
     "word": "whatever",
-    "meaning": "pron. 无论什么；任何...的事物 adj. 无论什么样的；任何的",
+    "meaning": "pron./adj. 无论什么",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96093,7 +96093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6406",
     "word": "wheat",
-    "meaning": "n. 小麦；麦子",
+    "meaning": "n. 小麦",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96108,7 +96108,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6407",
     "word": "wheel",
-    "meaning": "n. 轮子；方向盘；旋转；周期 v. 推；拉；用车运；旋转",
+    "meaning": "n. 轮子 v. 推动",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96123,7 +96123,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6408",
     "word": "when",
-    "meaning": "conj. 当...时；一...就；在...情况下 adv. 什么时候；当时 pron. 什么时候",
+    "meaning": "adv./conj. 什么时候；当...时",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96133,7 +96133,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wen/",
     "frequency": "高频",
-    "example": "The application of this concept has revolutionized various industries.\n当...时的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n/conj. 什么时候的应用革新了各个行业。"
   },
   {
     "id": "word_6409",
@@ -96153,7 +96153,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6410",
     "word": "where",
-    "meaning": "adv. 在哪里；向哪里；在...地方 pron. 哪里 n. 地点",
+    "meaning": "adv./conj. 哪里",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96163,7 +96163,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/weə/",
     "frequency": "高频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，在哪里的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，/conj. 哪里的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6411",
@@ -96198,7 +96198,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6413",
     "word": "whether",
-    "meaning": "conj. 是否；不管；无论",
+    "meaning": "conj. 是否",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96213,7 +96213,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6414",
     "word": "which",
-    "meaning": "pron. 哪个；...的（东西）；...的人 adj. 哪个；哪些",
+    "meaning": "pron./adj. 哪个",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96228,7 +96228,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6415",
     "word": "while",
-    "meaning": "n. 一会儿；时间；时期 conj. 当...时；在...期间；然而；但是",
+    "meaning": "n./conj. 一会儿；当...时",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96238,7 +96238,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/waɪl/",
     "frequency": "高频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索一会儿的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索/conj. 一会儿的新方面。"
   },
   {
     "id": "word_6416",
@@ -96258,7 +96258,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6417",
     "word": "whisper",
-    "meaning": "v. 低语；私语；小声说；悄悄话 n. 耳语；私语；谣传",
+    "meaning": "v./n. 低语；耳语",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96288,7 +96288,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6419",
     "word": "white",
-    "meaning": "adj. 白色的；白种的；纯洁的 n. 白色；白种人；蛋白",
+    "meaning": "adj. 白色的 n. 白色",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96303,7 +96303,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6420",
     "word": "who",
-    "meaning": "pron. 谁；...的人；...的人们",
+    "meaning": "pron. 谁",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96333,7 +96333,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6422",
     "word": "whole",
-    "meaning": "adj. 完整的；全部的；所有的 n. 整体；全部；整个世界",
+    "meaning": "adj. 整个的 n. 整体",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96343,7 +96343,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/həʊl/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，完整的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，整个的研究取得了重大进展。"
   },
   {
     "id": "word_6423",
@@ -96363,7 +96363,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6424",
     "word": "whom",
-    "meaning": "pron. 谁（who的宾格）；...的人",
+    "meaning": "pron. 谁（宾格）",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96378,7 +96378,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6425",
     "word": "whose",
-    "meaning": "pron. 谁的；...的（东西）；...的人",
+    "meaning": "pron./adj. 谁的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96393,7 +96393,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6426",
     "word": "why",
-    "meaning": "adv. 为什么；...的原因 int. 哎呀；什么道理",
+    "meaning": "adv./conj. 为什么",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96403,7 +96403,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/waɪ/",
     "frequency": "高频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，为什么的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，/conj. 为什么的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6427",
@@ -96423,7 +96423,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6428",
     "word": "wide",
-    "meaning": "adj. 宽的；广阔的；广泛的；渊博的 adv. 广阔地；广大地；远离目标地",
+    "meaning": "adj. 宽的；广阔的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96438,7 +96438,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6429",
     "word": "widely",
-    "meaning": "adv. 广泛地；普遍地；大大地；广为人知地",
+    "meaning": "adv. 广泛地",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96468,7 +96468,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6431",
     "word": "wife",
-    "meaning": "n. 妻子；太太；已婚妇女",
+    "meaning": "n. 妻子",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96483,7 +96483,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6432",
     "word": "wild",
-    "meaning": "adj. 野生的；野蛮的；狂热的；荒凉的 n. 荒野；荒地；野生状态",
+    "meaning": "adj. 野生的；疯狂的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96513,7 +96513,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6434",
     "word": "will",
-    "meaning": "v. aux. 将；会；愿意；必须 n. 意志；毅力；决心；遗嘱",
+    "meaning": "v. 将；会 n. 意志；遗嘱",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96523,12 +96523,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wɪl/",
     "frequency": "高频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，aux. 将的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，将的重要性怎么强调都不为过。"
   },
   {
     "id": "word_6435",
     "word": "willing",
-    "meaning": "adj. 愿意的；乐意的；心甘情愿的；积极主动的",
+    "meaning": "adj. 愿意的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96573,7 +96573,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6438",
     "word": "win",
-    "meaning": "v. 赢；获胜；赢得；获得 n. 胜利；赢；获奖",
+    "meaning": "v. 赢；获胜 n. 胜利",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96588,7 +96588,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6439",
     "word": "wind",
-    "meaning": "n. 风；呼吸；气息；卷绕 v. 绕；缠；上发条；嗅出",
+    "meaning": "n. 风 v. 绕；缠",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96603,7 +96603,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6440",
     "word": "window",
-    "meaning": "n. 窗户；窗口；窗玻璃；窗框 v. 给...装窗",
+    "meaning": "n. 窗户",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96618,7 +96618,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6441",
     "word": "wine",
-    "meaning": "n. 葡萄酒；酒；紫红色 v. 喝酒；以酒款待",
+    "meaning": "n. 葡萄酒；酒",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96633,7 +96633,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6442",
     "word": "wing",
-    "meaning": "n. 翅膀；翼；派系；侧厅 v. 飞过；使飞；安装翼",
+    "meaning": "n. 翅膀 v. 飞过",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96648,7 +96648,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6443",
     "word": "winner",
-    "meaning": "n. 获胜者；赢家；成功者",
+    "meaning": "n. 获胜者",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96663,7 +96663,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6444",
     "word": "winter",
-    "meaning": "n. 冬天；冬季；冷淡期 v. 过冬 adj. 冬天的；冬季的",
+    "meaning": "n. 冬天",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96678,7 +96678,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6445",
     "word": "wipe",
-    "meaning": "n.wipe",
+    "meaning": "v./n. 擦；抹",
     "level": "IELTS5",
     "root": "wip",
     "rootMeaning": "词根",
@@ -96688,12 +96688,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wipe/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会wipe的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会擦的发展。"
   },
   {
     "id": "word_6446",
     "word": "wire",
-    "meaning": "n. 金属丝；电线；电报 v. 发电报；布线；用铁丝固定",
+    "meaning": "n. 电线 v. 装电线",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96703,7 +96703,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈwaɪə/",
     "frequency": "低频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，金属丝的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，电线的研究取得了重大进展。"
   },
   {
     "id": "word_6447",
@@ -96723,7 +96723,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6448",
     "word": "wisdom",
-    "meaning": "n. 智慧；明智；知识；学问；贤人",
+    "meaning": "n. 智慧；明智",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96738,7 +96738,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6449",
     "word": "wise",
-    "meaning": "adj. 智慧的；英明的；博学的；聪明的",
+    "meaning": "adj. 智慧的；聪明的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96753,7 +96753,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6450",
     "word": "wish",
-    "meaning": "v. 希望；想要；祝愿；渴望 n. 愿望；希望；命令；祝愿",
+    "meaning": "v./n. 希望；祝愿",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96783,7 +96783,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6452",
     "word": "with",
-    "meaning": "prep. 和...一起；用；具有；关于；随着",
+    "meaning": "prep. 和...一起；用",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96828,7 +96828,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6455",
     "word": "within",
-    "meaning": "prep. 在...里面；在...内部 adv. 在内部；在里面 n. 内部",
+    "meaning": "prep. 在...里面",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96843,7 +96843,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6456",
     "word": "without",
-    "meaning": "prep. 没有；无；不和...在一起 adv. 在外面；户外；在没有的情况下",
+    "meaning": "prep. 没有；不带",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96858,7 +96858,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6457",
     "word": "witness",
-    "meaning": "n. 证人；目击者；证据 v. 目击；见证；经历",
+    "meaning": "n. 证人 v. 目击；见证",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96888,7 +96888,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6459",
     "word": "woman",
-    "meaning": "n. 女人；妇女；女性 adj. 女人的；女性的",
+    "meaning": "n. 妇女；女人",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -96898,12 +96898,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈwʊmən/",
     "frequency": "中频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n女人的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n妇女的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_6460",
     "word": "wonder",
-    "meaning": "n. 惊奇；惊愕；奇迹；奇观 v. 想知道；感到惊讶 adj. 神奇的",
+    "meaning": "v./n. 怀疑；想知道 n. 奇迹",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96913,12 +96913,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈwʌndə/",
     "frequency": "中频",
-    "example": "Practical skills related to this concept are highly valued in the workplace.\n与惊奇相关的实践技能在工作场所受到高度重视。"
+    "example": "Practical skills related to this concept are highly valued in the workplace.\n与怀疑相关的实践技能在工作场所受到高度重视。"
   },
   {
     "id": "word_6461",
     "word": "wonderful",
-    "meaning": "adj. 精彩的；绝妙的；令人惊奇的；极好的",
+    "meaning": "adj. 极好的；精彩的",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96928,12 +96928,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈwʌndəfl/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会精彩的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会极好的发展。"
   },
   {
     "id": "word_6462",
     "word": "wood",
-    "meaning": "n. 木材；木制品；森林；木料 v. 植林于；给...添木柴",
+    "meaning": "n. 木材；木头",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -96948,7 +96948,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6463",
     "word": "wooden",
-    "meaning": "adj. 木制的；木头做的；呆板的；生硬的",
+    "meaning": "adj. 木制的；呆板的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -96993,7 +96993,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6466",
     "word": "word",
-    "meaning": "n. 单词；话语；消息；诺言 v. 用言语表达；措辞",
+    "meaning": "n. 单词；话语 v. 措辞",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -97008,7 +97008,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6467",
     "word": "work",
-    "meaning": "n. 工作；劳动；操作；职业；作品 v. 工作；运作；起作用；创作",
+    "meaning": "n. 工作 v. 工作；运转",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -97023,7 +97023,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6468",
     "word": "worker",
-    "meaning": "n. 工人；劳动者；工作人员；工作者",
+    "meaning": "n. 工人",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97098,7 +97098,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6473",
     "word": "world",
-    "meaning": "n. 世界；地球；领域；世人；人间",
+    "meaning": "n. 世界；领域",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -97158,7 +97158,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6477",
     "word": "worried",
-    "meaning": "adj. 担心的；烦恼的",
+    "meaning": "adj. 担心的；发愁的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97173,7 +97173,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6478",
     "word": "worry",
-    "meaning": "v. 担心；烦恼；烦恼；困扰 n. 担心；烦恼；忧虑；令人担心的事",
+    "meaning": "v./n. 担心；烦恼",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97188,7 +97188,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6479",
     "word": "worse",
-    "meaning": "adj. 更坏的；更差的；更糟的 adv. 更坏；更差；更糟",
+    "meaning": "adj./adv. 更坏的；更差",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97203,7 +97203,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6480",
     "word": "worship",
-    "meaning": "n. 崇拜；敬仰；做礼拜 v. 崇拜；尊敬；爱慕；崇拜神",
+    "meaning": "n./v. 崇拜；尊敬",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97218,7 +97218,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6481",
     "word": "worst",
-    "meaning": "adj. 最坏的；最差的；最糟的 adv. 最坏地；最差地 n. 最坏的人或事",
+    "meaning": "adj./adv. 最坏的；最差",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97233,7 +97233,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6482",
     "word": "worth",
-    "meaning": "n. 价值；作用；值得...的 adj. 值...的；值钱的；值得的",
+    "meaning": "n. 价值 adj. 值...的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97278,7 +97278,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6485",
     "word": "worthy",
-    "meaning": "adj. 值得的；应得的；有价值的；可敬的 n. 知名人士；杰出人物",
+    "meaning": "adj. 值得的；有价值的",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97293,7 +97293,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6486",
     "word": "would",
-    "meaning": "v. aux. 将；愿意；可能；总是；大概",
+    "meaning": "v. 将；会；愿意",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97303,12 +97303,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wʊd/",
     "frequency": "高频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，aux. 将的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，将的研究取得了重大进展。"
   },
   {
     "id": "word_6487",
     "word": "wound",
-    "meaning": "n. 创伤；伤疤；伤害 v. 使受伤；伤害；损害",
+    "meaning": "n. 伤口 v. 伤害",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97318,12 +97318,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wuːnd/",
     "frequency": "中频",
-    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索创伤的新方面。"
+    "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索伤口的新方面。"
   },
   {
     "id": "word_6488",
     "word": "wrap",
-    "meaning": "v. 包；裹；缠绕；覆盖；隐藏 n. 外套；披肩；围巾；约束",
+    "meaning": "v. 包；裹 n. 披肩",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97413,7 +97413,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6494",
     "word": "wrist",
-    "meaning": "n. ...主义者Wr",
+    "meaning": "n. 手腕；腕关节",
     "level": "IELTS5",
     "root": "ist",
     "rootMeaning": "...者",
@@ -97423,12 +97423,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/wrist/",
     "frequency": "高频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，...主义者Wr的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，手腕的研究取得了重大进展。"
   },
   {
     "id": "word_6495",
     "word": "write",
-    "meaning": "v. 写；写字；书写；写作；作曲；写信",
+    "meaning": "v. 写；写作",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97443,7 +97443,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6496",
     "word": "writer",
-    "meaning": "n. 作家；作者；撰写人",
+    "meaning": "n. 作家；作者",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97488,7 +97488,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6499",
     "word": "wrong",
-    "meaning": "adj. 错误的；不正确的；有问题的 adv. 错误地；不正确地 n. 错误；坏事 v. 冤枉；委屈",
+    "meaning": "adj. 错误的；有问题的 adv. 错误地",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97533,7 +97533,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6502",
     "word": "yard",
-    "meaning": "n. 院子；庭院；码（英制长度单位）；场地",
+    "meaning": "n. 院子；码",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97563,7 +97563,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6504",
     "word": "year",
-    "meaning": "n. 年；年度；年纪；一年的期间",
+    "meaning": "n. 年；年份",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -97608,7 +97608,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6507",
     "word": "yellow",
-    "meaning": "adj. 黄色的；黄皮肤的 n. 黄色；蛋黄 v. 变黄；发黄",
+    "meaning": "adj. 黄色的 n. 黄色",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97623,7 +97623,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6508",
     "word": "yes",
-    "meaning": "adv. 是；是的；对；真的吗 int. 是；好；请说",
+    "meaning": "adv. 是；是的",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -97638,7 +97638,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6509",
     "word": "yesterday",
-    "meaning": "n. 昨天；往昔 adv. 昨天",
+    "meaning": "n./adv. 昨天",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -97653,7 +97653,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6510",
     "word": "yet",
-    "meaning": "adv. 还；已经；仍然；甚至 conj. 但是；然而",
+    "meaning": "adv. 还；仍然 conj. 但是",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97668,7 +97668,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6511",
     "word": "yield",
-    "meaning": "v. 产生；让步；放弃；出产 n. 产量；收益；产出",
+    "meaning": "v. 产生；让步 n. 产量",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97698,7 +97698,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6513",
     "word": "you",
-    "meaning": "pron. 你；您；你们",
+    "meaning": "pron. 你；你们",
     "level": "IELTS8",
     "root": "you",
     "rootMeaning": "词根",
@@ -97713,7 +97713,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6514",
     "word": "young",
-    "meaning": "adj. 年轻的；青年人的；初期的 n. 青年人；孩子们",
+    "meaning": "adj. 年轻的 n. 青年",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97743,7 +97743,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6516",
     "word": "your",
-    "meaning": "pron. 你的；您的；你们的",
+    "meaning": "pron. 你的；你们的",
     "level": "IELTS5",
     "root": "",
     "rootMeaning": "",
@@ -97773,7 +97773,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6518",
     "word": "yourself",
-    "meaning": "pron. 你自己；您自己；你们自己",
+    "meaning": "pron. 你自己",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97788,7 +97788,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6519",
     "word": "youth",
-    "meaning": "n. 青年；青春；青年时期；青年人",
+    "meaning": "n. 青年；青春",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
@@ -97848,7 +97848,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6523",
     "word": "zero",
-    "meaning": "n. 零；零点；零度；最低点 num. 零 v. 瞄准；聚焦 adj. 零的；零点的",
+    "meaning": "n./num. 零",
     "level": "IELTS6",
     "root": "",
     "rootMeaning": "",
@@ -97858,7 +97858,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/ˈzɪərəʊ/",
     "frequency": "中频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n零的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n/num. 零的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_6524",
@@ -97878,7 +97878,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_6525",
     "word": "zone",
-    "meaning": "n. 区域；地带",
+    "meaning": "n. 区域；地带 v. 分区",
     "level": "IELTS7",
     "root": "",
     "rootMeaning": "",
