@@ -38503,14 +38503,12 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/editor/",
     "frequency": "高频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，...的人Edit的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，编辑的研究取得了重大进展。"
   },
-  {
   {
     "id": "word_2568",
     "word": "editorial",
-    "meaning": "adj. ...的Editori",
-    "level": "IELTS6",
+    "meaning": "adj. 编辑的；社论的",
     "root": "al",
     "rootMeaning": "...的",
     "rootMeaningEn": "relating to",
@@ -38519,7 +38517,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/editorial/",
     "frequency": "中频",
-    "example": "The application of this concept has revolutionized various industries.\n...的Editori的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n社论的应用革新了各个行业。"
   },
   {
     "id": "word_2569",
