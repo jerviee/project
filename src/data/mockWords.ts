@@ -8433,7 +8433,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_562",
     "word": "archetype",
-    "meaning": "n.archetype；相关事物",
+    "meaning": "n. 原型；典型",
     "level": "IELTS5",
     "root": "ar",
     "rootMeaning": "向",
@@ -61068,7 +61068,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4072",
     "word": "maize",
-    "meaning": "n.maize；相关事物",
+    "meaning": "n. 玉米",
     "level": "IELTS5",
     "root": "ize",
     "rootMeaning": "使...化",
