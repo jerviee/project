@@ -1,4 +1,65 @@
-import { SentencePattern, SynonymGroup, EssayTemplate, RootGroup, PrefixGroup, SuffixGroup } from '@/services/database';
+interface SentencePattern {
+  id: number;
+  pattern: string;
+  explanation: string;
+  example: string;
+  type: 'argument' | 'cause' | 'effect' | 'comparison' | 'example' | 'conclusion';
+}
+
+interface SynonymGroup {
+  id: number;
+  word: string;
+  synonyms: { word: string; level: string }[];
+}
+
+interface EssayTemplate {
+  id: number;
+  title: string;
+  type: 'agree/disagree' | 'discuss both views' | 'advantages/disadvantages' | 'problem/solution';
+  topic: string;
+  structure: {
+    introduction: string;
+    body1: string;
+    body2: string;
+    conclusion: string;
+  };
+  fullParagraphs: {
+    introduction: string;
+    body1: string;
+    body2: string;
+    conclusion: string;
+  };
+  vocabulary: string[];
+}
+
+interface RootGroup {
+  root: string;
+  meaning: string;
+  meaningEn: string;
+  origin: 'Latin' | 'Greek' | 'Old French' | 'Anglo-Saxon';
+  originNote: string;
+  originNoteEn: string;
+  example: string;
+  words: number[];
+}
+
+interface PrefixGroup {
+  prefix: string;
+  meaning: string;
+  meaningEn: string;
+  origin: 'Latin' | 'Greek' | 'Old French' | 'Anglo-Saxon';
+  originNote: string;
+  originNoteEn: string;
+  words: number[];
+}
+
+interface SuffixGroup {
+  suffix: string;
+  meaning: string;
+  meaningEn: string;
+  type: 'noun' | 'verb' | 'adjective' | 'adverb';
+  words: number[];
+}
 
 export const sentencePatterns: SentencePattern[] = [
   {

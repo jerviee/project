@@ -1,4 +1,14 @@
-import { IELTSQuestion } from '@/services/database';
+interface IELTSQuestion {
+  id: number;
+  year: number;
+  month: string;
+  type: string;
+  topic: string;
+  question: string;
+  modelAnswer: string;
+  bandScore: string;
+  keywords: string[];
+}
 
 export default [
   {
