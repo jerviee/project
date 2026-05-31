@@ -8448,7 +8448,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_563",
     "word": "archimedes",
-    "meaning": "n.archimedes；相关事物",
+    "meaning": "n. 阿基米德",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "向",
@@ -8628,7 +8628,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_575",
     "word": "argon",
-    "meaning": "n.argon；相关事物",
+    "meaning": "n. 氩气",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "向",
@@ -8688,7 +8688,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_579",
     "word": "argyle",
-    "meaning": "n.argyle；相关事物",
+    "meaning": "n. 菱形花纹；花格呢",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "向",
@@ -8703,7 +8703,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_580",
     "word": "aria",
-    "meaning": "n.aria；相关事物",
+    "meaning": "n. 咏叹调；独唱曲",
     "level": "IELTS7",
     "root": "ar",
     "rootMeaning": "向",
@@ -8913,7 +8913,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_594",
     "word": "arpeggio",
-    "meaning": "n.arpeggio；相关事物",
+    "meaning": "n. 琶音；分解和弦",
     "level": "IELTS5",
     "root": "ar",
     "rootMeaning": "向",
@@ -8928,7 +8928,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_595",
     "word": "arrack",
-    "meaning": "n.arrack；相关事物",
+    "meaning": "n. 亚力酒；烧酒",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "向",
@@ -9078,7 +9078,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_605",
     "word": "arrowhead",
-    "meaning": "n.arrowhead；相关事物",
+    "meaning": "n. 箭头；箭矢",
     "level": "IELTS8",
     "root": "ar",
     "rootMeaning": "向",
@@ -9093,7 +9093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_606",
     "word": "arrowroot",
-    "meaning": "n.arrowroot；相关事物",
+    "meaning": "n. 竹芋；葛根",
     "level": "IELTS5",
     "root": "ar",
     "rootMeaning": "向",
@@ -9228,7 +9228,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_615",
     "word": "arthropod",
-    "meaning": "n.arthropod；相关事物",
+    "meaning": "n. 节肢动物",
     "level": "IELTS6",
     "root": "ar",
     "rootMeaning": "向",
