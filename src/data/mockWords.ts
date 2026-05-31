@@ -74853,7 +74853,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4990",
     "word": "qualitative",
-    "meaning": "adj. ...的Qualitat",
+    "meaning": "adj. 定性的；质量的",
     "level": "IELTS8",
     "root": "ative",
     "rootMeaning": "...的",
@@ -74863,7 +74863,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/qualitative/",
     "frequency": "中频",
-    "example": "The study of this concept has made significant progress in recent years.\n近年来，...的Qualitat的研究取得了重大进展。"
+    "example": "The study of this concept has made significant progress in recent years.\n近年来，定性的研究取得了重大进展。"
   },
   {
     "id": "word_4991",
@@ -74898,7 +74898,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4993",
     "word": "quantitative",
-    "meaning": "adj. ...的Quantitat",
+    "meaning": "adj. 定量的；数量的",
     "level": "IELTS7",
     "root": "ative",
     "rootMeaning": "...的",
@@ -74908,7 +74908,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/quantitative/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对...的Quantitat的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对定量的认识显著提高。"
   },
   {
     "id": "word_4994",
@@ -74928,7 +74928,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4995",
     "word": "quantum",
-    "meaning": "n. quantum",
+    "meaning": "n. 量子；定量；总量",
     "level": "IELTS8",
     "root": "qua",
     "rootMeaning": "词根",
@@ -74938,7 +74938,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/quantum/",
     "frequency": "低频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\nquantum的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n量子的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_4996",
@@ -81048,7 +81048,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5403",
     "word": "selfish",
-    "meaning": "n. selfish",
+    "meaning": "adj. 自私的；利己的",
     "level": "IELTS8",
     "root": "se",
     "rootMeaning": "离开",
@@ -81058,7 +81058,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/selfish/",
     "frequency": "低频",
-    "example": "The theory of this concept provides a framework for understanding this phenomenon.\nselfish的理论为理解这一现象提供了框架。"
+    "example": "The theory of this concept provides a framework for understanding this phenomenon.\n自私的理论为理解这一现象提供了框架。"
   },
   {
     "id": "word_5404",
@@ -81078,7 +81078,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5405",
     "word": "seller",
-    "meaning": "n.人；者；物",
+    "meaning": "n. 卖家；销售者",
     "level": "IELTS6",
     "root": "se",
     "rootMeaning": "离开",
@@ -81088,7 +81088,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/seller/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会人的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会卖家的发展。"
   },
   {
     "id": "word_5406",
@@ -81633,7 +81633,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5442",
     "word": "sew",
-    "meaning": "n. sew",
+    "meaning": "v. 缝纫；缝合",
     "level": "IELTS5",
     "root": "se",
     "rootMeaning": "离开",
@@ -81643,7 +81643,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/sew/",
     "frequency": "低频",
-    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，sew的重要性怎么强调都不为过。"
+    "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，缝纫的重要性怎么强调都不为过。"
   },
   {
     "id": "word_5443",
@@ -83178,7 +83178,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5545",
     "word": "sleepy",
-    "meaning": "n. sleepy",
+    "meaning": "adj. 困倦的；嗜睡的",
     "level": "IELTS6",
     "root": "sle",
     "rootMeaning": "词根",
@@ -83188,7 +83188,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/sleepy/",
     "frequency": "中频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对sleepy的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对困倦的认识显著提高。"
   },
   {
     "id": "word_5546",
@@ -83298,7 +83298,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5553",
     "word": "slippery",
-    "meaning": "n. slippery",
+    "meaning": "adj. 滑的；光滑的；狡猾的",
     "level": "IELTS5",
     "root": "sli",
     "rootMeaning": "词根",
@@ -83308,7 +83308,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/slippery/",
     "frequency": "低频",
-    "example": "Public awareness of this concept has increased significantly.\n公众对slippery的认识显著提高。"
+    "example": "Public awareness of this concept has increased significantly.\n公众对滑的认识显著提高。"
   },
   {
     "id": "word_5554",
@@ -83718,7 +83718,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5581",
     "word": "socket",
-    "meaning": "n. socket",
+    "meaning": "n. 插座；孔；窝",
     "level": "IELTS5",
     "root": "soc",
     "rootMeaning": "词根",
@@ -83728,7 +83728,7 @@ export const mockWords: IELTSWord[] = [
     "relatedWords": [],
     "phonetic": "/socket/",
     "frequency": "中频",
-    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会socket的发展。"
+    "example": "Many factors contribute to the development of this concept in society.\n许多因素促成了社会插座的发展。"
   },
   {
     "id": "word_5582",
