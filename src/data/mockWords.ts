@@ -37473,7 +37473,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2498",
     "word": "dramatic",
-    "meaning": "n....的",
+    "meaning": "adj. 戏剧性的；引人注目的",
     "level": "IELTS5",
     "root": "ic",
     "rootMeaning": "...的",
@@ -37548,7 +37548,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2503",
     "word": "drawer",
-    "meaning": "n. ...的人Draw",
+    "meaning": "n. 抽屉；拉开抽屉的人",
     "level": "IELTS8",
     "root": "er",
     "rootMeaning": "...者",
@@ -37728,7 +37728,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2515",
     "word": "driver",
-    "meaning": "n. ...的人Driv",
+    "meaning": "n. 司机；驱动程序",
     "level": "IELTS7",
     "root": "er",
     "rootMeaning": "...者",
