@@ -3015,10 +3015,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "数据权威型",
       styleNote: "IMF总裁Georgieva的发言风格：数据驱动、关注发展中国家、强调政策协调。",
       structure: {
-        introduction: "[话题]是IMF持续关注的核心议题。[名人]提供了基于数据的深刻分析。",
-        body1: "全球化的一个主要优势是[好处1]。[数据/研究]显示[事实]。",
-        body2: "然而，也存在[问题/风险]。[分析]指出[理由]。",
-        conclusion: "总体而言，[总结]。[名人]建议[政策建议]。"
+        introduction: "[Topic] is a core issue the IMF continuously focuses on. [Celebrity] has provided data-driven profound analysis.",
+        body1: "One major advantage of globalization is [Benefit 1]. [Data/Research] shows [Fact].",
+        body2: "However, there are also [Problems/Risks]. [Analysis] points out [Reason].",
+        conclusion: "Overall, [Summary]. [Celebrity] suggests [Policy Recommendation]."
       },
       fullParagraphs: {
         introduction: "Economic globalization has been a defining feature of the world economy for decades.",
@@ -3044,10 +3044,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "金融前瞻型",
       styleNote: "Georgieva在CBDC议题上强调金融包容性、跨境支付效率、重视风险防范。",
       structure: {
-        introduction: "[话题]是国际金融界的热点议题。[名人]对此有专业见解。",
-        body1: "支持发行央行数字货币的观点认为[理由]。[名人]指出[潜在优势]。",
-        body2: "反对意见则关注[风险/问题]。[分析]认为[理由]。",
-        conclusion: "在我看来，[个人观点]。[名人]的建议是[建议]。"
+        introduction: "[Topic] is a hot topic in the international financial sector. [Celebrity] has professional insights on this.",
+        body1: "Supporters of CBDC issuance argue [Reason]. [Celebrity] points out [Potential Advantage].",
+        body2: "Critics focus on [Risk/Problem]. [Analysis] believes [Reason].",
+        conclusion: "In my opinion, [Personal View]. [Celebrity]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
         introduction: "The question of whether central banks should issue digital currencies is generating intense debate in financial circles.",
@@ -3073,10 +3073,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "启发激励型",
       styleNote: "TED演讲风格：个人故事开场、简单有力观点、生动比喻、情感共鸣、行动号召。",
       structure: {
-        introduction: "想象[情境]。[问题]是许多人关心的话题。",
-        body1: "首先，[方法1]。[故事/案例]告诉我们[道理]。",
-        body2: "其次，[方法2]。[TED演讲]展示[方法]。",
-        conclusion: "所以，[号召]。记住，[核心理念]。"
+        introduction: "Imagine [Situation]. [Problem] is a topic many people care about.",
+        body1: "First, [Method 1]. [Story/Case] tells us [Lesson].",
+        body2: "Second, [Method 2]. [TED Talk] demonstrates [Method].",
+        conclusion: "So, [Call to Action]. Remember, [Core Concept]."
       },
       fullParagraphs: {
         introduction: "Imagine a classroom where asking questions is more valued than having answers.",
@@ -3102,10 +3102,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "道德领袖型",
       styleNote: "Guterres强调道义权威、代际公平、关注弱势群体、集体行动呼吁。",
       structure: {
-        introduction: "[话题]是[名人]作为联合国秘书长反复强调的核心议题。",
-        body1: "首先，气候变化的影响是[描述]。[名人]警告[后果]。",
-        body2: "其次，气候行动关系到[价值观]。[名人]呼吁[行动]。",
-        conclusion: "总之，我完全同意[观点]。[名人]的号召是[呼吁]。"
+        introduction: "[Topic] is a core issue [Celebrity] has repeatedly emphasized as UN Secretary-General.",
+        body1: "First, the impacts of climate change are [Description]. [Celebrity] warns [Consequence].",
+        body2: "Second, climate action relates to [Value]. [Celebrity] calls for [Action].",
+        conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s call is [Call]."
       },
       fullParagraphs: {
         introduction: "Climate change is the defining challenge of our generation.",
@@ -3131,10 +3131,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "多边主义倡导型",
       styleNote: "Gutorials强调国际合作不可或缺、弱国需要多边体系保护、呼吁集体行动。",
       structure: {
-        introduction: "[话题]是[名人]长期倡导的核心价值。多边主义的重要性日益凸显。",
-        body1: "多边主义的一个主要优势是[好处1]。[名人]指出[理由]。",
-        body2: "然而，多边体系面临[挑战]。[名人]承认[问题]。",
-        conclusion: "总体而言，[总结]。[名人的建议]是[建议]。"
+        introduction: "[Topic] is a core value [Celebrity] has long advocated. The importance of multilateralism is increasingly evident.",
+        body1: "One major advantage of multilateralism is [Benefit 1]. [Celebrity] points out [Reason].",
+        body2: "However, the multilateral system faces [Challenge]. [Celebrity] acknowledges [Problem].",
+        conclusion: "Overall, [Summary]. [Celebrity]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
         introduction: "Multilateral approaches to global problems have been a cornerstone of Secretary-General Guterres' leadership.",
@@ -3160,10 +3160,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "颠覆创新型",
       styleNote: "Musk风格：宏大愿景驱动、第一性原理思维、不怕失败的决心、技术深度。",
       structure: {
-        introduction: "[话题]是[名人]一贯倡导的理念。他以实际行动证明了[观点]。",
-        body1: "首先，[名人]展示了[冒险的意义]。[事例]说明[道理]。",
-        body2: "其次，宏大目标需要[素质]。[名人]认为[观点]。",
-        conclusion: "总之，我[同意程度][观点]。[名人]的启示是[启示]。"
+        introduction: "[Topic] is an idea [Celebrity] has consistently advocated. He has proven [View] through action.",
+        body1: "First, [Celebrity] demonstrates [Significance of Risk]. [Instance] shows [Lesson].",
+        body2: "Second, ambitious goals require [Quality]. [Celebrity] believes [View].",
+        conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight is [Insight]."
       },
       fullParagraphs: {
         introduction: "Entrepreneurs should take bold risks to pursue ambitious goals. This philosophy has defined Elon Musk's approach.",
@@ -3189,10 +3189,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "技术警告型",
       styleNote: "Musk对AI持谨慎态度：技术发展双刃剑、长期影响可能超越短期利益、呼吁主动监管。",
       structure: {
-        introduction: "[问题]是[名人]多次警告的关键议题。AI的影响日益显著。",
-        body1: "[名人]指出的第一个挑战是[问题1]。[分析]认为[理由]。",
-        body2: "第二个关键议题是[问题2]。[名人]建议[解决方案]。",
-        conclusion: "总之，[名人]的警告值得重视。我们需要[行动]。"
+        introduction: "[Problem] is a key issue [Celebrity] has warned about multiple times. AI's impact is increasingly evident.",
+        body1: "The first challenge [Celebrity] points out is [Problem 1]. [Analysis] believes [Reason].",
+        body2: "The second key issue is [Problem 2]. [Celebrity] suggests [Solution].",
+        conclusion: "In conclusion, [Celebrity]'s warning deserves attention. We need [Action]."
       },
       fullParagraphs: {
         introduction: "How should society prepare for the impact of artificial intelligence on employment?",
@@ -3218,10 +3218,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "东方智慧型",
       styleNote: "马云融合东西方智慧：谦逊但自信、善于用商业案例说明道理、强调小企业重要性。",
       structure: {
-        introduction: "[话题]是[名人]长期倡导的理念。作为电商先驱，他有独到见解。",
-        body1: "一方面，数字全球化为小企业带来[机遇]。[名人]指出[理由]。",
-        body2: "另一方面，中小企业面临[挑战]。[名人]提醒[问题]。",
-        conclusion: "在我看来，[个人观点]。[名人的建议]是[建议]。"
+        introduction: "[Topic] is an idea [Celebrity] has long advocated. As an e-commerce pioneer, he has unique insights.",
+        body1: "On one hand, digital globalization brings [Opportunity] for small businesses. [Celebrity] points out [Reason].",
+        body2: "On the other hand, small and medium enterprises face [Challenge]. [Celebrity] reminds [Problem].",
+        conclusion: "In my opinion, [Personal View]. [Celebrity]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
         introduction: "Small and medium enterprises should embrace digital globalization.",
@@ -3247,10 +3247,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "教育革新型",
       styleNote: "马云对教育有深刻反思：批评应试教育、强调创造力和情商、倡导终身学习。",
       structure: {
-        introduction: "[话题]是[名人]在多次演讲中表达的观点。他对教育有独到见解。",
-        body1: "首先，[名人]认为传统教育[问题]。[经历/观察]证明了[观点]。",
-        body2: "其次，未来教育应培养[能力]。[名人]建议[方向]。",
-        conclusion: "总之，我[同意程度][观点]。[名人的洞见]是[启示]。"
+        introduction: "[Topic] is a view [Celebrity] has expressed in multiple speeches. He has unique insights on education.",
+        body1: "First, [Celebrity] believes traditional education has [Problem]. [Experience/Observation] proves [View].",
+        body2: "Second, future education should develop [Ability]. [Celebrity] suggests [Direction].",
+        conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight is [Insight]."
       },
       fullParagraphs: {
         introduction: "Traditional education will become obsolete in the age of AI.",
@@ -3276,10 +3276,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "精英共识型",
       styleNote: "达沃斯代表全球精英共识：承认不平等严峻性、倡导包容性资本主义、利益相关者价值。",
       structure: {
-        introduction: "[问题]是达沃斯论坛长期关注的核心议题。来自全球领袖的分析提供了深刻见解。",
-        body1: "达沃斯论坛提出的第一个解决方案是[方法1]。[论坛观点]认为[理由]。",
-        body2: "第二个关键策略是[方法2]。[专家建议]指出[方向]。",
-        conclusion: "总之，[总结]。达沃斯的建议是[建议]。"
+        introduction: "[Problem] is a core issue the World Economic Forum has long focused on. Analysis from global leaders provides profound insights.",
+        body1: "The first solution proposed at Davos is [Method 1]. [Forum View] believes [Reason].",
+        body2: "The second key strategy is [Method 2]. [Expert Advice] points out [Direction].",
+        conclusion: "In conclusion, [Summary]. Davos' suggestion is [Suggestion]."
       },
       fullParagraphs: {
         introduction: "Reducing growing economic inequality within nations has been a central concern at World Economic Forum gatherings.",
@@ -3305,10 +3305,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "前瞻研究型",
       styleNote: "达沃斯在就业议题上：基于大数据和调研、前瞻性预测、注重可操作性。",
       structure: {
-        introduction: "[问题]是[研究报告]的核心发现。达沃斯论坛的研究提供了重要参考。",
-        body1: "根据论坛研究，第一个适应策略是[方法1]。[数据/预测]显示[趋势]。",
-        body2: "第二个关键是[方法2]。[专家建议]认为[方向]。",
-        conclusion: "总之，[总结]。达沃斯建议的核心是[核心理念]。"
+        introduction: "[Problem] is the core finding of [Research Report]. Research from the World Economic Forum provides important reference.",
+        body1: "According to forum research, the first adaptation strategy is [Method 1]. [Data/Prediction] shows [Trend].",
+        body2: "The second key is [Method 2]. [Expert Advice] believes [Direction].",
+        conclusion: "In conclusion, [Summary]. The core of Davos' recommendation is [Core Concept]."
       },
       fullParagraphs: {
         introduction: "How can workers adapt to rapid technological changes in the job market?",
@@ -3334,10 +3334,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "发展成就型",
       styleNote: "CGTN报道脱贫成就：强调制度优势、注重数据和具体案例、强调国际合作。",
       structure: {
-        introduction: "[话题]是中国发展的重要成就。CGTN的报道提供了丰富的第一手资料。",
-        body1: "精准扶贫的一个主要优势是[好处1]。[报道]展示[成就]。",
-        body2: "然而，项目实施也面临[挑战]。[分析]指出[问题]。",
-        conclusion: "总体而言，[总结]。[启示]对[更广泛意义]。"
+        introduction: "[Topic] is an important achievement in China's development. CGTN's reports provide rich first-hand materials.",
+        body1: "One major advantage of targeted poverty alleviation is [Benefit 1]. [Report] shows [Achievement].",
+        body2: "However, project implementation also faces [Challenge]. [Analysis] points out [Problem].",
+        conclusion: "Overall, [Summary]. [Insight] has [Broader Significance]."
       },
       fullParagraphs: {
         introduction: "Targeted poverty alleviation has been one of China's most ambitious development programs.",
@@ -3363,10 +3363,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "科技慈善型",
       styleNote: "Bill Gates：数据驱动的分析方法、强调杠杆效应、关注最脆弱群体、倡导创新解决方案。",
       structure: {
-        introduction: "[话题]是[名人]在慈善工作中反复思考的问题。",
-        body1: "支持富人有更大责任的观点认为[理由]。[名人]通过[案例]展示了[方式]。",
-        body2: "反对意见则关注[问题]。[分析]认为[理由]。",
-        conclusion: "在我看来，[个人观点]。[名人的信念]是[信念]。"
+        introduction: "[Topic] is an issue [Celebrity] has repeatedly thought about in charitable work.",
+        body1: "The view that the wealthy have greater responsibility argues [Reason]. [Celebrity] demonstrates [Way] through [Case].",
+        body2: "Critics focus on [Problem]. [Analysis] believes [Reason].",
+        conclusion: "In my opinion, [Personal View]. [Celebrity]'s belief is [Belief]."
       },
       fullParagraphs: {
         introduction: "Should the wealthy have a greater responsibility to address global health issues?",
@@ -3392,10 +3392,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "创新务实型",
       styleNote: "Bill Gates专注气候变化：投资清洁能源创新、第一性原理分析、强调技术突破必要性。",
       structure: {
-        introduction: "[问题]是[名人]近年投入大量资源的核心议题。",
-        body1: "[名人]指出的第一个创新需求是[领域1]。[分析]认为[理由]。",
-        body2: "第二个关键创新是[领域2]。[名人]相信[方向]。",
-        conclusion: "总之，[总结]。[名人]的呼吁是[号召]。"
+        introduction: "[Problem] is a core issue [Celebrity] has invested significant resources in recently.",
+        body1: "The first innovation need [Celebrity] points out is [Area 1]. [Analysis] believes [Reason].",
+        body2: "The second key innovation is [Area 2]. [Celebrity] believes [Direction].",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s call is [Call]."
       },
       fullParagraphs: {
         introduction: "What innovations are needed to address climate change effectively?",
@@ -3421,10 +3421,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "人道主义型",
       styleNote: "Malala亲身经历赋予话语力量、简洁有力、坚定而不激进、关注边缘化群体。",
       structure: {
-        introduction: "[名言]——这是[名人]的信念，也是她用生命践行的使命。",
-        body1: "首先，[名人]自己的故事证明了[观点]。[经历]展示了教育如何改变[个人/社区]。",
-        body2: "其次，教育赋予[群体]力量。[名人]观察到[现象]。",
-        conclusion: "总之，我完全同意[观点]。[名人]的勇气启示我们[启示]。"
+        introduction: "[Quote] - This is [Celebrity]'s belief, and the mission she has lived by.",
+        body1: "First, [Celebrity]'s own story proves [View]. [Experience] shows how education changes [Individual/Community].",
+        body2: "Second, education empowers [Group]. [Celebrity] observes [Phenomenon].",
+        conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s courage inspires us [Insight]."
       },
       fullParagraphs: {
         introduction: "Education is the most powerful weapon to change the world.",
@@ -3450,10 +3450,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "行动号召型",
       styleNote: "Malala倡导教育：个人故事与数据结合、具体可行的建议、强调政策与资源。",
       structure: {
-        introduction: "[问题]是[名人]毕生奋斗的目标。全球仍有数百万儿童失学。",
-        body1: "[名人]指出的第一个关键是[方法1]。[事实]显示[现状]。",
-        body2: "第二个必要措施是[方法2]。[名人]强调[价值观]。",
-        conclusion: "总之，[总结]。[名人]的愿景是[愿景]。"
+        introduction: "[Problem] is the goal [Celebrity] has dedicated her life to. Millions of children globally are still out of school.",
+        body1: "The first key [Celebrity] points out is [Method 1]. [Fact] shows [Current Situation].",
+        body2: "The second essential measure is [Method 2]. [Celebrity] emphasizes [Value].",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s vision is [Vision]."
       },
       fullParagraphs: {
         introduction: "How can we ensure quality education for all children globally?",
@@ -3479,10 +3479,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "直接质问型",
       styleNote: "Greta直接、毫不妥协、引用科学数据、批判虚伪和拖延、道德权威感。",
       structure: {
-        introduction: "[话题]。这是[名人]用行动和信息反复传达的讯息。",
-        body1: "首先，[名人]指出[科学事实]。[数据]显示了[现状]。",
-        body2: "其次，[名人]强调[行动的重要性]。[信念]是[理念]。",
-        conclusion: "总之，我[同意程度][观点]。[名人]的坚持启示我们[启示]。"
+        introduction: "[Topic]. This is a message [Celebrity] has repeatedly conveyed through action and words.",
+        body1: "First, [Celebrity] points out [Scientific Fact]. [Data] shows [Current Situation].",
+        body2: "Second, [Celebrity] emphasizes [Importance of Action]. [Belief] is [Philosophy].",
+        conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s persistence inspires us [Insight]."
       },
       fullParagraphs: {
         introduction: "Individual actions can make a significant difference in addressing climate change.",
@@ -3508,10 +3508,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "青年动员型",
       styleNote: "Greta身体力行、非暴力不合作精神、打破政治冷漠、团结而非分裂。",
       structure: {
-        introduction: "[问题]是[名人]从个人行动发展成全球运动的核心议题。",
-        body1: "[名人]的第一次行动是[方式]。[行动]展示了[可能性]。",
-        body2: "青年倡导的关键是[方法]。[名人]认为[理念]。",
-        conclusion: "总之，[名人]的经验告诉我们[启示]。[号召]是[呼吁]。"
+        introduction: "[Problem] is the core issue [Celebrity] has developed from personal action into a global movement.",
+        body1: "[Celebrity]'s first action was [Method]. [Action] demonstrates [Possibility].",
+        body2: "The key to youth advocacy is [Method]. [Celebrity] believes [Philosophy].",
+        conclusion: "In conclusion, [Celebrity]'s experience teaches us [Insight]. [Call to Action] is [Appeal]."
       },
       fullParagraphs: {
         introduction: "How can young people effectively advocate for climate action?",
@@ -3537,10 +3537,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "趋势分析型",
       styleNote: "达沃斯对未来工作分析：多学科专家视角、关注长期结构性变化、平衡效率与人文关怀。",
       structure: {
-        introduction: "[话题]是新冠疫情后全球关注的焦点。达沃斯论坛的研究提供了前瞻性分析。",
-        body1: "远程工作的一个主要优势是[好处1]。[论坛研究]显示[数据]。",
-        body2: "然而，也存在[挑战]。[分析]指出[问题]。",
-        conclusion: "总体而言，[总结]。达沃斯的建议是[建议]。"
+        introduction: "[Topic] is a global focus after the pandemic. Research from the World Economic Forum provides forward-looking analysis.",
+        body1: "One major advantage of remote work is [Benefit 1]. [Forum Research] shows [Data].",
+        body2: "However, there are also [Challenges]. [Analysis] points out [Problem].",
+        conclusion: "Overall, [Summary]. Davos' suggestion is [Suggestion]."
       },
       fullParagraphs: {
         introduction: "Remote work has become a defining feature of the post-pandemic economy.",
@@ -3566,10 +3566,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "政策专业型",
       styleNote: "国际金融机构专家：严谨经济学框架、跨国比较数据、平衡债权人债务人利益。",
       structure: {
-        introduction: "[问题]是[机构名称]持续关注的核心议题。发展中国家面临复杂的债务挑战。",
-        body1: "[机构]指出的第一个管理策略是[方法1]。[分析]认为[理由]。",
-        body2: "第二个关键措施是[方法2]。[专家建议]指出[方向]。",
-        conclusion: "总之，[总结]。[机构]的建议是[建议]。"
+        introduction: "[Problem] is a core issue [Institution Name] continuously focuses on. Developing countries face complex debt challenges.",
+        body1: "The first management strategy [Institution] points out is [Method 1]. [Analysis] believes [Reason].",
+        body2: "The second key measure is [Method 2]. [Expert Advice] points out [Direction].",
+        conclusion: "In conclusion, [Summary]. [Institution]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
         introduction: "How can developing countries manage sovereign debt while maintaining development progress?",
@@ -3595,10 +3595,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "励志经验型",
       styleNote: "马云分享失败经验：坦诚自己的多次失败、视失败为学习机会、强调坚持和适应。",
       structure: {
-        introduction: "[话题]。[名人]用自己的经历证明了这个观点的价值。",
-        body1: "首先，[名人]经历了[失败]。[故事]教会他[教训]。",
-        body2: "其次，失败培养了[能力]。[名人]认为[观点]。",
-        conclusion: "总之，我完全同意[观点]。[名人]的启示是[启示]。"
+        introduction: "[Topic]. [Celebrity] has proven the value of this view through his own experience.",
+        body1: "First, [Celebrity] experienced [Failure]. [Story] taught him [Lesson].",
+        body2: "Second, failure builds [Ability]. [Celebrity] believes [View].",
+        conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s insight is [Insight]."
       },
       fullParagraphs: {
         introduction: "Failure is an essential part of entrepreneurial success.",
@@ -3624,10 +3624,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "发展合作型",
       styleNote: "CGTN报道一带一路：强调互利共赢、关注基础设施发展、承认挑战但强调整体正面。",
       structure: {
-        introduction: "[话题]是国际发展领域的重大议题。CGTN提供了独特的视角。",
-        body1: "一方面，一带一路带来了[好处]。[媒体报道]展示[案例]。",
-        body2: "另一方面，存在[关切]。[分析]指出[问题]。",
-        conclusion: "在我看来，[个人观点]。[总结]。"
+        introduction: "[Topic] is a major issue in international development. CGTN provides a unique perspective.",
+        body1: "On one hand, Belt and Road has brought [Benefits]. [Media Report] shows [Case].",
+        body2: "On the other hand, there are [Concerns]. [Analysis] points out [Problem].",
+        conclusion: "In my opinion, [Personal View]. [Summary]."
       },
       fullParagraphs: {
         introduction: "The Belt and Road Initiative brings more benefits than harms to participating countries.",
@@ -3653,10 +3653,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "发展人文型",
       styleNote: "UNDP：多维度发展指标、关注边缘化群体、倡导包容性发展、强调赋权与机会平等。",
       structure: {
-        introduction: "[话题]是UNDP人类发展报告长期倡导的理念。单一GDP指标存在局限性。",
-        body1: "支持超越GDP的观点认为[理由]。[报告]显示[数据]。",
-        body2: "然而，反对意见认为[观点]。[分析]指出[理由]。",
-        conclusion: "在我看来，[个人观点]。[建议]是[方向]。"
+        introduction: "[Topic] is an idea the UNDP Human Development Report has long advocated. GDP alone has limitations.",
+        body1: "The view supporting going beyond GDP argues [Reason]. [Report] shows [Data].",
+        body2: "However, critics believe [View]. [Analysis] points out [Reason].",
+        conclusion: "In my opinion, [Personal View]. [Suggestion] is [Direction]."
       },
       fullParagraphs: {
         introduction: "Economic growth should be measured beyond GDP alone.",
@@ -3682,10 +3682,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "跨学科分析型",
       styleNote: "达沃斯分析：综合科技、心理、社会多角度、呼吁多方利益相关者合作、证据基础的政策建议。",
       structure: {
-        introduction: "[问题]是[机构]在达沃斯论坛上反复讨论的重要议题。社交媒体影响日益显著。",
-        body1: "[机构]指出的第一个应对策略是[方法1]。[研究]显示[数据]。",
-        body2: "第二个关键是[方法2]。[分析]认为[方向]。",
-        conclusion: "总之，[总结]。[呼吁]是[号召]。"
+        introduction: "[Problem] is an important issue [Institution] has repeatedly discussed at the World Economic Forum. Social media's impact is increasingly evident.",
+        body1: "The first response strategy [Institution] points out is [Method 1]. [Research] shows [Data].",
+        body2: "The second key is [Method 2]. [Analysis] believes [Direction].",
+        conclusion: "In conclusion, [Summary]. [Call] is [Appeal]."
       },
       fullParagraphs: {
         introduction: "How can society address the mental health crisis exacerbated by social media?",
