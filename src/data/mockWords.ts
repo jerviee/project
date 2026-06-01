@@ -16368,7 +16368,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1091",
     "word": "bibliophile",
-    "meaning": "v. ...做",
+    "meaning": "n. 藏书家",
     "level": "IELTS7",
     "root": "bi",
     "rootMeaning": "二",
@@ -16383,7 +16383,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1092",
     "word": "bicentenary",
-    "meaning": "adj. ...的",
+    "meaning": "n./adj. 二百周年纪念（的）",
     "level": "IELTS8",
     "root": "bi",
     "rootMeaning": "二",
@@ -16398,7 +16398,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1093",
     "word": "bicentennial",
-    "meaning": "adj. ...的",
+    "meaning": "n./adj. 二百周年纪念（的）",
     "level": "IELTS5",
     "root": "bi",
     "rootMeaning": "二",
@@ -16473,7 +16473,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1098",
     "word": "biddy",
-    "meaning": "adj. ...的",
+    "meaning": "n. 小鸡；婆娘",
     "level": "IELTS6",
     "root": "bi",
     "rootMeaning": "二",
@@ -16518,7 +16518,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1101",
     "word": "Biennale",
-    "meaning": "v. ...做",
+    "meaning": "n. 双年展",
     "level": "IELTS5",
     "root": "bi",
     "rootMeaning": "二",
@@ -16593,7 +16593,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1106",
     "word": "bigotry",
-    "meaning": "adj. ...的",
+    "meaning": "n. 偏执；偏见",
     "level": "IELTS6",
     "root": "bi",
     "rootMeaning": "二",
@@ -16623,7 +16623,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1108",
     "word": "bile",
-    "meaning": "v. ...做",
+    "meaning": "n. 胆汁；愤怒",
     "level": "IELTS8",
     "root": "bi",
     "rootMeaning": "二",
@@ -16803,7 +16803,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1120",
     "word": "bindery",
-    "meaning": "adj. ...的",
+    "meaning": "n. 装订车间",
     "level": "IELTS7",
     "root": "bi",
     "rootMeaning": "二",
@@ -16863,7 +16863,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1124",
     "word": "biochemical",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 生物化学的",
     "level": "IELTS7",
     "root": "bi",
     "rootMeaning": "二",
@@ -16998,7 +16998,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1133",
     "word": "biosphere",
-    "meaning": "v. ...做",
+    "meaning": "n. 生物圈",
     "level": "IELTS8",
     "root": "bi",
     "rootMeaning": "二",
@@ -17088,7 +17088,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1139",
     "word": "birdcage",
-    "meaning": "v. ...做",
+    "meaning": "n. 鸟笼",
     "level": "IELTS6",
     "root": "bi",
     "rootMeaning": "二",
@@ -17133,7 +17133,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1142",
     "word": "birthrate",
-    "meaning": "v. ...做",
+    "meaning": "n. 出生率",
     "level": "IELTS5",
     "root": "bi",
     "rootMeaning": "二",
@@ -17403,7 +17403,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1160",
     "word": "bivalve",
-    "meaning": "v. ...做",
+    "meaning": "n./adj. 双壳类（的）",
     "level": "IELTS7",
     "root": "bi",
     "rootMeaning": "二",
@@ -20133,7 +20133,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1342",
     "word": "boreal",
-    "meaning": "adj. ...的Bore",
+    "meaning": "adj. 北方的；北方森林的",
     "level": "IELTS8",
     "root": "al",
     "rootMeaning": "...的",
@@ -20283,7 +20283,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1352",
     "word": "borstal",
-    "meaning": "adj. ...的Borst",
+    "meaning": "n. 少年感化院",
     "level": "IELTS6",
     "root": "al",
     "rootMeaning": "...的",
@@ -20583,7 +20583,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_1372",
     "word": "bouncy",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 有弹性的；生气勃勃的",
     "level": "IELTS5",
     "root": "cy",
     "rootMeaning": "性质",
@@ -35343,7 +35343,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2356",
     "word": "dibble",
-    "meaning": "v. ...做",
+    "meaning": "n./v. 点播器；点播",
     "level": "IELTS8",
     "root": "di",
     "rootMeaning": "二",
@@ -35358,7 +35358,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2357",
     "word": "dictionary",
-    "meaning": "adj. ...的",
+    "meaning": "n. 词典；字典",
     "level": "IELTS5",
     "root": "di",
     "rootMeaning": "二",
@@ -35418,7 +35418,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2361",
     "word": "difference",
-    "meaning": "v. ...做",
+    "meaning": "n. 差异；不同",
     "level": "IELTS5",
     "root": "di",
     "rootMeaning": "二",
@@ -35478,7 +35478,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2365",
     "word": "difficulty",
-    "meaning": "adj. ...的",
+    "meaning": "n. 困难；难题",
     "level": "IELTS5",
     "root": "di",
     "rootMeaning": "二",
@@ -35538,7 +35538,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2369",
     "word": "Digital",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 数字的；数码的",
     "level": "IELTS5",
     "root": "di",
     "rootMeaning": "二",
@@ -35838,7 +35838,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2389",
     "word": "dirty",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 肮脏的；下流的",
     "level": "IELTS8",
     "root": "di",
     "rootMeaning": "二",
@@ -36918,7 +36918,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2461",
     "word": "divulge",
-    "meaning": "v. ...做",
+    "meaning": "v. 泄露；透露",
     "level": "IELTS8",
     "root": "di",
     "rootMeaning": "二",
@@ -37998,7 +37998,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2533",
     "word": "dusty",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 布满灰尘的；土灰色的",
     "level": "IELTS5",
     "root": "ty",
     "rootMeaning": "性质",
@@ -38328,7 +38328,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2555",
     "word": "ecological",
-    "meaning": "adj. ...的Ecologic",
+    "meaning": "adj. 生态的；生态学的",
     "level": "IELTS6",
     "root": "ical",
     "rootMeaning": "...的",
@@ -38373,7 +38373,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2558",
     "word": "economical",
-    "meaning": "adj. ...的Economic",
+    "meaning": "adj. 经济的；节约的",
     "level": "IELTS5",
     "root": "ical",
     "rootMeaning": "...的",
@@ -38778,7 +38778,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2586",
     "word": "eighty",
-    "meaning": "adj. ...的",
+    "meaning": "num./n./adj. 八十",
     "level": "IELTS7",
     "root": "ty",
     "rootMeaning": "性质",
@@ -38913,7 +38913,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2595",
     "word": "electrical",
-    "meaning": "adj. ...的Electric",
+    "meaning": "adj. 电的；电器的",
     "level": "IELTS8",
     "root": "ical",
     "rootMeaning": "...的",
@@ -40953,7 +40953,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2731",
     "word": "ethical",
-    "meaning": "adj. ...的Ethic",
+    "meaning": "adj. 伦理的；道德的",
     "level": "IELTS6",
     "root": "ical",
     "rootMeaning": "...的",
@@ -43728,7 +43728,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_2916",
     "word": "faulty",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 有错误的；有缺陷的",
     "level": "IELTS5",
     "root": "ty",
     "rootMeaning": "性质",
@@ -45993,7 +45993,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3067",
     "word": "forty",
-    "meaning": "adj. ...的",
+    "meaning": "num./n./adj. 四十",
     "level": "IELTS7",
     "root": "ty",
     "rootMeaning": "性质",
@@ -46893,7 +46893,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3127",
     "word": "functional",
-    "meaning": "adj. ...的Function",
+    "meaning": "adj. 功能的；实用的",
     "level": "IELTS7",
     "root": "al",
     "rootMeaning": "...的",
@@ -47643,7 +47643,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3177",
     "word": "generative",
-    "meaning": "adj. ...的Generat",
+    "meaning": "adj. 生殖的；生成的",
     "level": "IELTS7",
     "root": "ative",
     "rootMeaning": "...的",
@@ -59178,7 +59178,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_3946",
     "word": "legislative",
-    "meaning": "adj. ...的Legislat",
+    "meaning": "adj. 立法的；有立法权的",
     "level": "IELTS5",
     "root": "ative",
     "rootMeaning": "...的",
@@ -60648,7 +60648,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4044",
     "word": "loyalty",
-    "meaning": "adj. ...的",
+    "meaning": "n. 忠诚；忠心",
     "level": "IELTS7",
     "root": "ty",
     "rootMeaning": "性质",
@@ -62463,7 +62463,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4165",
     "word": "memorial",
-    "meaning": "adj. ...的Memori",
+    "meaning": "n./adj. 纪念碑；纪念的",
     "level": "IELTS6",
     "root": "al",
     "rootMeaning": "...的",
@@ -62853,7 +62853,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4191",
     "word": "Mighty",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 强大的；有力的",
     "level": "IELTS8",
     "root": "ty",
     "rootMeaning": "性质",
@@ -64638,7 +64638,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4310",
     "word": "narrative",
-    "meaning": "adj. ...的Narrat",
+    "meaning": "n./adj. 叙述；叙事的",
     "level": "IELTS7",
     "root": "ative",
     "rootMeaning": "...的",
@@ -64668,7 +64668,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4312",
     "word": "nasty",
-    "meaning": "adj. ...的",
+    "meaning": "adj. 令人不快的；糟糕的",
     "level": "IELTS5",
     "root": "ty",
     "rootMeaning": "性质",
@@ -65208,7 +65208,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4348",
     "word": "neural",
-    "meaning": "adj. ...的Neur",
+    "meaning": "adj. 神经的；神经系统的",
     "level": "IELTS8",
     "root": "al",
     "rootMeaning": "...的",
@@ -65643,7 +65643,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4377",
     "word": "nominal",
-    "meaning": "adj. ...的Nomin",
+    "meaning": "adj. 名义上的；象征性的",
     "level": "IELTS5",
     "root": "al",
     "rootMeaning": "...的",
@@ -65883,7 +65883,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4393",
     "word": "notable",
-    "meaning": "adj. 可...的Not",
+    "meaning": "adj. 显著的；著名的",
     "level": "IELTS8",
     "root": "able",
     "rootMeaning": "可...的",
@@ -66663,7 +66663,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4445",
     "word": "of",
-    "meaning": "prep. ...的",
+    "meaning": "prep. …的；属于…的",
     "level": "IELTS4",
     "root": "",
     "rootMeaning": "",
@@ -66933,7 +66933,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4463",
     "word": "olive",
-    "meaning": "adj. ...的Ol",
+    "meaning": "n./adj. 橄榄；橄榄色的",
     "level": "IELTS6",
     "root": "ive",
     "rootMeaning": "...的",
@@ -68853,7 +68853,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4591",
     "word": "partial",
-    "meaning": "adj. ...的Parti",
+    "meaning": "adj. 部分的；偏袒的",
     "level": "IELTS5",
     "root": "al",
     "rootMeaning": "...的",
@@ -69123,7 +69123,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4609",
     "word": "passive",
-    "meaning": "adj. ...的Pass",
+    "meaning": "adj. 被动的；消极的",
     "level": "IELTS6",
     "root": "ive",
     "rootMeaning": "...的",
@@ -70173,7 +70173,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4679",
     "word": "philosophical",
-    "meaning": "adj. ...的Philosophic",
+    "meaning": "adj. 哲学的；达观的",
     "level": "IELTS6",
     "root": "ical",
     "rootMeaning": "...的",
@@ -71133,7 +71133,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4743",
     "word": "plural",
-    "meaning": "adj. ...的Plur",
+    "meaning": "n./adj. 复数（的）",
     "level": "IELTS6",
     "root": "al",
     "rootMeaning": "...的",
@@ -71673,7 +71673,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4779",
     "word": "portal",
-    "meaning": "adj. ...的Port",
+    "meaning": "n. 门户；入口",
     "level": "IELTS7",
     "root": "al",
     "rootMeaning": "...的",
@@ -72093,7 +72093,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4807",
     "word": "poverty",
-    "meaning": "adj. ...的",
+    "meaning": "n. 贫穷；贫困",
     "level": "IELTS5",
     "root": "ty",
     "rootMeaning": "性质",
@@ -73593,7 +73593,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_4907",
     "word": "profile",
-    "meaning": "v. ...做",
+    "meaning": "n./v. 侧面；轮廓",
     "level": "IELTS5",
     "root": "pro",
     "rootMeaning": "前",
@@ -75618,7 +75618,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5042",
     "word": "rational",
-    "meaning": "adj. ...的Ration",
+    "meaning": "adj. 合理的；理性的",
     "level": "IELTS6",
     "root": "al",
     "rootMeaning": "...的",
@@ -84288,7 +84288,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5620",
     "word": "sovereignty",
-    "meaning": "adj. ...的",
+    "meaning": "n. 主权；统治权",
     "level": "IELTS6",
     "root": "ty",
     "rootMeaning": "性质",
@@ -84843,7 +84843,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5657",
     "word": "spiral",
-    "meaning": "adj. ...的Spir",
+    "meaning": "n./adj./v. 螺旋（形）的；盘旋",
     "level": "IELTS5",
     "root": "al",
     "rootMeaning": "...的",
@@ -89748,7 +89748,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5984",
     "word": "theological",
-    "meaning": "adj. ...的Theologic",
+    "meaning": "adj. 神学的",
     "level": "IELTS8",
     "root": "ical",
     "rootMeaning": "...的",
@@ -89763,7 +89763,7 @@ export const mockWords: IELTSWord[] = [
   {
     "id": "word_5985",
     "word": "theoretical",
-    "meaning": "adj. ...的Theoretic",
+    "meaning": "adj. 理论的；理论上的",
     "level": "IELTS6",
     "root": "ical",
     "rootMeaning": "...的",
