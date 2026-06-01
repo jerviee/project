@@ -2905,10 +2905,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "Overall, [Summary]. China's experience shows [Insight]."
       },
       fullParagraphs: {
-        introduction: "China's economic development model has attracted worldwide attention as the country achieved unprecedented growth.",
-        body1: "One major advantage is its focus on long-term infrastructure investment.",
-        body2: "Challenges exist including environmental concerns and debt levels.",
-        conclusion: "China's development model offers valuable lessons in strategic planning and implementation."
+        introduction: "China's economic development model has attracted worldwide attention as the country achieved unprecedented growth over the past four decades. CGTN's official coverage emphasizes that China's model, characterized by strong government guidance, strategic industrial policy, and integration into global trade, has lifted hundreds of millions of people out of poverty. This development approach differs significantly from both Western free-market models and traditional centrally-planned economies, leading to debates about its replicability and sustainability.",
+        body1: "One major advantage is its focus on long-term infrastructure investment. CGTN reports highlight how China has built the world's largest high-speed rail network, modern airports, and digital infrastructure in a remarkably short time. This infrastructure serves as the foundation for economic growth and improves connectivity across the vast country. Official data cited by CGTN shows that infrastructure investments have directly contributed to GDP growth while creating millions of construction and engineering jobs.",
+        body2: "Challenges exist including environmental concerns and debt levels. CGTN acknowledges these issues while emphasizing government efforts to address them through the dual circulation strategy and green development initiatives. Environmental regulations have tightened significantly, and renewable energy capacity has expanded rapidly. Regarding debt, officials point to ongoing efforts to deleverage property developers and strengthen financial regulation.",
+        conclusion: "China's development model offers valuable lessons in strategic planning and implementation. However, CGTN recognizes that each country must find its own path based on local conditions. The key insight is that effective development requires combining long-term vision with practical policy execution."
       },
       vocabulary: [
           "unprecedented growth",
@@ -2934,10 +2934,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Summary]."
       },
       fullParagraphs: {
-        introduction: "The question of whether China should take a leading role in global governance is increasingly relevant.",
-        body1: "China's growing economic power naturally comes with increased global responsibilities.",
-        body2: "China's approach emphasizes multilateralism and cooperation.",
-        conclusion: "In conclusion, I strongly agree that China should take a leading role in global governance."
+        introduction: "The question of whether China should take a leading role in global governance is increasingly relevant in today's complex international landscape. CGTN's coverage emphasizes that as the world's second-largest economy and a permanent member of the UN Security Council, China's role in global affairs has expanded significantly. This shift reflects both China's growing capabilities and the limitations of existing global governance structures in addressing contemporary challenges like climate change, pandemics, and digital regulation.",
+        body1: "China's growing economic power naturally comes with increased global responsibilities. CGTN reports point out that China's Belt and Road Initiative, vaccine diplomacy during COVID-19, and proposed Global Development Initiative demonstrate willingness to contribute to international cooperation. China's trade volume with other developing nations has grown substantially, and its climate commitments, including peaking emissions before 2030 and achieving carbon neutrality before 2060, represent significant pledges.",
+        body2: "China's approach emphasizes multilateralism and cooperation rather than unilateral action. CGTN commentary believes that China prefers working through existing international institutions while advocating for reforms to make them more representative. China's foreign policy principles, including non-interference in internal affairs and respect for national sovereignty, shape its contribution style. This contrasts with approaches perceived as more coercive or conditional.",
+        conclusion: "In conclusion, I strongly agree that China should take a leading role in global governance. With appropriate institutional reforms and genuine commitment to multilateral principles, China can make valuable contributions to addressing shared global challenges."
       },
       vocabulary: [
           "multilateralism",
@@ -3282,10 +3282,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Summary]. Davos' suggestion is [Suggestion]."
       },
       fullParagraphs: {
-        introduction: "Reducing growing economic inequality within nations has been a central concern at World Economic Forum gatherings.",
-        body1: "The first solution proposed at Davos is investing in quality education and skills training for all.",
-        body2: "The second key strategy involves rethinking corporate governance and taxation.",
-        conclusion: "Addressing inequality requires comprehensive action across education, taxation, and corporate responsibility."
+        introduction: "Reducing growing economic inequality within nations has been a central concern at World Economic Forum gatherings for over a decade. The Forum brings together global leaders from business, government, and civil society to analyze the root causes of rising inequality and propose solutions. Their research documents how inequality has reached historic levels in many countries, with the wealthiest 1% capturing an disproportionate share of income and wealth gains since the 2008 financial crisis. This concentration of prosperity has sparked social unrest and political polarization across both developed and developing nations.",
+        body1: "The first solution proposed at Davos is investing in quality education and skills training for all citizens. Forum research demonstrates that unequal access to quality education is a primary driver of income inequality across generations. When children from low-income families cannot access good schools or afford higher education, they face limited job prospects, perpetuating cycles of poverty. The Forum View believes that expanding early childhood education, making public universities tuition-free, and funding lifelong learning programs can level the playing field and ensure that talent rather than birthplace determines economic outcomes.",
+        body2: "The second key strategy involves rethinking corporate governance and taxation to ensure more equitable distribution of economic gains. Expert Advice points out that current practices often prioritize shareholder returns over worker welfare and community investment. Proposals discussed at Davos include mandatory worker representation on corporate boards, higher taxes on capital gains relative to labor income, and global minimum corporate tax rates to prevent tax avoidance. Such measures aim to shift incentives toward practices that benefit broader stakeholders.",
+        conclusion: "Addressing inequality requires comprehensive action across education, taxation, and corporate responsibility. Davos' suggestion is that governments, businesses, and civil society must work together to implement policy packages tailored to national contexts. Only through coordinated action can societies ensure that economic growth benefits all citizens rather than just a privileged few."
       },
       vocabulary: [
           "inclusive growth",
@@ -3369,10 +3369,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s belief is [Belief]."
       },
       fullParagraphs: {
-        introduction: "Should the wealthy have a greater responsibility to address global health issues?",
-        body1: "Proponents argue that the wealthy have both the resources and the obligation to tackle global health challenges.",
-        body2: "Critics question whether philanthropy is sufficient or whether systemic changes are needed.",
-        conclusion: "While wealthy individuals can contribute significantly, they should complement rather than replace government responsibilities."
+        introduction: "Should the wealthy have a greater responsibility to address global health issues? Bill Gates has repeatedly thought about this question through his extensive charitable work with the Bill and Melinda Gates Foundation, which has become one of the world's largest donors to global health initiatives. Since founding the foundation in 2000, Gates has witnessed firsthand how wealth can be leveraged to save lives through investments in vaccine development, disease eradication programs, and health system strengthening in developing countries. His data-driven approach has demonstrated that strategic philanthropy can achieve remarkable health outcomes.",
+        body1: "The view that the wealthy have greater responsibility argues that those with exceptional resources have both the capacity and the moral obligation to address global health challenges. Bill Gates demonstrates this commitment through the Gates Foundation's work, which has contributed over $100 billion to global health and development programs. By funding vaccine research for diseases like malaria and HIV, supporting polio eradication efforts, and investing in maternal and child health, Gates shows how wealth can be channeled toward solving problems that disproportionately affect the world's poorest populations.",
+        body2: "Critics question whether philanthropy is sufficient or whether systemic changes are needed to address root causes of global health inequity. Some argue that wealthy philanthropists can never replace government responsibility and that relying on charity can undermine public health systems. Others raise concerns about the lack of democratic accountability in philanthropy, where wealthy individuals decide priorities without community input. Analysis suggests that while philanthropy plays a valuable catalytic role, sustainable solutions require government funding, regulatory frameworks, and investments in health infrastructure.",
+        conclusion: "While wealthy individuals can contribute significantly, they should complement rather than replace government responsibilities. Gates' belief is that philanthropy can demonstrate what works and accelerate progress, but ultimately, governments must commit to long-term funding and policies to achieve universal health coverage. The wealthy have both the means and the opportunity to make profound differences in global health, but civic responsibility must guide how that wealth is deployed."
       },
       vocabulary: [
           "global health equity",
@@ -3427,10 +3427,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s courage inspires us [Insight]."
       },
       fullParagraphs: {
-        introduction: "Education is the most powerful weapon to change the world.",
-        body1: "Firstly, Malala's own story proves the transformative power of education.",
-        body2: "Secondly, education particularly transforms the lives of girls and women.",
-        conclusion: "In conclusion, I completely agree that education is the most powerful weapon for positive change."
+        introduction: "Education is the most powerful weapon to change the world. Malala Yousafzai, the youngest Nobel Peace Prize laureate, has lived by this belief and dedicated her life to defending every child's right to education, particularly girls in her native Pakistan and across the globe. After surviving an assassination attempt by the Taliban in 2012 for advocating girls' education, Malala's voice became even more powerful and resonant worldwide. Her personal journey from a remote valley in Swat to global recognition demonstrates how education can transform not only individual lives but entire communities.",
+        body1: "Firstly, Malala's own story proves the transformative power of education. Born in a family that valued learning despite living under Taliban rule, Malala attended school and dreamed of becoming a doctor until the Tehreek-e-Taliban banned girls' education in Swat Valley. After her recovery and subsequent global recognition, she has become a powerful advocate for education. Her experiences demonstrate that education is not just about acquiring knowledge but about developing the confidence to stand up for one's rights and the ability to pursue one's dreams regardless of obstacles.",
+        body2: "Secondly, education particularly transforms the lives of girls and women. Malala observes that in many developing countries, girls are denied education due to poverty, discrimination, or security concerns. She points to research showing that each additional year of schooling for a girl increases her future earnings by 10-20% and reduces the likelihood of child marriage. Educated women are more likely to participate in political processes, make informed health decisions, and break cycles of poverty that affect entire families.",
+        conclusion: "In conclusion, I completely agree that education is the most powerful weapon for positive change. Malala's courage inspires us to recognize that investing in education, especially for girls, is one of the most effective ways to create a more just and prosperous world."
       },
       vocabulary: [
           "girls' education",
@@ -3456,10 +3456,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Summary]. [Celebrity]'s vision is [Vision]."
       },
       fullParagraphs: {
-        introduction: "How can we ensure quality education for all children globally?",
-        body1: "Malala identifies adequate funding as the first essential step.",
-        body2: "The second crucial measure is addressing discrimination and social norms.",
-        conclusion: "Ensuring quality education for all requires both increased resources and changed attitudes."
+        introduction: "How can we ensure quality education for all children globally? Malala Yousafzai has dedicated her life to answering this question since surviving a Taliban assassination attempt in 2012. The Malala Fund, which she co-founded with her father Ziauddin, works to ensure 12 years of free, safe, quality education for every girl. Despite global progress in expanding school enrollment, 244 million children and youth remain out of school, with girls disproportionately affected, particularly in conflict zones and marginalized communities.",
+        body1: "Malala identifies adequate funding as the first essential step toward achieving universal quality education. Fact shows that in low-income countries, lack of financial resources remains the primary barrier to education access. The Malala Fund reports that governments in developing nations spend less than 2% of GDP on education, far below what is needed to build schools, train teachers, and provide learning materials. Increased funding can enable construction of schools in remote areas, provision of scholarships for poor families, and programs to reduce indirect costs like transportation and uniforms.",
+        body2: "The second crucial measure is addressing discrimination and social norms that prevent girls from attending school. Malala emphasizes that in many cultures, girls are expected to prioritize household chores, marry early, or are considered unworthy of education. Research indicates that changing these deep-rooted attitudes requires community engagement, awareness campaigns, and male allies who support girls' education. When families and communities understand that educated girls contribute more to economic development, they become powerful advocates for change.",
+        conclusion: "Ensuring quality education for all requires both increased resources and changed attitudes. Malala's vision is a world where every child, regardless of gender or circumstance, can access free, safe, and quality education. This vision demands collective action from governments, civil society, and individuals to prioritize education as a fundamental human right."
       },
       vocabulary: [
           "universal education",
@@ -3485,10 +3485,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s persistence inspires us [Insight]."
       },
       fullParagraphs: {
-        introduction: "Individual actions can make a significant difference in addressing climate change.",
-        body1: "Firstly, Greta emphasizes that every fraction of global warming matters.",
-        body2: "Secondly, individual actions create social and political momentum.",
-        conclusion: "In conclusion, I strongly agree that individual actions matter significantly."
+        introduction: "Individual actions can make a significant difference in addressing climate change. Greta Thunberg has repeatedly conveyed this message through her words and actions, beginning with her solo school strike outside the Swedish Parliament in 2018. This message is based on scientific evidence and the understanding that climate change is not just a policy issue but a moral and ethical one that demands response at every level of society.",
+        body1: "Firstly, Greta emphasizes that every fraction of global warming matters and that there is no room for excuses or delays. Data from climate science shows that each increment of warming leads to increased risks of severe climate impacts: more frequent heatwaves, stronger storms, rising seas, and ecosystem collapse. Greta points out that the atmosphere is indifferent to whether emissions come from large corporations or individual consumers. Every ton of CO2 reduced, regardless of source, contributes to limiting warming and preserving a habitable planet for future generations.",
+        body2: "Secondly, individual actions create social and political momentum that can shift entire systems. Greta believes that when individuals adopt sustainable practices, they not only reduce their personal emissions but also normalize climate-conscious behavior and challenge the status quo. She argues that this social change creates pressure on politicians and businesses to take bolder action. Furthermore, youth climate strikes inspired by Greta have demonstrated that collective individual action can generate mass movements capable of influencing policy at local, national, and international levels.",
+        conclusion: "In conclusion, I strongly agree that individual actions matter significantly in addressing climate change. Greta's persistence inspires us to recognize that while systemic change is essential, it emerges from the accumulation of countless individual choices and actions. Each person's commitment to sustainable living contributes to a broader cultural shift that makes climate action not just possible but inevitable."
       },
       vocabulary: [
           "climate urgency",
@@ -3514,10 +3514,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Celebrity]'s experience teaches us [Insight]. [Call to Action] is [Appeal]."
       },
       fullParagraphs: {
-        introduction: "How can young people effectively advocate for climate action?",
-        body1: "Greta's first climate strike began as an individual protest.",
-        body2: "The key to effective youth advocacy is consistency and moral clarity.",
-        conclusion: "Greta's experience teaches us that effective advocacy combines personal commitment with collective action."
+        introduction: "How can young people effectively advocate for climate action? Greta Thunberg has developed this question from a personal protest into a global movement that has mobilized millions of young people worldwide. Beginning with her lone school strike outside Swedish Parliament in August 2018, Greta demonstrated that one young person's conviction could spark a worldwide youth climate movement. Her approach shows that effective advocacy often starts with individual conscience and spreads through authentic expression of moral concern.",
+        body1: "Greta's first climate strike began as an individual protest that demonstrated the power of personal conviction. What started as one teenager refusing to attend school on Fridays has grown into the global Fridays for Future movement, with millions of students across continents participating in climate strikes. Greta's consistency in maintaining her protest day after day while facing criticism and dismissal showed that she was not seeking attention but genuinely concerned about the climate crisis. This authenticity resonated with other young people who felt their futures were being sacrificed for short-term economic interests.",
+        body2: "The key to effective youth advocacy is consistency and moral clarity rather than political compromise. Greta believes that young people should not be expected to make the same compromises as adult politicians, who often prioritize re-election over climate action. She argues that clarity about the severity and urgency of the crisis, based on scientific evidence, is more effective than vague commitments or incremental proposals. This moral clarity cuts through political spin and forces adults to confront their own responsibilities.",
+        conclusion: "Greta's experience teaches us that effective advocacy combines personal commitment with collective action. Her call to action is for young people everywhere to join the movement, not just as supporters but as leaders who refuse to accept inadequate responses to the climate emergency."
       },
       vocabulary: [
           "youth activism",
@@ -3543,10 +3543,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "Overall, [Summary]. Davos' suggestion is [Suggestion]."
       },
       fullParagraphs: {
-        introduction: "Remote work has become a defining feature of the post-pandemic economy.",
-        body1: "One major advantage is increased flexibility and work-life balance.",
-        body2: "However, challenges exist including social isolation and blurred work-life boundaries.",
-        conclusion: "Overall, the future likely involves hybrid models combining remote and in-person work."
+        introduction: "Remote work has become a defining feature of the post-pandemic economy, transforming how organizations operate and how individuals balance professional and personal responsibilities. Research from the World Economic Forum provides forward-looking analysis on this workplace transformation, examining both the opportunities and challenges that remote and hybrid work models present for employers, employees, and society at large. The shift represents one of the most significant changes in work organization since the industrial revolution.",
+        body1: "One major advantage of remote work is increased flexibility and work-life balance that allows employees to structure their days around personal commitments. Forum Research shows that remote workers typically save 2-4 hours weekly by eliminating commutes, which can be redirected toward work productivity, family time, exercise, or skill development. Many employees report higher job satisfaction and reduced stress when given the autonomy to work remotely. Studies also indicate that remote work can increase productivity for tasks requiring deep concentration, as workers face fewer office distractions.",
+        body2: "However, challenges exist including social isolation and blurred work-life boundaries that can negatively impact employee wellbeing. The Forum Analysis points out that remote workers often struggle with feelings of loneliness and disconnection from their colleagues, which can affect mental health and team cohesion. Additionally, without clear separation between work and home spaces, employees may find themselves working longer hours and experiencing burnout. Research shows that some workers feel pressure to be constantly available, leading to decreased unplugged time.",
+        conclusion: "Overall, the future likely involves hybrid models combining remote and in-person work. Davos' suggestion is that organizations should develop flexible policies that capture the benefits of remote work while mitigating its drawbacks through intentional in-person collaboration, clear communication expectations, and investments in digital tools that support remote team building."
       },
       vocabulary: [
           "hybrid work models",
@@ -3572,10 +3572,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Summary]. [Institution]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
-        introduction: "How can developing countries manage sovereign debt while maintaining development progress?",
-        body1: "The IMF advocates for strengthening debt management capacity.",
-        body2: "The World Bank emphasizes the importance of debt sustainability analysis.",
-        conclusion: "Managing sovereign debt requires both strong domestic institutions and international cooperation."
+        introduction: "How can developing countries manage sovereign debt while maintaining development progress? This question has become increasingly urgent as many developing nations face mounting debt burdens that threaten to derail hard-won development gains. The IMF and World Bank, as the foremost international financial institutions dealing with developing country debt, have developed frameworks and recommendations based on decades of experience with debt crises and development financing. Their analysis recognizes that borrowing is necessary for development but must be managed prudently.",
+        body1: "The IMF advocates for strengthening debt management capacity within developing country governments as the first critical strategy. This involves building institutional capacity to assess borrowing needs accurately, negotiate favorable loan terms, track debt obligations, and deploy borrowed funds productively. The IMF analysis believes that countries with strong debt management offices are better positioned to avoid excessive borrowing and identify refinancing risks early. Technical assistance from the IMF helps countries develop medium-term debt strategies aligned with development objectives.",
+        body2: "The World Bank emphasizes the importance of debt sustainability analysis to ensure that borrowing levels remain manageable. Expert Advice from the Bank points out that debt sustainability requires balancing the need for investment against the capacity to repay. The Bank has developed frameworks that assess debt levels against export earnings, fiscal revenues, and economic growth potential. This analysis helps countries and creditors understand when debt loads become unsustainable and require restructuring before crises develop.",
+        conclusion: "Managing sovereign debt requires both strong domestic institutions and international cooperation. The suggestion from these institutions is that developing countries should invest in debt management capacity while the international community ensures that creditor practices support sustainable borrowing. Only through this dual approach can debt be transformed from a burden into a tool for sustainable development."
       },
       vocabulary: [
           "debt sustainability",
@@ -3601,10 +3601,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s insight is [Insight]."
       },
       fullParagraphs: {
-        introduction: "Failure is an essential part of entrepreneurial success.",
-        body1: "Firstly, Ma faced numerous rejections and failures before Alibaba's success.",
-        body2: "Secondly, Ma believes failure builds resilience and creativity.",
-        conclusion: "In conclusion, I completely agree that failure is essential for entrepreneurial success."
+        introduction: "Failure is an essential part of entrepreneurial success. Jack Ma, the founder of Alibaba, has proven the value of this view through his own experience. After being rejected by numerous employers including KFC, Ma faced countless setbacks in his early business ventures before finally achieving global success with Alibaba. His journey from repeated failure to becoming one of the world's most influential entrepreneurs provides compelling evidence that setbacks are not the end but rather crucial stepping stones on the path to success.",
+        body1: "Firstly, Ma faced numerous rejections and failures before Alibaba's success. He failed his college entrance exams three times, was rejected by 30 different jobs including a position at KFC, and his first business venture, an English translation company, failed within a few years. However, each rejection taught him valuable lessons about persistence, adaptability, and the importance of learning from mistakes. For instance, the failure of his translation company taught him that he needed to focus on unmet market needs rather than simply offering services. This resilience in the face of adversity ultimately became the foundation of his business philosophy.",
+        body2: "Secondly, Ma believes failure builds resilience and creativity. He often emphasizes that every failure brings new opportunities for innovation and growth. After experiencing setbacks with early internet ventures in China, Ma realized that the key to success lay in persistence rather than giving up. His experience taught him that entrepreneurs must develop thick skins and view failures as essential parts of the learning process. Furthermore, he advocates that failure should be discussed openly to help others learn and grow, rather than being hidden or ashamed of.",
+        conclusion: "In conclusion, I completely agree that failure is essential for entrepreneurial success. Ma's insight is that we should not fear failure but embrace it as a teacher. His journey demonstrates that entrepreneurs who persist through failures and learn from their mistakes are ultimately the ones who achieve remarkable success."
       },
       vocabulary: [
           "entrepreneurial resilience",
@@ -3630,10 +3630,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In my opinion, [Personal View]. [Summary]."
       },
       fullParagraphs: {
-        introduction: "The Belt and Road Initiative brings more benefits than harms to participating countries.",
-        body1: "On one hand, Belt and Road projects have built much-needed infrastructure across developing regions.",
-        body2: "On the other hand, critics raise concerns about debt sustainability and transparency.",
-        conclusion: "In my opinion, Belt and Road offers both opportunities and challenges."
+        introduction: "The Belt and Road Initiative brings more benefits than harms to participating countries. CGTN's reports provide extensive coverage of this ambitious infrastructure and trade initiative, highlighting how it has transformed economic prospects across Asia, Africa, and beyond. Since its launch in 2013, the initiative has funded and constructed railways, ports, power plants, and digital infrastructure connecting over 140 countries. CGTN's coverage emphasizes that this initiative represents a new model of international cooperation based on mutual benefit rather than colonial exploitation.",
+        body1: "On one hand, Belt and Road projects have built much-needed infrastructure across developing regions. CGTN reports showcase numerous examples where new highways have reduced travel times dramatically, ports have enabled international trade where none existed before, and power plants have brought electricity to remote communities. These projects have created jobs, stimulated local economies, and improved living standards in participating countries. For instance, the Kenya Standard Gauge Railway has transformed transportation between Nairobi and Mombasa, boosting both commerce and tourism while providing thousands of skilled jobs to local workers.",
+        body2: "On the other hand, critics raise concerns about debt sustainability and transparency. CGTN acknowledges these concerns while arguing that they are often overstated. Some analysts worry that participating countries may accumulate unsustainable debt levels, particularly for projects with unclear economic returns. Others point to allegations of corruption and lack of environmental safeguards. However, CGTN reports that many projects have included debt relief provisions and transparency measures to address these valid concerns.",
+        conclusion: "In my opinion, Belt and Road offers both opportunities and challenges, but the overall impact has been positive for participating countries. The initiative provides developing nations with infrastructure investments they desperately need but cannot afford through traditional channels. With proper governance and transparency measures, Belt and Road can continue serving as a platform for inclusive global development."
       },
       vocabulary: [
           "infrastructure connectivity",
@@ -3659,10 +3659,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In my opinion, [Personal View]. [Suggestion] is [Direction]."
       },
       fullParagraphs: {
-        introduction: "Economic growth should be measured beyond GDP alone.",
-        body1: "Proponents argue that GDP fails to capture crucial aspects of wellbeing.",
-        body2: "Critics argue that GDP remains essential for economic planning and investment.",
-        conclusion: "In my opinion, GDP should be complemented rather than replaced by broader measures."
+        introduction: "Economic growth should be measured beyond GDP alone. The UNDP Human Development Report has long advocated this perspective, arguing that traditional GDP measurements fail to capture the full picture of human wellbeing and societal progress. Since 1990, the UNDP has developed alternative metrics like the Human Development Index, which incorporates health, education, and standard of living indicators. This approach recognizes that economic growth alone does not automatically translate into improved quality of life or greater human freedom.",
+        body1: "Proponents argue that GDP fails to capture crucial aspects of wellbeing. The UNDP points out that GDP measures market transactions but ignores environmental degradation, unpaid household work, and income inequality. A country might show strong GDP growth while its citizens experience declining health outcomes, widening inequality, or deteriorating ecosystems. The Human Development Report demonstrates that many countries with lower GDP per capita actually achieve higher life expectancy, better education outcomes, and greater subjective wellbeing than wealthier nations.",
+        body2: "Critics argue that GDP remains essential for economic planning and investment. They contend that GDP provides a clear, quantifiable metric that businesses and governments can use for forecasting and decision-making. Alternative measures like the HDI are often criticized for being difficult to calculate consistently across countries and for incorporating subjective elements. Furthermore, some economists maintain that economic growth, when properly managed, remains the most effective pathway to reducing poverty and improving living standards.",
+        conclusion: "In my opinion, GDP should be complemented rather than replaced by broader measures. The UNDP's suggestion is that policymakers should use a dashboard of indicators including health outcomes, educational attainment, environmental sustainability, and subjective wellbeing alongside GDP to make more informed decisions. This multi-dimensional approach would provide a more accurate picture of national progress."
       },
       vocabulary: [
           "Human Development Index",
@@ -3688,10 +3688,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Summary]. [Call] is [Appeal]."
       },
       fullParagraphs: {
-        introduction: "How can society address the mental health crisis exacerbated by social media?",
-        body1: "The Forum identifies digital literacy education as the first crucial strategy.",
-        body2: "The second key strategy involves platform accountability.",
-        conclusion: "Addressing social media's mental health impacts requires both individual empowerment and systemic change."
+        introduction: "How can society address the mental health crisis exacerbated by social media? The World Economic Forum has researched this pressing issue extensively, documenting the growing evidence that excessive social media use is linked to rising rates of anxiety, depression, and other mental health disorders, particularly among young people. The Forum's research brings together insights from psychology, neuroscience, and technology studies to propose comprehensive solutions that address both individual behavior and platform design.",
+        body1: "The Forum identifies digital literacy education as the first crucial strategy. Research from the Forum shows that many young users lack the skills to critically evaluate online content or recognize when social media use is becoming problematic. Educational programs that teach digital citizenship, online safety, and healthy usage patterns can help young people develop more balanced relationships with social platforms. Studies indicate that countries implementing comprehensive digital literacy curricula have seen reductions in social media-related psychological distress among students.",
+        body2: "The second key strategy involves platform accountability. The Forum believes that social media companies must take greater responsibility for how their products affect mental health. This includes implementing stricter age verification systems, reducing features designed to maximize engagement at the expense of user wellbeing, and increasing transparency about algorithmic effects on users. Some proposals include independent audits of platform effects on mental health and mandatory warnings similar to those on tobacco products.",
+        conclusion: "Addressing social media's mental health impacts requires both individual empowerment and systemic change. The Forum's call is for coordinated action involving governments, educational institutions, healthcare providers, and technology companies. Only through collective effort can society create a digital environment that supports rather than undermines mental health."
       },
       vocabulary: [
           "digital wellbeing",
