@@ -412,6 +412,7 @@ export default function WordList() {
                                                         </button>
                                                       </div>
                                                       <p className="text-sm italic text-white">{word.example.split('\n')[0]}</p>
+                                                      <p className="text-xs text-gray-300 mt-1">{word.example.split('\n')[1] || ''}</p>
                                                     </div>
                                                     
                                                     {word.relatedWords && word.relatedWords.length > 0 && (
