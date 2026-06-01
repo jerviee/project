@@ -2906,6 +2906,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "On the other hand, [View 2]. [Celebrity] emphasizes [Reason].",
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s analysis shows [Conclusion]."
       },
+      structureCN: {
+        introduction: "[话题]引发了广泛争论。[名人]对此问题有深刻见解。",
+        body1: "一方面，[观点1]。[名人]在演讲中指出：[引用观点]。",
+        body2: "另一方面，[观点2]。[名人]强调[原因]。",
+        conclusion: "在我看来，[个人观点]。[名人]的分析表明[结论]。"
+      },
       fullParagraphs: {
         introduction: "There is an ongoing debate about whether governments should prioritize economic growth over environmental protection.",
         body1: "Proponents argue that short-term economic considerations are crucial for political stability. However, viewing growth and sustainability as fundamentally opposed is flawed.",
@@ -2940,6 +2946,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "The first solution [Celebrity] points out is [Method 1]. This helps [Result].",
         body2: "The second key strategy is [Method 2]. [Celebrity] believes [Reason].",
         conclusion: "In conclusion, [Celebrity]'s analysis shows [Conclusion]. Through these measures, we can [Outlook]."
+      },
+      structureCN: {
+        introduction: "[问题]是当今金融界面临的重要挑战。[名人]对此提供了深刻见解。",
+        body1: "[名人]指出的第一个解决方案是[方法1]。这有助于[结果]。",
+        body2: "第二个关键策略是[方法2]。[名人]认为[原因]。",
+        conclusion: "总之，[名人]的分析表明[结论]。通过这些措施，我们可以[展望]。"
       },
       fullParagraphs: {
         introduction: "Addressing climate-related risks in the financial sector is one of the most pressing challenges facing global markets.",
@@ -2976,6 +2988,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "However, there are also [Challenge/Problem]. [Analysis] believes [Reason].",
         conclusion: "Overall, [Summary]. China's experience shows [Insight]."
       },
+      structureCN: {
+        introduction: "[话题]是讨论中国发展模式的核心。中国官方媒体如CGTN的报道提供了独特视角。",
+        body1: "中国模式的一个主要优势是[好处1]。[媒体报道]显示[数据/事实]。",
+        body2: "然而，也存在[挑战/问题]。[分析]认为[原因]。",
+        conclusion: "总体而言，[总结]。中国的经验表明[见解]。"
+      },
       fullParagraphs: {
         introduction: "China's economic development model has attracted worldwide attention as the country achieved unprecedented growth over the past four decades. CGTN's official coverage emphasizes that China's model, characterized by strong government guidance, strategic industrial policy, and integration into global trade, has lifted hundreds of millions of people out of poverty. This development approach differs significantly from both Western free-market models and traditional centrally-planned economies, leading to debates about its replicability and sustainability.",
         body1: "One major advantage is its focus on long-term infrastructure investment. CGTN reports highlight how China has built the world's largest high-speed rail network, modern airports, and digital infrastructure in a remarkably short time. This infrastructure serves as the foundation for economic growth and improves connectivity across the vast country. Official data cited by CGTN shows that infrastructure investments have directly contributed to GDP growth while creating millions of construction and engineering jobs.",
@@ -3010,6 +3028,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "First, [View/Reason 1]. [Media Report] points out [Fact].",
         body2: "Second, [View/Reason 2]. [Commentary] believes [View].",
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Summary]."
+      },
+      structureCN: {
+        introduction: "[话题]是当今国际关系中的重要议题。中国媒体如CGTN对此有独特分析。",
+        body1: "首先，[观点/原因1]。[媒体报道]指出[事实]。",
+        body2: "其次，[观点/原因2]。[评论]认为[观点]。",
+        conclusion: "总之，我[同意程度][观点]。[总结]。"
       },
       fullParagraphs: {
         introduction: "The question of whether China should take a leading role in global governance is increasingly relevant in today's complex international landscape. CGTN's coverage emphasizes that as the world's second-largest economy and a permanent member of the UN Security Council, China's role in global affairs has expanded significantly. This shift reflects both China's growing capabilities and the limitations of existing global governance structures in addressing contemporary challenges like climate change, pandemics, and digital regulation.",
@@ -3046,6 +3070,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "Second, technological innovation promotes [Benefit 2]. [Celebrity] believes [Reason].",
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight shows [Conclusion]."
       },
+      structureCN: {
+        introduction: "[话题]是[名人]在达沃斯论坛提出的重要命题。",
+        body1: "首先，第四次工业革命带来[好处1]。[名人]指出[观点]。",
+        body2: "其次，技术创新促进[好处2]。[名人]认为[原因]。",
+        conclusion: "总之，我[同意程度][观点]。[名人]的见解表明[结论]。"
+      },
       fullParagraphs: {
         introduction: "The Fourth Industrial Revolution represents a fundamental transformation in how we live, work, and relate.",
         body1: "Firstly, it brings unprecedented advances in productivity and convenience.",
@@ -3080,6 +3110,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "The first governance principle [Celebrity] proposes is [Principle 1]. [Measure] can help [Result].",
         body2: "The second key principle is [Principle 2]. [Celebrity] believes [Reason].",
         conclusion: "In conclusion, [Summary]. [Celebrity]'s call is [Outlook]."
+      },
+      structureCN: {
+        introduction: "[问题]是[名人]在达沃斯论坛反复强调的核心议题。",
+        body1: "[名人]提出的第一个治理原则是[原则1]。[措施]可以帮助[结果]。",
+        body2: "第二个关键原则是[原则2]。[名人]认为[原因]。",
+        conclusion: "总之，[总结]。[名人]的呼吁是[展望]。"
       },
       fullParagraphs: {
         introduction: "Governing emerging technologies to ensure they benefit all of humanity is one of the central challenges of our time.",
@@ -3116,6 +3152,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "However, there are also [Problems/Risks]. [Analysis] points out [Reason].",
         conclusion: "Overall, [Summary]. [Celebrity] suggests [Policy Recommendation]."
       },
+      structureCN: {
+        introduction: "[话题]是IMF持续关注的核心议题。[名人]提供了数据驱动的深刻分析。",
+        body1: "全球化的一个主要优势是[好处1]。[数据/研究]显示[事实]。",
+        body2: "然而，也存在[问题/风险]。[分析]指出[原因]。",
+        conclusion: "总体而言，[总结]。[名人]建议[政策建议]。"
+      },
       fullParagraphs: {
         introduction: "Economic globalization has been a defining feature of the world economy for decades, shaping patterns of growth, trade, and development across nations. IMF Managing Director Kristalina Georgieva has provided data-driven analysis showing how globalization has transformed the global economic landscape while creating both unprecedented opportunities and significant challenges that require careful policy responses.",
         body1: "One major advantage of globalization is its role in lifting millions out of poverty, particularly in emerging economies. Data from the World Bank indicates that over the past three decades, more than one billion people have escaped extreme poverty, with China alone accounting for the majority of this achievement through its integration into global trade. Georgieva points out that supply chains spanning multiple countries have created jobs and transferred technology to developing nations, enabling them to participate in industries from manufacturing to services. These gains demonstrate that well-managed globalization can serve as a powerful engine for shared prosperity.",
@@ -3150,6 +3192,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "Supporters of CBDC issuance argue [Reason]. [Celebrity] points out [Potential Advantage].",
         body2: "Critics focus on [Risk/Problem]. [Analysis] believes [Reason].",
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s suggestion is [Suggestion]."
+      },
+      structureCN: {
+        introduction: "[话题]是国际金融界的热门议题。[名人]对此有专业见解。",
+        body1: "支持央行数字货币发行的人认为[原因]。[名人]指出[潜在优势]。",
+        body2: "批评者关注[风险/问题]。[分析]认为[原因]。",
+        conclusion: "在我看来，[个人观点]。[名人]的建议是[建议]。"
       },
       fullParagraphs: {
         introduction: "The question of whether central banks should issue digital currencies is generating intense debate in financial circles. IMF Managing Director Kristalina Georgieva has offered professional insights on this emerging issue, recognizing that Central Bank Digital Currencies represent one of the most significant developments in monetary policy in recent decades. Her views reflect both the transformative potential of digital currencies and the need for careful regulatory frameworks.",
@@ -3186,6 +3234,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "Second, [Method 2]. [TED Talk] demonstrates [Method].",
         conclusion: "So, [Call to Action]. Remember, [Core Concept]."
       },
+      structureCN: {
+        introduction: "想象一下[场景]。[问题]是许多人关心的话题。",
+        body1: "首先，[方法1]。[故事/案例]告诉我们[教训]。",
+        body2: "其次，[方法2]。[TED演讲]展示了[方法]。",
+        conclusion: "所以，[行动号召]。记住，[核心概念]。"
+      },
       fullParagraphs: {
         introduction: "Imagine a classroom where asking questions is more valued than having answers.",
         body1: "First, we need to change how we assess learning.",
@@ -3220,6 +3274,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "First, the impacts of climate change are [Description]. [Celebrity] warns [Consequence].",
         body2: "Second, climate action relates to [Value]. [Celebrity] calls for [Action].",
         conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s call is [Call]."
+      },
+      structureCN: {
+        introduction: "[话题]是[名人]作为联合国秘书长反复强调的核心议题。",
+        body1: "首先，气候变化的影响是[描述]。[名人]警告[后果]。",
+        body2: "其次，气候行动关系到[价值]。[名人]呼吁[行动]。",
+        conclusion: "总之，我完全同意[观点]。[名人]的呼吁是[号召]。"
       },
       fullParagraphs: {
         introduction: "Climate change is the defining challenge of our generation. UN Secretary-General António Guterres has repeatedly emphasized this message, warning that the window for action is rapidly closing and that current efforts are woefully inadequate to meet the goals of the Paris Agreement. His appeals are grounded in the latest scientific evidence and reflect a deep moral concern for both present and future generations.",
@@ -3256,6 +3316,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "However, the multilateral system faces [Challenge]. [Celebrity] acknowledges [Problem].",
         conclusion: "Overall, [Summary]. [Celebrity]'s suggestion is [Suggestion]."
       },
+      structureCN: {
+        introduction: "[话题]是[名人]长期倡导的核心价值观。多边主义的重要性日益凸显。",
+        body1: "多边主义的一个主要优势是[好处1]。[名人]指出[原因]。",
+        body2: "然而，多边体系面临[挑战]。[名人]承认[问题]。",
+        conclusion: "总体而言，[总结]。[名人]的建议是[建议]。"
+      },
       fullParagraphs: {
         introduction: "Multilateral approaches to global problems have been a cornerstone of Secretary-General Guterres' leadership. In an era of rising nationalism and geopolitical tensions, the Secretary-General has consistently championed international cooperation as indispensable for addressing shared challenges. His advocacy reflects decades of diplomatic experience and a deep understanding of how collective action can achieve outcomes no single nation can accomplish alone.",
         body1: "One major advantage of multilateralism is its ability to address problems no single nation can solve alone. Climate change, pandemic diseases, terrorism, and digital governance transcend national borders, requiring coordinated responses that share burdens and pool resources. Secretary-General Guterres points out that the global response to COVID-19 demonstrated both the potential and limitations of multilateral action. While the COVAX initiative helped distribute vaccines to developing nations, wealthier countries often pursued nationalist policies that undermined collective efforts.",
@@ -3290,6 +3356,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "First, [Celebrity] demonstrates [Significance of Risk]. [Instance] shows [Lesson].",
         body2: "Second, ambitious goals require [Quality]. [Celebrity] believes [View].",
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight is [Insight]."
+      },
+      structureCN: {
+        introduction: "[话题]是[名人]一贯倡导的理念。他通过行动证明了[观点]。",
+        body1: "首先，[名人]展示了[风险的重要性]。[事例]表明[教训]。",
+        body2: "其次，宏伟目标需要[品质]。[名人]认为[观点]。",
+        conclusion: "总之，我[同意程度][观点]。[名人]的见解是[见解]。"
       },
       fullParagraphs: {
         introduction: "Entrepreneurs should take bold risks to pursue ambitious goals. This philosophy has defined Elon Musk's approach.",
@@ -3326,6 +3398,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "The second key issue is [Problem 2]. [Celebrity] suggests [Solution].",
         conclusion: "In conclusion, [Celebrity]'s warning deserves attention. We need [Action]."
       },
+      structureCN: {
+        introduction: "[问题]是[名人]多次警告的关键议题。AI的影响日益明显。",
+        body1: "[名人]指出的第一个挑战是[问题1]。[分析]认为[原因]。",
+        body2: "第二个关键问题是[问题2]。[名人]建议[解决方案]。",
+        conclusion: "总之，[名人]的警告值得关注。我们需要[行动]。"
+      },
       fullParagraphs: {
         introduction: "How should society prepare for the impact of artificial intelligence on employment?",
         body1: "Musk identifies automation as the primary threat to employment.",
@@ -3360,6 +3438,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "On one hand, digital globalization brings [Opportunity] for small businesses. [Celebrity] points out [Reason].",
         body2: "On the other hand, small and medium enterprises face [Challenge]. [Celebrity] reminds [Problem].",
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s suggestion is [Suggestion]."
+      },
+      structureCN: {
+        introduction: "[话题]是[名人]长期倡导的理念。作为电子商务先驱，他有独特见解。",
+        body1: "一方面，数字全球化为小企业带来[机遇]。[名人]指出[原因]。",
+        body2: "另一方面，中小企业面临[挑战]。[名人]提醒[问题]。",
+        conclusion: "在我看来，[个人观点]。[名人]的建议是[建议]。"
       },
       fullParagraphs: {
         introduction: "Small and medium enterprises should embrace digital globalization. Jack Ma, the founder of Alibaba, has long advocated for this view, arguing that digital platforms have democratized international trade and created unprecedented opportunities for businesses of all sizes. As a pioneer in e-commerce, Ma has witnessed firsthand how digital globalization has transformed traditional business models and opened new markets for entrepreneurs worldwide.",
@@ -3396,6 +3480,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "Second, future education should develop [Ability]. [Celebrity] suggests [Direction].",
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight is [Insight]."
       },
+      structureCN: {
+        introduction: "[话题]是[名人]在多次演讲中表达的观点。他对教育有独特见解。",
+        body1: "首先，[名人]认为传统教育存在[问题]。[经历/观察]证明了[观点]。",
+        body2: "其次，未来教育应该培养[能力]。[名人]建议[方向]。",
+        conclusion: "总之，我[同意程度][观点]。[名人]的见解是[见解]。"
+      },
       fullParagraphs: {
         introduction: "Traditional education will become obsolete in the age of AI. Jack Ma has expressed this view in multiple speeches, arguing that our current education system was designed for the industrial era and fails to prepare students for the challenges posed by artificial intelligence and automation. Having transitioned from being a teacher to an entrepreneur, Ma brings unique insights to this debate, having witnessed both the limitations of traditional education and the demands of the modern workplace.",
         body1: "Firstly, Ma argues that traditional education focuses too heavily on knowledge accumulation at the expense of practical skills and creativity. In his experience, the current system emphasizes memorizing facts and passing exams rather than developing critical thinking, problem-solving abilities, and the capacity for innovation. Research conducted by the World Economic Forum supports this view, showing that 65% of children entering primary school today will ultimately work in job categories that do not yet exist. This statistic demonstrates that knowledge-based education alone cannot prepare students for an unpredictable future.",
@@ -3430,6 +3520,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "The first solution proposed at Davos is [Method 1]. [Forum View] believes [Reason].",
         body2: "The second key strategy is [Method 2]. [Expert Advice] points out [Direction].",
         conclusion: "In conclusion, [Summary]. Davos' suggestion is [Suggestion]."
+      },
+      structureCN: {
+        introduction: "[问题]是世界经济论坛长期关注的核心议题。全球领袖的分析提供了深刻见解。",
+        body1: "达沃斯提出的第一个解决方案是[方法1]。[论坛观点]认为[原因]。",
+        body2: "第二个关键策略是[方法2]。[专家建议]指出[方向]。",
+        conclusion: "总之，[总结]。达沃斯的建议是[建议]。"
       },
       fullParagraphs: {
         introduction: "Reducing growing economic inequality within nations has been a central concern at World Economic Forum gatherings for over a decade. The Forum brings together global leaders from business, government, and civil society to analyze the root causes of rising inequality and propose solutions. Their research documents how inequality has reached historic levels in many countries, with the wealthiest 1% capturing an disproportionate share of income and wealth gains since the 2008 financial crisis. This concentration of prosperity has sparked social unrest and political polarization across both developed and developing nations.",
@@ -3466,6 +3562,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "The second key is [Method 2]. [Expert Advice] believes [Direction].",
         conclusion: "In conclusion, [Summary]. The core of Davos' recommendation is [Core Concept]."
       },
+      structureCN: {
+        introduction: "[问题]是[研究报告]的核心发现。世界经济论坛的研究提供了重要参考。",
+        body1: "根据论坛研究，第一个适应策略是[方法1]。[数据/预测]显示[趋势]。",
+        body2: "第二个关键是[方法2]。[专家建议]认为[方向]。",
+        conclusion: "总之，[总结]。达沃斯建议的核心是[核心概念]。"
+      },
       fullParagraphs: {
         introduction: "How can workers adapt to rapid technological changes in the job market? The World Economic Forum has researched this question extensively, publishing reports that highlight both the challenges and opportunities presented by the Fourth Industrial Revolution. Their findings suggest that while technological disruption will eliminate many jobs, it will also create new categories of work that we can barely imagine today.",
         body1: "The first adaptation strategy is continuous skills upgrading throughout one's working life. Forum research shows that by 2025, over half of all workplace skills will change significantly or become obsolete. Workers must embrace lifelong learning, acquiring new technical competencies and soft skills that complement rather than compete with automation. Data from the Forum indicates that individuals who invest in continuous learning earn significantly higher wages and experience greater job security than those who rely solely on initial education.",
@@ -3500,6 +3602,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "One major advantage of targeted poverty alleviation is [Benefit 1]. [Report] shows [Achievement].",
         body2: "However, project implementation also faces [Challenge]. [Analysis] points out [Problem].",
         conclusion: "Overall, [Summary]. [Insight] has [Broader Significance]."
+      },
+      structureCN: {
+        introduction: "[话题]是中国发展中的一项重要成就。CGTN的报道提供了丰富的第一手资料。",
+        body1: "精准扶贫的一个主要优势是[好处1]。[报道]显示[成就]。",
+        body2: "然而，项目实施也面临[挑战]。[分析]指出[问题]。",
+        conclusion: "总体而言，[总结]。[见解]具有[更广泛意义]。"
       },
       fullParagraphs: {
         introduction: "Targeted poverty alleviation has been one of China's most ambitious development programs.",
@@ -3536,6 +3644,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "Critics focus on [Problem]. [Analysis] believes [Reason].",
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s belief is [Belief]."
       },
+      structureCN: {
+        introduction: "[话题]是[名人]在慈善工作中反复思考的问题。",
+        body1: "富人应承担更大责任的观点认为[原因]。[名人]通过[案例]展示[方式]。",
+        body2: "批评者关注[问题]。[分析]认为[原因]。",
+        conclusion: "在我看来，[个人观点]。[名人]的信念是[信念]。"
+      },
       fullParagraphs: {
         introduction: "Should the wealthy have a greater responsibility to address global health issues? Bill Gates has repeatedly thought about this question through his extensive charitable work with the Bill and Melinda Gates Foundation, which has become one of the world's largest donors to global health initiatives. Since founding the foundation in 2000, Gates has witnessed firsthand how wealth can be leveraged to save lives through investments in vaccine development, disease eradication programs, and health system strengthening in developing countries. His data-driven approach has demonstrated that strategic philanthropy can achieve remarkable health outcomes.",
         body1: "The view that the wealthy have greater responsibility argues that those with exceptional resources have both the capacity and the moral obligation to address global health challenges. Bill Gates demonstrates this commitment through the Gates Foundation's work, which has contributed over $100 billion to global health and development programs. By funding vaccine research for diseases like malaria and HIV, supporting polio eradication efforts, and investing in maternal and child health, Gates shows how wealth can be channeled toward solving problems that disproportionately affect the world's poorest populations.",
@@ -3570,6 +3684,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "The first innovation need [Celebrity] points out is [Area 1]. [Analysis] believes [Reason].",
         body2: "The second key innovation is [Area 2]. [Celebrity] believes [Direction].",
         conclusion: "In conclusion, [Summary]. [Celebrity]'s call is [Call]."
+      },
+      structureCN: {
+        introduction: "[问题]是[名人]最近投入大量资源的核心议题。",
+        body1: "[名人]指出的第一个创新需求是[领域1]。[分析]认为[原因]。",
+        body2: "第二个关键创新是[领域2]。[名人]认为[方向]。",
+        conclusion: "总之，[总结]。[名人]的呼吁是[号召]。"
       },
       fullParagraphs: {
         introduction: "What innovations are needed to address climate change effectively? Bill Gates has invested billions in climate solutions through Breakthrough Energy Ventures, applying a first-principles approach to understanding what technological breakthroughs are truly necessary. His analysis suggests that solving climate change is the greatest challenge humanity has ever undertaken, requiring innovation across multiple domains simultaneously.",
@@ -3606,6 +3726,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "Second, education empowers [Group]. [Celebrity] observes [Phenomenon].",
         conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s courage inspires us [Insight]."
       },
+      structureCN: {
+        introduction: "[引言]——这是[名人]的信念，也是她所践行的使命。",
+        body1: "首先，[名人]自己的故事证明了[观点]。[经历]展示了教育如何改变[个人/社区]。",
+        body2: "其次，教育赋予[群体]力量。[名人]观察到[现象]。",
+        conclusion: "总之，我完全同意[观点]。[名人]的勇气激励我们[见解]。"
+      },
       fullParagraphs: {
         introduction: "Education is the most powerful weapon to change the world. Malala Yousafzai, the youngest Nobel Peace Prize laureate, has lived by this belief and dedicated her life to defending every child's right to education, particularly girls in her native Pakistan and across the globe. After surviving an assassination attempt by the Taliban in 2012 for advocating girls' education, Malala's voice became even more powerful and resonant worldwide. Her personal journey from a remote valley in Swat to global recognition demonstrates how education can transform not only individual lives but entire communities.",
         body1: "Firstly, Malala's own story proves the transformative power of education. Born in a family that valued learning despite living under Taliban rule, Malala attended school and dreamed of becoming a doctor until the Tehreek-e-Taliban banned girls' education in Swat Valley. After her recovery and subsequent global recognition, she has become a powerful advocate for education. Her experiences demonstrate that education is not just about acquiring knowledge but about developing the confidence to stand up for one's rights and the ability to pursue one's dreams regardless of obstacles.",
@@ -3640,6 +3766,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "The first key [Celebrity] points out is [Method 1]. [Fact] shows [Current Situation].",
         body2: "The second essential measure is [Method 2]. [Celebrity] emphasizes [Value].",
         conclusion: "In conclusion, [Summary]. [Celebrity]'s vision is [Vision]."
+      },
+      structureCN: {
+        introduction: "[问题]是[名人]毕生致力于实现的目标。全球仍有数百万儿童失学。",
+        body1: "[名人]指出的第一个关键是[方法1]。[事实]显示[现状]。",
+        body2: "第二个必要措施是[方法2]。[名人]强调[价值]。",
+        conclusion: "总之，[总结]。[名人]的愿景是[愿景]。"
       },
       fullParagraphs: {
         introduction: "How can we ensure quality education for all children globally? Malala Yousafzai has dedicated her life to answering this question since surviving a Taliban assassination attempt in 2012. The Malala Fund, which she co-founded with her father Ziauddin, works to ensure 12 years of free, safe, quality education for every girl. Despite global progress in expanding school enrollment, 244 million children and youth remain out of school, with girls disproportionately affected, particularly in conflict zones and marginalized communities.",
@@ -3676,6 +3808,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "Second, [Celebrity] emphasizes [Importance of Action]. [Belief] is [Philosophy].",
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s persistence inspires us [Insight]."
       },
+      structureCN: {
+        introduction: "[话题]。这是[名人]用行动和言语反复传达的信息。",
+        body1: "首先，[名人]指出[科学事实]。[数据]显示[现状]。",
+        body2: "其次，[名人]强调[行动的重要性]。[信念]是[理念]。",
+        conclusion: "总之，我[同意程度][观点]。[名人]的坚持激励我们[见解]。"
+      },
       fullParagraphs: {
         introduction: "Individual actions can make a significant difference in addressing climate change. Greta Thunberg has repeatedly conveyed this message through her words and actions, beginning with her solo school strike outside the Swedish Parliament in 2018. This message is based on scientific evidence and the understanding that climate change is not just a policy issue but a moral and ethical one that demands response at every level of society.",
         body1: "Firstly, Greta emphasizes that every fraction of global warming matters and that there is no room for excuses or delays. Data from climate science shows that each increment of warming leads to increased risks of severe climate impacts: more frequent heatwaves, stronger storms, rising seas, and ecosystem collapse. Greta points out that the atmosphere is indifferent to whether emissions come from large corporations or individual consumers. Every ton of CO2 reduced, regardless of source, contributes to limiting warming and preserving a habitable planet for future generations.",
@@ -3710,6 +3848,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "[Celebrity]'s first action was [Method]. [Action] demonstrates [Possibility].",
         body2: "The key to youth advocacy is [Method]. [Celebrity] believes [Philosophy].",
         conclusion: "In conclusion, [Celebrity]'s experience teaches us [Insight]. [Call to Action] is [Appeal]."
+      },
+      structureCN: {
+        introduction: "[问题]是[名人]从个人行动发展成全球运动的核心议题。",
+        body1: "[名人]的第一个行动是[方法]。[行动]展示了[可能性]。",
+        body2: "青年倡导的关键是[方法]。[名人]相信[理念]。",
+        conclusion: "总之，[名人]的经历告诉我们[见解]。[行动号召]是[呼吁]。"
       },
       fullParagraphs: {
         introduction: "How can young people effectively advocate for climate action? Greta Thunberg has developed this question from a personal protest into a global movement that has mobilized millions of young people worldwide. Beginning with her lone school strike outside Swedish Parliament in August 2018, Greta demonstrated that one young person's conviction could spark a worldwide youth climate movement. Her approach shows that effective advocacy often starts with individual conscience and spreads through authentic expression of moral concern.",
@@ -3746,6 +3890,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "However, there are also [Challenges]. [Analysis] points out [Problem].",
         conclusion: "Overall, [Summary]. Davos' suggestion is [Suggestion]."
       },
+      structureCN: {
+        introduction: "[话题]是疫情后全球关注的焦点。世界经济论坛的研究提供了前瞻性分析。",
+        body1: "远程工作的一个主要优势是[好处1]。[论坛研究]显示[数据]。",
+        body2: "然而，也存在[挑战]。[分析]指出[问题]。",
+        conclusion: "总体而言，[总结]。达沃斯的建议是[建议]。"
+      },
       fullParagraphs: {
         introduction: "Remote work has become a defining feature of the post-pandemic economy, transforming how organizations operate and how individuals balance professional and personal responsibilities. Research from the World Economic Forum provides forward-looking analysis on this workplace transformation, examining both the opportunities and challenges that remote and hybrid work models present for employers, employees, and society at large. The shift represents one of the most significant changes in work organization since the industrial revolution.",
         body1: "One major advantage of remote work is increased flexibility and work-life balance that allows employees to structure their days around personal commitments. Forum Research shows that remote workers typically save 2-4 hours weekly by eliminating commutes, which can be redirected toward work productivity, family time, exercise, or skill development. Many employees report higher job satisfaction and reduced stress when given the autonomy to work remotely. Studies also indicate that remote work can increase productivity for tasks requiring deep concentration, as workers face fewer office distractions.",
@@ -3781,6 +3931,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "The second key measure is [Method 2]. [Expert Advice] points out [Direction].",
         conclusion: "In conclusion, [Summary]. [Institution]'s suggestion is [Suggestion]."
       },
+      structureCN: {
+        introduction: "[问题]是[机构名称]持续关注的核心议题。发展中国家面临复杂的债务挑战。",
+        body1: "[机构]指出的第一个管理策略是[方法1]。[分析]认为[原因]。",
+        body2: "第二个关键措施是[方法2]。[专家建议]指出[方向]。",
+        conclusion: "总之，[总结]。[机构]的建议是[建议]。"
+      },
       fullParagraphs: {
         introduction: "How can developing countries manage sovereign debt while maintaining development progress? This question has become increasingly urgent as many developing nations face mounting debt burdens that threaten to derail hard-won development gains. The IMF and World Bank, as the foremost international financial institutions dealing with developing country debt, have developed frameworks and recommendations based on decades of experience with debt crises and development financing. Their analysis recognizes that borrowing is necessary for development but must be managed prudently.",
         body1: "The IMF advocates for strengthening debt management capacity within developing country governments as the first critical strategy. This involves building institutional capacity to assess borrowing needs accurately, negotiate favorable loan terms, track debt obligations, and deploy borrowed funds productively. The IMF analysis believes that countries with strong debt management offices are better positioned to avoid excessive borrowing and identify refinancing risks early. Technical assistance from the IMF helps countries develop medium-term debt strategies aligned with development objectives.",
@@ -3815,6 +3971,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "First, [Celebrity] experienced [Failure]. [Story] taught him [Lesson].",
         body2: "Second, failure builds [Ability]. [Celebrity] believes [View].",
         conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s insight is [Insight]."
+      },
+      structureCN: {
+        introduction: "[话题]。[名人]通过自己的经历证明了这一观点的价值。",
+        body1: "首先，[名人]经历了[失败]。[故事]教会了他[教训]。",
+        body2: "其次，失败培养[能力]。[名人]相信[观点]。",
+        conclusion: "总之，我完全同意[观点]。[名人]的见解是[见解]。"
       },
       fullParagraphs: {
         introduction: "Failure is an essential part of entrepreneurial success. Jack Ma, the founder of Alibaba, has proven the value of this view through his own experience. After being rejected by numerous employers including KFC, Ma faced countless setbacks in his early business ventures before finally achieving global success with Alibaba. His journey from repeated failure to becoming one of the world's most influential entrepreneurs provides compelling evidence that setbacks are not the end but rather crucial stepping stones on the path to success.",
@@ -3886,6 +4048,12 @@ export const essayTemplates: EssayTemplate[] = [
         body2: "However, critics believe [View]. [Analysis] points out [Reason].",
         conclusion: "In my opinion, [Personal View]. [Suggestion] is [Direction]."
       },
+      structureCN: {
+        introduction: "[话题]是联合国开发计划署人类发展报告长期倡导的理念。仅靠GDP存在局限性。",
+        body1: "支持超越GDP的观点认为[原因]。[报告]显示[数据]。",
+        body2: "然而，批评者认为[观点]。[分析]指出[原因]。",
+        conclusion: "在我看来，[个人观点]。[建议]是[方向]。"
+      },
       fullParagraphs: {
         introduction: "Economic growth should be measured beyond GDP alone. The UNDP Human Development Report has long advocated this perspective, arguing that traditional GDP measurements fail to capture the full picture of human wellbeing and societal progress. Since 1990, the UNDP has developed alternative metrics like the Human Development Index, which incorporates health, education, and standard of living indicators. This approach recognizes that economic growth alone does not automatically translate into improved quality of life or greater human freedom.",
         body1: "Proponents argue that GDP fails to capture crucial aspects of wellbeing. The UNDP points out that GDP measures market transactions but ignores environmental degradation, unpaid household work, and income inequality. A country might show strong GDP growth while its citizens experience declining health outcomes, widening inequality, or deteriorating ecosystems. The Human Development Report demonstrates that many countries with lower GDP per capita actually achieve higher life expectancy, better education outcomes, and greater subjective wellbeing than wealthier nations.",
@@ -3920,6 +4088,12 @@ export const essayTemplates: EssayTemplate[] = [
         body1: "The first response strategy [Institution] points out is [Method 1]. [Research] shows [Data].",
         body2: "The second key is [Method 2]. [Analysis] believes [Direction].",
         conclusion: "In conclusion, [Summary]. [Call] is [Appeal]."
+      },
+      structureCN: {
+        introduction: "[问题]是[机构]在世界经济论坛上反复讨论的重要议题。社交媒体的影响日益明显。",
+        body1: "[机构]指出的第一个应对策略是[方法1]。[研究]显示[数据]。",
+        body2: "第二个关键是[方法2]。[分析]认为[方向]。",
+        conclusion: "总之，[总结]。[呼吁]是[诉求]。"
       },
       fullParagraphs: {
         introduction: "How can society address the mental health crisis exacerbated by social media? The World Economic Forum has researched this pressing issue extensively, documenting the growing evidence that excessive social media use is linked to rising rates of anxiety, depression, and other mental health disorders, particularly among young people. The Forum's research brings together insights from psychology, neuroscience, and technology studies to propose comprehensive solutions that address both individual behavior and platform design.",
