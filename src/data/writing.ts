@@ -3021,10 +3021,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "Overall, [Summary]. [Celebrity] suggests [Policy Recommendation]."
       },
       fullParagraphs: {
-        introduction: "Economic globalization has been a defining feature of the world economy for decades.",
-        body1: "One major advantage of globalization is its role in lifting millions out of poverty.",
-        body2: "However, globalization has also created significant challenges including income inequality.",
-        conclusion: "Overall, globalization has brought both substantial benefits and genuine challenges."
+        introduction: "Economic globalization has been a defining feature of the world economy for decades, shaping patterns of growth, trade, and development across nations. IMF Managing Director Kristalina Georgieva has provided data-driven analysis showing how globalization has transformed the global economic landscape while creating both unprecedented opportunities and significant challenges that require careful policy responses.",
+        body1: "One major advantage of globalization is its role in lifting millions out of poverty, particularly in emerging economies. Data from the World Bank indicates that over the past three decades, more than one billion people have escaped extreme poverty, with China alone accounting for the majority of this achievement through its integration into global trade. Georgieva points out that supply chains spanning multiple countries have created jobs and transferred technology to developing nations, enabling them to participate in industries from manufacturing to services. These gains demonstrate that well-managed globalization can serve as a powerful engine for shared prosperity.",
+        body2: "However, globalization has also created significant challenges including income inequality within developed nations. Research from the IMF shows that while globalization has boosted average incomes globally, the benefits have been unevenly distributed. Workers in sectors facing international competition have often experienced stagnant wages and job losses. Georgieva acknowledges that this inequality has fueled political backlash against globalization and contributed to the rise of protectionist sentiments in many countries.",
+        conclusion: "Overall, globalization has brought both substantial benefits and genuine challenges. Georgieva suggests that policies should focus on strengthening social safety nets, investing in education and retraining programs, and ensuring that the gains from trade are more broadly shared. With appropriate policy complementarity, nations can capture globalization's benefits while mitigating its adverse effects."
       },
       vocabulary: [
           "economic integration",
@@ -3050,10 +3050,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
-        introduction: "The question of whether central banks should issue digital currencies is generating intense debate in financial circles.",
-        body1: "Proponents argue CBDCs could enhance financial inclusion.",
-        body2: "Critics raise concerns about privacy and financial stability risks.",
-        conclusion: "In my opinion, the benefits of well-designed CBDCs outweigh the risks, but careful implementation is essential."
+        introduction: "The question of whether central banks should issue digital currencies is generating intense debate in financial circles. IMF Managing Director Kristalina Georgieva has offered professional insights on this emerging issue, recognizing that Central Bank Digital Currencies represent one of the most significant developments in monetary policy in recent decades. Her views reflect both the transformative potential of digital currencies and the need for careful regulatory frameworks.",
+        body1: "Proponents argue CBDCs could enhance financial inclusion by providing banking services to the unbanked population. Georgieva points out that digital currencies could enable instant cross-border payments at lower costs, benefiting migrant workers sending remittances home and facilitating international trade. Research indicates that transaction costs for cross-border payments can exceed 7% in some corridors, whereas digital currencies could reduce these costs dramatically. Additionally, CBDCs could provide governments with more effective tools for targeted monetary policy and social payments.",
+        body2: "Critics raise concerns about privacy and financial stability risks that cannot be dismissed. Privacy advocates worry that central bank digital currencies could give governments unprecedented surveillance capabilities over individual financial transactions. Financial stability experts warn that CBDCs might trigger bank runs during times of crisis, as individuals could convert deposits to central bank liabilities instantly. Georgieva's analysis acknowledges these concerns, emphasizing that any CBDC implementation must include robust safeguards to protect user privacy and maintain financial system stability.",
+        conclusion: "In my opinion, the benefits of well-designed CBDCs outweigh the risks, but careful implementation is essential. Georgieva's suggestion is that central banks should proceed incrementally, piloting CBDCs in controlled environments before full deployment. International coordination on CBDC standards is also crucial to prevent regulatory arbitrage and ensure compatibility across borders."
       },
       vocabulary: [
           "Central Bank Digital Currency",
@@ -3108,10 +3108,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, I completely agree [View]. [Celebrity]'s call is [Call]."
       },
       fullParagraphs: {
-        introduction: "Climate change is the defining challenge of our generation.",
-        body1: "Firstly, the impacts of climate change are already devastating and accelerating.",
-        body2: "Secondly, climate action embodies our deepest values of justice and solidarity.",
-        conclusion: "In conclusion, I completely agree that climate change is the defining challenge of our generation."
+        introduction: "Climate change is the defining challenge of our generation. UN Secretary-General António Guterres has repeatedly emphasized this message, warning that the window for action is rapidly closing and that current efforts are woefully inadequate to meet the goals of the Paris Agreement. His appeals are grounded in the latest scientific evidence and reflect a deep moral concern for both present and future generations.",
+        body1: "Firstly, the impacts of climate change are already devastating and accelerating across every continent. From unprecedented wildfires in Australia and California to severe droughts in Africa and catastrophic flooding in Asia, the evidence is unmistakable. Secretary-General Guterres warns that we are witnessing the collapse of entire ecosystems and the displacement of millions of people. Scientific studies confirm that the past decade was the hottest in recorded history, with global temperatures continuing to rise despite international commitments to reduce emissions.",
+        body2: "Secondly, climate action embodies our deepest values of justice and solidarity. The Secretary-General consistently emphasizes that those who have contributed least to the problem are suffering its worst consequences. Vulnerable nations and marginalized communities, particularly in the Global South, bear a disproportionate burden of climate impacts despite having done little to cause the crisis. Climate action therefore represents not merely an environmental imperative but a moral obligation rooted in principles of equity and human rights.",
+        conclusion: "In conclusion, I completely agree that climate change is the defining challenge of our generation. Secretary-General Guterres' call is for urgent, ambitious, and coordinated action. The transition to a sustainable future requires unprecedented cooperation between governments, businesses, and civil society."
       },
       vocabulary: [
           "climate justice",
@@ -3137,10 +3137,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "Overall, [Summary]. [Celebrity]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
-        introduction: "Multilateral approaches to global problems have been a cornerstone of Secretary-General Guterres' leadership.",
-        body1: "One major advantage of multilateralism is its ability to address problems no single nation can solve alone.",
-        body2: "However, multilateral institutions face real challenges.",
-        conclusion: "Overall, the benefits of multilateralism far outweigh its flaws."
+        introduction: "Multilateral approaches to global problems have been a cornerstone of Secretary-General Guterres' leadership. In an era of rising nationalism and geopolitical tensions, the Secretary-General has consistently championed international cooperation as indispensable for addressing shared challenges. His advocacy reflects decades of diplomatic experience and a deep understanding of how collective action can achieve outcomes no single nation can accomplish alone.",
+        body1: "One major advantage of multilateralism is its ability to address problems no single nation can solve alone. Climate change, pandemic diseases, terrorism, and digital governance transcend national borders, requiring coordinated responses that share burdens and pool resources. Secretary-General Guterres points out that the global response to COVID-19 demonstrated both the potential and limitations of multilateral action. While the COVAX initiative helped distribute vaccines to developing nations, wealthier countries often pursued nationalist policies that undermined collective efforts.",
+        body2: "However, multilateral institutions face real challenges that cannot be ignored. The Security Council's paralysis on major conflicts, trade tensions among major powers, and the withdrawal of key players from international agreements have weakened the system. Critics argue that outdated structures fail to reflect contemporary geopolitical realities. Yet the Secretary-General acknowledges these problems while maintaining that reforming and strengthening multilateral institutions serves global interests better than abandoning them.",
+        conclusion: "Overall, the benefits of multilateralism far outweigh its flaws. Secretary-General Guterres' suggestion is that nations should invest in strengthening international institutions rather than undermining them. Only through sustained cooperation can humanity address existential threats and build a more peaceful, prosperous world."
       },
       vocabulary: [
           "multilateral cooperation",
@@ -3224,10 +3224,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In my opinion, [Personal View]. [Celebrity]'s suggestion is [Suggestion]."
       },
       fullParagraphs: {
-        introduction: "Small and medium enterprises should embrace digital globalization.",
-        body1: "On one hand, digital globalization offers unprecedented opportunities for SMEs.",
-        body2: "On the other hand, SMEs face significant challenges in going global.",
-        conclusion: "In my opinion, the benefits of digital globalization for SMEs outweigh the challenges."
+        introduction: "Small and medium enterprises should embrace digital globalization. Jack Ma, the founder of Alibaba, has long advocated for this view, arguing that digital platforms have democratized international trade and created unprecedented opportunities for businesses of all sizes. As a pioneer in e-commerce, Ma has witnessed firsthand how digital globalization has transformed traditional business models and opened new markets for entrepreneurs worldwide.",
+        body1: "On one hand, digital globalization offers unprecedented opportunities for SMEs to access global markets. Through platforms like Alibaba, small manufacturers in developing countries can now connect directly with buyers across the globe, bypassing traditional distribution channels that were once dominated by large corporations. Ma points out that this digital revolution has been particularly transformative for women-owned businesses and rural enterprises, which historically faced significant barriers to international trade. Statistics show that SMEs using digital platforms have experienced an average 30% increase in revenue growth compared to traditional businesses.",
+        body2: "On the other hand, small and medium enterprises face significant challenges in going global. These include navigating complex regulations across different countries, dealing with currency fluctuations, and building trust with unfamiliar partners. Ma reminds us that many SMEs lack the technical expertise to protect themselves from cyber threats and data breaches. Additionally, the digital divide means that businesses in less developed regions may struggle to compete without proper infrastructure and training. However, Ma argues that these challenges should be viewed as opportunities for growth rather than insurmountable obstacles.",
+        conclusion: "In my opinion, the benefits of digital globalization for SMEs far outweigh the challenges. Ma's suggestion is that small businesses should embrace digital tools, invest in continuous learning, and build partnerships with larger enterprises and governments to create a more inclusive digital ecosystem. By doing so, SMEs can not only survive in the global marketplace but also thrive and contribute meaningfully to economic development."
       },
       vocabulary: [
           "digital ecosystem",
@@ -3253,10 +3253,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight is [Insight]."
       },
       fullParagraphs: {
-        introduction: "Traditional education will become obsolete in the age of AI.",
-        body1: "Firstly, Ma argues that traditional education focuses too heavily on knowledge accumulation.",
-        body2: "Secondly, future education must emphasize skills machines cannot easily replicate.",
-        conclusion: "In conclusion, I strongly agree that traditional education must transform significantly."
+        introduction: "Traditional education will become obsolete in the age of AI. Jack Ma has expressed this view in multiple speeches, arguing that our current education system was designed for the industrial era and fails to prepare students for the challenges posed by artificial intelligence and automation. Having transitioned from being a teacher to an entrepreneur, Ma brings unique insights to this debate, having witnessed both the limitations of traditional education and the demands of the modern workplace.",
+        body1: "Firstly, Ma argues that traditional education focuses too heavily on knowledge accumulation at the expense of practical skills and creativity. In his experience, the current system emphasizes memorizing facts and passing exams rather than developing critical thinking, problem-solving abilities, and the capacity for innovation. Research conducted by the World Economic Forum supports this view, showing that 65% of children entering primary school today will ultimately work in job categories that do not yet exist. This statistic demonstrates that knowledge-based education alone cannot prepare students for an unpredictable future.",
+        body2: "Secondly, future education must emphasize skills machines cannot easily replicate. Ma believes that emotional intelligence, creativity, teamwork, and communication skills will become increasingly valuable as AI handles routine cognitive tasks. His own career trajectory illustrates this principle: despite failing multiple college entrance exams, Ma's persistence, interpersonal skills, and ability to inspire others enabled him to build one of the world's largest companies. This demonstrates that human qualities often matter more than academic credentials.",
+        conclusion: "In conclusion, I strongly agree that traditional education must transform significantly. Ma's insight is that education should evolve from teaching people what to think to teaching them how to think, fostering curiosity, imagination, and the ability to learn continuously throughout life."
       },
       vocabulary: [
           "holistic education",
@@ -3311,10 +3311,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Summary]. The core of Davos' recommendation is [Core Concept]."
       },
       fullParagraphs: {
-        introduction: "How can workers adapt to rapid technological changes in the job market?",
-        body1: "The first adaptation strategy is continuous skills upgrading.",
-        body2: "The second key is government-business collaboration on transition support.",
-        conclusion: "Adapting to technological change requires individual initiative combined with institutional support."
+        introduction: "How can workers adapt to rapid technological changes in the job market? The World Economic Forum has researched this question extensively, publishing reports that highlight both the challenges and opportunities presented by the Fourth Industrial Revolution. Their findings suggest that while technological disruption will eliminate many jobs, it will also create new categories of work that we can barely imagine today.",
+        body1: "The first adaptation strategy is continuous skills upgrading throughout one's working life. Forum research shows that by 2025, over half of all workplace skills will change significantly or become obsolete. Workers must embrace lifelong learning, acquiring new technical competencies and soft skills that complement rather than compete with automation. Data from the Forum indicates that individuals who invest in continuous learning earn significantly higher wages and experience greater job security than those who rely solely on initial education.",
+        body2: "The second key is government-business collaboration on transition support. The World Economic Forum believes that neither governments nor companies alone can address the scale of workforce disruption. Effective responses require partnerships that combine public funding for retraining programs with private sector insights into future skill demands. Such collaborations can ensure that transition support reaches vulnerable workers in declining industries while building pipelines of talent for growing sectors.",
+        conclusion: "Adapting to technological change requires individual initiative combined with institutional support. The core of Davos' recommendation is that societies must create ecosystems of continuous learning, where education systems, employers, and governments work together to ensure that no worker is left behind in the transition to an increasingly automated economy."
       },
       vocabulary: [
           "reskilling imperative",
@@ -3398,10 +3398,10 @@ export const essayTemplates: EssayTemplate[] = [
         conclusion: "In conclusion, [Summary]. [Celebrity]'s call is [Call]."
       },
       fullParagraphs: {
-        introduction: "What innovations are needed to address climate change effectively?",
-        body1: "Gates identifies clean energy innovation as the most crucial need.",
-        body2: "The second key innovation area is agricultural technology.",
-        conclusion: "Addressing climate change requires massive innovation investment across multiple sectors."
+        introduction: "What innovations are needed to address climate change effectively? Bill Gates has invested billions in climate solutions through Breakthrough Energy Ventures, applying a first-principles approach to understanding what technological breakthroughs are truly necessary. His analysis suggests that solving climate change is the greatest challenge humanity has ever undertaken, requiring innovation across multiple domains simultaneously.",
+        body1: "Gates identifies clean energy innovation as the most crucial need, arguing that we cannot simply rely on existing technologies to achieve carbon neutrality. While solar and wind power have become dramatically cheaper, addressing sectors like steel, cement, and shipping requires entirely new approaches. Gates believes that breakthrough technologies such as next-generation nuclear power, advanced battery storage, and green hydrogen could transform these hard-to-decarbonize industries. He emphasizes that government investment in basic research combined with private sector application is essential.",
+        body2: "The second key innovation area is agricultural technology, which receives less attention but is equally critical. Food production accounts for roughly a quarter of global greenhouse gas emissions, and current farming practices are unsustainable. Gates has funded startups developing alternative proteins, precision agriculture, and crops that can withstand climate change. These innovations could reduce emissions while feeding a growing global population that is projected to reach 10 billion by 2050.",
+        conclusion: "Addressing climate change requires massive innovation investment across multiple sectors. Gates' call is for unprecedented collaboration between governments, investors, and scientists to accelerate the development and deployment of breakthrough technologies. Without such coordinated effort, the transition to a sustainable economy will simply take too long to avoid the worst impacts of climate change."
       },
       vocabulary: [
           "clean energy innovation",
