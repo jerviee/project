@@ -242,6 +242,15 @@ export default function IELTSQuestions() {
                     </div>
                   </div>
 
+                  {question.modelAnswerCN && (
+                    <div className="pt-4">
+                      <h4 className="font-semibold text-gray-800 mb-3">中文翻译</h4>
+                      <div className="bg-blue-50 rounded-xl p-4 whitespace-pre-wrap text-gray-700 leading-relaxed">
+                        {question.modelAnswerCN}
+                      </div>
+                    </div>
+                  )}
+
                   <div className="pt-4">
                     <h4 className="font-semibold text-gray-800 mb-3">关键词</h4>
                     <div className="flex flex-wrap gap-2">

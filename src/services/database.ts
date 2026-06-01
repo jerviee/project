@@ -98,6 +98,7 @@ export interface IELTSQuestion {
   topic: string;
   question: string;
   modelAnswer: string;
+  modelAnswerCN?: string;
   bandScore: string;
   keywords: string[];
 }
