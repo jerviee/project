@@ -43,7 +43,7 @@ export default function EssayTemplates() {
       setSpeakingSection(section);
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
-      utterance.rate = 0.8;
+      utterance.rate = 1.25;
       
       utterance.onend = () => setSpeakingSection(null);
       utterance.onerror = () => setSpeakingSection(null);
@@ -66,7 +66,7 @@ export default function EssayTemplates() {
       
       const utterance = new SpeechSynthesisUtterance(fullText);
       utterance.lang = 'en-US';
-      utterance.rate = 0.8;
+      utterance.rate = 1.25;
       
       utterance.onend = () => setSpeakingFull(false);
       utterance.onerror = () => setSpeakingFull(false);

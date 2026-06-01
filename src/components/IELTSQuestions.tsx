@@ -53,7 +53,7 @@ export default function IELTSQuestions() {
       setSpeakingId(id);
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
-      utterance.rate = 0.8;
+      utterance.rate = 1.25;
       
       utterance.onend = () => setSpeakingId(null);
       utterance.onerror = () => setSpeakingId(null);
@@ -74,7 +74,7 @@ export default function IELTSQuestions() {
       setSpeakingId(-id);
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
-      utterance.rate = 0.8;
+      utterance.rate = 1.25;
       
       utterance.onend = () => setSpeakingId(null);
       utterance.onerror = () => setSpeakingId(null);

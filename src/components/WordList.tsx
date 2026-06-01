@@ -121,7 +121,18 @@ export default function WordList() {
   const handleSpeak = (word: string) => {
     const utterance = new SpeechSynthesisUtterance(word);
     utterance.lang = 'en-US';
-    speechSynthesis.speak(utterance);
+    utterance.rate = 1.25;
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const handleSpeakExample = (example: string) => {
+    const englishPart = example.split('\n')[0];
+    if (englishPart) {
+      const utterance = new SpeechSynthesisUtterance(englishPart);
+      utterance.lang = 'en-US';
+      utterance.rate = 1.25;
+      window.speechSynthesis.speak(utterance);
+    }
   };
 
   const toggleFlip = (id: string) => {
@@ -390,8 +401,17 @@ export default function WordList() {
                                                     </div>
                                                     
                                                     <div className="bg-white/10 rounded-lg p-3 mb-3">
-                                                      <p className="text-xs text-blue-200 mb-1">例句</p>
-                                                      <p className="text-sm italic">{word.example}</p>
+                                                      <div className="flex items-center justify-between mb-1">
+                                                        <p className="text-xs text-blue-200">例句</p>
+                                                        <button
+                                                          onClick={(e) => { e.stopPropagation(); handleSpeakExample(word.example); }}
+                                                          className="p-1 hover:bg-white/20 rounded transition-colors"
+                                                          title="朗读例句"
+                                                        >
+                                                          <Volume2 size={14} className="text-blue-200" />
+                                                        </button>
+                                                      </div>
+                                                      <p className="text-sm italic text-white">{word.example.split('\n')[0]}</p>
                                                     </div>
                                                     
                                                     {word.relatedWords && word.relatedWords.length > 0 && (
