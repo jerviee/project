@@ -33,6 +33,12 @@ export interface EssayTemplate {
     body2: string;
     conclusion: string;
   };
+  fullParagraphsCN?: {
+    introduction: string;
+    body1: string;
+    body2: string;
+    conclusion: string;
+  };
   vocabulary: string[];
 }
 
@@ -213,10 +219,16 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Technology has made our lives more isolated.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 人际关系 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 科技 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 科技与人际关系 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that technology has made our lives more isolated.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that technology has made our lives more isolated. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that human connections have become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of technology is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of technology on human connections are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
+      conclusion: "In conclusion, I strongly believe that technology has made our lives more isolated. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+    },
+    fullParagraphsCN: {
+      introduction: "有人认为科技使我们的生活更加孤立。我相信这一说法在很大程度上是正确的，原因如下。",
+      body1: "支持这一观点的主要原因之一是人际关系在现代社会中变得越来越普遍。例如，最近的研究表明，现在许多人严重依赖技术进行交流，这从根本上改变了我们彼此互动的方式。这表明科技的影响是不可否认且深远的。",
+      body2: "另一个原因是科技对人际关系的影响变得越来越明显。研究表明，过度使用某些技术会导致社交孤立和面对面交流的减少。因此，很明显我们需要仔细考虑这些变化的影响，然后再充分接受它们。",
+      conclusion: "总之，我坚信科技使我们的生活更加孤立。这是因为证据清楚地表明了好处和潜在的缺点，我们必须以谨慎和警觉的态度对待这个问题。"
     },
     vocabulary: [
       "compelling",
@@ -240,10 +252,16 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Watching violence on television encourages aggressive behavior in children.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 电视暴力影响 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 电视暴力影响 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 电视暴力影响 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that watching violence on television encourages aggressive behavior in children.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that watching violence on television encourages aggressive behavior in children. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the impact of TV violence has become increasingly prevalent in modern society. For example, recent studies have shown that many children are exposed to violent content at an early age, which can influence their behavior. This demonstrates that the impact of television violence is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of exposure to violent media are becoming more apparent. Research indicates that excessive exposure to violent television content can lead to aggressive behavior and reduced empathy. Therefore, it is clear that we need to consider the implications carefully before allowing children to watch violent content.",
+      conclusion: "In conclusion, I strongly believe that watching violence on television encourages aggressive behavior in children. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+    },
+    fullParagraphsCN: {
+      introduction: "有人认为观看电视暴力会助长儿童的攻击性行为。我相信这一说法在很大程度上是正确的，原因如下。",
+      body1: "支持这一观点的主要原因之一是电视暴力的影响在现代社会中变得越来越普遍。例如，最近的研究表明，许多儿童在很小的时候就接触暴力内容，这会影响他们的行为。这表明电视暴力的影响是不可否认且深远的。",
+      body2: "另一个原因是接触暴力媒体的后果变得越来越明显。研究表明，过度接触暴力电视内容会导致攻击性行为和同理心减少。因此，很明显我们需要仔细考虑这些变化的影响，然后再允许儿童观看暴力内容。",
+      conclusion: "总之，我坚信观看电视暴力会助长儿童的攻击性行为。这是因为证据清楚地表明了好处和潜在的缺点，我们必须以谨慎和警觉的态度对待这个问题。"
     },
     vocabulary: [
       "compelling",
@@ -267,10 +285,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Advertising has a negative impact on society.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 广告的影响 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 广告的影响 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 广告的影响 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that advertising has a negative impact on society.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that advertising has a negative impact on society. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the influence of advertising has become increasingly prevalent in modern society. For example, recent studies have shown that many people are heavily influenced by advertisements in their purchasing decisions, which has fundamentally changed consumer behavior. This demonstrates that the impact of advertising is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of advertising on society are becoming more apparent. Research indicates that excessive advertising can lead to materialistic values and reduced critical thinking. Therefore, it is clear that we need to consider the implications carefully before fully embracing advertising in our daily lives.",
+      conclusion: "In conclusion, I strongly believe that advertising has a negative impact on society. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -294,10 +312,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Celebrity culture has a negative effect on young people.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 名人崇拜 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 名人崇拜 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 名人崇拜 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that celebrity culture has a negative effect on young people.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that celebrity culture has a negative effect on young people. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that celebrity worship has become increasingly prevalent in modern society. For example, recent studies have shown that many young people idolize celebrities and emulate their behaviors, which can influence their values and priorities. This demonstrates that the impact of celebrity culture is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of celebrity worship are becoming more apparent. Research indicates that excessive focus on celebrities can lead to unrealistic expectations and reduced self-esteem. Therefore, it is clear that we need to consider the implications carefully before fully embracing celebrity culture.",
+      conclusion: "In conclusion, I strongly believe that celebrity culture has a negative effect on young people. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -321,10 +339,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Animals should have the same rights as humans.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 动物权利 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 动物权利 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 动物权利 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that animals should have the same rights as humans.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that animals should have the same rights as humans. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that animal rights has become increasingly prevalent in modern society. For example, recent studies have shown that many people advocate for animal welfare and ethical treatment of animals. This demonstrates that the awareness of animal rights is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of denying animal rights are becoming more apparent. Research indicates that animal cruelty can lead to broader moral degradation in society. Therefore, it is clear that we need to consider the implications carefully before continuing current practices.",
+      conclusion: "In conclusion, I strongly believe that animals should have the same rights as humans. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -348,10 +366,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Individuals have no right to privacy in the digital age.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 网络隐私 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 网络隐私 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 网络隐私 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that individuals have no right to privacy in the digital age.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that individuals have no right to privacy in the digital age. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that online privacy concerns have become increasingly prevalent in modern society. For example, recent studies have shown that many people share personal information online without fully understanding the risks. This demonstrates that the impact of digital privacy is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of privacy violations are becoming more apparent. Research indicates that excessive data collection can lead to identity theft and misuse of personal information. Therefore, it is clear that we need to consider the implications carefully before embracing digital technologies.",
+      conclusion: "In conclusion, I strongly believe that individuals have no right to privacy in the digital age. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -375,10 +393,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Parents should be held responsible for their children's behavior.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 家庭教育 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 家庭教育 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 家庭教育 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that parents should be held responsible for their children's behavior.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that parents should be held responsible for their children's behavior. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that family education has become increasingly important in modern society. For example, recent studies have shown that children with proper parental guidance tend to exhibit better behavior and social skills. This demonstrates that the impact of family education is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of inadequate family education are becoming more apparent. Research indicates that lack of parental supervision can lead to behavioral problems and social issues. Therefore, it is clear that we need to consider the implications carefully before assuming children can raise themselves.",
+      conclusion: "In conclusion, I strongly believe that parents should be held responsible for their children's behavior. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -402,10 +420,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Art is not essential in modern society.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 艺术价值 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 艺术价值 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 艺术价值 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that art is not essential in modern society.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that art is not essential in modern society. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the value of art has been debated increasingly in modern society. For example, recent studies have shown that art education can foster creativity and emotional intelligence. This demonstrates that the impact of art is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of neglecting art education are becoming more apparent. Research indicates that exposure to art can lead to improved mental health and cultural understanding. Therefore, it is clear that we need to consider the implications carefully before dismissing art as non-essential.",
+      conclusion: "In conclusion, I strongly believe that art is essential in modern society. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -429,10 +447,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Printed books will soon be replaced by e-books.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 纸质书籍 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 纸质书籍 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 纸质书籍 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that printed books will soon be replaced by e-books.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that printed books will soon be replaced by e-books. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the debate about printed books versus e-books has become increasingly prevalent in modern society. For example, recent studies have shown that many readers prefer the convenience of digital books. This demonstrates that the impact of e-books is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this shift are becoming more apparent. Research indicates that e-books offer advantages in terms of portability and accessibility. Therefore, it is clear that we need to consider the implications carefully before making predictions about the death of print.",
+      conclusion: "In conclusion, I strongly believe that printed books will not be completely replaced by e-books. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -456,10 +474,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Traditional festivals are losing their significance.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 传统节日 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 传统节日 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 传统节日 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that traditional festivals are losing their significance.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that traditional festivals are losing their significance. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the celebration of traditional festivals has changed in modern society. For example, recent studies have shown that many people now prioritize commercial events over traditional customs. This demonstrates that the impact of modernization on festivals is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this shift are becoming more apparent. Research indicates that younger generations may not appreciate the cultural significance of traditional festivals. Therefore, it is clear that we need to consider the implications carefully before dismissing these traditions.",
+      conclusion: "In conclusion, I strongly believe that traditional festivals are losing their significance. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -483,10 +501,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that It is impossible to achieve a good work-life balance in modern society.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 生活平衡 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 工作 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 工作与生活平衡 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that it is impossible to achieve a good work-life balance in modern society.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that it is impossible to achieve a good work-life balance in modern society. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that work-life balance has become increasingly challenging in modern society. For example, recent studies have shown that many workers struggle to juggle professional and personal responsibilities. This demonstrates that the impact of modern work culture is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of poor work-life balance are becoming more apparent. Research indicates that excessive work can lead to stress, burnout, and reduced productivity. Therefore, it is clear that we need to consider the implications carefully before accepting overwork as the norm.",
+      conclusion: "In conclusion, I strongly believe that it is difficult but not impossible to achieve work-life balance in modern society. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -510,10 +528,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Globalization is destroying local cultures.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 全球化文化 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 全球化文化 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 全球化文化 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that globalization is destroying local cultures.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that globalization is destroying local cultures. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that cultural globalization has become increasingly prevalent in modern society. For example, recent studies have shown that multinational corporations often spread homogeneous cultural products worldwide. This demonstrates that the impact of globalization on local cultures is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of cultural homogenization are becoming more apparent. Research indicates that local traditions may be replaced by global commercial culture. Therefore, it is clear that we need to consider the implications carefully before embracing globalization uncritically.",
+      conclusion: "In conclusion, I strongly believe that globalization poses challenges to local cultures. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -537,10 +555,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Social media has weakened real friendships.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 友谊 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 社交媒体 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 社交媒体与友谊 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that social media has weakened real friendships.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that social media has weakened real friendships. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the nature of friendships has changed in modern society. For example, recent studies have shown that many people now have more online contacts but fewer close relationships. This demonstrates that the impact of social media on friendships is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this shift are becoming more apparent. Research indicates that excessive time on social media can reduce the quality of real-life interactions. Therefore, it is clear that we need to consider the implications carefully before replacing real conversations with online messages.",
+      conclusion: "In conclusion, I strongly believe that social media has weakened real friendships. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -564,10 +582,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Money is the most important factor for happiness.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 幸福 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 金钱 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 金钱与幸福 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that money is the most important factor for happiness.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that money is the most important factor for happiness. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the relationship between money and happiness has been debated increasingly in modern society. For example, recent studies have shown that financial security can provide peace of mind and access to better resources. This demonstrates that the impact of money on happiness is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this belief are becoming more apparent. Research indicates that prioritizing money over relationships can lead to loneliness and regret. Therefore, it is clear that we need to consider the implications carefully before making money our ultimate goal.",
+      conclusion: "In conclusion, I strongly believe that money is important but not the most important factor for happiness. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -591,10 +609,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Standardized testing is the best way to assess student ability.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 标准化教育 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 标准化教育 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 标准化教育 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that standardized testing is the best way to assess student ability.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that standardized testing is the best way to assess student ability. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that standardized education has become increasingly prevalent in modern society. For example, recent studies have shown that test scores are often used as the primary measure of academic achievement. This demonstrates that the impact of standardized testing is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this approach are becoming more apparent. Research indicates that standardized tests may not capture all aspects of student abilities. Therefore, it is clear that we need to consider the implications carefully before relying solely on test results.",
+      conclusion: "In conclusion, I strongly believe that standardized testing has limitations as the sole assessment method. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -618,10 +636,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Immigration has a negative impact on the host country.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 移民影响 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 移民影响 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 移民影响 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that immigration has a negative impact on the host country.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that immigration has a negative impact on the host country. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the impact of immigration has been debated increasingly in modern society. For example, recent studies have shown that immigration can affect local labor markets and cultural dynamics. This demonstrates that the impact of immigration is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this issue are becoming more apparent. Research indicates that immigration can bring both benefits and challenges to host countries. Therefore, it is clear that we need to consider the implications carefully before forming opinions.",
+      conclusion: "In conclusion, I strongly believe that immigration has both positive and negative impacts on host countries. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -645,10 +663,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Modern society is too dependent on technology.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 科技依赖 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 科技依赖 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 科技依赖 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that modern society is too dependent on technology.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that modern society is too dependent on technology. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that technology dependence has become increasingly prevalent in modern society. For example, recent studies have shown that many people cannot function without their smartphones and internet connection. This demonstrates that the impact of technology dependence is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this dependence are becoming more apparent. Research indicates that excessive technology use can lead to reduced attention spans and social skills. Therefore, it is clear that we need to consider the implications carefully before embracing every new technology.",
+      conclusion: "In conclusion, I strongly believe that modern society is too dependent on technology. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -672,10 +690,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Fast food should be banned in schools.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 快餐文化 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 快餐文化 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 快餐文化 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that fast food should be banned in schools.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that fast food should be banned in schools. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that fast food culture has become increasingly prevalent in modern society. For example, recent studies have shown that childhood obesity rates have increased with the availability of fast food. This demonstrates that the impact of fast food on health is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this issue are becoming more apparent. Research indicates that poor nutrition can affect children's learning abilities and development. Therefore, it is clear that we need to consider the implications carefully before allowing fast food in schools.",
+      conclusion: "In conclusion, I strongly believe that fast food should be banned or restricted in schools. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -699,10 +717,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Online learning is as effective as traditional classroom learning.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 远程学习 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 远程学习 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 远程学习 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that online learning is as effective as traditional classroom learning.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that online learning is as effective as traditional classroom learning. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that remote learning has become increasingly prevalent in modern society. For example, recent studies have shown that online education can provide flexible learning opportunities. This demonstrates that the impact of online learning is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this shift are becoming more apparent. Research indicates that online learning may lack the social interaction of traditional classrooms. Therefore, it is clear that we need to consider the implications carefully before claiming complete equivalence.",
+      conclusion: "In conclusion, I strongly believe that online learning has its advantages but is not entirely equivalent to traditional classroom learning. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -726,10 +744,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Private cars should be banned in city centers.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 汽车使用 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 汽车使用 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 汽车使用 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that private cars should be banned in city centers.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that private cars should be banned in city centers. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that car usage has become increasingly problematic in modern society. For example, recent studies have shown that traffic congestion and pollution are major issues in urban areas. This demonstrates that the impact of private car usage is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this issue are becoming more apparent. Research indicates that reducing car usage can improve air quality and public health. Therefore, it is clear that we need to consider the implications carefully before rejecting car restrictions.",
+      conclusion: "In conclusion, I strongly believe that private cars should be restricted but not completely banned in city centers. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -753,10 +771,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Artificial intelligence will eventually replace human workers.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 人工智能威胁 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 人工智能威胁 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 人工智能威胁 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that artificial intelligence will eventually replace human workers.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that artificial intelligence will eventually replace human workers. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that AI threats to employment have been debated increasingly in modern society. For example, recent studies have shown that automation can perform many tasks previously done by humans. This demonstrates that the impact of AI on jobs is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this shift are becoming more apparent. Research indicates that certain professions may become obsolete due to AI advancement. Therefore, it is clear that we need to consider the implications carefully before dismissing these concerns.",
+      conclusion: "In conclusion, I strongly believe that AI will replace some human workers but not all. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -780,10 +798,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Online shopping will completely replace traditional retail stores.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 线上购物 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 线上购物 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 线上购物 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that online shopping will completely replace traditional retail stores.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that online shopping will completely replace traditional retail stores. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that e-commerce growth has been dramatic in modern society. For example, recent studies have shown that more consumers prefer the convenience of online shopping. This demonstrates that the impact of e-commerce on retail is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this shift are becoming more apparent. Research indicates that traditional stores face significant challenges from online competitors. Therefore, it is clear that we need to consider the implications carefully before predicting the complete demise of physical retail.",
+      conclusion: "In conclusion, I strongly believe that online shopping will not completely replace traditional retail stores. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -807,10 +825,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Individuals can do little to address climate change.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 气候变化 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 气候变化 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 气候变化 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that individuals can do little to address climate change.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that individuals can do little to address climate change. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that climate change has become a global challenge in modern society. For example, recent studies have shown that individual actions alone cannot reverse global warming trends. This demonstrates that the impact of climate change is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this issue are becoming more apparent. Research indicates that systemic changes are needed beyond individual efforts. Therefore, it is clear that we need to consider the implications carefully before placing sole responsibility on individuals.",
+      conclusion: "In conclusion, I strongly believe that while individuals can contribute, systemic changes are needed to address climate change. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -834,10 +852,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Learning a second language is essential in today's world.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 外语学习 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 外语学习 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 外语学习 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that learning a second language is essential in today's world.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that learning a second language is essential in today's world. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that foreign language learning has become increasingly important in modern society. For example, recent studies have shown that bilingual individuals have better career opportunities. This demonstrates that the impact of language skills is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this trend are becoming more apparent. Research indicates that language skills can improve cognitive abilities and cultural understanding. Therefore, it is clear that we need to consider the implications carefully before dismissing the importance of language learning.",
+      conclusion: "In conclusion, I strongly believe that learning a second language is essential in today's world. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
@@ -861,10 +879,10 @@ export const essayTemplates: EssayTemplate[] = [
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
     fullParagraphs: {
-      introduction: "It is argued that Video games have a negative impact on children's development.. I believe this statement holds true to a significant extent for several reasons.",
-      body1: "One of the main reasons supporting this view is that 游戏影响 has become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of 游戏影响 is undeniable and far-reaching.",
-      body2: "Another reason is that the consequences of 游戏影响 are becoming more apparent. Research indicates that excessive use of certain technologies can lead to social isolation and reduced face-to-face interaction. Therefore, it is clear that we need to consider the implications carefully before fully embracing these changes.",
-      conclusion: "In conclusion, I strongly believe that video games have a negative impact on children's development.. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
+      introduction: "It is argued that video games have a negative impact on children's development. I believe this statement holds true to a significant extent for several reasons.",
+      body1: "One of the main reasons supporting this view is that the impact of gaming on children has been debated increasingly in modern society. For example, recent studies have shown that excessive gaming can affect academic performance and social skills. This demonstrates that the impact of video games is undeniable and far-reaching.",
+      body2: "Another reason is that the consequences of this issue are becoming more apparent. Research indicates that violent games may influence behavior in negative ways. Therefore, it is clear that we need to consider the implications carefully before allowing unlimited gaming time for children.",
+      conclusion: "In conclusion, I strongly believe that video games can have negative impacts on children's development if not monitored properly. This is because the evidence clearly shows both the benefits and potential drawbacks, and we must approach this issue with caution and awareness."
     },
     vocabulary: [
       "compelling",
