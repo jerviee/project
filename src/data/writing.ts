@@ -224,6 +224,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that technology has made our lives more isolated. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that human connections have become increasingly prevalent in modern society. For example, recent studies have shown that many people now rely heavily on technology for communication, which has fundamentally changed how we interact with one another. This demonstrates that the impact of technology is undeniable and far-reaching.",
@@ -256,6 +262,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that watching violence on television encourages aggressive behavior in children. I believe this statement holds true to a significant extent for several reasons.",
