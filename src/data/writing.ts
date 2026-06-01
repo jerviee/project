@@ -2530,10 +2530,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "励志进取型",
       styleNote: "谷爱凌的发言充满正能量，强调努力、坚持和突破自我的重要性。她的风格特点是：1）用个人经历举例；2）强调热爱与激情；3）鼓励年轻人勇敢尝试；4）展现自信与谦逊的平衡。",
       structure: {
-        introduction: "[话题]. I completely agree with this view, as demonstrated by [名人]的励志旅程。",
-        body1: "首先，[名人]通过[具体事例]展现了努力的力量。例如，[细节]。这表明[结论]。",
-        body2: "其次，[名人]强调[价值观]的重要性。她曾说：\"[名言]\"。这表明[道理]。",
-        conclusion: "总之，[名人]的故事证明[总结]。她的旅程激励我们[号召]。"
+        introduction: "[Topic]. I completely agree with this view, as demonstrated by [Celebrity]'s inspiring journey.",
+        body1: "First, [Celebrity] demonstrates the power of hard work through [Specific Example]. For instance, [Detail]. This shows [Conclusion].",
+        body2: "Second, [Celebrity] emphasizes the importance of [Value]. She once said: \"[Quote]\". This demonstrates [Lesson].",
+        conclusion: "In conclusion, [Celebrity]'s story proves [Summary]. Her journey inspires us to [Call to Action]."
       },
       fullParagraphs: {
         introduction: "Success comes from hard work and perseverance. I completely agree with this view, as demonstrated by the inspiring journey of Eileen Gu (谷爱凌), the freestyle skiing Olympic champion.",
@@ -2561,10 +2561,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "多元发展型",
       styleNote: "谷爱凌作为学霸运动员，展现了跨界发展的优势。她的风格特点是：1）强调全面发展；2）展示多领域成就；3）鼓励探索不同可能性；4）体现东西方文化融合。",
       structure: {
-        introduction: "[话题]在当今快速变化的世界中变得越来越重要。",
-        body1: "一个主要优势是[好处1]。正如[名人]所展示的，[例子]。这有助于[结果]。",
-        body2: "另一个好处是[好处2]。[名人]的经历表明[道理]。例如，[事例]。",
-        conclusion: "总体而言，[总结好处]。[名人]的旅程表明[启示]。"
+        introduction: "[Topic] has become increasingly important in today's fast-changing world.",
+        body1: "One major advantage is [Benefit 1]. As demonstrated by [Celebrity], [Example]. This helps [Result].",
+        body2: "Another benefit is [Benefit 2]. [Celebrity]'s experience shows [Lesson]. For instance, [Instance].",
+        conclusion: "Overall, [Summary of Benefits]. [Celebrity]'s journey shows [Insight]."
       },
       fullParagraphs: {
         introduction: "Pursuing multiple interests and talents has become increasingly relevant in today's fast-changing world, as exemplified by Eileen Gu.",
@@ -2592,10 +2592,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "务实领导型",
       styleNote: "Gwynne Shotwell作为SpaceX的总裁，展现了强硬而务实的领导风格。她的特点是：1）结果导向；2）敢于冒险；3）强调团队合作；4）关注长远目标；5）在男性主导领域中展现自信。",
       structure: {
-        introduction: "关于[话题]存在争议。本文将讨论两种观点，并从[名人]的领导风格中汲取见解。",
-        body1: "一方面，[观点1]有其优点。支持者认为[理由]。然而，[名人]的方法表明[不同观点]。",
-        body2: "另一方面，[观点2]符合现代领导原则。[名人]通过[事例]体现了这一点。",
-        conclusion: "在我看来，[个人观点]。[名人]的成功表明[总结]。"
+        introduction: "There is debate about [Topic]. This essay will discuss both perspectives and draw insights from [Celebrity]'s leadership style.",
+        body1: "On one hand, [View 1] has its merits. Supporters argue [Reason]. However, [Celebrity]'s approach shows [Different View].",
+        body2: "On the other hand, [View 2] aligns with modern leadership principles. [Celebrity] exemplifies this through [Instance].",
+        conclusion: "In my opinion, [Personal View]. [Celebrity]'s success demonstrates [Summary]."
       },
       fullParagraphs: {
         introduction: "There is a debate about whether leadership is about control or empowerment. This essay will discuss both perspectives and draw insights from Gwynne Shotwell, the President of SpaceX.",
@@ -2623,10 +2623,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "风险进取型",
       styleNote: "Gwynne Shotwell以敢于承担风险著称，带领SpaceX实现多次突破。她的风格是：1）接受失败是成功的一部分；2）鼓励大胆尝试；3）数据驱动决策；4）快速迭代改进。",
       structure: {
-        introduction: "[问题]对于旨在创新的组织至关重要。借鉴[名人]的经验，我们可以确定几种策略。",
-        body1: "一种关键方法是[策略1]。在[公司]，[措施]。这允许[结果]。",
-        body2: "另一种策略涉及[策略2]。[名人]认为[理念]。例如，[事例]。",
-        conclusion: "总之，[总结策略]。[名人]的领导表明[启示]。"
+        introduction: "[Problem] is crucial for organizations aiming to innovate. Drawing from [Celebrity]'s experience, we can identify several strategies.",
+        body1: "One key approach is [Strategy 1]. At [Company], [Measure]. This allows [Result].",
+        body2: "Another strategy involves [Strategy 2]. [Celebrity] believes [Concept]. For instance, [Instance].",
+        conclusion: "In conclusion, [Summary of Strategies]. [Celebrity]'s leadership shows [Insight]."
       },
       fullParagraphs: {
         introduction: "Embracing calculated risk-taking is crucial for organizations aiming to innovate, especially in rapidly evolving industries. Drawing from Gwynne Shotwell's experience at SpaceX, we can identify several effective strategies.",
@@ -2654,10 +2654,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "远见前瞻型",
       styleNote: "黄仁勋以其远见卓识和对技术趋势的精准判断著称。他的演讲风格特点是：1）宏大愿景描绘；2）技术深度与通俗解释结合；3）强调计算的未来；4）激情澎湃的表达方式；5）使命感驱动。",
       structure: {
-        introduction: "[话题]。我同意这一说法，正如[名人]在[公司]的领导所展示的。",
-        body1: "首先，[名人]展示了[远见]。例如，[事例]。这表明[结论]。",
-        body2: "其次，[公司]的成功来自[创新方式]。正如[名人]所说：\"[名言]\"。",
-        conclusion: "总之，[总结]。[名人]的方法证明[道理]。"
+        introduction: "[Topic]. I agree with this statement, as demonstrated by [Celebrity]'s leadership at [Company].",
+        body1: "First, [Celebrity] has shown [Vision]. For instance, [Instance]. This shows [Conclusion].",
+        body2: "Second, [Company]'s success comes from [Innovation Approach]. As [Celebrity] said: \"[Quote]\".",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s approach proves [Lesson]."
       },
       fullParagraphs: {
         introduction: "Technological innovation is driven more by vision than by incremental improvements. I agree with this statement, as demonstrated by Jensen Huang's leadership at NVIDIA.",
@@ -2685,10 +2685,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "技术热情型",
       styleNote: "黄仁勋对计算技术充满热情，善于将复杂技术概念转化为令人兴奋的愿景。他的风格是：1）富有感染力的表达；2）使用生动比喻；3）强调计算的革命性影响；4）展示技术的人文价值。",
       structure: {
-        introduction: "[话题]在现代科学研究中变得越来越重要。",
-        body1: "一个主要优势是[好处1]。正如[公司]所展示的，[例子]。这导致[结果]。",
-        body2: "另一个好处是[好处2]。[名人]解释说[道理]。例如，[事例]。",
-        conclusion: "总体而言，[总结]。[领域]的未来取决于[关键因素]。"
+        introduction: "[Topic] has become increasingly important in modern scientific research.",
+        body1: "One major advantage is [Benefit 1]. As demonstrated by [Company], [Example]. This leads to [Result].",
+        body2: "Another benefit is [Benefit 2]. [Celebrity] explains [Lesson]. For instance, [Instance].",
+        conclusion: "Overall, [Summary]. The future of [Field] depends on [Key Factor]."
       },
       fullParagraphs: {
         introduction: "Accelerated computing has become increasingly important in advancing modern scientific research, as championed by Jensen Huang and NVIDIA.",
@@ -2716,10 +2716,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "文化桥梁型",
       styleNote: "谷爱凌作为中美混血运动员，展现了文化融合的独特视角。她的风格是：1）强调文化交流的价值；2）展示东西方文化的融合；3）倡导相互理解；4）以自身经历促进文化对话。",
       structure: {
-        introduction: "关于[话题]存在争议。[名人]的经历为这个问题提供了宝贵的见解。",
-        body1: "一方面，[挑战观点]。有些人认为[理由]。然而，[名人]的故事展示[不同视角]。",
-        body2: "另一方面，[积极观点]有显著好处。[名人]通过[事例]体现了这一点。",
-        conclusion: "在我看来，[个人观点]。[名人]的旅程表明[启示]。"
+        introduction: "There is debate about [Topic]. [Celebrity]'s experience offers valuable insights on this issue.",
+        body1: "On one hand, [Challenge View]. Some argue [Reason]. However, [Celebrity]'s story shows [Different Perspective].",
+        body2: "On the other hand, [Positive View] has significant benefits. [Celebrity] exemplifies this through [Instance].",
+        conclusion: "In my opinion, [Personal View]. [Celebrity]'s journey shows [Insight]."
       },
       fullParagraphs: {
         introduction: "There is a debate about whether cultural diversity creates challenges or enriches society. Eileen Gu's experience as a Chinese-American athlete offers valuable insights into this issue.",
@@ -2747,10 +2747,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "女性赋权型",
       styleNote: "Gwynne Shotwell作为航空航天领域的杰出女性领导者，倡导性别平等和女性赋权。她的风格是：1）以身作则；2）强调能力而非性别；3）支持女性职业发展；4）打破刻板印象。",
       structure: {
-        introduction: "[问题]是一个需要关注的紧迫问题。借鉴[名人]的经验，我们可以确定有效的解决方案。",
-        body1: "一种方法是[策略1]。[名人]倡导[措施]。例如，[事例]。",
-        body2: "另一种解决方案涉及[策略2]。创建[环境]可以帮助[结果]。",
-        conclusion: "总之，[总结]。[名人]的领导表明[启示]。"
+        introduction: "[Problem] is a pressing issue that requires attention. Drawing from [Celebrity]'s experience, we can identify effective solutions.",
+        body1: "One approach is [Strategy 1]. [Celebrity] advocates [Measure]. For instance, [Instance].",
+        body2: "Another solution involves [Strategy 2]. Creating [Environment] can help [Result].",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s leadership shows [Insight]."
       },
       fullParagraphs: {
         introduction: "Promoting more women in leadership positions in STEM fields is a pressing issue that requires attention. Drawing from Gwynne Shotwell's experience at SpaceX, we can identify effective solutions.",
@@ -2778,10 +2778,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "坚韧创业型",
       styleNote: "黄仁勋作为连续创业者，展现了非凡的韧性和坚持。他的风格是：1）分享创业艰难历程；2）强调坚持的重要性；3）鼓励从失败中学习；4）展现对事业的执着热爱。",
       structure: {
-        introduction: "[话题]。我同意这一说法，正如[名人]的创业旅程所展示的。",
-        body1: "首先，[名人]面临[挑战]。例如，[事例]。他的韧性帮助[结果]。",
-        body2: "其次，[公司]的成功来自[坚持]。正如[名人]所说：\"[名言]\"。",
-        conclusion: "总之，[总结]。[名人]的故事证明[道理]。"
+        introduction: "[Topic]. I agree with this statement, as demonstrated by [Celebrity]'s entrepreneurial journey.",
+        body1: "First, [Celebrity] faced [Challenge]. For instance, [Instance]. His resilience helped [Result].",
+        body2: "Second, [Company]'s success comes from [Persistence]. As [Celebrity] said: \"[Quote]\".",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s story proves [Lesson]."
       },
       fullParagraphs: {
         introduction: "Entrepreneurial success depends more on resilience than on initial ideas. I agree with this statement, as demonstrated by Jensen Huang's journey building NVIDIA.",
@@ -2809,10 +2809,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "心理健康倡导者",
       styleNote: "谷爱凌公开谈论心理健康问题，展现了运动员面对压力的积极态度。她的风格是：1）坦诚分享个人经历；2）倡导积极心理习惯；3）强调平衡的重要性；4）鼓励寻求帮助。",
       structure: {
-        introduction: "[问题]在高水平运动中变得越来越重要。[名人]的方法提供了宝贵的见解。",
-        body1: "一种关键策略是[方法1]。[名人]实践[措施]。例如，[事例]。",
-        body2: "另一种方法涉及[方法2]。保持[平衡]有助于[结果]。",
-        conclusion: "总之，[总结]。[名人]的例子表明[启示]。"
+        introduction: "[Problem] is increasingly important in high-performance sports. [Celebrity]'s approach offers valuable insights.",
+        body1: "One key strategy is [Method 1]. [Celebrity] practices [Measure]. For instance, [Instance].",
+        body2: "Another approach involves [Method 2]. Maintaining [Balance] helps [Result].",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s example shows [Insight]."
       },
       fullParagraphs: {
         introduction: "Maintaining good mental health under high-pressure competition is increasingly important in high-performance sports. Eileen Gu's approach offers valuable insights for athletes facing intense pressure.",
@@ -2841,10 +2841,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "金融权威型",
       styleNote: "Mark Carney作为前央行行长，在金融与环境交叉领域有独特见解。风格：数据驱动、逻辑严密、注重风险分析。",
       structure: {
-        introduction: "关于[话题]存在争议。[名人]对这一问题有深刻见解。",
-        body1: "一方面，[观点1]。[名人]在演讲中指出：[引述观点]。",
-        body2: "另一方面，[观点2]。[名人]强调[理由]。",
-        conclusion: "在我看来，[个人观点]。[名人]的分析表明[结论]。"
+        introduction: "There is debate about [Topic]. [Celebrity] has deep insights on this issue.",
+        body1: "On one hand, [View 1]. [Celebrity] noted in a speech: [Quoted View].",
+        body2: "On the other hand, [View 2]. [Celebrity] emphasizes [Reason].",
+        conclusion: "In my opinion, [Personal View]. [Celebrity]'s analysis shows [Conclusion]."
       },
       fullParagraphs: {
         introduction: "There is an ongoing debate about whether governments should prioritize economic growth over environmental protection.",
@@ -2870,10 +2870,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "风险管理型",
       styleNote: "Mark Carney善于将复杂的气候问题转化为金融语言，强调系统性风险。",
       structure: {
-        introduction: "[问题]是当今金融界面临的重要挑战。[名人]对此提出了深刻见解。",
-        body1: "[名人]指出的第一个解决方案是[方法1]。这帮助[结果]。",
-        body2: "第二个关键策略是[方法2]。[名人]认为[理由]。",
-        conclusion: "总之，[名人]的分析表明[结论]。通过这些措施，我们可以[展望]。"
+        introduction: "[Problem] is an important challenge facing the financial world today. [Celebrity] has offered profound insights on this.",
+        body1: "The first solution [Celebrity] points out is [Method 1]. This helps [Result].",
+        body2: "The second key strategy is [Method 2]. [Celebrity] believes [Reason].",
+        conclusion: "In conclusion, [Celebrity]'s analysis shows [Conclusion]. Through these measures, we can [Outlook]."
       },
       fullParagraphs: {
         introduction: "Addressing climate-related risks in the financial sector is one of the most pressing challenges facing global markets.",
@@ -2899,10 +2899,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "官方叙事型",
       styleNote: "CGTN报道风格：强调发展成就、注重数据支持、强调中国方案的普遍意义。",
       structure: {
-        introduction: "[话题]是中国发展模式讨论的核心内容。CGTN等中国官方媒体的报道提供了独特视角。",
-        body1: "中国模式的一个主要优势是[好处1]。[媒体报道]显示[数据/事实]。",
-        body2: "然而，也存在[挑战/问题]。[分析]认为[理由]。",
-        conclusion: "总体而言，[总结]。中国的经验表明[启示]。"
+        introduction: "[Topic] is central to discussions of China's development model. Reports from Chinese official media like CGTN provide a unique perspective.",
+        body1: "One major advantage of the Chinese model is [Benefit 1]. [Media Report] shows [Data/Fact].",
+        body2: "However, there are also [Challenge/Problem]. [Analysis] believes [Reason].",
+        conclusion: "Overall, [Summary]. China's experience shows [Insight]."
       },
       fullParagraphs: {
         introduction: "China's economic development model has attracted worldwide attention as the country achieved unprecedented growth.",
@@ -2928,10 +2928,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "国际责任型",
       styleNote: "CGTN在国际议题上强调：中国作为负责任大国、多边主义、构建人类命运共同体。",
       structure: {
-        introduction: "[话题]是当今国际关系中的重要议题。CGTN等中国媒体对这一问题有独到分析。",
-        body1: "首先，[观点/理由1]。[媒体报道]指出[事实]。",
-        body2: "其次，[观点/理由2]。[评论]认为[观点]。",
-        conclusion: "总之，我[同意程度][观点]。[总结]。"
+        introduction: "[Topic] is an important issue in international relations today. Chinese media like CGTN has unique analysis on this issue.",
+        body1: "First, [View/Reason 1]. [Media Report] points out [Fact].",
+        body2: "Second, [View/Reason 2]. [Commentary] believes [View].",
+        conclusion: "In conclusion, I [Degree of Agreement] [View]. [Summary]."
       },
       fullParagraphs: {
         introduction: "The question of whether China should take a leading role in global governance is increasingly relevant.",
@@ -2957,10 +2957,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "思想领袖型",
       styleNote: "Schwab是全球最重要思想领袖之一，概念宏大、视野全球、善于预见趋势。",
       structure: {
-        introduction: "[话题]是[名人]在达沃斯论坛上提出的重要命题。",
-        body1: "首先，第四次工业革命带来的[好处1]。[名人]指出[观点]。",
-        body2: "其次，技术革新促进[好处2]。[名人]认为[理由]。",
-        conclusion: "总之，我[同意程度][观点]。[名人]的洞见表明[结论]。"
+        introduction: "[Topic] is an important proposition proposed by [Celebrity] at the Davos Forum.",
+        body1: "First, the Fourth Industrial Revolution brings [Benefit 1]. [Celebrity] points out [View].",
+        body2: "Second, technological innovation promotes [Benefit 2]. [Celebrity] believes [Reason].",
+        conclusion: "In conclusion, I [Degree of Agreement] [View]. [Celebrity]'s insight shows [Conclusion]."
       },
       fullParagraphs: {
         introduction: "The Fourth Industrial Revolution represents a fundamental transformation in how we live, work, and relate.",
@@ -2986,10 +2986,10 @@ export const essayTemplates: EssayTemplate[] = [
       style: "治理倡导型",
       styleNote: "Schwab强调多方利益相关者协作、技术应为人类服务、全球协调的重要性。",
       structure: {
-        introduction: "[问题]是[名人]在达沃斯论坛上反复强调的核心议题。",
-        body1: "[名人]提出的第一个治理原则是[原则1]。[措施]可以帮助[结果]。",
-        body2: "第二个关键原则是[原则2]。[名人]认为[理由]。",
-        conclusion: "总之，[总结]。[名人]的呼吁是[展望]。"
+        introduction: "[Problem] is a core issue [Celebrity] has repeatedly emphasized at the Davos Forum.",
+        body1: "The first governance principle [Celebrity] proposes is [Principle 1]. [Measure] can help [Result].",
+        body2: "The second key principle is [Principle 2]. [Celebrity] believes [Reason].",
+        conclusion: "In conclusion, [Summary]. [Celebrity]'s call is [Outlook]."
       },
       fullParagraphs: {
         introduction: "Governing emerging technologies to ensure they benefit all of humanity is one of the central challenges of our time.",
