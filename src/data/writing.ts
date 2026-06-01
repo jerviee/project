@@ -27,6 +27,12 @@ export interface EssayTemplate {
     body2: string;
     conclusion: string;
   };
+  structureCN?: {
+    introduction: string;
+    body1: string;
+    body2: string;
+    conclusion: string;
+  };
   fullParagraphs: {
     introduction: string;
     body1: string;

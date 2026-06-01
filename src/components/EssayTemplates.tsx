@@ -62,7 +62,7 @@ export default function EssayTemplates() {
       }
 
       setSpeakingFull(true);
-      const fullText = `${currentTemplate.fullParagraphs.introduction} ${currentTemplate.fullParagraphs.body1} ${currentTemplate.fullParagraphs.body2} ${currentTemplate.fullParagraphs.conclusion}`;
+      const fullText = `${currentTemplate.fullParagraphs?.introduction || currentTemplate.structure.introduction} ${currentTemplate.fullParagraphs?.body1 || currentTemplate.structure.body1} ${currentTemplate.fullParagraphs?.body2 || currentTemplate.structure.body2} ${currentTemplate.fullParagraphs?.conclusion || currentTemplate.structure.conclusion}`;
       
       const utterance = new SpeechSynthesisUtterance(fullText);
       utterance.lang = 'en-US';
@@ -220,8 +220,14 @@ export default function EssayTemplates() {
                 {expandedSections.has(key) && (
                   <div className="p-4">
                     <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                      <p className="text-sm text-gray-500 mb-1">填空模板:</p>
-                      <p className="text-gray-700">{currentTemplate.structure[key]}</p>
+                      <div className="flex items-center justify-between mb-2">
+                        <p className="text-sm text-gray-500">填空模板:</p>
+                      </div>
+                      <p className="text-gray-700 mb-3">{currentTemplate.structure[key]}</p>
+                      <div className="bg-blue-50 rounded-lg p-3">
+                        <p className="text-sm text-blue-600 mb-1">中文翻译:</p>
+                        <p className="text-gray-700">{currentTemplate.structureCN?.[key] || ''}</p>
+                      </div>
                     </div>
                     
                     <div className="bg-primary-50 rounded-lg p-4">
@@ -229,7 +235,7 @@ export default function EssayTemplates() {
                         <p className="text-sm text-primary-600 font-medium">完整段落示例:</p>
                         <div className="flex items-center gap-2">
                           <button
-                            onClick={() => speakText(currentTemplate.fullParagraphs[key], key)}
+                            onClick={() => speakText(currentTemplate.fullParagraphs?.[key] || currentTemplate.structure[key], key)}
                             className={`flex items-center gap-1 px-3 py-1.5 text-sm rounded-lg transition-colors ${
                               speakingSection === key
                                 ? 'bg-red-500 text-white'
@@ -249,7 +255,7 @@ export default function EssayTemplates() {
                             )}
                           </button>
                           <button
-                            onClick={() => handleCopy(currentTemplate.fullParagraphs[key], key)}
+                            onClick={() => handleCopy(currentTemplate.fullParagraphs?.[key] || currentTemplate.structure[key], key)}
                             className="flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors"
                           >
                             {copiedSection === key ? (
@@ -266,7 +272,11 @@ export default function EssayTemplates() {
                           </button>
                         </div>
                       </div>
-                      <p className="text-gray-700 leading-relaxed">{currentTemplate.fullParagraphs[key]}</p>
+                      <p className="text-gray-700 leading-relaxed">{currentTemplate.fullParagraphs?.[key] || currentTemplate.structure[key]}</p>
+                      <div className="mt-3 bg-green-50 rounded-lg p-3">
+                        <p className="text-sm text-green-600 mb-1">中文翻译:</p>
+                        <p className="text-gray-700">{currentTemplate.structureCN?.[key] || ''}</p>
+                      </div>
                     </div>
                   </div>
                 )}
