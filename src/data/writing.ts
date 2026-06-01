@@ -302,6 +302,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that advertising has a negative impact on society. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that the influence of advertising has become increasingly prevalent in modern society. For example, recent studies have shown that many people are heavily influenced by advertisements in their purchasing decisions, which has fundamentally changed consumer behavior. This demonstrates that the impact of advertising is undeniable and far-reaching.",
@@ -328,6 +334,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that celebrity culture has a negative effect on young people. I believe this statement holds true to a significant extent for several reasons.",
@@ -356,6 +368,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that animals should have the same rights as humans. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that animal rights has become increasingly prevalent in modern society. For example, recent studies have shown that many people advocate for animal welfare and ethical treatment of animals. This demonstrates that the awareness of animal rights is undeniable and far-reaching.",
@@ -382,6 +400,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that individuals have no right to privacy in the digital age. I believe this statement holds true to a significant extent for several reasons.",
@@ -410,6 +434,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that parents should be held responsible for their children's behavior. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that family education has become increasingly important in modern society. For example, recent studies have shown that children with proper parental guidance tend to exhibit better behavior and social skills. This demonstrates that the impact of family education is undeniable and far-reaching.",
@@ -436,6 +466,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that art is not essential in modern society. I believe this statement holds true to a significant extent for several reasons.",
@@ -464,6 +500,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that printed books will soon be replaced by e-books. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that the debate about printed books versus e-books has become increasingly prevalent in modern society. For example, recent studies have shown that many readers prefer the convenience of digital books. This demonstrates that the impact of e-books is undeniable and far-reaching.",
@@ -490,6 +532,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that traditional festivals are losing their significance. I believe this statement holds true to a significant extent for several reasons.",
@@ -518,6 +566,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that it is impossible to achieve a good work-life balance in modern society. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that work-life balance has become increasingly challenging in modern society. For example, recent studies have shown that many workers struggle to juggle professional and personal responsibilities. This demonstrates that the impact of modern work culture is undeniable and far-reaching.",
@@ -544,6 +598,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that globalization is destroying local cultures. I believe this statement holds true to a significant extent for several reasons.",
@@ -572,6 +632,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that social media has weakened real friendships. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that the nature of friendships has changed in modern society. For example, recent studies have shown that many people now have more online contacts but fewer close relationships. This demonstrates that the impact of social media on friendships is undeniable and far-reaching.",
@@ -598,6 +664,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that money is the most important factor for happiness. I believe this statement holds true to a significant extent for several reasons.",
@@ -626,6 +698,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that standardized testing is the best way to assess student ability. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that standardized education has become increasingly prevalent in modern society. For example, recent studies have shown that test scores are often used as the primary measure of academic achievement. This demonstrates that the impact of standardized testing is undeniable and far-reaching.",
@@ -652,6 +730,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that immigration has a negative impact on the host country. I believe this statement holds true to a significant extent for several reasons.",
@@ -680,6 +764,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that modern society is too dependent on technology. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that technology dependence has become increasingly prevalent in modern society. For example, recent studies have shown that many people cannot function without their smartphones and internet connection. This demonstrates that the impact of technology dependence is undeniable and far-reaching.",
@@ -706,6 +796,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that fast food should be banned in schools. I believe this statement holds true to a significant extent for several reasons.",
@@ -734,6 +830,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that online learning is as effective as traditional classroom learning. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that remote learning has become increasingly prevalent in modern society. For example, recent studies have shown that online education can provide flexible learning opportunities. This demonstrates that the impact of online learning is undeniable and far-reaching.",
@@ -760,6 +862,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that private cars should be banned in city centers. I believe this statement holds true to a significant extent for several reasons.",
@@ -788,6 +896,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that artificial intelligence will eventually replace human workers. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that AI threats to employment have been debated increasingly in modern society. For example, recent studies have shown that automation can perform many tasks previously done by humans. This demonstrates that the impact of AI on jobs is undeniable and far-reaching.",
@@ -814,6 +928,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that online shopping will completely replace traditional retail stores. I believe this statement holds true to a significant extent for several reasons.",
@@ -842,6 +962,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that individuals can do little to address climate change. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that climate change has become a global challenge in modern society. For example, recent studies have shown that individual actions alone cannot reverse global warming trends. This demonstrates that the impact of climate change is undeniable and far-reaching.",
@@ -868,6 +994,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main reasons why I hold this view is [reason1]. For example, [example1]. This demonstrates that [conclusion1].",
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
+    },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
     },
     fullParagraphs: {
       introduction: "It is argued that learning a second language is essential in today's world. I believe this statement holds true to a significant extent for several reasons.",
@@ -896,6 +1028,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "Another reason is [reason2]. Research shows that [evidence]. Therefore, [result].",
       conclusion: "In conclusion, I strongly believe that [restate opinion]. This is because [summary1] and [summary2]."
     },
+    structureCN: {
+      introduction: "有人认为[话题]。我在很大程度上同意/不同意这一说法。",
+      body1: "我持此观点的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一个原因是[原因2]。研究表明[证据]。因此，[结果]。",
+      conclusion: "总之，我坚信[重申观点]。这是因为[总结1]和[总结2]。"
+    },
     fullParagraphs: {
       introduction: "It is argued that video games have a negative impact on children's development. I believe this statement holds true to a significant extent for several reasons.",
       body1: "One of the main reasons supporting this view is that the impact of gaming on children has been debated increasingly in modern society. For example, recent studies have shown that excessive gaming can affect academic performance and social skills. This demonstrates that the impact of video games is undeniable and far-reaching.",
@@ -922,6 +1060,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer traditional education, while others prefer modern methods such as online learning.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -950,6 +1094,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer to live in cities, while others prefer rural areas.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -976,6 +1126,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think face-to-face communication is better than online communication, while others disagree.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1004,6 +1160,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people believe self-study is more effective, while others think classroom learning is better.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1030,6 +1192,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer to save money, while others enjoy spending it.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1058,6 +1226,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer public healthcare, while others choose private healthcare.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1084,6 +1258,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer working in teams, while others prefer working alone.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1112,6 +1292,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think reading is more beneficial than watching television, while others disagree.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1138,6 +1324,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer package tours, while others prefer independent travel.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1166,6 +1358,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think we should preserve traditional culture, while others think we should embrace modern culture.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1192,6 +1390,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think governments should invest in arts, while others think they should invest in infrastructure.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1220,6 +1424,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think family education is more important, while others think school education is more important.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1246,6 +1456,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer stable jobs, while others prefer starting their own business.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1274,6 +1490,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people prefer traditional shopping, while others prefer online shopping.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1300,6 +1522,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think we should protect all animals, while others think we can use animals for human benefit.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1328,6 +1556,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think public schools are better, while others prefer private schools.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1354,6 +1588,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people focus on short-term goals, while others prioritize long-term goals.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1382,6 +1622,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think work experience is more important, while others believe academic qualifications matter more.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1408,6 +1654,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "On the one hand, [view1] has some merit. Supporters argue that [reason1]. For instance, [example1]. This means that [benefit1].",
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
+    },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
     },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people value individualism, while others emphasize collectivism.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
@@ -1436,6 +1688,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "On the other hand, [view2] also has valid points. Advocates point out that [reason2]. They argue that [evidence]. As a result, [benefit2].",
       conclusion: "In my opinion, [my opinion]. This is because [reason]. Overall, [summary]."
     },
+    structureCN: {
+      introduction: "关于[话题]存在争议。一些人认为[观点1]，而另一些人认为[观点2]。本文将讨论这两种观点，然后给出我的看法。",
+      body1: "一方面，[观点1]有一些优点。支持者认为[原因1]。例如，[例子1]。这意味着[好处1]。",
+      body2: "另一方面，[观点2]也有合理之处。倡导者指出[原因2]。他们认为[证据]。因此，[好处2]。",
+      conclusion: "在我看来，[我的观点]。这是因为[原因]。总的来说，[总结]。"
+    },
     fullParagraphs: {
       introduction: "There is an ongoing debate about Some people think competition is essential, while others believe cooperation is more important.. Some people argue that one approach is superior, while others believe the alternative is better. This essay will explore both perspectives before presenting my own view.",
       body1: "On the one hand, those who support the first view argue that it offers significant benefits. For instance, traditional methods often provide a more stable and reliable foundation, which can be particularly important in certain contexts. This means that many people feel more comfortable with established approaches.",
@@ -1462,6 +1720,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1490,6 +1754,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1516,6 +1786,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1544,6 +1820,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1570,6 +1852,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1598,6 +1886,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1624,6 +1918,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1652,6 +1952,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1678,6 +1984,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1706,6 +2018,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1732,6 +2050,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1760,6 +2084,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1786,6 +2116,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1814,6 +2150,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1840,6 +2182,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1868,6 +2216,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1894,6 +2248,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1922,6 +2282,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -1948,6 +2314,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "One of the main advantages of [topic] is [advantage1]. For example, [example1]. This contributes to [benefit1].",
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
+    },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
     },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
@@ -1976,6 +2348,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "However, there are also some disadvantages. One major drawback is [disadvantage1]. Additionally, [disadvantage2]. These issues can lead to [negative effect].",
       conclusion: "Overall, while [topic] has clear benefits such as [advantage], it also has drawbacks like [disadvantage]. Proper management is essential to maximize the benefits."
     },
+    structureCN: {
+      introduction: "[话题]既有优点也有缺点。我们需要平衡考虑。",
+      body1: "一方面，[优点]。例如，[例子1]。这表明[结论1]。",
+      body2: "另一方面，也有缺点，如[缺点]。研究表明[证据]。",
+      conclusion: "总之，[总结]。我们需要权衡利弊。"
+    },
     fullParagraphs: {
       introduction: " has become a significant trend in recent years, with both positive and negative implications. This essay will examine the advantages and disadvantages of this development.",
       body1: "One of the main advantages is the convenience it offers. For example, many people now enjoy greater flexibility in their daily lives, which has improved work-life balance for countless individuals. This contributes to higher levels of satisfaction and well-being.",
@@ -2002,6 +2380,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Air pollution is a serious problem in many cities. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2030,6 +2414,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Traffic congestion is a major problem in many urban areas. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2056,6 +2446,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Many young people are experiencing high levels of stress. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2084,6 +2480,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Water pollution is a serious environmental problem. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2110,6 +2512,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Deforestation is a major environmental issue. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2138,6 +2546,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Unemployment is a major economic problem in many countries. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2164,6 +2578,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Poverty is a persistent problem in many parts of the world. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2192,6 +2612,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Waste management is a growing problem in modern society. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2218,6 +2644,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Cybercrime is becoming increasingly common. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2246,6 +2678,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Educational inequality is a major social issue. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2272,6 +2710,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "High healthcare costs are a problem in many countries. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2300,6 +2744,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "An aging population is a challenge for many societies. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2326,6 +2776,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "The world is facing an energy crisis. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2354,6 +2810,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Cultural heritage is being lost in many parts of the world. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2380,6 +2842,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Teenage smoking is a serious health problem. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2408,6 +2876,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Work-related stress is a growing problem. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2434,6 +2908,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Food safety is a major concern in modern society. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
@@ -2462,6 +2942,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Cyberbullying is a serious issue affecting young people. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2489,6 +2975,12 @@ export const essayTemplates: EssayTemplate[] = [
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
     },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
+    },
     fullParagraphs: {
       introduction: "Housing affordability is a problem in many cities. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
       body1: "There are several factors contributing to this issue. Firstly, rapid urbanization and population growth have placed significant strain on existing resources and infrastructure. Secondly, changing lifestyles and consumption patterns have exacerbated the problem. These factors have combined to create a situation that demands action.",
@@ -2515,6 +3007,12 @@ export const essayTemplates: EssayTemplate[] = [
       body1: "There are several reasons why [problem] occurs. Firstly, [cause1]. Secondly, [cause2]. These factors contribute to [problem severity].",
       body2: "To address this issue, several measures can be taken. One solution is [solution1]. Another approach is [solution2]. These actions would help to [expected effect].",
       conclusion: "In conclusion, [problem] is caused by [causes] and can be solved by [solutions]. It is essential that [call to action]."
+    },
+    structureCN: {
+      introduction: "[问题]是当今社会的紧迫问题。本文将分析这一问题的原因并提出一些解决方案。",
+      body1: "首先，[问题]的主要原因之一是[原因1]。例如，[例子1]。这表明[结论1]。",
+      body2: "其次，我们可以通过[解决方案]来解决这个问题。这将[结果]。",
+      conclusion: "总之，[总结]。我们应该采取行动来[建议]。"
     },
     fullParagraphs: {
       introduction: "Many languages are disappearing around the world. is a pressing issue that requires immediate attention. This essay will analyze the main causes of this problem and propose practical solutions.",
