@@ -54,6 +54,27 @@ export default function IELTSQuestions() {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
       utterance.rate = 1.25;
+      utterance.pitch = 1.25;
+      
+      // 选择年轻女性美式英语发音
+      const voices = window.speechSynthesis.getVoices();
+      const femaleVoice = voices.find(voice => 
+        voice.lang === 'en-US' && 
+        (voice.name.toLowerCase().includes('female') || 
+         voice.name.toLowerCase().includes('samantha') ||
+         voice.name.toLowerCase().includes('karen') ||
+         voice.name.toLowerCase().includes('moira') ||
+         voice.name.toLowerCase().includes('tessa') ||
+         voice.name.toLowerCase().includes('veena') ||
+         voice.name.toLowerCase().includes('zira') ||
+         voice.name.toLowerCase().includes('allison') ||
+         voice.name.toLowerCase().includes('luna') ||
+         voice.name.toLowerCase().includes('olivia') ||
+         voice.name.toLowerCase().includes('ava'))
+      ) || voices.find(voice => voice.lang.startsWith('en-US') && voice.gender === 'female');
+      if (femaleVoice) {
+        utterance.voice = femaleVoice;
+      }
       
       utterance.onend = () => setSpeakingId(null);
       utterance.onerror = () => setSpeakingId(null);
@@ -75,6 +96,27 @@ export default function IELTSQuestions() {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
       utterance.rate = 1.25;
+      utterance.pitch = 1.25;
+      
+      // 选择年轻女性美式英语发音
+      const voices = window.speechSynthesis.getVoices();
+      const femaleVoice = voices.find(voice => 
+        voice.lang === 'en-US' && 
+        (voice.name.toLowerCase().includes('female') || 
+         voice.name.toLowerCase().includes('samantha') ||
+         voice.name.toLowerCase().includes('karen') ||
+         voice.name.toLowerCase().includes('moira') ||
+         voice.name.toLowerCase().includes('tessa') ||
+         voice.name.toLowerCase().includes('veena') ||
+         voice.name.toLowerCase().includes('zira') ||
+         voice.name.toLowerCase().includes('allison') ||
+         voice.name.toLowerCase().includes('luna') ||
+         voice.name.toLowerCase().includes('olivia') ||
+         voice.name.toLowerCase().includes('ava'))
+      ) || voices.find(voice => voice.lang.startsWith('en-US') && voice.gender === 'female');
+      if (femaleVoice) {
+        utterance.voice = femaleVoice;
+      }
       
       utterance.onend = () => setSpeakingId(null);
       utterance.onerror = () => setSpeakingId(null);
