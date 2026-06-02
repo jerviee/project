@@ -9,6 +9,7 @@ export default function ReadingPassages() {
   const [filteredPassages, setFilteredPassages] = useState(mockReadingPassages);
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('All');
   const [selectedTopic, setSelectedTopic] = useState<string>('All');
+  const [speaking, setSpeaking] = useState(false);
 
   const currentPassage = filteredPassages[currentIndex];
 
@@ -54,32 +55,47 @@ export default function ReadingPassages() {
     resetAnswers();
   };
 
-  const speakText = (text: string) => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
-    utterance.rate = 1.4;
-    utterance.pitch = 1.25;
-    
-    const voices = window.speechSynthesis.getVoices();
-    const femaleVoice = voices.find(voice => 
-      voice.lang === 'en-US' && 
-      (voice.name.toLowerCase().includes('female') || 
-       voice.name.toLowerCase().includes('samantha') ||
-       voice.name.toLowerCase().includes('karen') ||
-       voice.name.toLowerCase().includes('moira') ||
-       voice.name.toLowerCase().includes('tessa') ||
-       voice.name.toLowerCase().includes('veena') ||
-       voice.name.toLowerCase().includes('zira') ||
-       voice.name.toLowerCase().includes('allison') ||
-       voice.name.toLowerCase().includes('luna') ||
-       voice.name.toLowerCase().includes('olivia') ||
-       voice.name.toLowerCase().includes('ava'))
-    ) || voices.find(voice => voice.lang.startsWith('en-US'));
-    if (femaleVoice) {
-      utterance.voice = femaleVoice;
+  const speakText = () => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      
+      if (speaking) {
+        setSpeaking(false);
+        return;
+      }
+
+      setSpeaking(true);
+      const text = currentPassage.passage;
+      
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = 1.25;
+      utterance.pitch = 1.25;
+      
+      const voices = window.speechSynthesis.getVoices();
+      const femaleVoice = voices.find(voice => 
+        voice.lang === 'en-US' && 
+        (voice.name.toLowerCase().includes('female') || 
+         voice.name.toLowerCase().includes('samantha') ||
+         voice.name.toLowerCase().includes('karen') ||
+         voice.name.toLowerCase().includes('moira') ||
+         voice.name.toLowerCase().includes('tessa') ||
+         voice.name.toLowerCase().includes('veena') ||
+         voice.name.toLowerCase().includes('zira') ||
+         voice.name.toLowerCase().includes('allison') ||
+         voice.name.toLowerCase().includes('luna') ||
+         voice.name.toLowerCase().includes('olivia') ||
+         voice.name.toLowerCase().includes('ava'))
+      ) || voices.find(voice => voice.lang.startsWith('en-US'));
+      if (femaleVoice) {
+        utterance.voice = femaleVoice;
+      }
+      
+      utterance.onend = () => setSpeaking(false);
+      utterance.onerror = () => setSpeaking(false);
+      
+      window.speechSynthesis.speak(utterance);
     }
-    
-    window.speechSynthesis.speak(utterance);
   };
 
   const isCorrect = (questionIndex: number) => {
@@ -111,11 +127,15 @@ export default function ReadingPassages() {
               </div>
             </div>
             <button
-              onClick={() => speakText(currentPassage.passage)}
-              className="flex items-center gap-2 px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg transition-all"
+              onClick={speakText}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
+                speaking 
+                  ? 'bg-red-500 hover:bg-red-600 text-white' 
+                  : 'bg-white/20 hover:bg-white/30 text-white'
+              }`}
             >
               <Volume2 size={18} />
-              <span>朗读文章</span>
+              <span>{speaking ? '停止朗读' : '朗读文章'}</span>
             </button>
           </div>
         </div>
