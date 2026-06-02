@@ -53,7 +53,7 @@ export default function IELTSQuestions() {
       setSpeakingId(id);
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
-      utterance.rate = 1.25;
+      utterance.rate = 1.4;
       utterance.pitch = 1.25;
       
       // 选择年轻女性美式英语发音
@@ -95,7 +95,7 @@ export default function IELTSQuestions() {
       setSpeakingId(-id);
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
-      utterance.rate = 1.25;
+      utterance.rate = 1.4;
       utterance.pitch = 1.25;
       
       // 选择年轻女性美式英语发音

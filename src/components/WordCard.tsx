@@ -25,7 +25,7 @@ export default function WordCard({ word, onFlip }: WordCardProps) {
   const handleSpeak = () => {
     const utterance = new SpeechSynthesisUtterance(word.word);
     utterance.lang = 'en-US';
-    utterance.rate = 1.25;
+    utterance.rate = 1.4;
     utterance.pitch = 1.25;
     
     // 选择年轻女性美式英语发音

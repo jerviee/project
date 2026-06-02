@@ -30,7 +30,7 @@ export default function FlashCards() {
     if ('speechSynthesis' in window) {
       const utterance = new SpeechSynthesisUtterance(word);
       utterance.lang = 'en-US';
-      utterance.rate = 1.25;
+      utterance.rate = 1.4;
       utterance.pitch = 1.25;
       
       // 选择年轻女性美式英语发音
