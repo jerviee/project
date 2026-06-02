@@ -275,7 +275,7 @@ export default function EssayTemplates() {
                       <p className="text-gray-700 leading-relaxed">{currentTemplate.fullParagraphs?.[key] || currentTemplate.structure[key]}</p>
                       <div className="mt-3 bg-green-50 rounded-lg p-3">
                         <p className="text-sm text-green-600 mb-1">中文翻译:</p>
-                        <p className="text-gray-700">{currentTemplate.structureCN?.[key] || ''}</p>
+                        <p className="text-gray-700">{currentTemplate.fullParagraphsCN?.[key] || ''}</p>
                       </div>
                     </div>
                   </div>
