@@ -25,7 +25,7 @@ export default function WordCard({ word, onFlip }: WordCardProps) {
   const handleSpeak = () => {
     const utterance = new SpeechSynthesisUtterance(word.word);
     utterance.lang = 'en-US';
-    utterance.rate = 1.4;
+    utterance.rate = 1.25;
     utterance.pitch = 1.25;
     
     // 选择年轻女性美式英语发音
@@ -43,7 +43,7 @@ export default function WordCard({ word, onFlip }: WordCardProps) {
        voice.name.toLowerCase().includes('luna') ||
        voice.name.toLowerCase().includes('olivia') ||
        voice.name.toLowerCase().includes('ava'))
-    ) || voices.find(voice => voice.lang.startsWith('en-US') && voice.gender === 'female');
+    ) || voices.find(voice => voice.lang.startsWith('en-US'));
     if (femaleVoice) {
       utterance.voice = femaleVoice;
     }

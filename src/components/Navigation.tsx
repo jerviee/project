@@ -13,7 +13,8 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
     { id: 'patterns', label: '句型库', icon: PenTool },
     { id: 'synonyms', label: '同义词', icon: FileText },
     { id: 'templates', label: '作文模板', icon: FileText },
-    { id: 'questions', label: '真题示范', icon: ScrollText },
+    { id: 'reading', label: '阅读真题', icon: ScrollText },
+    { id: 'questions', label: '真题示范', icon: FileText },
     { id: 'exam', label: '全真模考', icon: Trophy },
   ];
 

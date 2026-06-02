@@ -28,7 +28,7 @@ export function useSpeech() {
          voice.name.toLowerCase().includes('luna') ||
          voice.name.toLowerCase().includes('olivia') ||
          voice.name.toLowerCase().includes('ava'))
-      ) || voices.find(voice => voice.lang.startsWith('en-US') && voice.gender === 'female');
+      ) || voices.find(voice => voice.lang.startsWith('en-US'));
       if (femaleVoice) {
         utterance.voice = femaleVoice;
       }
