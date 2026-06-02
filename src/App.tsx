@@ -6,6 +6,7 @@ import RootAnalysis from '@/components/RootAnalysis';
 import SentencePatterns from '@/components/SentencePatterns';
 import Synonyms from '@/components/Synonyms';
 import EssayTemplates from '@/components/EssayTemplates';
+import ListeningPractice from '@/components/ListeningPractice';
 import ReadingPassages from '@/components/ReadingPassages';
 import SpeakingQuestions from '@/components/SpeakingQuestions';
 import IELTSQuestions from '@/components/IELTSQuestions';
@@ -50,6 +51,8 @@ function App() {
         return <Synonyms />;
       case 'templates':
         return <EssayTemplates />;
+      case 'listening':
+        return <ListeningPractice />;
       case 'reading':
         return <ReadingPassages />;
       case 'speaking':
@@ -105,7 +108,7 @@ function App() {
       </main>
       <footer className="bg-white/80 backdrop-blur-sm border-t border-gray-100 mt-12">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center text-gray-400 text-sm">
-          <p>雅思学习工具 v2.1 - 专业级备考助手 | 全真模考 | 覆盖8000+词汇</p>
+          <p>雅思学习工具 v2.5.0 - 专业级备考助手 | 全真模考 | 覆盖8000+词汇 | 80篇听力真题</p>
         </div>
       </footer>
     </div>

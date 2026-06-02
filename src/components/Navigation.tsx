@@ -1,4 +1,4 @@
-import { BookOpen, PenTool, LayoutGrid, FileText, Search, ScrollText, Trophy, Mic } from 'lucide-react';
+import { BookOpen, PenTool, LayoutGrid, FileText, Search, ScrollText, Trophy, Mic, Headphones } from 'lucide-react';
 
 interface NavigationProps {
   activeTab: string;
@@ -13,6 +13,7 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
     { id: 'patterns', label: '句型库', icon: PenTool },
     { id: 'synonyms', label: '同义词', icon: FileText },
     { id: 'templates', label: '作文模板', icon: FileText },
+    { id: 'listening', label: '听力真题', icon: Headphones },
     { id: 'reading', label: '阅读真题', icon: ScrollText },
     { id: 'speaking', label: '口语真题', icon: Mic },
     { id: 'questions', label: '真题示范', icon: FileText },
