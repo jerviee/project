@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Volume2, CheckCircle, XCircle, ArrowRight, ArrowLeft } from 'lucide-react';
+import { Volume2, CheckCircle, XCircle, ArrowRight, ArrowLeft, Filter } from 'lucide-react';
 import { mockListeningQuestions, ListeningQuestion } from '../data/mockListening';
 
 export default function ListeningPractice() {
@@ -8,8 +8,17 @@ export default function ListeningPractice() {
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
   const [answeredCount, setAnsweredCount] = useState(0);
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
 
-  const currentQuestion: ListeningQuestion = mockListeningQuestions[currentIndex];
+  // 获取所有年份
+  const years = Array.from(new Set(mockListeningQuestions.map(q => q.year))).sort((a, b) => b - a);
+
+  // 根据年份筛选题目
+  const filteredQuestions = selectedYear 
+    ? mockListeningQuestions.filter(q => q.year === selectedYear)
+    : mockListeningQuestions;
+
+  const currentQuestion: ListeningQuestion = filteredQuestions[currentIndex];
 
   const handleSelectAnswer = (index: number) => {
     if (!showResult) {
@@ -28,7 +37,7 @@ export default function ListeningPractice() {
   };
 
   const handleNext = () => {
-    if (currentIndex < mockListeningQuestions.length - 1) {
+    if (currentIndex < filteredQuestions.length - 1) {
       setCurrentIndex(prev => prev + 1);
       setSelectedAnswer(null);
       setShowResult(false);
@@ -43,6 +52,15 @@ export default function ListeningPractice() {
     }
   };
 
+  const handleYearChange = (year: number | null) => {
+    setSelectedYear(year);
+    setCurrentIndex(0);
+    setSelectedAnswer(null);
+    setShowResult(false);
+    setScore(0);
+    setAnsweredCount(0);
+  };
+
   const handleSpeak = (text: string) => {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
@@ -50,7 +68,7 @@ export default function ListeningPractice() {
     window.speechSynthesis.speak(utterance);
   };
 
-  const progress = ((currentIndex + 1) / mockListeningQuestions.length) * 100;
+  const progress = ((currentIndex + 1) / filteredQuestions.length) * 100;
   const accuracy = answeredCount > 0 ? Math.round((score / answeredCount) * 100) : 0;
 
   return (
@@ -59,7 +77,40 @@ export default function ListeningPractice() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">听力真题练习</h1>
-          <p className="text-blue-200">Listening Practice</p>
+          <p className="text-blue-200">Listening Practice (2005-2025)</p>
+        </div>
+
+        {/* Year Filter */}
+        <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 mb-6">
+          <div className="flex items-center gap-3 mb-3">
+            <Filter size={20} className="text-blue-200" />
+            <span className="text-white font-medium">按年份筛选:</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => handleYearChange(null)}
+              className={`px-4 py-2 rounded-lg transition-colors ${
+                selectedYear === null 
+                  ? 'bg-blue-600 text-white' 
+                  : 'bg-white/20 text-white hover:bg-white/30'
+              }`}
+            >
+              全部 ({mockListeningQuestions.length}题)
+            </button>
+            {years.map(year => (
+              <button
+                key={year}
+                onClick={() => handleYearChange(year)}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  selectedYear === year 
+                    ? 'bg-blue-600 text-white' 
+                    : 'bg-white/20 text-white hover:bg-white/30'
+                }`}
+              >
+                {year}年 ({mockListeningQuestions.filter(q => q.year === year).length}题)
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Progress Bar */}
@@ -74,7 +125,7 @@ export default function ListeningPractice() {
         <div className="flex justify-between items-center mb-6 text-white">
           <div className="flex items-center gap-4">
             <span className="bg-blue-600/50 px-4 py-2 rounded-lg">
-              题目: {currentIndex + 1} / {mockListeningQuestions.length}
+              题目: {currentIndex + 1} / {filteredQuestions.length}
             </span>
             <span className="bg-purple-600/50 px-4 py-2 rounded-lg">
               得分: {score} / {answeredCount}
@@ -83,9 +134,14 @@ export default function ListeningPractice() {
               正确率: {accuracy}%
             </span>
           </div>
-          <span className="bg-white/10 px-4 py-2 rounded-lg">
-            {currentQuestion.section}
-          </span>
+          <div className="flex items-center gap-2">
+            <span className="bg-white/10 px-3 py-2 rounded-lg">
+              {currentQuestion.section}
+            </span>
+            <span className="bg-yellow-600/50 px-3 py-2 rounded-lg">
+              {currentQuestion.year}年
+            </span>
+          </div>
         </div>
 
         {/* Audio Text Card */}
@@ -201,7 +257,7 @@ export default function ListeningPractice() {
           ) : (
             <button
               onClick={handleNext}
-              disabled={currentIndex === mockListeningQuestions.length - 1}
+              disabled={currentIndex === filteredQuestions.length - 1}
               className="px-8 py-3 bg-green-600 hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-white font-semibold transition-colors"
             >
               完成
@@ -210,7 +266,7 @@ export default function ListeningPractice() {
 
           <button
             onClick={handleNext}
-            disabled={currentIndex === mockListeningQuestions.length - 1}
+            disabled={currentIndex === filteredQuestions.length - 1}
             className="flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-white transition-colors"
           >
             下一题
