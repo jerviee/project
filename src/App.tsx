@@ -7,6 +7,7 @@ import SentencePatterns from '@/components/SentencePatterns';
 import Synonyms from '@/components/Synonyms';
 import EssayTemplates from '@/components/EssayTemplates';
 import ReadingPassages from '@/components/ReadingPassages';
+import SpeakingQuestions from '@/components/SpeakingQuestions';
 import IELTSQuestions from '@/components/IELTSQuestions';
 import MockExam from '@/components/MockExam';
 import { loadMockData } from '@/services/database';
@@ -51,6 +52,8 @@ function App() {
         return <EssayTemplates />;
       case 'reading':
         return <ReadingPassages />;
+      case 'speaking':
+        return <SpeakingQuestions />;
       case 'questions':
         return <IELTSQuestions />;
       case 'exam':
