@@ -62,7 +62,7 @@ export default function MockExam() {
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
-    utterance.rate = 0.9;
+    utterance.rate = 1.2;
     utterance.onend = () => setIsPlayingAudio(false);
     window.speechSynthesis.speak(utterance);
     setIsPlayingAudio(true);
