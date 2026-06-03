@@ -283,6 +283,52 @@ export default function MockExam() {
               </div>
             </div>
 
+            {/* Listening Audio Text */}
+            {currentQuestion.type === 'listening' && currentQuestion.audioText && (
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-blue-800 mb-4 flex items-center gap-2">
+                  <Play className="text-blue-500" />
+                  听力原文
+                </h3>
+                <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                  <p className="text-gray-800 text-base leading-relaxed whitespace-pre-wrap mb-4">
+                    {currentQuestion.audioText}
+                  </p>
+                  {currentQuestion.audioTextCN && (
+                    <>
+                      <div className="border-t border-blue-200 my-4" />
+                      <p className="text-gray-600 text-base leading-relaxed whitespace-pre-wrap">
+                        {currentQuestion.audioTextCN}
+                      </p>
+                    </>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Reading Passage */}
+            {currentQuestion.type === 'reading' && currentQuestion.passage && (
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-green-800 mb-4 flex items-center gap-2">
+                  <BookOpen className="text-green-500" />
+                  阅读文章
+                </h3>
+                <div className="bg-green-50 rounded-xl p-6 border border-green-100 max-h-96 overflow-y-auto">
+                  <p className="text-gray-800 text-base leading-relaxed whitespace-pre-wrap mb-4">
+                    {currentQuestion.passage}
+                  </p>
+                  {currentQuestion.passageCN && (
+                    <>
+                      <div className="border-t border-green-200 my-4" />
+                      <p className="text-gray-600 text-base leading-relaxed whitespace-pre-wrap">
+                        {currentQuestion.passageCN}
+                      </p>
+                    </>
+                  )}
+                </div>
+              </div>
+            )}
+
             <div className="mb-6">
               <h3 className="text-xl font-bold text-gray-800 mb-4">题目</h3>
               <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
