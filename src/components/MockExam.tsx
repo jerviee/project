@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Clock, Play, Pause, CheckCircle, XCircle, ChevronLeft, ChevronRight, AlertCircle, BookOpen, Award, RotateCcw, Trophy } from 'lucide-react';
+import { Clock, Play, Pause, CheckCircle, XCircle, ChevronLeft, ChevronRight, AlertCircle, BookOpen, Award, RotateCcw, Trophy, Volume2, VolumeX } from 'lucide-react';
 import { mockExams, Exam } from '../data/mockExam';
 
 type ExamState = 'select' | 'in-progress' | 'paused' | 'completed';
@@ -10,6 +10,8 @@ export default function MockExam() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [speechSynthesis, setSpeechSynthesis] = useState<SpeechSynthesisUtterance | null>(null);
 
   // Timer effect
   useEffect(() => {
@@ -28,6 +30,11 @@ export default function MockExam() {
     return () => clearInterval(timer);
   }, [state, timeLeft]);
 
+  // Stop audio when changing questions
+  useEffect(() => {
+    stopAudioText();
+  }, [currentQuestionIndex]);
+
   const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
@@ -44,6 +51,27 @@ export default function MockExam() {
 
   const togglePause = () => {
     setState(prev => prev === 'in-progress' ? 'paused' : 'in-progress');
+  };
+
+  const playAudioText = (text: string) => {
+    if (isPlayingAudio) {
+      window.speechSynthesis.cancel();
+      setIsPlayingAudio(false);
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
+    utterance.onend = () => setIsPlayingAudio(false);
+    window.speechSynthesis.speak(utterance);
+    setIsPlayingAudio(true);
+    setSpeechSynthesis(utterance);
+  };
+
+  const stopAudioText = () => {
+    window.speechSynthesis.cancel();
+    setIsPlayingAudio(false);
   };
 
   const submitAnswer = (questionId: number, answer: string) => {
@@ -286,10 +314,32 @@ export default function MockExam() {
             {/* Listening Audio Text */}
             {currentQuestion.type === 'listening' && currentQuestion.audioText && (
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-blue-800 mb-4 flex items-center gap-2">
-                  <Play className="text-blue-500" />
-                  听力原文
-                </h3>
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-bold text-blue-800 flex items-center gap-2">
+                    {isPlayingAudio ? <Volume2 className="text-blue-500 animate-pulse" /> : <VolumeX className="text-blue-500" />}
+                    听力原文
+                  </h3>
+                  <button
+                    onClick={() => playAudioText(currentQuestion.audioText || '')}
+                    className={`flex items-center gap-2 px-4 py-2 rounded-xl font-semibold transition-all ${
+                      isPlayingAudio 
+                        ? 'bg-red-100 text-red-700 hover:bg-red-200' 
+                        : 'bg-blue-100 text-blue-700 hover:bg-blue-200'
+                    }`}
+                  >
+                    {isPlayingAudio ? (
+                      <>
+                        <Pause size={18} />
+                        停止播放
+                      </>
+                    ) : (
+                      <>
+                        <Play size={18} />
+                        播放原文
+                      </>
+                    )}
+                  </button>
+                </div>
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
                   <p className="text-gray-800 text-base leading-relaxed whitespace-pre-wrap mb-4">
                     {currentQuestion.audioText}
