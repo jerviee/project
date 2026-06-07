@@ -80,7 +80,7 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
 
       {/* Mobile Bottom Navigation */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 z-50 pb-safe">
-        <div className="grid grid-cols-4 gap-1 px-2 py-2">
+        <div className="flex overflow-x-auto gap-1 px-2 py-2 scrollbar-hide">
           {tabs.map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
@@ -91,14 +91,14 @@ export default function Navigation({ activeTab, onTabChange }: NavigationProps) 
                   onTabChange(tab.id);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className={`flex flex-col items-center justify-center py-2 px-1 rounded-lg transition-all ${
+                className={`flex-shrink-0 flex flex-col items-center justify-center py-2 px-3 rounded-lg transition-all min-w-[70px] ${
                   isActive
                     ? 'text-primary-600 bg-primary-50'
                     : 'text-gray-500 hover:bg-gray-50'
                 }`}
               >
                 <Icon size={18} className={isActive ? 'stroke-2' : ''} />
-                <span className="text-xs mt-1 font-medium truncate max-w-full px-1">
+                <span className="text-xs mt-1 font-medium whitespace-nowrap">
                   {tab.label}
                 </span>
               </button>
