@@ -3,7 +3,7 @@ import { useCallback, useState } from 'react';
 export function useSpeech() {
   const [isSpeaking, setIsSpeaking] = useState(false);
 
-  const speak = useCallback((text: string, rate: number = 0.8) => {
+  const speak = useCallback((text: string, rate: number = 1.25) => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       
