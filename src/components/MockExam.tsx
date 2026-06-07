@@ -11,7 +11,6 @@ export default function MockExam() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
-  const [speechSynthesis, setSpeechSynthesis] = useState<SpeechSynthesisUtterance | null>(null);
 
   // Timer effect
   useEffect(() => {
@@ -66,7 +65,6 @@ export default function MockExam() {
     utterance.onend = () => setIsPlayingAudio(false);
     window.speechSynthesis.speak(utterance);
     setIsPlayingAudio(true);
-    setSpeechSynthesis(utterance);
   };
 
   const stopAudioText = () => {
