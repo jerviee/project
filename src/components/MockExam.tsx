@@ -123,46 +123,46 @@ export default function MockExam() {
   // Exam Selection Screen
   if (state === 'select') {
     return (
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-3 flex items-center justify-center gap-3">
+      <div className="max-w-6xl mx-auto px-4 py-6 md:py-8">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3 flex items-center justify-center gap-3">
             <Trophy className="text-yellow-500" />
             全真模拟考试
           </h2>
-          <p className="text-gray-600 text-lg">选择一套真题开始你的雅思备考之旅</p>
+          <p className="text-gray-600 text-base md:text-lg">选择一套真题开始你的雅思备考之旅</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {mockExams.map(exam => (
             <div
               key={exam.id}
-              className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all cursor-pointer group"
+              className="bg-white rounded-2xl shadow-lg border border-gray-100 p-5 md:p-6 hover:shadow-xl transition-all cursor-pointer group"
               onClick={() => startExam(exam)}
             >
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-1 group-hover:text-primary-600 transition-colors">
+              <div className="flex items-start justify-between mb-3 md:mb-4">
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-1 group-hover:text-primary-600 transition-colors">
                     {exam.title}
                   </h3>
-                  <p className="text-sm text-gray-500">{exam.year}年{exam.month}</p>
+                  <p className="text-xs md:text-sm text-gray-500">{exam.year}年{exam.month}</p>
                 </div>
-                <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getDifficultyColor(exam.difficulty)}`}>
+                <span className={`px-2 md:px-3 py-1 rounded-full text-xs font-semibold ${getDifficultyColor(exam.difficulty)} ml-2`}>
                   {exam.difficulty === 'easy' ? '简单' : exam.difficulty === 'medium' ? '中等' : '困难'}
                 </span>
               </div>
 
-              <div className="space-y-3 mb-6">
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+              <div className="space-y-2 mb-4 md:mb-6">
+                <div className="flex items-center gap-2 text-xs md:text-sm text-gray-600">
                   <Clock size={16} />
                   <span>总时长: {exam.totalTime}分钟</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+                <div className="flex items-center gap-2 text-xs md:text-sm text-gray-600">
                   <BookOpen size={16} />
                   <span>题目数量: {exam.questions.length}题</span>
                 </div>
               </div>
 
-              <div className="flex flex-wrap gap-2 mb-6">
+              <div className="flex flex-wrap gap-1.5 md:gap-2 mb-4 md:mb-6">
                 {['listening', 'reading', 'writing', 'speaking'].map(type => (
                   <span key={type} className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-lg">
                     {getTypeLabel(type)}
@@ -171,7 +171,7 @@ export default function MockExam() {
               </div>
 
               <button
-                className="w-full py-3 bg-gradient-to-r from-primary-500 to-indigo-500 text-white rounded-xl font-semibold hover:from-primary-600 hover:to-indigo-600 transition-all shadow-lg shadow-primary-500/30"
+                className="w-full py-2.5 md:py-3 bg-gradient-to-r from-primary-500 to-indigo-500 text-white rounded-xl font-semibold hover:from-primary-600 hover:to-indigo-600 transition-all shadow-lg shadow-primary-500/30 text-sm md:text-base"
               >
                 开始考试
               </button>
@@ -179,35 +179,35 @@ export default function MockExam() {
           ))}
         </div>
 
-        <div className="mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
-          <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+        <div className="mt-8 md:mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-5 md:p-8 border border-blue-100">
+          <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
             <Award className="text-yellow-500" />
             考试说明
           </h3>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold">1</div>
+              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold text-sm">1</div>
               <div>
                 <h4 className="font-semibold text-gray-800 mb-1">完整模拟</h4>
                 <p className="text-sm text-gray-600">包含听、说、读、写四个部分</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold">2</div>
+              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold text-sm">2</div>
               <div>
                 <h4 className="font-semibold text-gray-800 mb-1">限时答题</h4>
                 <p className="text-sm text-gray-600">严格按照考试时间要求</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold">3</div>
+              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold text-sm">3</div>
               <div>
                 <h4 className="font-semibold text-gray-800 mb-1">答题技巧</h4>
                 <p className="text-sm text-gray-600">每道题都有详细的答题提示</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold">4</div>
+              <div className="w-8 h-8 bg-blue-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 font-bold text-sm">4</div>
               <div>
                 <h4 className="font-semibold text-gray-800 mb-1">评分参考</h4>
                 <p className="text-sm text-gray-600">Band Score 评分标准说明</p>
