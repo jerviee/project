@@ -66,7 +66,10 @@ export const ieltsWords: Word[] = [
       rootMeaning: '吸收',
       rootMeaningEn: 'suck',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 absorbere，由 ab-（离开）+ sorbere（吸收）组成'
+      rootOriginNote: '源自拉丁语 absorbere，由 ab-（离开）+ sorbere（吸收）组成',
+      suffix: '-b',
+      suffixMeaning: '动词后缀',
+      suffixMeaningEn: 'verb suffix'
     },
     writingUsage: '用于描述吸收知识、液体或信息，是学术写作的常用词汇',
     topic: ['科学', '教育', '环境']
@@ -80,11 +83,14 @@ export const ieltsWords: Word[] = [
     level: 'IELTS5' as const,
     category: '名词/动词',
     root: {
+      prefix: 'ac-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
       root: 'cess',
       rootMeaning: '走；行进',
       rootMeaningEn: 'go; walk',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 accessus，由 accedere（走近）演变而来',
+      rootOriginNote: '源自拉丁语 accessus，由 accedere（走近）演变而来，ac-（朝向）+ cedere（走）',
       suffix: '-s',
       suffixMeaning: '名词后缀',
       suffixMeaningEn: 'noun suffix'
@@ -149,6 +155,9 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词',
     root: {
+      prefix: 'ana-',
+      prefixMeaning: '向上；向后；再次',
+      prefixMeaningEn: 'up; back; again',
       root: 'lyz',
       rootMeaning: '松开；解开',
       rootMeaningEn: 'loosen; untie',
@@ -170,11 +179,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS5' as const,
     category: '名词/动词',
     root: {
+      prefix: 'be-',
+      prefixMeaning: '加强；完全',
+      prefixMeaningEn: 'intensify; completely',
       root: 'bene',
       rootMeaning: '好',
       rootMeaningEn: 'good',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 beneficium，由 bene（好）+ facere（做）组成，意为"做好事"'
+      rootOriginNote: '源自拉丁语 beneficium，由 bene（好）+ facere（做）组成，意为"做好事"',
+      suffix: '-fit',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
     },
     writingUsage: '用于描述好处或优势，是议论文中常用的词汇',
     topic: ['好处', '健康', '社会']
@@ -188,11 +203,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS5' as const,
     category: '名词/动词',
     root: {
-      root: 'chall',
-      rootMeaning: '争吵；争论',
-      rootMeaningEn: 'quarrel; dispute',
+      prefix: 'ch-',
+      prefixMeaning: '表示"抓住；争论"',
+      prefixMeaningEn: 'meaning "seize; dispute"',
+      root: 'all',
+      rootMeaning: '其他；全部',
+      rootMeaningEn: 'other; all',
       rootOrigin: 'Old French',
-      rootOriginNote: '源自古法语 chalenge（争论），最初意为"公开辩论"'
+      rootOriginNote: '源自古法语 chalenge（争论），最初意为"公开辩论"，源自拉丁语 calumnia（诽谤）',
+      suffix: '-enge',
+      suffixMeaning: '名词/动词后缀',
+      suffixMeaningEn: 'noun/verb suffix'
     },
     writingUsage: '用于描述困难或挑战，是议论文中常用的词汇',
     topic: ['困难', '挑战', '成长']
@@ -302,6 +323,9 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词',
     root: {
+      prefix: 'de-',
+      prefixMeaning: '完全；加强',
+      prefixMeaningEn: 'completely; intensify',
       root: 'monstr',
       rootMeaning: '展示；表明',
       rootMeaningEn: 'show; display',
@@ -347,14 +371,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '形容词',
     root: {
+      prefix: 'fun-',
+      prefixMeaning: '底部；基础',
+      prefixMeaningEn: 'bottom; foundation',
       root: 'fund',
       rootMeaning: '底部；基础',
       rootMeaningEn: 'bottom; foundation',
       rootOrigin: 'Latin',
       rootOriginNote: '源自拉丁语 fundamentum（基础），由 fundare（建立）演变而来',
       suffix: '-mental',
-      suffixMeaning: '形容词后缀',
-      suffixMeaningEn: 'adjective suffix'
+      suffixMeaning: '形容词后缀，表示"与...有关的"',
+      suffixMeaningEn: 'adjective suffix, meaning "relating to"'
     },
     writingUsage: '用于描述基础或根本的原则，是学术写作的高频词汇',
     topic: ['基础', '原则', '理论']
@@ -372,10 +399,10 @@ export const ieltsWords: Word[] = [
       rootMeaning: '球；球体',
       rootMeaningEn: 'sphere; globe',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 globus（球体），引申为"全球"',
+      rootOriginNote: '源自拉丁语 globus（球体），引申为"全球"，global（全球的）+ -ization（化）',
       suffix: '-ization',
-      suffixMeaning: '动作；状态',
-      suffixMeaningEn: 'action; state'
+      suffixMeaning: '表示"动作、过程或状态"',
+      suffixMeaningEn: 'meaning "action, process, or state"'
     },
     writingUsage: '用于描述全球一体化趋势，是国际类话题的核心词汇',
     topic: ['全球', '经济', '文化']
@@ -389,11 +416,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS5' as const,
     category: '名词/动词',
     root: {
+      prefix: 'in-',
+      prefixMeaning: '进入；向内',
+      prefixMeaningEn: 'into; inward',
       root: 'flu',
       rootMeaning: '流动',
       rootMeaningEn: 'flow',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 influentia，意为"流入"，比喻影响的传递'
+      rootOriginNote: '源自拉丁语 influentia，由 in-（进入）+ fluere（流动）组成，意为"流入"，比喻影响的传递',
+      suffix: '-ence',
+      suffixMeaning: '名词后缀',
+      suffixMeaningEn: 'noun suffix'
     },
     writingUsage: '用于描述影响关系，是社会类话题的核心词汇',
     topic: ['影响', '社会', '家庭']
@@ -527,11 +560,14 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '名词',
     root: {
+      prefix: 'pheno-',
+      prefixMeaning: '显示；出现',
+      prefixMeaningEn: 'show; appear',
       root: 'phenom',
       rootMeaning: '显示；出现',
       rootMeaningEn: 'show; appear',
       rootOrigin: 'Greek',
-      rootOriginNote: '源自希腊语 phainomenon，意为"显现的事物"',
+      rootOriginNote: '源自希腊语 phainomenon，由 phainesthai（显现）演变而来，意为"显现的事物"',
       suffix: '-on',
       suffixMeaning: '名词后缀',
       suffixMeaningEn: 'noun suffix'
@@ -548,14 +584,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '形容词/名词',
     root: {
+      prefix: 'po-',
+      prefixMeaning: '能够；有力',
+      prefixMeaningEn: 'able; powerful',
       root: 'pot',
       rootMeaning: '能够；有力',
       rootMeaningEn: 'able; powerful',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 potentialis，由 potens（有力的）演变而来',
+      rootOriginNote: '源自拉丁语 potentialis，由 potens（有力的）演变而来，pot-（能够）+ -ential（形容词后缀）',
       suffix: '-ential',
-      suffixMeaning: '形容词后缀',
-      suffixMeaningEn: 'adjective suffix'
+      suffixMeaning: '形容词后缀，表示"具有...性质的"',
+      suffixMeaningEn: 'adjective suffix, meaning "having the quality of"'
     },
     writingUsage: '用于描述潜在的能力或可能性，是学术和商业写作的常用词汇',
     topic: ['潜力', '能力', '发展']
@@ -576,10 +615,10 @@ export const ieltsWords: Word[] = [
       rootMeaning: '符号；标记',
       rootMeaningEn: 'sign; mark',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 significans，由 signum（符号）+ -fic（制造）组成',
-      suffix: '-ant',
-      suffixMeaning: '形容词后缀',
-      suffixMeaningEn: 'adjective suffix'
+      rootOriginNote: '源自拉丁语 significans，由 signum（符号）+ facere（制造）组成，意为"制造符号，表达意义"',
+      suffix: '-ificant',
+      suffixMeaning: '形容词后缀，表示"具有...性质的"',
+      suffixMeaningEn: 'adjective suffix, meaning "having the quality of"'
     },
     writingUsage: '用于强调重要性或显著性，在数据描述和观点表达中常用',
     topic: ['数据', '重要性', '差异']
@@ -617,11 +656,14 @@ export const ieltsWords: Word[] = [
     level: 'IELTS7' as const,
     category: '名词',
     root: {
-      root: 'sust',
-      rootMeaning: '支撑；维持',
-      rootMeaningEn: 'support; maintain',
+      prefix: 'sus-',
+      prefixMeaning: '在下面；支撑',
+      prefixMeaningEn: 'under; support',
+      root: 'tain',
+      rootMeaning: '持有；保持',
+      rootMeaningEn: 'hold; keep',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 sustinere，由 sub-（在下面）+ tenere（保持）组成',
+      rootOriginNote: '源自拉丁语 sustinere，由 sub-（在下面）+ tenere（保持）组成，意为"从下面支撑"',
       suffix: '-ability',
       suffixMeaning: '能够...的状态',
       suffixMeaningEn: 'state of being able'
@@ -642,10 +684,10 @@ export const ieltsWords: Word[] = [
       rootMeaning: '技艺；工艺',
       rootMeaningEn: 'skill; craft',
       rootOrigin: 'Greek',
-      rootOriginNote: '源自希腊语 techne（技艺）+ logos（学问），意为"技艺的研究"',
+      rootOriginNote: '源自希腊语 techne（技艺）+ logos（学问），意为"技艺的研究"，techno-（技术）+ -logy（学科）',
       suffix: '-ology',
-      suffixMeaning: '学科；研究',
-      suffixMeaningEn: 'study of'
+      suffixMeaning: '表示"学科、研究或理论"',
+      suffixMeaningEn: 'meaning "study of, science of, or theory of"'
     },
     writingUsage: '用于描述技术发展，是科技类话题的核心词汇',
     topic: ['科技', '发展', '未来']
@@ -659,11 +701,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS5' as const,
     category: '动词/名词',
     root: {
+      prefix: 'ap-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
       root: 'proach',
       rootMeaning: '靠近',
       rootMeaningEn: 'near',
       rootOrigin: 'Old French',
-      rootOriginNote: '源自法语 approcher，由拉丁语 appropiare（靠近）演变而来'
+      rootOriginNote: '源自法语 approcher，由拉丁语 appropiare（靠近）演变而来，ap-（朝向）+ prope（近）',
+      suffix: '-ch',
+      suffixMeaning: '动词/名词后缀',
+      suffixMeaningEn: 'verb/noun suffix'
     },
     writingUsage: '用于描述解决问题的方法，是议论文中常用的词汇',
     topic: ['方法', '解决', '问题']
@@ -701,6 +749,9 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词',
     root: {
+      prefix: 'as-',
+      prefixMeaning: '朝向；加强',
+      prefixMeaningEn: 'toward; intensify',
       root: 'sess',
       rootMeaning: '坐；会议',
       rootMeaningEn: 'sit; session',
@@ -801,7 +852,7 @@ export const ieltsWords: Word[] = [
       rootMeaning: '征服；战胜',
       rootMeaningEn: 'conquer; overcome',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 convincere，由 con-（加强）+ vincere（战胜）组成，意为"说服对方"',
+      rootOriginNote: '源自拉丁语 convincere，由 con-（加强）+ vincere（战胜）组成，意为"用论据战胜对方，使信服"',
       suffix: '-e',
       suffixMeaning: '动词后缀',
       suffixMeaningEn: 'verb suffix'
@@ -849,7 +900,7 @@ export const ieltsWords: Word[] = [
       rootMeaning: '包裹',
       rootMeaningEn: 'wrap',
       rootOrigin: 'Old French',
-      rootOriginNote: '源自古法语 desveloper，意为"解开包裹"，引申为"发展"',
+      rootOriginNote: '源自古法语 desveloper，由 des-（去除）+ voloper（包裹）组成，意为"解开包裹"，引申为"发展"',
       suffix: '-p',
       suffixMeaning: '动词后缀',
       suffixMeaningEn: 'verb suffix'
@@ -866,11 +917,14 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词',
     root: {
-      root: 'emph',
+      prefix: 'em-',
+      prefixMeaning: '进入；加强',
+      prefixMeaningEn: 'into; intensify',
+      root: 'phas',
       rootMeaning: '显示；表达',
       rootMeaningEn: 'show; express',
       rootOrigin: 'Greek',
-      rootOriginNote: '源自希腊语 emphainein，意为"显示；指出"',
+      rootOriginNote: '源自希腊语 emphainein，由 en-（进入）+ phainein（显示）组成，意为"显示；指出"',
       suffix: '-asize',
       suffixMeaning: '动词后缀',
       suffixMeaningEn: 'verb suffix'
@@ -887,6 +941,9 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词',
     root: {
+      prefix: 'e-',
+      prefixMeaning: '出；向外',
+      prefixMeaningEn: 'out; outward',
       root: 'valu',
       rootMeaning: '价值；价格',
       rootMeaningEn: 'value; price',
@@ -908,11 +965,14 @@ export const ieltsWords: Word[] = [
     level: 'IELTS7' as const,
     category: '动词',
     root: {
+      prefix: 'fac-',
+      prefixMeaning: '做；制作',
+      prefixMeaningEn: 'make; do',
       root: 'facil',
       rootMeaning: '容易；简单',
       rootMeaningEn: 'easy; simple',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 facilitas（容易），由 facilis（容易的）演变而来',
+      rootOriginNote: '源自拉丁语 facilitas（容易），由 facilis（容易的）演变而来，fac-（做）+ -ilis（能够）',
       suffix: '-ate',
       suffixMeaning: '动词后缀',
       suffixMeaningEn: 'verb suffix'
@@ -929,14 +989,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '名词/动词',
     root: {
-      root: 'guarant',
-      rootMeaning: '保证人',
-      rootMeaningEn: 'warantor',
+      prefix: 'guar-',
+      prefixMeaning: '保护；确保',
+      prefixMeaningEn: 'protect; ensure',
+      root: 'ant',
+      rootMeaning: '存在；反对',
+      rootMeaningEn: 'be; against',
       rootOrigin: 'Old French',
-      rootOriginNote: '源自古法语 garant，意为"保证人"',
+      rootOriginNote: '源自古法语 garant，意为"保证人"，源自日耳曼语 warjan（保护）',
       suffix: '-ee',
-      suffixMeaning: '名词后缀',
-      suffixMeaningEn: 'noun suffix'
+      suffixMeaning: '名词后缀，表示"受动者"',
+      suffixMeaningEn: 'noun suffix, meaning "recipient"'
     },
     writingUsage: '用于表达保证或承诺，在商业和议论文中常用',
     topic: ['保证', '承诺', '商业']
@@ -974,11 +1037,14 @@ export const ieltsWords: Word[] = [
     level: 'IELTS7' as const,
     category: '动词',
     root: {
+      prefix: 'im-',
+      prefixMeaning: '进入；加强',
+      prefixMeaningEn: 'into; intensify',
       root: 'plem',
       rootMeaning: '填充；完成',
       rootMeaningEn: 'fill; complete',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 implere，由 im-（进入）+ plere（填充）组成',
+      rootOriginNote: '源自拉丁语 implere，由 im-（进入）+ plere（填充）组成，意为"填满，完成"',
       suffix: '-ment',
       suffixMeaning: '名词/动词后缀',
       suffixMeaningEn: 'noun/verb suffix'
@@ -995,14 +1061,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS7' as const,
     category: '动词',
     root: {
+      prefix: 'ju-',
+      prefixMeaning: '连接音',
+      prefixMeaningEn: 'connecting sound',
       root: 'just',
       rootMeaning: '公正；正当',
       rootMeaningEn: 'just; right',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 iustificare，由 iustus（公正的）+ facere（做）组成',
+      rootOriginNote: '源自拉丁语 iustificare，由 iustus（公正的）+ facere（做）组成，意为"使成为公正的"',
       suffix: '-ify',
-      suffixMeaning: '动词后缀',
-      suffixMeaningEn: 'verb suffix'
+      suffixMeaning: '动词后缀，表示"使成为..."',
+      suffixMeaningEn: 'verb suffix, meaning "make become"'
     },
     writingUsage: '用于论证观点的合理性，是议论文中的核心动词',
     topic: ['论证', '公正', '辩护']
@@ -1232,14 +1301,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词',
     root: {
+      prefix: 'u-',
+      prefixMeaning: '加强；进入',
+      prefixMeaningEn: 'intensify; into',
       root: 'util',
       rootMeaning: '有用；益处',
       rootMeaningEn: 'useful; benefit',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 utilis（有用的），由 uti（使用）演变而来',
+      rootOriginNote: '源自拉丁语 utilis（有用的），由 uti（使用）演变而来，util-（有用的）+ -ize（动词后缀）',
       suffix: '-ize',
-      suffixMeaning: '动词后缀',
-      suffixMeaningEn: 'verb suffix'
+      suffixMeaning: '动词后缀，表示"使成为...；使...化"',
+      suffixMeaningEn: 'verb suffix, meaning "make become; make into"'
     },
     writingUsage: '用于描述利用资源或机会，是议论文中的常用词汇',
     topic: ['利用', '资源', '机会']
@@ -1253,14 +1325,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS7' as const,
     category: '动词',
     root: {
+      prefix: 've-',
+      prefixMeaning: '真实；真相',
+      prefixMeaningEn: 'true; truth',
       root: 'ver',
       rootMeaning: '真实；真相',
       rootMeaningEn: 'true; truth',
       rootOrigin: 'Latin',
-      rootOriginNote: '源自拉丁语 verus（真实的），由 veritas（真理）演变而来',
+      rootOriginNote: '源自拉丁语 verus（真实的），由 veritas（真理）演变而来，ver-（真实）+ -ify（使成为）',
       suffix: '-ify',
-      suffixMeaning: '动词后缀',
-      suffixMeaningEn: 'verb suffix'
+      suffixMeaning: '动词后缀，表示"使成为..."',
+      suffixMeaningEn: 'verb suffix, meaning "make become"'
     },
     writingUsage: '用于描述验证或核实的过程，是学术写作的常用词汇',
     topic: ['验证', '核实', '确认']
@@ -1274,14 +1349,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '名词/动词',
     root: {
+      prefix: 'wi-',
+      prefixMeaning: '分开；知道',
+      prefixMeaningEn: 'apart; know',
       root: 'wit',
       rootMeaning: '知道；看见',
       rootMeaningEn: 'know; see',
       rootOrigin: 'Anglo-Saxon',
       rootOriginNote: '源自盎格鲁-撒克逊语 witnes，由 wit（知道）+ -ness（状态）组成',
       suffix: '-ness',
-      suffixMeaning: '名词后缀',
-      suffixMeaningEn: 'noun suffix'
+      suffixMeaning: '名词后缀，表示"状态或性质"',
+      suffixMeaningEn: 'noun suffix, meaning "state or quality"'
     },
     writingUsage: '用于描述见证或作证，是议论文中的常用词汇',
     topic: ['见证', '证据', '事件']
@@ -1295,11 +1373,17 @@ export const ieltsWords: Word[] = [
     level: 'IELTS6' as const,
     category: '动词/名词',
     root: {
-      root: 'yield',
-      rootMeaning: '给予；产生',
-      rootMeaningEn: 'give; produce',
+      prefix: 'yi-',
+      prefixMeaning: '给予；产生',
+      prefixMeaningEn: 'give; produce',
+      root: 'eld',
+      rootMeaning: '年龄；成长',
+      rootMeaningEn: 'age; growth',
       rootOrigin: 'Anglo-Saxon',
-      rootOriginNote: '源自盎格鲁-撒克逊语 gieldan，意为"给予；支付"'
+      rootOriginNote: '源自盎格鲁-撒克逊语 gieldan，意为"给予；支付"，与古英语 gieldan（支付）同源',
+      suffix: '-d',
+      suffixMeaning: '动词/名词后缀',
+      suffixMeaningEn: 'verb/noun suffix'
     },
     writingUsage: '用于描述产出或屈服，是农业和商业类话题的常用词汇',
     topic: ['产出', '产量', '农业']
@@ -1313,6 +1397,9 @@ export const ieltsWords: Word[] = [
     level: 'IELTS5' as const,
     category: '名词/动词',
     root: {
+      prefix: 'zo-',
+      prefixMeaning: '生命；动物',
+      prefixMeaningEn: 'life; animal',
       root: 'zon',
       rootMeaning: '腰带；区域',
       rootMeaningEn: 'girdle; area',
