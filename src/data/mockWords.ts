@@ -1,4 +1,26 @@
-export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;\n  level: string;\n  prefix?: string;\n  prefixMeaning?: string;\n  prefixMeaningEn?: string;\n  root: string;\n  rootMeaning: string;\n  rootMeaningEn: string;\n  rootOrigin: string;\n  rootOriginNote: string;\n  suffix?: string;\n  suffixMeaning?: string;\n  suffixMeaningEn?: string;\n  relatedWords: { word: string; meaning: string; level: string }[];\n  phonetic: string;\n  frequency: string;\n  example: string;\n}\n\nexport const mockWords: IELTSWord[] = [
+export interface IELTSWord {
+  id: string;
+  word: string;
+  meaning: string;
+  level: string;
+  prefix?: string;
+  prefixMeaning?: string;
+  prefixMeaningEn?: string;
+  root: string;
+  rootMeaning: string;
+  rootMeaningEn: string;
+  rootOrigin: string;
+  rootOriginNote: string;
+  suffix?: string;
+  suffixMeaning?: string;
+  suffixMeaningEn?: string;
+  relatedWords: { word: string; meaning: string; level: string }[];
+  phonetic: string;
+  frequency: string;
+  example: string;
+}
+
+export const mockWords: IELTSWord[] = [
   {
     "id": "word_1",
     "word": "aback",
@@ -46354,18 +46376,18 @@ export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;
     "word": "digest",
     "meaning": "v. 消化；n. 摘要",
     "level": "IELTS7",
-    "root": "est",
-    "rootMeaning": "消化",
-    "rootMeaningEn": "digest",
+    "root": "gest",
+    "rootMeaning": "携带",
+    "rootMeaningEn": "carry",
     "rootOrigin": "Latin",
-    "rootOriginNote": "源自拉丁语 digerere（消化）前缀：dig-（挖 深入 分开）；后缀：无",
+    "rootOriginNote": "源自拉丁语 gerere（携带）前缀：dig-（挖 深入 分开）；后缀：无",
     "relatedWords": [],
     "phonetic": "/digest/",
     "frequency": "中频",
     "example": "Researchers are constantly exploring new aspects of this concept.\n研究人员不断探索消化的新方面。",
     "prefix": "dig-",
     "prefixMeaning": "挖 深入 分开",
-    "prefixMeaningEn": "dig深入apart",
+    "prefixMeaningEn": "dig deep separate",
     "suffix": "",
     "suffixMeaning": "",
     "suffixMeaningEn": ""
@@ -46375,7 +46397,7 @@ export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;
     "word": "digit",
     "meaning": "n. 数字；手指；位数",
     "level": "IELTS8",
-    "root": "it",
+    "root": "digit",
     "rootMeaning": "手指",
     "rootMeaningEn": "finger",
     "rootOrigin": "Latin",
@@ -46386,7 +46408,7 @@ export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;
     "example": "The application of this concept has revolutionized various industries.\n数字的应用革新了各个行业。",
     "prefix": "dig-",
     "prefixMeaning": "挖 深入 分开",
-    "prefixMeaningEn": "dig深入apart",
+    "prefixMeaningEn": "dig deep separate",
     "suffix": "",
     "suffixMeaning": "",
     "suffixMeaningEn": ""
@@ -46396,7 +46418,7 @@ export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;
     "word": "Digital",
     "meaning": "adj. 数字的；数码的",
     "level": "IELTS5",
-    "root": "it",
+    "root": "digit",
     "rootMeaning": "手指",
     "rootMeaningEn": "finger",
     "rootOrigin": "Latin",
@@ -46407,7 +46429,7 @@ export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;
     "example": "Public awareness of this concept has increased significantly.\n公众对...的认识显著提高。",
     "prefix": "dig-",
     "prefixMeaning": "挖 深入 分开",
-    "prefixMeaningEn": "dig深入apart",
+    "prefixMeaningEn": "dig deep separate",
     "suffix": "-al",
     "suffixMeaning": "形容词后缀",
     "suffixMeaningEn": "adjective suffix"
@@ -46417,21 +46439,21 @@ export interface IELTSWord {\n  id: string;\n  word: string;\n  meaning: string;
     "word": "dignity",
     "meaning": "n. 尊严；高贵",
     "level": "IELTS6",
-    "root": "nity",
-    "rootMeaning": "价值",
-    "rootMeaningEn": "worth",
+    "root": "gn",
+    "rootMeaning": "出生",
+    "rootMeaningEn": "be born",
     "rootOrigin": "Latin",
-    "rootOriginNote": "源自拉丁语 dignitas（价值）前缀：dig-（挖 深入 分开）；后缀：无",
+    "rootOriginNote": "源自拉丁语 dignis（有价值的）前缀：dig-（挖 深入 分开）；后缀：-ity（名词后缀）",
     "relatedWords": [],
     "phonetic": "/dignity/",
     "frequency": "中频",
     "example": "The importance of this concept cannot be overstated in modern life.\n在现代生活中，性质的重要性怎么强调都不为过。",
     "prefix": "dig-",
     "prefixMeaning": "挖 深入 分开",
-    "prefixMeaningEn": "dig深入apart",
-    "suffix": "",
-    "suffixMeaning": "",
-    "suffixMeaningEn": ""
+    "prefixMeaningEn": "dig deep separate",
+    "suffix": "-ity",
+    "suffixMeaning": "名词后缀",
+    "suffixMeaningEn": "noun suffix"
   },
   {
     "id": "word_2371",
