@@ -52468,13 +52468,19 @@ export const mockWords: IELTSWord[] = [
     "level": "IELTS6",
     "root": "large",
     "rootMeaning": "大的",
-    "rootMeaningEn": "expand; increase",
+    "rootMeaningEn": "large; big",
     "rootOrigin": "Latin",
-    "rootOriginNote": "由 en + large 组成",
+    "rootOriginNote": "源自拉丁语 largus（大的）前缀：en-（使进入 使成为）词根：large（大的）；后缀：无",
     "relatedWords": [],
     "phonetic": "/ɪnˈlɑːdʒ/",
     "frequency": "高频",
-    "example": "The application of this concept has revolutionized various industries.\n扩大的应用革新了各个行业。"
+    "example": "The application of this concept has revolutionized various industries.\n扩大的应用革新了各个行业。",
+    "prefix": "en-",
+    "prefixMeaning": "使进入 使成为",
+    "prefixMeaningEn": "to put into; to make",
+    "suffix": "",
+    "suffixMeaning": "",
+    "suffixMeaningEn": ""
   },
   {
     "id": "word_2673",
